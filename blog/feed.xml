@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jeri Wieringa</title>
+  <subtitle>American Religious Digital Historian</subtitle>
+  <id>http://jeriwieringa.com/blog</id>
+  <link href="http://jeriwieringa.com/blog"/>
+  <link href="http://jeriwieringa.com/blog/blog/feed.xml" rel="self"/>
+  <updated>2014-03-12T00:00:00Z</updated>
+  <author>
+    <name>Jeri Wieringa</name>
+  </author>
+  <entry>
+    <title>Moving to Middleman</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html"/>
+    <id>http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html</id>
+    <published>2014-03-12T00:00:00Z</published>
+    <updated>2014-03-12T21:52:48-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Things are a-changing here at jeriwieringa.com. While I have been a WordPress user for many years, it is time for a change. As I learn more about the web and about creating sites for long-term management, I have become convinced that simple is a virtue on the web. And database-driven sites are complex.&lt;/p&gt;
+
+&lt;p&gt;Instead, the site you see here is a collection of markdown files, created into a blog-type format using the magic of Ruby. With no database to be hacked and all of the text information localized to the individual post files, written in markdown, there are fewer opportunities for data-loss and greater possibilities for migrating in the future. And with version control provided by Git, the whole enterprise is much more secure.&lt;/p&gt;
+
+&lt;p&gt;While there are many website generating engines out there, I've chosen to work with &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt;. One of the newer players out there, it provides the structure for creating websites and blogs with built integration for tools such as &lt;a href="http://compass-style.org/"&gt;Compass&lt;/a&gt; and &lt;a href="http://susy.oddbird.net/"&gt;Susy&lt;/a&gt;, among many others. I'll write a post about setting up a site with Middleman once I figure out what to keep from my trial and error process of learning. &lt;/p&gt;
+
+&lt;p&gt;The downside of this transition is that all my URLs have changed. But, think of it as an excuse to explore! &lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Bringing Rails Girls to the Digital Humanities</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html"/>
+    <id>http://jeriwieringa.com/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html</id>
+    <published>2013-07-30T00:00:00Z</published>
+    <updated>2014-03-11T10:39:04-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Last fall I attended &lt;a href="http://railsgirls.com/"&gt;Rails Girls &lt;/a&gt;DC, a one day workshop that introduces women to programming using Ruby on Rails. It was a wonderful event and I learned a lot. But I also left inspired to bring this sort of event to the Digital Humanities! We too have a gender gap and need to support women interested in the coding side the field.&lt;/p&gt;
+
+&lt;p&gt;And so, on September 6 &amp;amp; 7 we are hosting a &lt;a href="http://railsgirls.com/digitalhumanities_fairfax"&gt;Digital Humanities focused Rails Girls Workshop&lt;/a&gt; with the Center for History and New Media at George Mason University. We will be focusing on questions of code in humanities research while learning to create a simple Ruby on Rails application. And we have an amazing team of coaches who will help guide participants through the code.&lt;/p&gt;
+
+&lt;p&gt;The event is open to women scholars of all ranks and career paths interested in learning to use Ruby on Rails in their work.  &lt;a href="http://railsgirls.com/digitalhumanities_fairfax"&gt;Please join us!&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Intro to Rails Girls for HASTAC 2013</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html"/>
+    <id>http://jeriwieringa.com/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html</id>
+    <published>2013-03-15T00:00:00Z</published>
+    <updated>2014-03-12T19:57:47-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;This is a draft of a lightening talk I will be giving a HASTAC 2013 on Rails Girls, a seminar popular around the world for introducing women to programming in Ruby on Rails.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One ongoing source of tension in the digital humanities community has been coding. How important is the ability to code to participation in the digital humanities? Does “playing around” require playing in the code base or can it be done using existing tools?&lt;/p&gt;
+
+&lt;p&gt;Regardless of ones position in this debate, it is hard to deny that coding is increasingly valued in digital scholarship. From the “Digging into Data” grants to the publications in the &lt;em&gt;Journal of Digital Humanities&lt;/em&gt; and &lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;, work that leverages code for data manipulation, for analysis, or for presentation is often the work being noticed.&lt;/p&gt;
+
+&lt;p&gt;This preference for code and data is not in itself a problem. The problem is that the vast majority of those doing coding work are male. This is by no means just an academic problem – the New York Times reported in 2011 that only 19% of software developers are women, with that number falling in many high profile companies.&lt;a title="http://www.nytimes.com/2012/04/03/science/womens-pipeline-to-programming-jobs-has-many-leaks.html?_r=0" href="http://www.nytimes.com/2012/04/03/science/womens-pipeline-to-programming-jobs-has-many-leaks.html?_r=0"&gt;1&lt;/a&gt; With the world becoming increasingly computer driven, both inside and outside of academia, the absence of women in positions to shape the tools we rely on is a major problem.&lt;/p&gt;
+
+&lt;p&gt;The gender gap in programming is a known problem and there have been a number of gestures toward possible solution. One of the higher profile solutions was the declaration of the 2012 as a year of code. &lt;a title="http://hastac.org/blogs/michael-widner/2012/02/16/learn-code-learn-code-culture" href="http://hastac.org/blogs/michael-widner/2012/02/16/learn-code-learn-code-culture"&gt;3&lt;/a&gt;, &lt;a title="http://www.codeyear.com/" href="http://www.codeyear.com/"&gt;4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This approach, however, was not without its well deserved critics. As Miriam Posner and others pointed out, the issue is much more complicated than is acknowledged in general “calls to code.” In fact, there is a larger, cultural barriers that makes it difficult for women and minorities to break into a programming world dominated by white, middle class, males. &lt;a title="http://miriamposner.com/blog/?p=1135" href="http://miriamposner.com/blog/?p=1135"&gt;5&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fortunately, there are a number of people within the technology world who have also identified the problem of culture and have created some interesting initiatives in response. The solutions I am focused on today are programs committed to creating communities of women programmers at all levels of programming skill.&lt;/p&gt;
+
+&lt;p&gt;Two models which I think offer valuable lessons for those of us in the digital humanities who are interested in seeing more women doing computational analysis are &lt;a title="http://railsgirls.com/" href="http://railsgirls.com/"&gt;Rails Girls&lt;/a&gt; and &lt;a title="http://girldevelopit.com/" href="http://girldevelopit.com/"&gt;Girl Develop It&lt;/a&gt;. These programs acknowledge that asking women to learn “on their own” and break into the existing tech culture does nothing to address the cultural barriers that women interested in code face. Instead, they show how the barrier to entry can by lowered by intentionally creating environments for learning that are predominately female.&lt;/p&gt;
+
+&lt;p&gt;So what is Rails Girls?&lt;/p&gt;
+
+&lt;p&gt;Rails Girls was started in November, 2010 in Helsinki by Linda Liukas and Karri Saarinen. It is a day long seminar teaching a basic introduction to web development using Ruby on Rails, a web framework for creating web applications. Just to show that this is no marginal language, Ruby on Rails is the framework behind such web applications as &lt;a title="http://twitter.com" href="http://twitter.com/"&gt;Twitter&lt;/a&gt;, &lt;a title="http://basecamp.com/" href="http://basecamp.com/"&gt;Basecamp&lt;/a&gt;, and for the knitters in the room, &lt;a title="https://www.ravelry.com/" href="https://www.ravelry.com/"&gt;Ravelry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Rails Girls is structured as an introduction to the many layers of web development. The day includes a series of short introductions to the technology used to run web applications and the process of moving a design from idea to web application. The majority of the time is spent setting up and walking through a ruby on rails app, with introductions to ruby syntax and the structure of the application. The assumption is that the majority of participants have no or very little experience with programming. At the same time, a variety of skill levels are accommodated by grouping participants according to their technical skill, with each group of 4-5 being guided by a mentor who can provide additional information and context. By the end of the day, participants aim have a working basic application. Participants do not learn enough in one day to base a career on, but the seminar helps women interested in code to overcome some of the initial hurdles of language and of community.&lt;/p&gt;
+
+&lt;p&gt;That Rails Girls is meeting a need in the field is evidenced by its growing popularity. Since the first Rails Girls event, there have been over 60 seminars with many more scheduled to occur. The majority of these have taken place outside of the US. The list of held and planned seminars is available at the &lt;a title="http://railsgirls.com/events" href="http://railsgirls.com/events"&gt;Rails Girls website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For those less interested in learning Ruby on Rails and more interested in general programming skills, another solution offered in the tech world is &lt;a title="http://girldevelopit.com/" href="http://girldevelopit.com/"&gt;Girl Develop It&lt;/a&gt;. Rather than a set course of study, Girl Develop It focuses on supporting a local community of women coders. The community in San Francisco, for example, holds “Code and Coffee” events where women gather to socialize, work on code, and ask each other questions. These communities also offer courses for members on basics of web development, including HTML, CSS, Javascript and jQuery. These meetups and classes support a community of women coders and encourage those looking to learn technical skills by mitigating some of the cultural barriers faced by women trying to enter the predominately male world of programming through the creation of networks and communities of women who code.&lt;/p&gt;
+
+&lt;p&gt;Women in tech are creating opportunities for women to come together to learn to code. While we in academia should join them and make connections outside of the academic sphere, we should also be more proactive about the need to create similar opportunities within academia. For one, the goals of programming for humanities research are different than the goals of commercial web development. Most of us are not looking to launch a career as a professional developer. Most of us are jealous of, but not aiming for, the salary of a junior developer.&lt;/p&gt;
+
+&lt;p&gt;And so, some of the larger goals promoted at events like Rails Girls need to be rethought for the digital humanities environment. The goal of many of us interested in learning computational skills centers on how to gather digital material in such a way to make text analysis, geolocation, visualizations, etc. possible. Learning skills of data manipulation and database construction opens up a whole range of “coding” based analysis. And both of these can be introduced using the model of Rails Girls and Girl Develop it.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Review of HERB: Social History for Every Classroom</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html"/>
+    <id>http://jeriwieringa.com/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html</id>
+    <published>2013-03-05T00:00:00Z</published>
+    <updated>2014-03-12T14:46:23-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Review of &lt;a href="http://herb.ashp.cuny.edu/"&gt;HERB: Social History for Every Classroom&lt;/a&gt;, a product of the American Social History Project and the Center for Learning and Media at CUNY.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The assignment for this week was to look outside of the projects of the Roy Rosenzweig Center for History and New Media to see how others are incorporating digital primary sources and history pedagogy. My choice, &lt;em&gt;HERB&lt;/em&gt;, is the product of the American Social History Project and the Center for Learning and Media, a past collaborator with RRCHNM on projects such as &lt;a href="http://historymatters.gmu.edu/"&gt;History Matters&lt;/a&gt;, &lt;a href="http://911digitalarchive.org/"&gt;The September 11 Digital Archive&lt;/a&gt;, and &lt;a href="http://chnm.gmu.edu/revolution/"&gt;Liberty, Equality, Fraternity&lt;/a&gt;. Given this past relationship, it is interesting to investigate a project that shares a commitment to making history accessible and meaningful for students of all ages.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;HERB&lt;/em&gt; is a database of primary material and teaching activities that have been created as part of a series of “professional development seminars” designed to encourage the teaching of social history at all levels of the history curriculum.&lt;a href="http://ashp.cuny.edu/teaching-and-learning/herb/"&gt;1&lt;/a&gt; &lt;em&gt;HERB&lt;/em&gt; is the companion site to these seminars and the resources presented here have been recently opened up the broader audience of the web.&lt;/p&gt;
+
+&lt;p&gt;There are two main modes of interacting with the &lt;em&gt;HERB’s&lt;/em&gt; collection. The organization of the site suggests that the primary mode of navigating through the materials is by search or browsing the items that are available. A quick exploration of these features reveals that, while they reveal a plethora of primary materials and teaching resources and provide a useful tool for locating supplemental material for an existing lesson plan, this is not the primary strength of the site. Following the suggestions of ‘tags’ and ‘related resources’ it becomes clear that the strength of this resources is best revealed in the &lt;a href="http://herb.ashp.cuny.edu/exhibits"&gt;Collections&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Collections are divided into two main ‘genres’: one focused on topics or themes in American History and one focused on surveys of American history. These Collections pose a historical question (such as &lt;a href="http://herb.ashp.cuny.edu/exhibits/show/who-freed-the-slaves"&gt;“Who Freed the Slaves?”&lt;/a&gt;) or a theme (such as &lt;a href="http://herb.ashp.cuny.edu/exhibits/show/slavecommunities"&gt;“slave communities and resistance”&lt;/a&gt;) and then offer both primary materials and a guided lesson for helping students construct an argument for a particular interpretation or develop a sense of experiences of historical actors. These lessons emphasize the variety of perspectives and allow for multiple interpretations, both of which help counteract the general conception of the study of history as the memorization of a series of facts and figures. A particular strength of these assignments is the emphasis on group work, on student collaboration for both analyzing the individual texts and for creating and defending their interpretations of the assigned texts.&lt;/p&gt;
+
+&lt;p&gt;The layering of short introductory essays, primary material, contextual information, teaching activities, and additional resources within each Collection provides a powerful framework for making the teaching of history through primary material accessible to teachers. At the same time, I have two main concerns with the presentation of the materials. First, similar to my complaint from last week, the written material that is presented is stripped from it’s context, whether that be the newspaper in which it was published or the diary in which it was written, etc. While flyers are reproduced on the site, the physical presentation of published texts appear to be considered less important. My intuition is that this is due, in part, to long standing practices of print, particularly with the publishing of edited editions of primary material that reproduce the text but because of technological constraints, erase the original presentation. With the ability to house images of the primary documents in addition to an edited text, the web allows us to recapture that lost aspect of these historical texts.&lt;/p&gt;
+
+&lt;p&gt;My second concern relates to the videos created by the ASHP-CML. While students are encouraged to look at the assumptions of the primary material, the lessons building from the films focus largely on ensuring that students gather the correct facts from the film. Critical engagement with film is a particularly important skill in a culture full of visual rhetoric. The ability to analyze the presentation and assumptions of film is equally important to the ability to glean the important facts from the visual presentation. A similar emphasis on the factual content of images is apparent in the goal of “finding information and making inferences from visual sources” in the &lt;a href="http://herb.ashp.cuny.edu/exhibits/show/who-freed-the-slaves/teaching-activities/lil-contraband"&gt;lesson on the painting “On to Liberty”&lt;/a&gt;. Teaching students to develop a more complex attitude toward visual sources and to being proficient at analyzing and evaluating visual rhetoric would be a valuable addition to an already strong site.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;HERB&lt;/em&gt; is a valuable resource of teachers of American history, providing both primary materials and well developed lesson plans to help students engage in the work of history. Overall, the lessons complicate the presentation of the past, introducing multiple points of view and helping students and teachers think about these differences. In doing so, they present a history that is not a collection of facts and figures but instead stories and interpretations, with unresolved questions of meaning that students are encouraged to engage in.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Review of &amp;#8220;Women in World History&amp;#8221; and &amp;#8220;Children and Youth in History&amp;#8221;</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html"/>
+    <id>http://jeriwieringa.com/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html</id>
+    <published>2013-02-27T00:00:00Z</published>
+    <updated>2014-03-12T14:45:57-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;This is a review of &lt;a title="http://chnm.gmu.edu/wwh/index.php" href="http://chnm.gmu.edu/wwh/index.php"&gt;Women in World History&lt;/a&gt; and &lt;a title="http://chnm.gmu.edu/cyh/" href="http://chnm.gmu.edu/cyh/"&gt;Children and Youth in History&lt;/a&gt; for History 689: Teaching History in the Digital Age.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Women in World History&lt;/em&gt; and &lt;em&gt;Children and Youth in History&lt;/em&gt; are two projects that reflect the changing standards of both web design and scholarship on teaching in education projects produced by the Roy Rosenzweig Center for History and New Media. &lt;em&gt;Women in World History&lt;/em&gt; is the older of the two projects, having been produced between 2004 – 2006. A short two years later, &lt;em&gt;Children and Youth in History&lt;/em&gt; reflects some of the design shifts encouraged by the release of &lt;em&gt;Omeka&lt;/em&gt; as well as the increased emphasis on open-ended questions within the scholarship of teaching and learning. Together these two projects reveal the ongoing emphasis on primary material in the teaching of history as well as some of the changing ideas about how those primary sources are best used in lesson plans and displayed online.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Women in World History&lt;/em&gt; was a project to create an “online curriculum resource center” for the purposes of bringing &lt;a title="http://chnm.gmu.edu/wwh/about.php" href="http://chnm.gmu.edu/wwh/about.php"&gt;“primary sources dealing with women and gender in world history”&lt;/a&gt; into the classroom. The project is divided into six main sections: &lt;a title="http://chnm.gmu.edu/wwh/reviews.php" href="http://chnm.gmu.edu/wwh/reviews.php"&gt;Reviews&lt;/a&gt;, &lt;a title="http://chnm.gmu.edu/wwh/sources.php" href="http://chnm.gmu.edu/wwh/sources.php"&gt;Primary Sources&lt;/a&gt;, &lt;a title="http://chnm.gmu.edu/wwh/evidence.php" href="http://chnm.gmu.edu/wwh/evidence.php"&gt;Analyzing&lt;/a&gt;, &lt;a title="http://chnm.gmu.edu/wwh/modules.php" href="http://chnm.gmu.edu/wwh/modules.php"&gt;Modules&lt;/a&gt;, &lt;a title="http://chnm.gmu.edu/wwh/casestudies.php" href="http://chnm.gmu.edu/wwh/casestudies.php"&gt;Case Studies&lt;/a&gt;, and &lt;a title="http://chnm.gmu.edu/wwh/forum.php" href="http://chnm.gmu.edu/wwh/forum.php"&gt;Forum&lt;/a&gt;. These sections are designed to guide the teacher through the primary evidence that is available, offer instructions, primarily for teachers, on how historians use the various sources available for researching the lives of women, and offer examples of how to incorporate these sources into lesson plans for students.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Women in World History&lt;/em&gt; does an excellent job in creating a curated list of primary source material and offering suggestions about how such material is used by historians to tease out the often overlooked history of women. The review of sources provide an overview of the contents available with attention to the usefulness of those sources for teachers. This is a very useful as the abundance of information on the web is often overwhelming for those seeking to use digital materials. The &lt;a title="http://chnm.gmu.edu/wwh/essay/essay.php" href="http://chnm.gmu.edu/wwh/essay/essay.php"&gt;essay on working with primary sources&lt;/a&gt;, while unfortunately buried within the site, is very useful for introducing the variety of sources available and the ways historians use these sources. These resources are useful for both teachers and students looking to learn more about where and how to study the history of women.&lt;/p&gt;
+
+&lt;p&gt;At the same time, the pedagogical goals of the modules and the structure of the site call for further attention. While the historiographical goals of the project are tied to current trend in world history and gender history and &lt;a title="http://chnm.gmu.edu/wwh/about.php" href="http://chnm.gmu.edu/wwh/about.php"&gt;does well to articulate these&lt;/a&gt;, the teaching goals are less clear. The goals of the project locate historical learning as taking place through “&lt;a href="http://chnm.gmu.edu/wwh/about.php"&gt;complex interaction with sources, recursive reading, and skills used by historians&lt;/a&gt;.” These goals, while connected to the scholarship of teaching and learning, are unfortunately not expanded beyond these phrases, leaving the precise meaning and the possibilities for implementation unclear.&lt;/p&gt;
+
+&lt;p&gt;This ambiguity carries into the teaching modules. While useful, these modules focus more heavily on providing the context for interpreting the primary documents than on exploration of those documents. In contrast to the student-driven inquiry of &lt;a title="http://net.educause.edu/ir/library/pdf/eli3009.pdf" href="http://net.educause.edu/ir/library/pdf/eli3009.pdf"&gt;“authentic learning,”&lt;/a&gt; (pdf), the proposed lesson plans tend to remain procedurally focused, guiding students to a “correct” interpretation of the documents which is articulated in a written essay. The “Analysis Worksheets,” while provided as a scaffolding to teach students how to identify the important aspects of the material, have the unfortunate affect of limiting the questions the students ask about the texts and create the impression that there is a “correct answer” that the students must find.&lt;/p&gt;
+
+&lt;p&gt;Apart from the apparent age of the website design, my major structural concern with the site is that the display of the primary material minimizes the differences between the primary and secondary material. This has a couple of unfortunate consequences. First, although it may seem to be a superficial concern, the fact that all the text looks the same to the students removes much of the experience of working with primary material. The primary writings become yet another piece of information that the students are required to read and gather information from, rather than a source that they are invited to investigate. Second, the stripping of the context from the text, the images, and the like is counterproductive to the goal of teaching students how to think historically. The context of primary material is as important as the material itself, but this context is being hidden from the students. The context is also important for determining the reliability of the source, another important “skill of the historian.” Because these pieces are presented in isolation and stripped of the original mode of presentation, these important skills cannot be taught with the primary materials presented here.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a title="http://chnm.gmu.edu/cyh/" href="http://chnm.gmu.edu/cyh/"&gt;Children and Youth in History&lt;/a&gt;&lt;/em&gt;, while following a similar structure in providing Reviews, Primary Sources, Case Studies, and Teaching Modules, offers a more question driven approach to both the historiographical and pedagogical framing. In her &lt;a title="http://chnm.gmu.edu/cyh/introduction" href="http://chnm.gmu.edu/cyh/introduction"&gt;introductory essay&lt;/a&gt;, Miriam Forman-Brunell focuses on the process of forming questions that both “elicit information” and “inspire more complex questions” as “central to the enterprise of historical research.” With that framework in place, the questions she proposes are much broader than the question suggested in the &lt;em&gt;Women in World History&lt;/em&gt; project, and are questions that encourage multiple interpretations, such as “In what ways do different social arrangements, beliefs, practices, ideologies, and historical forces shape notions of childhood as well as children’s experiences?” and “What evidence is there for multiple notions of childhood, girlhood, and boyhood?” By focuses on these broad questions rather than the gather of particular pieces of information, she is able to emphasize the problem being investigated over the information being gathered.&lt;/p&gt;
+
+&lt;p&gt;While the framework Forman-Brunell articulates carries forward throughout the website, the teaching modules reflect the tension between these goals of open-ended inquiry and the emphasis on information retention that is found in standard forms of assessment. The proposed lesson plans focus more on interactive activities where the students are asked to use the documents to &lt;a title="http://chnm.gmu.edu/cyh/teaching-modules/187?section=lessonplan" href="http://chnm.gmu.edu/cyh/teaching-modules/187?section=lessonplan"&gt;create posters&lt;/a&gt; or &lt;a title="http://chnm.gmu.edu/cyh/teaching-modules/60?section=lessonplan" href="http://chnm.gmu.edu/cyh/teaching-modules/60?section=lessonplan"&gt;craft a position for a debate&lt;/a&gt;. These activities focus on the use of primary materials to construct arguments about the present based on evidence from the past and about different interpretations of what those materials are communicating.&lt;/p&gt;
+
+&lt;p&gt;The assessment of the skills learned in these activities, however, relies on “Document Based Questions” that ask students to write essays in answer to arbitrary questions and using a selected set of primary materials. These questions, while useful in training students for A.P. and other standardized tests, are removed from the activities of the lesson plan. An alternative would be to shift the focus of such activities as a debate from a current topic to a historical topic, asking the students to make the arguments of the time and then write a paper that argues for a particular side or addresses questions of what the positions where and what influenced the decisions that were made. In that context, the written assessment would be tied to the activities of the lesson plan and asks a questions that the students have invested time and interest into.&lt;/p&gt;
+
+&lt;p&gt;Structurally, &lt;em&gt;Children and Youth in History&lt;/em&gt; corrects some but not all the problems I identified above with the &lt;em&gt;Women in World History&lt;/em&gt; site. Visually, the primary materials are set apart from the surrounding text through the use of a background color. This helps cue the student that the material presented is different and is to be engaged with differently. However, the larger problem of the isolation of the materials from their context, both their relationship to other materials and the physical object of the source, remains. While some isolation is necessary when creating digital archives and the transcription allows for easier reading of the text, the inclusion of images of the primary material, at the very least, would be a very useful addition. This would help students understand and form impressions of what primary materials “look like” and how to pull useful content from a larger document.&lt;/p&gt;
+
+&lt;p&gt;These projects highlight both the progress that has been made in the presentation and teaching of historical material online as well as reveal some of the places where additional attention is necessary. The goals of providing sufficient scaffolding for student learning while concurrently encouraging novel questions and authentic learning can be both reinforcing and in tension, and the best ways to achieve balance between the two requires further study. How to present primary material in ways that both filter out some of the noise generated by the abundance of material online while also teaching students how to find and evaluate material outside of a structured framework is also an ongoing area of discussion and study. Along with providing a useful resource for identifying digital primary sources for the study of women and children in history, these websites are themselves useful historical documents, providing a window on the iterative process by which digital pedagogy has and continues to develop in light of developments in web technology and in the scholarship of teaching and learning.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Social Gospel and Missions</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/12/06/social-gospel-and-missions.html"/>
+    <id>http://jeriwieringa.com/blog/2012/12/06/social-gospel-and-missions.html</id>
+    <published>2012-12-06T00:00:00Z</published>
+    <updated>2014-03-12T14:45:16-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;Gender and the Social Gospel,&lt;/em&gt; Wendy Deichmann Edwards and Carolyn De Swarte Gifford, eds.&lt;/p&gt;
+
+&lt;p&gt;This series of essays focuses on the lack of attention to women and gender within the historical discourse around the social gospel movement. General topics and themes under consideration include the work of female social gospel leaders, the conservative gender ideas of major leaders, particularly Walter Rauschenbusch, and female theological contributions, albeit through unofficial channels. The commitment to influencing social structures in order to bring about a just (millennial) society, which was sought by both male and female actors, while also being understood differently by them, is emphasized throughout the book.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Gospel of Gentility: American Women Missionaries in Turn-of-the-Century China, &lt;/em&gt;Jane Hunter&lt;/p&gt;
+
+&lt;p&gt;Hunter’s book is an excellent study of the confluence of religion, gender, race, nationalism, and imperialism that occurred in the lives and actions of women missionaries in China at the turn of the 20th century. The main text of her study focuses on the experiences of American women in China, discussing the different gender expectations and experiences for married and single women, and the uniting desire to recreate an American domestic sphere within the Chinese context. Of particular interest are the ways single women especially found increase authority due to their position outside of the typical gender constructs of both cultures, and their increased tendency to incorporate themselves into Chinese culture.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The millennial impulse is alive and well in both of these readings, as we move through the turn of the 20th century. The various actors within the social gospel movement, as highlighted throughout the essays compiled by Edwards and Gifford, are challenging social structures because of a vision of a just social order, a vision equated with the Kingdom of God on earth. The women in Turner’s analysis are also seeking a millennial goal, convinced that once the gospel is preached throughout the world, the end of time would be at hand.&lt;/p&gt;
+
+&lt;p&gt;In both of these cases, understandings of gender are central to the vision of society and salvation being pursued. For many of the female advocates of the social gospel, gender equality is central to their idea of a just society, and the conflict between that goal and conservative opinions such as that of Rauschenbusch require further study. On the other side, despite the relatively conservative ideas about gender roles espoused by the missionaries, they saw themselves as bringing liberation to women in China, liberation in the form of domesticity. This liberation of women is tied to their belief that female conversion is instrumental for societal conversion, and so was central to their goal of converting the world for Christ.&lt;/p&gt;
+
+&lt;p&gt;While the essays in &lt;em&gt;Gender and the Social Gospel &lt;/em&gt;begin the work of reintegrating female actors and questions of gender into the historical narrative, it is clear there is much work left to be done. Because of the variety of ideas and actions pursued under the rubric of affecting social structures to create a just society, definitions are still being negotiated. The social gospel movement, like evangelicalism, is a slippery topic, hard to pin down and classify. Also, the variety of opinions about what constitutes a just society further complicates the issues. A more focused study of gender that focuses on the efforts of people within a particular area or organization intentionally under the rubric of the “Social Gospel” would be a useful follow-up to this more general call for scholarship.&lt;/p&gt;
+
+&lt;p&gt;One complaint, or possibility for further work, with Hunter’s analysis is the narrow focus on the goals and experiences of the white missionaries. While her last chapter emphasizes the ways in which Chinese women actively shaped the message they received for their own ends, that line of analysis does not extend throughout the book. Instead, her focus on the missionary experience of gender leaves that aspect of the exchange in need of further development. However, this is more a request for an additional study than a serious complaint with the current.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Short Tutorial: Cleaning up downloaded files</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html"/>
+    <id>http://jeriwieringa.com/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html</id>
+    <published>2012-11-28T00:00:00Z</published>
+    <updated>2014-03-12T14:44:31-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;So you used wget or Python to pull down a collection of files from the web. Excellent! But in looking through your loot, you notice that a number of the files are oddly small and, on further examination, find that they are functionally empty. How do you clean up your collection of files quickly?&lt;/p&gt;
+
+&lt;p&gt;There are a number of very powerful command line tools built into UNIX systems (Mac and Linux) that allow you to manipulate your files quickly and easily. This is a brief tutorial on how to use those tools to locate all of the files that are too small and then remove those files from your collection.&lt;/p&gt;
+
+&lt;p&gt;Begin by navigating in Terminal to your collection of folders. For example, my files were located a couple of folders downs within my Documents folder.&lt;/p&gt;
+
+&lt;pre&gt;cd Documents/Github/Clio3/Webscraping/hymn-files&lt;/pre&gt;
+
+&lt;p&gt;Once in the folder with your downloaded files, you need to find a way to isolate out the files that are too small to be interesting. To do this, use the “find” command.&lt;/p&gt;
+
+&lt;p&gt;If the files we are interested in sorting through are all one file type (in my case they’re .json files), we can tell the computer to find all of the files of a particular type and particular size as follows:&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size 28c&lt;/pre&gt;
+
+&lt;p&gt;This would find all of the json files that are 28 bytes in size.&lt;/p&gt;
+
+&lt;p&gt;However, we want all the files that are 28 bytes or less.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c&lt;/pre&gt;
+
+&lt;p&gt;This is important in my case because the files are not truly empty. There is a simple way to identify truly empty files, if that is more appropriate for your data.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -empty&lt;/pre&gt;
+
+&lt;p&gt;You can also add&lt;/p&gt;
+
+&lt;pre&gt;-maxdepth 1&lt;/pre&gt;
+
+&lt;p&gt;if there are additional folders that you do not want to work through.&lt;/p&gt;
+
+&lt;p&gt;Finding the files is great, but now we need to do something with that collection of files.&lt;/p&gt;
+
+&lt;p&gt;There are two ways you can do this. First, you can simply add a delete option to your command, as follows&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c -delete&lt;/pre&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;In general, this should work. However, if you are dealing with a large number of files, it is often better to use a pipe (“&lt;/td&gt;
+      &lt;td&gt;”). The pipe takes the results of the first command and feeds them to the second command. In the example below, we are taking the results of the find command and passing them to the remove command (“rm”).&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;find *.json -size -28c | xargs rm&lt;/pre&gt;
+
+&lt;p&gt;You will notice that we included “xargs” on the right side of the pipe. Xargs helps the computer handle a long list of file names.&lt;/p&gt;
+
+&lt;p&gt;Note: The Wikipedia entry on xargs suggests using “-0″ (zero) when dealing with file names with spaces in them as xargs defaults to separating at white space (another reason to avoid spaces in filenames). If you run this command without -0 and it doesn’t work, try adding the -0.&lt;/p&gt;
+
+&lt;p&gt;And the command we are running on each filename is “rm” or remove. rm has a number of options that you can research, some of which really make data un-recoverable and should be used with care. However, a basic “rm” command will be sufficient for this example.&lt;/p&gt;
+
+&lt;p&gt;Run this command to remove all of the files less than 28 bytes from your current directory.&lt;/p&gt;
+
+&lt;p&gt;(I used 28 bytes because the computer was having trouble with 0 and all of the files I wanted to keep were larger than 28 bytes. Not exactly sure why 0 was a problem but this is why experimenting with the find options before moving on to removing the files is a good idea!)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Looking outside the Protestant bubble</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/20/looking-outside-the-protestant-bubble.html"/>
+    <id>http://jeriwieringa.com/blog/2012/11/20/looking-outside-the-protestant-bubble.html</id>
+    <published>2012-11-20T00:00:00Z</published>
+    <updated>2014-03-12T14:43:22-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Maureen Fitzgerald, &lt;em&gt;Habits of Compassion&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Habits of Compassion &lt;/em&gt;looks at the history of relief work in New York city by focusing on the efforts of Irish Catholic nuns, a focus that is part of a larger effort to address the tendency in women’s history to give insufficient attention to the ways “non-dominant cultures and poor women” influenced the efforts of the dominant culture (7). She highlights the competing gender systems between the Irish nuns and the Protestant reform workers and argues that the eventual adoption of scientific charity by Catholics is the largest loss to the general discourse about poverty and relief.&lt;/p&gt;
+
+&lt;p&gt;Karla Goldman, &lt;em&gt;Beyond the Synagogue Gallery&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Goldman examines the changing discourse around role and place of women in Jewish life by examining the changes in the physical space women occupied and the debates surrounding those changes. The study is brilliantly conceived and offer a particularly useful example of how, despite little written that directly discusses women, this issue of physical space makes the surrounding conversation apparent. Goldman traces the changes largely to efforts within the Jewish community to gain respectability and to incorporate, in some ways at least, Victorian ideas about female religiosity. The adoption of family pews and the end of the female balcony coincides with increasingly rigid understandings of gender roles and an increased focus on the domestic sphere for women.&lt;/p&gt;
+
+&lt;p&gt;Kathleen Sprows Cummings, &lt;em&gt;New Women of the Old Faith&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Cummings’ book is a study of four Catholic women as a way of discussing in a more nuanced way Catholic reactions to the “New Woman” of the early 20th century. Her project is to show how, despite harsh criticism, Catholic women used various strategies to claim some of the ideas promoted by “New Women” and reframe them within the Catholic faith. She looks at efforts to promote educational opportunities for women and the efforts to use Catholic women of the past to claim a powerful role for women within the Church. Her last chapter focuses on reclaiming the rhetoric of Katherine Conway, best known for her anti-suffrage campaigns. She argues that strong feminist beliefs, though different than those guiding those working for suffrage, guided Conway’s argument against the vote and that she should be seen as a much more complex figure than she is usually portrayed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A couple of thoughts and concerns for discussion:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fitzgerald also discusses Jewish efforts to provide their own relief for children and the poor. However, the main discussion in the book is the interaction between Catholic and Protestant organizations and individual people, so that this inclusion feels more like a bulstering of the arguments about Catholics than a sustained analysis. At the same time, expanding to a more thorough discussion of Jewish poverty relief would make the book unwieldy. I would like the think through that balance of bringing additional voices into the narrative in a productive way while also maintaining a well defined project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;span style="font-size: medium;"&gt;&lt;br /&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A couple of little questions for Goldman. For one, her discussion on 192 about membership being granted to women only beginning around 1895 leaves me wondering what is required for membership in her discussion. She compares evangelical groups who also excluded women from leadership and voting roles, however, in these groups membership is understood differently – one can be a member and can be disciplined as one even without the ability to vote about administrative issues. Also, I am curious about pews. While she doesn’t address it, in one of the examples, pews were brought in as part of the reforming changes. It is not really important to the argument, but always interesting to me that sitting in pews is itself an innovation in religious practice, though one that occurs at different times for different traditions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;span style="font-size: medium;"&gt;&lt;br /&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;While I think I understand what “Americanism” is from the reading, it would be helpful to discuss this more. I was unaware of this controversy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;span style="font-size: medium;"&gt;&lt;br /&gt; &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;While I enjoyed Cummings analysis (though I wish the structure was different), the last paragraph of her introduction left me concerned. She is arguing here that religion plays a central role in religious people’s construction of identity. And yet she alludes that religion was less influential in the response to second wave feminism. With not knowing very well the history that she is alluding to, this seems to be a large, and unnecessary, step back from her framing claims about the necessity of taking religion seriously as a key influence, along with race, class, and gender, in identity formation.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Healings and Holiness, Pentacostals, the Black Baptist Church, Itinerant Women, and Spiritual Narratives</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html"/>
+    <id>http://jeriwieringa.com/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html</id>
+    <published>2012-11-08T00:00:00Z</published>
+    <updated>2014-03-12T14:42:46-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;We are a bit eclectic this week.&lt;/p&gt;
+
+&lt;p&gt;Michael Stephens, &lt;em&gt;Who Healeth All Thy Diseases: Health, Healing, and Holiness in the Church of God Reformation Movement&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Stephens examines the history of healing within the Church of God (Anderson) movement, arguing that despite the lack of scholarly attention, healing practices were central to the development of the denomination and of American Protestantism in general. The focus is largely on major figures within the denomination, particularly Daniel Sidney Warner, Enoch E. Byrum, Charles Wesley Naylor, and the Gospel Trumpet Company publications. Stephens traces the changing attitudes toward healing, from viewing healing as the particular sign of sanctification to a repudiation of all medical intervention to a moderate stance, while highlighting the adoption of popular health reform prescriptions as part of the healthy Christian life.&lt;/p&gt;
+
+&lt;p&gt;Evelyn Brooks Higginbotham, &lt;em&gt;Righteous Discontent: The Women’s Movement in the Black Baptist Church, 1880-1920.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Higginbotham takes up the challenge of writing a history that focuses on women and gender while also arguing for the centrality of women and the construction of gender to the creation of society. She argues that the black church is the “product and process of male and female interaction” and that a focus on “the ministry” misses half of the conversation (2). She deploys the analytical frameworks of Benedict Anderson and Habermas, describing the creation of the church as a “public sphere” and central to “imagined community” of black society. As Higginbotham deftly shows, both the imagined community and the public sphere were contested and shifting and she focuses on the interactions of race, class, and gender to reveal the different discourses in play in shaping the community.&lt;/p&gt;
+
+&lt;p&gt;Joycelyn Moody, &lt;em&gt;Sentimental Confessions: Spiritual Narratives of Nineteenth-Century African American Women.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;*Sentimental Confessions *is a recovery project focused on reclaiming the black women’s spiritual autobiographies as works of theological importance and as rhetorically powerful and significant texts. Moody is interacting with scholarship on sentimentalism and women’s writing during the 19th-century, arguing against the tradition of Ann Douglas and for the idea that sentimental writing falls within the long tradition of religious writing that is embodied, sensual, and emotionally potent. The individual chapters focus more on close readings of the texts themselves and provide little additional historical context. The framing of this text is most interesting for historical projects that work with these and other such primary sources.&lt;/p&gt;
+
+&lt;p&gt;Edith Blumhofer, &lt;em&gt;Restoring the Faith: The Assemblies of God, Pentecostalism, and American Culture&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Restoring the Faith&lt;/em&gt; is an institutional history of the Assemblies of God denomination. Blumhofer traces a historical arch that begins with the restorationist impulse to return the church to the example of the New Testament, that moves through a period of growth and acculturation, and ends at a present day that has become something other than its primitivist beginnings, that has “succumbed to aspects of modernity” that it began in opposition to (12). Her history focuses more on Parham than Seymour, more on the white Pentecostal experience than African-American or Hispanic experiences, and while she does address some questions of women in leadership positions in the Assemblies of God denomination, how gender is constructed and negotiated is not the focus of her study. The book provides a useful overview and reference for some of the major moments and figures in the institutional history of the Assemblies of God.&lt;/p&gt;
+
+&lt;p&gt;Elizabeth Elkin Grammer, &lt;em&gt;Some Wild Visions: Autobiographies of Female Itinerant Evangelists in Nineteenth-Century America.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Grammer’s text is a literary study of the autobiographies of 7 female itinerant preachers: Nancy Towle, Jarena Lee, Zilpha Elaw, Lydia Sexton, Laura Haviland, Julia Foote, and Amanda Smith. In analyzing their self-presentation, Grammer focuses on 4 shared characteristics these autobiographies share and seeks to interpret the role and experience of these female itinerants on the basis of those shared characteristics. She notes a shared conscious leaving of the domestic space and the ideal of domesticity, and even an intentional “mis-reading” of that ideal so as to allow them to claim the world as their domestic space (56). She notes that they take part in the more “masculine” culture of “competitive individualism and accounting,” listing for readers the preaching engagements held and the number of converts attained (70). She notes that they were largely alone and also saw themselves as separate in some way from the general culture. And finally she comments upon a shared style in autobiographical writing and the lack of clear ordering or narrative that marks all of these texts. Her work studies how these women combined competing paradigms of “domesticity … individual assertion and competitiveness… and reluctant prophet and suffering savior” to “inhabit and subvert many assumptions about gender, race, and class” (23).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;More questions and thoughts than synthesis this week.&lt;/p&gt;
+
+&lt;p&gt;One of the interesting methodological questions I have coming out of these readings is the question of dealing with women and women’s organizations as a group and focusing on individual women within religious movements. Moody and Higginbotham take two different approaches to this – Moody, because of her focus on the autobiography, looks at the rhetoric of 6 individual women writers while Higginbotham looks at women’s organizations within the Black Baptist church and how those organizations influenced the overall institution. While I see Higginbotham’s point that only studying individual women often leaves them still outside of the larger narrative about society and culture, how does one deal responsibly (avoid generalizations, etc) when telling the history of a group.&lt;/p&gt;
+
+&lt;p&gt;Grammer notes that “revival” is a dominant theme throughout the 19th century. However, in reading her and other texts, it seems that the millennium is perhaps the stronger theme, driving even revival itself. Revival for the sake of revival does not seem strong enough to move so many people in so many extraordinary directions. However, and this is pulling from Abzug as well, the firm belief in the coming millennium seems like it could be enough to provoke the slew of revivals and reform efforts that we see.&lt;/p&gt;
+
+&lt;p&gt;Both Moody and Grammer are interested in using these text, which on the surface seem to restate rather than challenge cultural ideologies, to uncover how individual women negotiated and challenged those ideologies. Grammer’s text in general offers some very interesting and instructive ways of readings these texts – I need to return to this text for a closer reading. And Moody quotes Sharon Harris to argue that even texts that do perpetuate dominant ideology are worthy of study, as they are sites where ideologies are interacted with, help us understand the conditions under which the text was produced and also often contain subversions of those ideologies (181). Both of these are useful resources for thinking about how to deal with these texts going further.&lt;/p&gt;
+
+&lt;p&gt;While neither Stephens nor Blumhofer ignore women in their histories, it is clear that the focus of investigation is the institution and the (generally) male leaders who lead and influenced those institutions. On the one hand, this doesn’t seem unreasonable – the institution and its records is largely controlled by the male leadership. However, Higginbotham seems to offer a solid critique of this approach by arguing that it is the interactions between male and female individuals and groups that create the larger culture and institution. Can Higginbotham’s approach be applied further? Can it be argued that one cannot understand any religious group apart from the ongoing conversations and negotiations between female auxiliary organizations and the traditionally male controlled hierarchy (in whatever form that takes)?&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Slides from Text-Mining Presentation</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/04/slides-from-text-mining-presentation.html"/>
+    <id>http://jeriwieringa.com/blog/2012/11/04/slides-from-text-mining-presentation.html</id>
+    <published>2012-11-04T00:00:00Z</published>
+    <updated>2014-03-12T14:41:38-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Bit short since I was trying to read off of the screen less. Down-side: slides are less helpful on their own.&lt;/p&gt;
+
+&lt;p&gt;The code examples are available at &lt;a href="https://github.com/jerielizabeth/mining-example"&gt;github.com/jerielizabeth/mining-example&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Short Tutorial: Cleaning up downloaded files (draft)</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html"/>
+    <id>http://jeriwieringa.com/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html</id>
+    <published>2012-11-04T00:00:00Z</published>
+    <updated>2014-03-12T14:40:53-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;So you used wget or Python to pull down a collection of files from the web. Excellent! But in looking through your loot, you notice that a number of the files are oddly small and, on further examination, find that they are functionally empty. How do you clean up your collection of files quickly?&lt;/p&gt;
+
+&lt;p&gt;There are a number of very powerful command line tools built into UNIX systems (Mac and Linux) that allow you to manipulate your files quickly and easily. This is a brief tutorial on how to use those tools to locate all of the files that are too small and then remove those files from your collection.&lt;/p&gt;
+
+&lt;p&gt;Begin by navigating in Terminal to your collection of folders. For example, my files were located a couple of folders downs within my Documents folder.&lt;/p&gt;
+
+&lt;pre&gt;cd Documents/Github/Clio3/Webscraping/hymn-files&lt;/pre&gt;
+
+&lt;p&gt;Once in the folder with your downloaded files, you need to find a way to isolate out the files that are too small to be interesting. To do this, use the “find” command. First, to see the various options associated with “find”, enter&lt;/p&gt;
+
+&lt;pre&gt;man help&lt;/pre&gt;
+
+&lt;p&gt;Use the up and down arrows to move around the window that appears. Look around at the various options – there are many! However, because we are looking only in a particular folder, which in my case has no subfolders, all that we need to look at for now is size.&lt;/p&gt;
+
+&lt;p&gt;To exit this window, type “q”.&lt;/p&gt;
+
+&lt;p&gt;If the files we are interested in sorting through are all one file type (in my case they’re .json files), we can tell the computer to find all of the files of a particular type and particular size as follows:&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size 28c&lt;/pre&gt;
+
+&lt;p&gt;This would find all of the json files that are 28 bytes in size.&lt;/p&gt;
+
+&lt;p&gt;However, we want all the files that are 28 bytes or less.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c&lt;/pre&gt;
+
+&lt;p&gt;Finding the files is great, but now we need to do something with that collection of files.&lt;/p&gt;
+
+&lt;p&gt;First we are going to “pipe” the results of our search over to our second, removal, function.&lt;/p&gt;
+
+&lt;p&gt;(From here on the examples are showing how the command is built – Do not run the command until the very end when all the pieces are in place)&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c |&lt;/pre&gt;
+
+&lt;p&gt;Next we are going to use xargs, which helps the computer handle a long list of file names.&lt;/p&gt;
+
+&lt;p&gt;Note: The wikipedia entry on xargs suggests using “-0″ (zero) when dealing with file names with spaces in them as xargs defaults to separating at white space (another reason to avoid spaces in filenames). If you run this command without -0 and it doesn’t work, try adding the -0.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c | xargs&lt;/pre&gt;
+
+&lt;p&gt;And the function we want to run on each filename is “rm” or remove. rm has a number of options that you can research, some of which really make data un-recoverable and should be used with care. However, a basic “rm” command will be sufficient for this example.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c | xargs rm&lt;/pre&gt;
+
+&lt;p&gt;Run this command to remove all of the files less than 28 bytes from your current directory.&lt;/p&gt;
+
+&lt;p&gt;(I used 28 bytes because the computer was having trouble with 0 and all of the files I wanted to keep were larger than 28 bytes. Not exactly sure why 0 was a problem but this is why experimenting with the find options before moving on to removing the files is a good idea!)&lt;/p&gt;
+</content>
+  </entry>
+</feed>

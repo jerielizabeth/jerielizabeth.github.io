@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <title>Jeri Wieringa - It&#8217;s October and I&#8217;ve run out of catchy titles &#8230;</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <link href="/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="image">
+        <nav id="primary-nav" class="nav">
+  <ul>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/portfolio.html">Portfolio</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="https://www.dropbox.com/s/53q3875xnpqynax/Wieringa_CV.pdf">Vita</a></li>
+  </ul>
+</nav>
+<div id="title">
+  <h1><a href="/">Jeri E. Wieringa</a></h1>
+</div>
+<nav id="upper-nav" class="nav">
+    <ul>
+        <li class="important"><a href="/research.html">Research</a></li>
+        <li class="important"><a href="/digital.html">Digital</a></li>
+        <li class="important"><a href="/teaching.html">Teaching</a></li>
+    </ul>
+</nav>
+      </header>
+
+      <div id="main" role="main">
+          <article>
+      <h1>
+          It&#8217;s October and I&#8217;ve run out of catchy titles &#8230;
+      </h1>
+      <p class="tagline">
+          By Jeri Elizabeth Wieringa - <time>Oct 18 2012</time>
+      </p>
+      <div class="text fulltext">
+          <!-- content inserted here -->
+          <p>So, this week was both productive and not. I find that I learn in circles – I have to go over things about 3 times for connections between things to get to the point that I feel like I have learned something. (They told us this in philosophy too –  read it 3 times to understand what is going on. Now, if they assigned the same thing 3 times …)</p>
+
+<p>Anyway, in light of this pattern, I went back to some tutorials. I spent too much time on the first 17 tutorials of “<a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a>” and then, because I got a bit distractable at that point, did the first 13 of “<a href="http://sql.learncodethehardway.org/">Learn SQL the Hard Way</a>.” (I have a feeling <a href="http://regex.learncodethehardway.org/book/">“Learn Regex…”</a> is in my future …)</p>
+
+<p>At any rate, the SQL tutorials were really helpful in a, “well, duh. I should’ve picked up on that” sort of way. So I tweaked my pages to have one query for showing both text and author information, which is super useful and makes everything much cleaner and less confusing. I’ll push that up to my server so to update <a href="http://clio3.jeriwieringa.com">clio3.jeriwieringa.com</a>.</p>
+
+<p>There is still more to do with that, but I got distracted again by all of the files I pulled down last week. (seriously, grad school is turning me into a goldfish… ) At any rate, there was a small problem that most of the 2000 files that I pulled down were 2 bytes large. (they contained an empty array).</p>
+
+<p>So, with much googling, I worked out a bash script to delete all of the really small files. yup.</p>
+
+<pre>find *.json -size -28c | xargs rm</pre>
+
+<p>I was in folder already so no file path necessary. Anyway, this deleted all of the files that ended with .json and were smaller than 28 bytes. I tried with 2 bytes, but it was hiccup-ing.</p>
+
+<p>Then I realized I needed to parse out the hymnal IDs so I know which hymnal information to add to my database. (Good news – there is place info in the hymnal CSV file. It’s not going to tell me all that much, but it’s enough to get a sense of where the publishing centers are. And it gives me something to map.) And that’s where I’ve slowed to a halt.</p>
+
+<p>I am having trouble getting my head around working with these json files. I know it’s been explained to me many times, and I know it’s an array of arrays, but I just can’t seem to find a basic intro to the syntax for working with it. So that is where I could use the most help this week.</p>
+
+  
+      </div>
+  </article>
+
+      </div>
+      <aside>
+        <h3>Recent Posts</h3>
+  <ul>
+    
+      <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
+    
+      <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
+    
+      <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
+    
+  </ul>
+<div class="block">
+    <h3>Categories</h3>
+      <ul>
+        
+          <li><a href="/blog/category/research.html">research (26)</a></li>
+        
+          <li><a href="/blog/category/digital.html">digital (45)</a></li>
+        
+          <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
+        
+          <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
+        
+      </ul>
+</div>
+<div class="hidden">
+  <h3>By Year</h3>
+  <ul>
+    
+      <li><a href="/blog/2014.html">2014</a> (1)</a></li>
+    
+      <li><a href="/blog/2013.html">2013</a> (4)</a></li>
+    
+      <li><a href="/blog/2012.html">2012</a> (47)</a></li>
+    
+      <li><a href="/blog/2011.html">2011</a> (16)</a></li>
+    
+      <li><a href="/blog/2010.html">2010</a> (2)</a></li>
+    
+  </ul>
+</div>
+      </aside>
+      <footer>
+        <div id="copyright">
+  <p>CC-BY Jeri Wieringa, 2014
+  <br/>Image circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
+</div>
+<div id="social" class="nav">
+  <ul>
+    <li><a href="http://twitter.com/jeriwieringa"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://github.com/jerielizabeth"><i class="fa fa-github"></i></a></li>
+    <li><a href="./blog/feed.xml"><i class="fa fa-rss"></i></a></li>
+  </ul>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35130770-1', 'jeriwieringa.com');
+  ga('send', 'pageview');
+
+</script>
+      </footer>
+    </div>
+  </body>
+</html>
