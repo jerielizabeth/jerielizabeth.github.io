@@ -122,16 +122,16 @@ body {
   padding-top: 1.5em; }
   /* line 46, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #image a {
-    color: #277fb7; }
+    color: #e4a250; }
     /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     #image a:visited {
-      color: #277fb7; }
+      color: #e4a250; }
     /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     #image a:hover {
-      color: #e4a250; }
+      color: #277fb7; }
     /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     #image a:active {
-      color: #ebba7c; }
+      color: #3c9ad5; }
 
 /* line 48, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #title h1 {
