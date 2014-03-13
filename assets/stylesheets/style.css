@@ -120,43 +120,55 @@ body {
   background-size: cover;
   background-position: center;
   padding-top: 1.5em; }
+  /* line 46, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  #image a {
+    color: #277fb7; }
+    /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    #image a:visited {
+      color: #277fb7; }
+    /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    #image a:hover {
+      color: #e4a250; }
+    /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    #image a:active {
+      color: #ebba7c; }
 
-/* line 47, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 48, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #title h1 {
   font-family: "Great Vibes", cursive;
   font-size: 6em;
   font-weight: 300;
   margin: 0; }
-  /* line 52, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 53, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #title h1 a {
     text-decoration: none; }
 
-/* line 56, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 57, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Forum", Georgia, serif; }
 
-/* line 59, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 60, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h1 {
   font-size: 40px; }
 
-/* line 62, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 63, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h2 {
   clear: both;
   padding: .5em 0;
   font-size: 32px; }
 
-/* line 67, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 68, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h3 {
   font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
   font-size: 24px; }
 
-/* line 71, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 72, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 aside h3 {
   padding: .5em 0;
   font-family: "Forum", Georgia, serif; }
 
 /*--- Link Styles --*/
-/* line 77, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 78, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 a {
   color: #277fb7;
   text-decoration: none; }
@@ -169,169 +181,169 @@ a {
   /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:active {
     color: #e4a250; }
-  /* line 80, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 81, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   a:hover {
     text-decoration: underline; }
 
 /*--- Navigation Styles --*/
-/* line 84, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 85, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 .nav {
   font-family: "Forum", Georgia, serif;
   overflow: auto; }
-  /* line 87, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 88, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   .nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none; }
-    /* line 91, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 92, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     .nav ul li {
       width: auto;
       float: left;
       padding-left: 1em; }
-    /* line 96, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 97, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     .nav ul a {
       text-decoration: none; }
-      /* line 98, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+      /* line 99, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
       .nav ul a:hover {
         text-decoration: underline; }
 
-/* line 104, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 105, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #primary-nav {
   font-size: 1.25em; }
 
-/* line 107, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 108, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #secondary-nav {
   font-size: 1.5em; }
-  /* line 109, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 110, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #secondary-nav .callout {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
     margin-right: 0; }
-    /* line 112, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 113, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     #secondary-nav .callout .header {
       font-family: "Forum", Georgia, serif;
       font-size: 1.25em;
       text-align: center;
       width: 100%;
       padding: .5em 0; }
-    /* line 119, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 120, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     #secondary-nav .callout p {
       font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
       font-size: 16px;
       padding: .5em 1.5em; }
 
-/* line 126, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 127, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #upper-nav {
   clear: both;
   float: left;
   padding: 0 0 1em 4em; }
-  /* line 130, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 131, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #upper-nav .important {
     font-family: "Forum", Georgia, serif;
     font-size: 1.25em;
     padding: 0 3em 0 0; }
 
-/* line 136, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 137, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #social {
   font-size: 1.5em; }
-  /* line 138, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 139, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #social ul li {
     padding-left: .75em; }
 
 /*--- Main Styles --*/
-/* line 143, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 144, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #full {
   clear: both; }
 
-/* line 146, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 147, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #blurb {
   font-weight: 300;
   padding: .5em 5em; }
 
-/* line 150, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 151, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 .entry {
   clear: both;
   padding: .5em 0;
   overflow: auto; }
 
-/* line 155, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 156, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 .portfolio {
   border: 1px solid #666;
   float: left;
   width: 45%; }
 
-/* line 160, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 161, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 .title {
   float: left;
   width: 45%;
   padding: 2em 1em 0 1em;
   font-size: 1.25em; }
-  /* line 165, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 166, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   .title p {
     margin-top: 0;
     font-size: 16px; }
 
-/* line 170, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 171, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 .tagline {
   font-size: .9em; }
 
 /*--- Blog Styles --*/
-/* line 174, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 175, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 #main {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
-  /* line 176, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 177, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #main h1 {
     margin-bottom: .5em;
     font-variant: small-caps; }
-  /* line 180, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 181, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #main h2 {
     padding-bottom: 0; }
-  /* line 183, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 184, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #main ul {
     list-style-type: none;
     padding-left: 0; }
-    /* line 186, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 187, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     #main ul li {
       padding: .5em 0; }
-  /* line 190, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 191, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #main .text {
     padding-top: .5em; }
-  /* line 193, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 194, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   #main .display-list {
     list-style-type: square;
     margin-left: 2em; }
-    /* line 196, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 197, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     #main .display-list li {
       padding: .25em; }
 
-/* line 201, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 202, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 aside {
   width: 23.72881%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline; }
-  /* line 203, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 204, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   aside h2 {
     padding: 0; }
-  /* line 206, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 207, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   aside h3 {
     padding: 0; }
-  /* line 209, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+  /* line 210, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   aside ul {
     list-style-type: none;
     padding: 0; }
-    /* line 212, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+    /* line 213, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     aside ul li {
       padding-bottom: .5em; }
 
 /*--- Footer Styles --*/
-/* line 219, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
+/* line 220, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 footer {
   clear: both; }
 
