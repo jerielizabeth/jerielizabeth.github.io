@@ -87,7 +87,7 @@
 /* line 23, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 body {
   font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #444444;
   margin: 0; }
 
@@ -137,18 +137,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 59, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h1 {
-  font-size: 35px; }
+  font-size: 40px; }
 
 /* line 62, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h2 {
   clear: both;
   padding: .5em 0;
-  font-size: 28px; }
+  font-size: 32px; }
 
 /* line 67, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 h3 {
   font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
-  font-size: 21px; }
+  font-size: 24px; }
 
 /* line 71, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 aside h3 {
@@ -219,7 +219,7 @@ a {
     /* line 119, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
     #secondary-nav .callout p {
       font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
-      font-size: 14px;
+      font-size: 16px;
       padding: .5em 1.5em; }
 
 /* line 126, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
@@ -271,7 +271,7 @@ a {
   /* line 165, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
   .title p {
     margin-top: 0;
-    font-size: 14px; }
+    font-size: 16px; }
 
 /* line 170, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen.scss */
 .tagline {
@@ -337,8 +337,8 @@ footer {
 
 /* -------------------------------------------------------------------------*/
 /* Screen - Mobile */
-@media (max-width: 720px) {
-  /* line 5, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+@media (max-width: 480px) {
+  /* line 5, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
   #wrap {
     max-width: 29em;
     padding-left: 1em;
@@ -354,70 +354,70 @@ footer {
       content: "";
       display: table;
       clear: both; }
-    /* line 11, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 11, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #title {
       width: 100%;
       float: right;
       margin-right: 0;
       padding: .5em .5em 0 1em; }
-    /* line 12, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 12, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #primary-nav {
       width: 65.51724%;
       float: right;
       margin-right: 0;
       padding: .5em 0 .5em; }
-    /* line 13, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 13, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #upper-nav {
       width: 82.75862%;
       float: right;
       margin-right: 0;
       padding-top: .5em; }
-    /* line 14, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 14, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #blurb {
       padding: .5em 1em; }
-    /* line 15, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 15, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #main {
       width: 100%;
       float: left;
       margin-right: 3.44828%;
       padding-top: .5em; }
-    /* line 16, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 16, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap aside {
       width: 100%;
       float: left;
       margin-right: 3.44828%;
       padding-top: .5em; }
-    /* line 17, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 17, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap .callout {
       width: 100%;
       float: left;
       margin-right: 3.44828%;
       text-align: center; }
-    /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #copyright {
       width: 65.51724%;
       float: left;
       margin-right: 3.44828%; }
-    /* line 19, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 19, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #social {
       width: 31.03448%;
       float: right;
       margin-right: 0;
       padding: 1em 0; }
-    /* line 20, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 20, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap footer {
       padding: 2em .5em; }
-    /* line 23, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 23, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap .hidden {
       display: none; }
-    /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #title h1 {
       margin: .5em 0 .5em .5em;
       font-size: 3.5em; }
-    /* line 31, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 31, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap .block li {
       float: left;
       padding-right: .5em; }
-    /* line 35, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_720px.scss */
+    /* line 35, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_screen_480px.scss */
     #wrap #upper-nav .important {
       padding-right: 1.5em; } }
