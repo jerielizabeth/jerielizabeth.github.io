@@ -5,16 +5,25 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>Jeri Wieringa</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
     <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-button").click(function () {
+            $(".nav-button,.primary-nav").toggleClass("open");
+            });    
+        });
+    </script>
 
-  <body>
-    <div id="wrap">
+  </head>  <body>
+   <div id="wrap">
       <header id="image">
-        <nav id="primary-nav" class="nav">
+        <button class="nav-button">Toggle Navigation</button>
+<nav class="primary-nav">
   <ul>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
@@ -25,22 +34,37 @@
 <div id="title">
   <h1><a href="/">Jeri E. Wieringa</a></h1>
 </div>
-<nav id="upper-nav" class="nav">
-    <ul>
-        <li class="important"><a href="/research.html">Research</a></li>
-        <li class="important"><a href="/digital.html">Digital</a></li>
-        <li class="important"><a href="/teaching.html">Teaching</a></li>
-    </ul>
-</nav>
+
       </header>
       <div id="main" role="main">
-          <p>Page 2 of 7</p>
+          <!--<p>Page 2 of 14</p>-->
 
   
     <p><a href="/blog/">Previous page</a></p>
   
 
-  <h2><a href="/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html">Short Tutorial: Cleaning up downloaded files (draft)</a> <span>Nov  4</span></h2>
+  <h2><a href="/blog/2012/12/06/social-gospel-and-missions.html">Social Gospel and Missions</a> <span>Dec  6</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p><em>Gender and the Social Gospel,</em> Wendy Deichmann Edwards and Carolyn De Swarte Gifford, eds.</p>
+
+<p>This series of essays focuses on the lack of attention to women and gender within the historical discourse around the social gospel movement. General topics and themes under consideration include the work of female social gospel leaders, the conservative gender ideas of major leaders, particularly Walter Rauschenbusch, and female theological contributions, albeit through unofficial channels. The commitment to influencing social structures in order to bring about a just (millennial) society, which was sought by both male and female actors, while also being understood differently by them, is emphasized throughout the book.</p>
+
+<p><em>The Gospel of Gentility: American Women Missionaries in Turn-of-the-Century China, </em>Jane Hunter</p>
+
+<p>Hunter’s book is an excellent study of the confluence of religion, gender, race, nationalism, and imperialism that occurred in the lives and actions of women missionaries in China at the turn of the 20th century. The main text of her study focuses on the experiences of American women in China, discussing the different gender expectations and experiences for married and single women, and the uniting desire to recreate an American domestic sphere within the Chinese context. Of particular interest are the ways single women especially found increase authority due to their position outside of the typical gender constructs of both cultures, and their increased tendency to incorporate themselves into Chinese culture.</p>
+
+<hr />
+
+<p>The millennial impulse is alive and well in both of these readings, as we move through the turn of the 20th century. The various actors within the social gospel movement, as highlighted throughout the essays compiled by Edwards and Gifford, are challenging social structures because of a vision of a just social order, a vision equated with the Kingdom of God on earth. The women in Turner’s analysis are also seeking a millennial goal, convinced that once the gospel is preached throughout the world, the end of time would be at hand.</p>
+
+<p>In both of these cases, understandings of gender are central to the vision of society and salvation being pursued. For many of the female advocates of the social gospel, gender equality is central to their idea of a just society, and the conflict between that goal and conservative opinions such as that of Rauschenbusch require further study. On the other side, despite the relatively conservative ideas about gender roles espoused by the missionaries, they saw themselves as bringing liberation to women in China, liberation in the form of domesticity. This liberation of women is tied to their belief that female conversion is instrumental for societal conversion, and so was central to their goal of converting the world for Christ.</p>
+
+<p>While the essays in <em>Gender and the Social Gospel </em>begin the work of reintegrating female actors and questions of gender into the historical narrative, it is clear there is much work left to be done. Because of the variety of ideas and actions pursued under the rubric of affecting social structures to create a just society, definitions are still being negotiated. The social gospel movement, like evangelicalism, is a slippery topic, hard to pin down and classify. Also, the variety of opinions about what constitutes a just society further complicates the issues. A more focused study of gender that focuses on the efforts of people within a particular area or organization intentionally under the rubric of the “Social Gospel” would be a useful follow-up to this more general call for scholarship.</p>
+
+<p>One complaint, or possibility for further work, with Hunter’s analysis is the narrow focus on the goals and experiences of the white missionaries. While her last chapter emphasizes the ways in which Chinese women actively shaped the message they received for their own ends, that line of analysis does not extend throughout the book. Instead, her focus on the missionary experience of gender leaves that aspect of the exchange in need of further development. However, this is more a request for an additional study than a serious complaint with the current.</p>
+
+  <h2><a href="/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html">Short Tutorial: Cleaning up downloaded files</a> <span>Nov 28</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>So you used wget or Python to pull down a collection of files from the web. Excellent! But in looking through your loot, you notice that a number of the files are oddly small and, on further examination, find that they are functionally empty. How do you clean up your collection of files quickly?</p>
@@ -51,13 +75,7 @@
 
 <pre>cd Documents/Github/Clio3/Webscraping/hymn-files</pre>
 
-<p>Once in the folder with your downloaded files, you need to find a way to isolate out the files that are too small to be interesting. To do this, use the “find” command. First, to see the various options associated with “find”, enter</p>
-
-<pre>man help</pre>
-
-<p>Use the up and down arrows to move around the window that appears. Look around at the various options – there are many! However, because we are looking only in a particular folder, which in my case has no subfolders, all that we need to look at for now is size.</p>
-
-<p>To exit this window, type “q”.</p>
+<p>Once in the folder with your downloaded files, you need to find a way to isolate out the files that are too small to be interesting. To do this, use the “find” command.</p>
 
 <p>If the files we are interested in sorting through are all one file type (in my case they’re .json files), we can tell the computer to find all of the files of a particular type and particular size as follows:</p>
 
@@ -69,542 +87,134 @@
 
 <pre>find *.json -size -28c</pre>
 
+<p>This is important in my case because the files are not truly empty. There is a simple way to identify truly empty files, if that is more appropriate for your data.</p>
+
+<pre>find *.json -empty</pre>
+
+<p>You can also add</p>
+
+<pre>-maxdepth 1</pre>
+
+<p>if there are additional folders that you do not want to work through.</p>
+
 <p>Finding the files is great, but now we need to do something with that collection of files.</p>
 
-<p>First we are going to “pipe” the results of our search over to our second, removal, function.</p>
+<p>There are two ways you can do this. First, you can simply add a delete option to your command, as follows</p>
 
-<p>(From here on the examples are showing how the command is built – Do not run the command until the very end when all the pieces are in place)</p>
+<pre>find *.json -size -28c -delete</pre>
 
-<pre>find *.json -size -28c |</pre>
-
-<p>Next we are going to use xargs, which helps the computer handle a long list of file names.</p>
-
-<p>Note: The wikipedia entry on xargs suggests using “-0″ (zero) when dealing with file names with spaces in them as xargs defaults to separating at white space (another reason to avoid spaces in filenames). If you run this command without -0 and it doesn’t work, try adding the -0.</p>
-
-<pre>find *.json -size -28c | xargs</pre>
-
-<p>And the function we want to run on each filename is “rm” or remove. rm has a number of options that you can research, some of which really make data un-recoverable and should be used with care. However, a basic “rm” command will be sufficient for this example.</p>
+<table>
+  <tbody>
+    <tr>
+      <td>In general, this should work. However, if you are dealing with a large number of files, it is often better to use a pipe (“</td>
+      <td>”). The pipe takes the results of the first command and feeds them to the second command. In the example below, we are taking the results of the find command and passing them to the remove command (“rm”).</td>
+    </tr>
+  </tbody>
+</table>
 
 <pre>find *.json -size -28c | xargs rm</pre>
+
+<p>You will notice that we included “xargs” on the right side of the pipe. Xargs helps the computer handle a long list of file names.</p>
+
+<p>Note: The Wikipedia entry on xargs suggests using “-0″ (zero) when dealing with file names with spaces in them as xargs defaults to separating at white space (another reason to avoid spaces in filenames). If you run this command without -0 and it doesn’t work, try adding the -0.</p>
+
+<p>And the command we are running on each filename is “rm” or remove. rm has a number of options that you can research, some of which really make data un-recoverable and should be used with care. However, a basic “rm” command will be sufficient for this example.</p>
 
 <p>Run this command to remove all of the files less than 28 bytes from your current directory.</p>
 
 <p>(I used 28 bytes because the computer was having trouble with 0 and all of the files I wanted to keep were larger than 28 bytes. Not exactly sure why 0 was a problem but this is why experimenting with the find options before moving on to removing the files is a good idea!)</p>
 
-  <h2><a href="/blog/2012/11/04/beautiful-soup-tutorial.html">Beautiful Soup Tutorial</a> <span>Nov  4</span></h2>
+  <h2><a href="/blog/2012/11/20/looking-outside-the-protestant-bubble.html">Looking outside the Protestant bubble</a> <span>Nov 20</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p><em>(This tutorial is cross posted at <a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup">The Programming Historian</a>)</em> </p>
+  <p>Maureen Fitzgerald, <em>Habits of Compassion</em></p>
 
-<p>Version: Python 2.7.2 and BeautifulSoup 4.</p>
+<p><em>Habits of Compassion </em>looks at the history of relief work in New York city by focusing on the efforts of Irish Catholic nuns, a focus that is part of a larger effort to address the tendency in women’s history to give insufficient attention to the ways “non-dominant cultures and poor women” influenced the efforts of the dominant culture (7). She highlights the competing gender systems between the Irish nuns and the Protestant reform workers and argues that the eventual adoption of scientific charity by Catholics is the largest loss to the general discourse about poverty and relief.</p>
 
-<p>This tutorial assumes basic knowledge of HTML, CSS, and the Document Object Model. It also assumes some knowledge of Python. For a more basic introduction to Python, see <a href="http://programminghistorian.org/lessons/working-with-text-files">Working with Text Files</a>. Most of the work is done in the terminal. For an introduction to using the terminal, see the Scholar’s Lab <a href="http://praxis.scholarslab.org/tutorials/bash/">Command Line Bootcamp</a> tutorial.</p>
+<p>Karla Goldman, <em>Beyond the Synagogue Gallery</em></p>
 
-<h2 id="what-is-beautiful-soup">What is Beautiful Soup?</h2>
+<p>Goldman examines the changing discourse around role and place of women in Jewish life by examining the changes in the physical space women occupied and the debates surrounding those changes. The study is brilliantly conceived and offer a particularly useful example of how, despite little written that directly discusses women, this issue of physical space makes the surrounding conversation apparent. Goldman traces the changes largely to efforts within the Jewish community to gain respectability and to incorporate, in some ways at least, Victorian ideas about female religiosity. The adoption of family pews and the end of the female balcony coincides with increasingly rigid understandings of gender roles and an increased focus on the domestic sphere for women.</p>
 
-<h3 id="overview">Overview</h3>
+<p>Kathleen Sprows Cummings, <em>New Women of the Old Faith</em></p>
 
-<p>“You didn’t write that awful page. You’re just trying to get some data out of it. Beautiful Soup is here to help.” (<a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">Opening lines of Beautiful Soup</a>) Beautiful Soup is a Python library for getting data out of HTML, XML, and other markup languages. Say you’ve found some webpages that display data relevant to your research, such as date or address information, but that do not provide any way of downloading the data directly. Beautiful Soup helps you pull particular content from a webpage, remove the HTML markup, and save the information. It is a tool for web scraping that helps you clean up and parse the documents you have pulled down from the web. The <a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup documentation</a> will give you a sense of variety of things that the Beautiful Soup library will help with, from isolating titles and links, to extracting all of the text from the html tags, to altering the HTML within the document you’re working with.</p>
-
-<h3 id="installing-beautiful-soup">Installing Beautiful Soup</h3>
-
-<p>Installing Beautiful Soup is easiest if you have pip or another Python installer already in place. If you don’t have pip, run through a quick tutorial on <a href="http://programminghistorian.org/lessons/installing-pip-and-beautiful-soup">installing both pip and Beautiful Soup</a> to get it running. Once you have pip installed, run the following command in the terminal to install Beautiful Soup:</p>
-
-<pre class="brush: plain; title: ; notranslate" title="">pip install beautifulsoup4</pre>
-
-<p>You may need to preface this line with “sudo”, which gives your computer permission to write to your root directories and requires you to re-enter your password. This is the same logic behind you being prompted to enter your password when you install a new program. With sudo, the command is:</p>
-
-<pre class="brush: plain; title: ; notranslate" title="">sudo pip install beautifulsoup4</pre>
-
-<div class="wp-caption aligncenter" style="width: 370px">
-  <a href="http://xkcd.com/149/"><img alt="" src="http://imgs.xkcd.com/comics/sandwich.png" width="360" height="299" /></a><p class="wp-caption-text">
-    The power of sudo<br />&#8220;Sandwich&#8221; by XKCD
-  </p>
-</div>
-
-<h2 id="application-extracting-names-and-urls-from-an-html-page">Application: Extracting names and URLs from an HTML page</h2>
-
-<h3 id="preview-where-we-are-going">Preview: Where we are going</h3>
-
-<p>Because I like to see where the finish line is before starting, I will begin with a view of what we are trying to create. We are attempting to go from a search results page where the html page looks like this:</p>
-
-<pre class="brush: plain; title: ; notranslate" title="">&lt;/pre&gt;
-&lt;table border="1" cellspacing="2" cellpadding="3"&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;th&gt;Member Name&lt;/th&gt;
-&lt;th&gt;Birth-Death&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000035"&gt;ADAMS, George Madison&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1837-1920&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000074"&gt;ALBERT, William Julian&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1816-1879&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000077"&gt;ALBRIGHT, Charles&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1830-1880&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre&gt;</pre>
-
-<p>to a CSV file with names and urls that looks like this:</p>
-
-<pre>"ADAMS, George Madison",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000035
-"ALBERT, William Julian",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000074
-"ALBRIGHT, Charles",http://bioguide.congress.gov/scripts/biodisplay.pl?index=A000077</pre>
-
-<p>using a Python script like this:</p>
-
-<pre class="brush: python; title: ; notranslate" title="">from bs4 import BeautifulSoup
-import csv
- 
-soup = BeautifulSoup (open("43rd-congress.html"))
- 
-final_link = soup.p.a
-final_link.decompose()
- 
-f = csv.writer(open("43rd_Congress.csv", "w"))
-f.writerow(["Name", "Link"])    # Write column headers as the first line
- 
-links = soup.find_all('a')
-for link in links:
-    names = link.contents[0]
-    fullLink = link.get('href')
- 
-    f.writerow([names,fullLink])
-</pre>
-
-<p>This tutorial explains to how to assemble the final code.</p>
-
-<h3 id="get-a-webpage-to-scrape">Get a webpage to scrape</h3>
-
-<p>The first step is getting a copy of the HTML page(s) want to scrape. You can combine BeautifulSoup with <a href="http://urllib3.readthedocs.org/en/latest/">urllib3</a> to work directly with pages on the web. This tutorial, however, focuses on using BeautifulSoup with local (downloaded) copies of html files. The Congressional database that we’re using is not an easy one to scrape because the URL for the search results remains the same regardless of what you’re searching for. While this can be bypassed programmatically, it is easier for our purposes to go to <a href="http://bioguide.congress.gov/biosearch/biosearch.asp" target="_blank">http://bioguide.congress.gov/biosearch/biosearch.asp</a>, search for Congress number 43, and to save a copy of the results page.</p>
-
-<div id="attachment_2108" class="wp-caption aligncenter" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12.jpg"><img class="size-medium wp-image-2108 " alt="Figure 1: BioGuide Interface Search for 43rd Congress " src="http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-CLERKWEB-2013-08-23-12-22-12-300x258.jpg" width="300" height="258" /></a><p class="wp-caption-text">
-    Figure 1: BioGuide Interface<br />Search for 43rd Congress
-  </p>
-</div>
-
-<div id="attachment_2109" class="wp-caption aligncenter" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09.jpg"><img class="size-medium wp-image-2109 " alt="Figure 2: BioGuide Results We want to download the HTML behind this page." src="http://programminghistorian.org/wp-content/uploads/2012/12/Congressional-Biographical-Directory-Results-2013-08-23-12-25-09-300x234.jpg" width="300" height="234" /></a><p class="wp-caption-text">
-    Figure 2: BioGuide Results<br />We want to download the HTML behind this page
-  </p>
-</div>
-
-<p>Selecting “File” and “Save Page As …” from your browser window will accomplish this (life will be easier if you avoid using spaces in your filename). I have used “43rd-congress.html”. Move the file into the folder you want to work in. (To learn how to automate the downloading of HTML pages using Python, see <a href="http://programminghistorian.org/lessons/automated-downloading-with-wget">Automated Downloading with Wget</a> and <a href="http://programminghistorian.org/lessons/downloading-multiple-records-using-query-strings">Downloading Multiple Records Using Query Strings</a>.)</p>
-
-<h3 id="identify-content">Identify content</h3>
-
-<p>One of the first things Beautiful Soup can help us with is locating content that is buried within the HTML structure. Beautiful Soup allows you to select content based upon tags (example: soup.body.p.b finds the first bold item inside a paragraph tag inside the body tag in the document). To get a good view of how the tags are nested in the document, we can use the method “prettify” on our soup object. Create a new text file called “soupexample.py” in the same location as your downloaded HTML file. This file will contain the Python script that we will be developing over the course of the tutorial. To begin, import the Beautiful Soup library, open the HTML file and pass it to Beautiful Soup, and then print the “pretty” version in the terminal.</p>
-
-<pre class="brush: python; title: ; notranslate" title="">from bs4 import BeautifulSoup soup = BeautifulSoup(open("43rd-congress.html")) print(soup.prettify()) </pre>
-
-<p>Save “soupexample.py” in the folder with your HTML file and go to the command line. Navigate (use ‘cd’) to the folder you’re working in and execute the following:</p>
-
-<pre class="brush: plain; title: ; notranslate" title="">python soupexample.py</pre>
-
-<p>You should see your terminal window fill up with a nicely indented version of the original html text (see Figure 3). This is a visual representation of how the various tags relate to one another.</p>
-
-<div id="attachment_2110" class="wp-caption aligncenter" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01.jpg"><img class="size-medium wp-image-2110 " alt="Figure 3: &quot;Pretty&quot; print of the BioGuide results" src="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-13-01-300x242.jpg" width="300" height="242" /></a><p class="wp-caption-text">
-    Figure 3: &#8220;Pretty&#8221; print of the BioGuide results
-  </p>
-</div>
-
-<h3 id="using-beautifulsoup-to-select-particular-content">Using BeautifulSoup to select particular content</h3>
-
-<p>Remember that we are interested in only the names and URLs of the various member of the 43rd Congress. Looking at the ”pretty” version of the file, the first thing to notice is that the data we want is not too deeply embedded in the HTML structure. Both the names and the URLs are, most fortunately, embedded in “<a>” tags. So, we need to isolate out all of the “<a>” tags. We can do this by updating the code in “soupexample.py” to the following:</a></a></p>
-
-<pre class="brush: python; highlight: [5,7,8]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-links = soup.find_all('a')
-
-for link in links:
-    print link
-</pre>
-
-<p>Save and run the script again to see all of the anchor tags in the document.</p>
-
-<pre class="brush: plain; title: ; notranslate" title="">python soupexample.py</pre>
-
-<p>One thing to notice is that there is an additional link in our file – the link for an additional search.</p>
-
-<div id="attachment_2112" class="wp-caption alignnone" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56.jpg"><img class="size-medium wp-image-2112" alt="Figure 4: The URLs and names, plus one addition." src="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-25-56-300x164.jpg" width="300" height="164" /></a><p class="wp-caption-text">
-    Figure 4: The URLs and names, plus one addition
-  </p>
-</div>
-
-<p>We can get rid of this with just a few lines of code. Going back to the pretty version, notice that this last “<a>” tag is not within the table but is within a “&lt;p&gt;” tag.</a></p>
-
-<div id="attachment_2111" class="wp-caption alignnone" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07.jpg"><img class="size-medium wp-image-2111" alt="Figure 4: The rogue link" src="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-103×40-2013-08-23-13-23-07-300x242.jpg" width="300" height="242" /></a><p class="wp-caption-text">
-    Figure 5: The rogue link
-  </p>
-</div>
-
-<p>Because Beautiful Soup allows us to modify the HTML, we can remove the “<a>” that is under the “&lt;p&gt;” before searching for all the “<a>” tags. To do this, we can use the “decompose” method, which removes the specified content from the “soup”. Do be careful when using “decompose”—you are deleting both the HTML tag and all of the data inside of that tag. If you have not correctly isolated the data, you may be deleting information that you wanted to extract. Update the file as below and run again.</a></a></p>
-
-<pre class="brush: python; highlight: [5,6]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-links = soup.find_all('a')
-
-for link in links:
-    print link
-</pre>
-
-<div id="attachment_2113" class="wp-caption alignnone" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04.jpg"><img class="size-medium wp-image-2113" alt="Figure 6: Successfully isolated only names and URLs" src="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-13-28-04-300x164.jpg" width="300" height="164" /></a><p class="wp-caption-text">
-    Figure 6: Successfully isolated only names and URLs
-  </p>
-</div>
-
-<p>Success! We have isolated out all of the links we want and none of the links we don’t!</p>
-
-<h3 id="stripping-tags-and-writing-content-to-a-csv-file">Stripping Tags and Writing Content to a CSV file</h3>
-
-<p>But, we are not done yet! There are still HTML tags surrounding the URL data that we want. And we need to save the data into a file in order to use it for other projects. In order to clean up the HTML tags and split the URLs from the names, we need to isolate the information from the anchor tags. To do this, we will use two powerful, and commonly used Beautiful Soup methods: contents and get. Where before we told the computer to print each link, we now want the computer to separate the link into its parts and print those separately. For the names, we can use link.contents. The “contents” method isolates out the text from within html tags. For example, if you started with</p>
-
-<pre>&lt;h2&gt;This is my Header text&lt;/h2&gt;</pre>
-
-<p>you would be left with “This is my Header text” after applying the contents method. In this case, we want the contents inside the first tag in “link”. (There is only one tag in “link”, but since the computer doesn’t realize that, we must tell it to use the first tag.) For the URL, however, “contents” does not work because the URL is part of the HTML tag. Instead, we will use “get”, which allow us to pull the text associated with (is on the other side of the “=” of) the “href” element.</p>
-
-<pre class="brush: python; highlight: [10,11,12,13]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-links = soup.find_all('a')
-for link in links:
-    names = link.contents[0]
-    fullLink = link.get('href')
-    print names
-    print fullLink
-</pre>
-
-<div id="attachment_2114" class="wp-caption alignnone" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13.jpg"><img class="size-medium wp-image-2114" alt="Figure 7: All HTML tags have been removed" src="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-101×26-2013-08-23-14-13-13-300x164.jpg" width="300" height="164" /></a><p class="wp-caption-text">
-    Figure 7: All HTML tags have been removed
-  </p>
-</div>
-
-<p>Finally, we want to use the CSV library to write the file. First, we need to import the CSV library into the script with “import csv.” Next, we create the new CSV file when we “open” it using “csv.writer”. The “w” tells the computer to “write” to the file. And to keep everything organized, let’s write some column headers. Finally, as each line is processed, the name and URL information is written to our CSV file.</p>
-
-<pre class="brush: python; highlight: [2,9,10,14,15,17]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-import csv
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-f = csv.writer(open("43rd_Congress.csv", "w"))
-f.writerow(["Name", "Link"]) # Write column headers as the first line
-
-links = soup.find_all('a')
-for link in links:
-    names = link.contents[0]
-    fullLink = link.get('href')
-
-    f.writerow([names, fullLink])
-</pre>
-
-<p>When executed, this gives us a clean CSV file that we can then use for other purposes.</p>
-
-<div id="attachment_2115" class="wp-caption alignnone" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/43rd_Congress-2-2013-08-23-14-18-27.jpg"><img class="size-medium wp-image-2115" alt="Figure 8: CSV file of results" src="http://programminghistorian.org/wp-content/uploads/2012/12/43rd_Congress-2-2013-08-23-14-18-27-300x125.jpg" width="300" height="125" /></a><p class="wp-caption-text">
-    Figure 8: CSV file of results
-  </p>
-</div>
-
-<p>We have solved our puzzle and have extracted names and URLs from the HTML file.</p>
+<p>Cummings’ book is a study of four Catholic women as a way of discussing in a more nuanced way Catholic reactions to the “New Woman” of the early 20th century. Her project is to show how, despite harsh criticism, Catholic women used various strategies to claim some of the ideas promoted by “New Women” and reframe them within the Catholic faith. She looks at efforts to promote educational opportunities for women and the efforts to use Catholic women of the past to claim a powerful role for women within the Church. Her last chapter focuses on reclaiming the rhetoric of Katherine Conway, best known for her anti-suffrage campaigns. She argues that strong feminist beliefs, though different than those guiding those working for suffrage, guided Conway’s argument against the vote and that she should be seen as a much more complex figure than she is usually portrayed.</p>
 
 <hr />
 
-<h2 id="but-wait-what-if-i-want-all-of-the-data">But wait! What if I want ALL of the data?</h2>
+<p>A couple of thoughts and concerns for discussion:</p>
 
-<p>Let’s extend our project to capture all of the data from the webpage. We know all of our data can be found inside a table, so let’s use “&lt;tr&gt;” to isolate the content that we want.</p>
+<ul>
+  <li>Fitzgerald also discusses Jewish efforts to provide their own relief for children and the poor. However, the main discussion in the book is the interaction between Catholic and Protestant organizations and individual people, so that this inclusion feels more like a bulstering of the arguments about Catholics than a sustained analysis. At the same time, expanding to a more thorough discussion of Jewish poverty relief would make the book unwieldy. I would like the think through that balance of bringing additional voices into the narrative in a productive way while also maintaining a well defined project.</li>
+</ul>
 
-<pre class="brush: python; highlight: [8,9,10]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-trs = soup.find_all('tr')
-for tr in trs:
-    print tr
-</pre>
-
-<p>Looking at the print out in the terminal, you can see we have selected a lot more content than when we searched for “<a>” tags. Now we need to sort through all of these lines to separate out the different types of data.</a></p>
-
-<div id="attachment_2117" class="wp-caption alignnone" style="width: 310px">
-  <a href="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22.jpg"><img class="size-medium wp-image-2117" alt="Figure 8: All of the Table Row data" src="http://programminghistorian.org/wp-content/uploads/2012/12/Beautiful-Soup-Tutorial-—-bash-—-142×40-2013-08-23-16-51-22-300x176.jpg" width="300" height="176" /></a><p class="wp-caption-text">
-    Figure 8: All of the Table Row data
-  </p>
+<div>
+  <span style="font-size: medium;"><br /> </span>
 </div>
 
-<h3 id="extracting-the-data">Extracting the Data</h3>
-
-<p>We can extract the data in two moves. First, we will isolate the link information; then, we will parse the rest of the table row data. For the first, let’s create a loop to search for all of the anchor tags and “get” the data associated with “href”.</p>
-
-<pre class="brush: python; highlight: [12,13,14]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-trs = soup.find_all('tr')
-
-for tr in trs:
-    for link in tr.find_all('a'):
-        fulllink = link.get ('href')
-        print fulllink #print in terminal to verify results
-</pre>
-
-<p>We then need to run a search for the table data within the table rows. (The “print” here allows us to verify that the code is working but is not necessary.)</p>
-
-<pre class="brush: python; highlight: [15,16]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-trs = soup.find_all('tr')
-
-for tr in trs:
-    for link in tr.find_all('a'):
-        fulllink = link.get ('href')
-        print fulllink #print in terminal to verify results
-
-    tds = tr.find_all("td")
-    print tds
-</pre>
-
-<p>Next, we need to extract the data we want. We know that everything we want for our CSV file lives within table data (“td”) tags. We also know that these items appear in the same order within the row. Because we are dealing with lists, we can identify information by its position within the list. This means that the first data item in the row is identified by [0], the second by <a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup">1</a>, etc. Because not all of the rows contain the same number of data items, we need to build in a way to tell the script to move on if it encounters an error. This is the logic of the “try” and “except” block. If a particular line fails, the script will continue on to the next line.</p>
-
-<pre class="brush: python; highlight: [17,18,19,20,21,22,23,24,25,26,27,28,29]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-trs = soup.find_all('tr')
-
-for tr in trs:
-    for link in tr.find_all('a'):
-        fulllink = link.get ('href')
-        print fulllink #print in terminal to verify results
-
-    tds = tr.find_all("td")
-
-    try: #we are using "try" because the table is not well formatted. This allows the program to continue after encountering an error.
-        names = str(tds[0].get_text()) # This structure isolate the item by its column in the table and converts it into a string.
-        years = str(tds[1].get_text())
-        positions = str(tds[2].get_text())
-        parties = str(tds[3].get_text())
-        states = str(tds[4].get_text())
-        congress = tds[5].get_text()
-
-    except:
-        print "bad tr string"
-        continue #This tells the computer to move on to the next item after it encounters an error
-
-    print names, years, positions, parties, states, congress
-</pre>
-
-<p>Within this we are using the following structure:</p>
-
-<pre class="brush: python; title: ; notranslate" title="">years = str(tds[1].get_text())</pre>
-
-<p>We are applying the “get_text” method to the 2nd element in the row (because computers count beginning with 0) and creating a string from the result. This we assign to the variable “years”, which we will use to create the CSV file. We repeat this for every item in the table that we want to capture in our file.</p>
-
-<h3 id="writing-the-csv-file">Writing the CSV file</h3>
-
-<p>The last step in this file is to create the CSV file. Here we are using the same process as we did in Part I, just with more variables. As a result, our file will look like:</p>
-
-<pre class="brush: python; highlight: [2,9,10,32]; title: ; notranslate" title="">from bs4 import BeautifulSoup
-import csv
-
-soup = BeautifulSoup (open("43rd-congress.html"))
-
-final_link = soup.p.a
-final_link.decompose()
-
-f= csv.writer(open("43rd_Congress_all.csv", "w"))   # Open the output file for writing before the loop
-f.writerow(["Name", "Years", "Position", "Party", "State", "Congress", "Link"]) # Write column headers as the first line
-
-trs = soup.find_all('tr')
-
-for tr in trs:
-    for link in tr.find_all('a'):
-        fullLink = link.get ('href')
-
-    tds = tr.find_all("td")
-
-    try: #we are using "try" because the table is not well formatted. This allows the program to continue after encountering an error.
-        names = str(tds[0].get_text()) # This structure isolate the item by its column in the table and converts it into a string.
-        years = str(tds[1].get_text())
-        positions = str(tds[2].get_text())
-        parties = str(tds[3].get_text())
-        states = str(tds[4].get_text())
-        congress = tds[5].get_text()
-
-    except:
-        print "bad tr string"
-        continue #This tells the computer to move on to the next item after it encounters an error
-
-    f.writerow([names, years, positions, parties, states, congress, fullLink])
-</pre>
-
-<p>You’ve done it! You have created a CSV file from all of the data in the table, creating useful data from the confusion of the html page.</p>
-
-
-  <h2><a href="/blog/2012/11/01/question-for-this-weeks-digital-praxis.html">Question for this week&#8217;s Digital Praxis</a> <span>Nov  1</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>So I’ve been working on text-mining all week and that has generally gone very well.</p>
-
-<p>I am a little less confident on the libraries used to create visualizations from text-mining results using python. The main one I have seen referenced is <a href="http://matplotlib.org/1.1.1/">matplotlab</a>, which is slightly intimidating and feels more science/math focused.</p>
-
-<p>Are there python libraries that humanities types use for visualizations? Are other languages/programs preferred? How do you create the graphical representation of your humanities data?</p>
-
-<p>(I may be jumping ahead a bit here, but I have this list of word frequencies and it feels sad to leave it as a list.)</p>
-
-
-  <h2><a href="/blog/2012/10/18/mormon-week.html">Mormon Week</a> <span>Oct 18</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>Terryl L. Givens, <span style="text-decoration: underline;">People of Paradox: A History of Mormon Culture</span></p>
-
 <ul>
-  <li>Givens approaches the study of Mormon culture by focusing first on what he describes as five major tensions within Mormon thoughts (authority vs. individualism, searching vs. certitude, disintegration of sacred distance, exile vs. integration, American vs. universal) and then looking at how those tensions play out in the cultural arenas of intellectual thought, architectures, music, theater, literature, and visual (fine) art. He identifies 1890 (the official end of polygamy) as a division point between two phases of cultural development and both insists on and argues for Mormonism as a particularly American religion.</li>
+  <li>A couple of little questions for Goldman. For one, her discussion on 192 about membership being granted to women only beginning around 1895 leaves me wondering what is required for membership in her discussion. She compares evangelical groups who also excluded women from leadership and voting roles, however, in these groups membership is understood differently – one can be a member and can be disciplined as one even without the ability to vote about administrative issues. Also, I am curious about pews. While she doesn’t address it, in one of the examples, pews were brought in as part of the reforming changes. It is not really important to the argument, but always interesting to me that sitting in pews is itself an innovation in religious practice, though one that occurs at different times for different traditions.</li>
 </ul>
 
-<p>Lawrence Foster, <span style="text-decoration: underline;">Women, Family and Utopia: Communal Experiments of the Shakers, the Oneida Community, and the Mormons</span>.</p>
+<div>
+  <span style="font-size: medium;"><br /> </span>
+</div>
 
 <ul>
-  <li>Foster is expanding his earlier work on religion and sexuality. He argues for studying groups who offer a more radical reaction to social reorganization by claiming that their responses reveal the general tensions and issues, that they are carrying the logic of the possible solutions to their conclusions and so, with careful reading, allow us to see those more general patterns. He focuses on questions of how these groups understood themselves, looking less to explain them or determine their success than to draw attention to how they constructed their world and what problems that construction sought to address. His conclusion offers an excellent summary of his major points for each group.</li>
+  <li>While I think I understand what “Americanism” is from the reading, it would be helpful to discuss this more. I was unaware of this controversy.</li>
 </ul>
 
-<p>—————-</p>
-
-<p>This weeks readings were both interesting and a little disappointing. We knew going in that there needed to be some reading against the text — secondary literature on women in Mormonism is relatively non-existent and that which is focuses largely on the polygamy issue.</p>
-
-<p>After reading the introduction to Givens’ book, the general scarcity of women in his analysis makes sense – it is a structural consequence of his definitional choices. His analysis focuses on the more systematic and often more male-driven aspects of culture — the thought systems, the creation of fine art, etc — areas where there is female influence, but that is generally speaking dominantly male. As a result, areas of popular culture, like crafts and vernacular arts, household decorations, art that offers a glimpse of one aspect of women’s culture, is left outside of the analysis. Also, his choice to focus primarily on art created for religious purposes makes it more difficult for him to find the types of creative tensions he is looking for.</p>
-
-<p>In addition, it is not clear to me that the tensions and paradoxes described by Givens’ are particular to the Latter-Day Saints. While they are resolved in particular and often inventive ways, the five tensions he describes can just as easily describe many if not every other branch of Christian thought and practice.</p>
-
-<p>Foster’s approach in his analysis is closer to what I hope to do in mine, in that he attempts to understand these movement on their own terms. He, however, is focused on the social aspects of the imagination at play in these communities much more than the religious aspects, although these are very mutually informing. Style and repetition concerns aside, it is a very useful book for starting to look at these communities in terms of their own internal logic and goals.</p>
-
-<p>One major weakness in both of these works is the general silence on questions of race and class. This is particularly noticeable in Foster, in that a discussion of the construction of gender without these problematic. Givens looks less at gender, but his ability to deal with questions of race and class is also hampered by his choice to identify culture in ways that make those questions less apparent.</p>
-
-<p>Coming out of these readings, there are a couple of themes that I am seeing repeated across the works that might provide interesting starting points for my own analysis. First, is the anxiety over interpretation and salvation that seems to be growing with the emphasis on individual authority over interpretation and the necessity of sure knowledge/experience of salvation. Second, and related, is the collapse of sacred distance. This one is a bit more complicated than Givens’ goes into – while he uses this to denote the breakdown between the categories of sacred and secular in Mormonism, with men becoming gods and God becoming like men, I am more interested in the reaching for connection with the divine, the efforts to bridge the distance between sacred and secular and to increase the experience of the sacred. Third, and again related, is the search for a sure experience, for something known and undoubtable. This type of search has parallels in the philosophical works of the day and while searching for assurance is well documented in studies of Puritan New England, there appears to be a particular crisis of knowledge being reacted against. And fourth is the primitivist impulse, the desire to go back to some unpolluted point and to recreate the world based upon that pure model.</p>
-
-  <h2><a href="/blog/2012/10/18/its-october-and-ive-run-out-of-catchy-titles.html">It&#8217;s October and I&#8217;ve run out of catchy titles &#8230;</a> <span>Oct 18</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>So, this week was both productive and not. I find that I learn in circles – I have to go over things about 3 times for connections between things to get to the point that I feel like I have learned something. (They told us this in philosophy too –  read it 3 times to understand what is going on. Now, if they assigned the same thing 3 times …)</p>
-
-<p>Anyway, in light of this pattern, I went back to some tutorials. I spent too much time on the first 17 tutorials of “<a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a>” and then, because I got a bit distractable at that point, did the first 13 of “<a href="http://sql.learncodethehardway.org/">Learn SQL the Hard Way</a>.” (I have a feeling <a href="http://regex.learncodethehardway.org/book/">“Learn Regex…”</a> is in my future …)</p>
-
-<p>At any rate, the SQL tutorials were really helpful in a, “well, duh. I should’ve picked up on that” sort of way. So I tweaked my pages to have one query for showing both text and author information, which is super useful and makes everything much cleaner and less confusing. I’ll push that up to my server so to update <a href="http://clio3.jeriwieringa.com">clio3.jeriwieringa.com</a>.</p>
-
-<p>There is still more to do with that, but I got distracted again by all of the files I pulled down last week. (seriously, grad school is turning me into a goldfish… ) At any rate, there was a small problem that most of the 2000 files that I pulled down were 2 bytes large. (they contained an empty array).</p>
-
-<p>So, with much googling, I worked out a bash script to delete all of the really small files. yup.</p>
-
-<pre>find *.json -size -28c | xargs rm</pre>
-
-<p>I was in folder already so no file path necessary. Anyway, this deleted all of the files that ended with .json and were smaller than 28 bytes. I tried with 2 bytes, but it was hiccup-ing.</p>
-
-<p>Then I realized I needed to parse out the hymnal IDs so I know which hymnal information to add to my database. (Good news – there is place info in the hymnal CSV file. It’s not going to tell me all that much, but it’s enough to get a sense of where the publishing centers are. And it gives me something to map.) And that’s where I’ve slowed to a halt.</p>
-
-<p>I am having trouble getting my head around working with these json files. I know it’s been explained to me many times, and I know it’s an array of arrays, but I just can’t seem to find a basic intro to the syntax for working with it. So that is where I could use the most help this week.</p>
-
-
-  <h2><a href="/blog/2012/10/12/slides-with-links.html">Slides with Links</a> <span>Oct 12</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>Here are the slides I had up last night for reference purposes:</p>
-
-  <h2><a href="/blog/2012/10/11/learning-how-to-scrape-or-how-to-fill-up-your-harddrive-really-quickly.html">Learning how to scrape (or how to fill up your harddrive really quickly)</a> <span>Oct 11</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>This week I have focused on learning some of the tricks and tips for scraping websites, in preparation for presenting tonight. For the most part, this has gone really well. The existing tutorials on the programming historian for using <a href="http://programminghistorian.org/lessons/automated-downloading-with-wget">wget</a> and <a href="http://programminghistorian.org/lessons/working-with-files-and-web-pages">python</a> are very intuitive and easy to follow and most of my presentation will be on these.</p>
-
-<p>Wget is a very useful tool when dealing with a well organized website and I think will be most useful right of the bat for most of us. It’s quick and easy and run through the command line.</p>
-
-<p>Using Python is a bit more complicated but does allow for more detailed scraping. While I won’t be focusing on this, you can use Python to not only pull down whole copies of sites but also to filter those sites for particular information before you save it to your own machine (or wherever you’re saving it).</p>
-
-<p>One problem I am still struggling with is how to cycle through a list of URL using Python. While writing the script to save one file is straightforward enough, I spent much of yesterday looking for any indication of how to save multiple files. I kinda have a loop going on, but can’t figure out if it is parsing my csv file of links correctly. And I can’t figure out how to change the file name each time, so even when I get something out, it is rewriting itself in a single file. If I can’t figure this out today (and I’m coming for help with this, Fred), I think I can present a work-around using cURL.</p>
-
-<p>Also, it is unclear to me how to build in a wait time when using Python or cURL. Seems that this would be useful in order to be a good internet citizen.</p>
-
-<p>Two discoveries as a result of this. 1. Hymnary.org puts a cap on the calls to the api from a given ip address. <img src="http://jeriwieringa.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> oops. and 2. There is a ton more information in the json document that I am looking to call down than I had realized. I think I will be able to do more this semester than I originally thought my data allowed. yippie!!</p>
-
-
-  <h2><a href="/blog/2012/10/04/looking-west.html">Looking west</a> <span>Oct  4</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>The readings this week are a somewhat eclectic collection of readings relating to religion and women in the west. Since I am keeping the more detailed notes in handwritten form this week, the texts were: Sarah Deutsch, <em>No Separate Refuge</em>; Devon Mihesuah, <em>Cultivating the Rosebuds</em>; Ramón Gutiérrez, <em>When Jesus Came, the Corn Mothers Went Away</em>; and Peggy Pascoe, <em>Relations of Rescue</em>.</p>
-
-<p>One of the recurring features of these works is the tendency to use yet again the rhetoric of “separate spheres” and the “cult” of “womanhood.” In these text, references were usually deployed to complicate the ideas of separate spheres but of often relied on ideas of domesticity and the cult of womanhood. It is not hard to see why: from the rhetoric of Pascoe’s late 19th century female reformers to the ideas about race and gender taught and emulated by Cherokee students, it does seem that ideals about gender and domesticity formed a large part of the framework that shaped many women’s experience during the 19th century. Given the readings from last week, however, it is interesting to me how resilient the language of separate spheres is. Even when mentioned to show how it fails, the theme of spheres seems embedded in the historians subconscious in ways that are perhaps veering toward being more revealing of the present than of the past. Perhaps …</p>
-
-<p>The two pieces that were most obviously dissertations, <em>Cultivating the Rosebuds</em> and <em>No Separate Refuge </em>were interesting to read as examples of types of studies that can be done as dissertation projects. Mihesuah’s piece was encouraging in its narrow focus, although many of the theoretical questions regarding the construction of race and gender were left underdeveloped. Deutsch’s piece, on the other hand, presented an intimidating picture of the dissertation project, as her area of study and her questions were much wider in scope and broader in implication. On the other hand, her study, which focuses on Chicano, and particularly Chicana, strategies for maintaining cultural integrity in the face of Anglo-American culture, offers a more nuanced and positive depiction of the role of women in Hispanic American culture than had previously existed. Her’s is instructive of how preconceived ideas about cultural structures can obstruct the view of different strategies for exercising authority, something that I will also need to keep in mind while studying women in religious movements.</p>
-
-<p>Also, as a side note, Deutsch’s piece offers some interesting possibilities for geo-spatial analysis, as she is describing community networks that span great distances and are changing over time.</p>
-
-<p>Pascoe’s piece also touches on the dangers inherent in assuming a singular vision of “female culture.” While her work is motivated by current concerns about the programs of cultural feminists, she grounds her concerns by examining the similar reform efforts of Protestant women during the late 19th century. The women she studies open houses of refuge with the goal of female uplift and challenging patriarchy, however, they do so by assuming the centrality of “purity and piety” to all women. The result is a complicated story that throws the relationship between gender, race, and class into sharp relief.</p>
-
-<p>Gutiérrez’s piece was one that I was excited to read but a bit disappointed with for my current purposes. The central part of his investigation focuses on the 17th and 18th centuries, with minimal gesturing toward the 19th. His centering of Pueblo and Acoma origin myths provides an interesting contrast to approaches such as Daniel Richter’s <em>Facing East from Indian Country</em> and offers a useful picture of native cosmology prior to Spanish conquest. However, much of his analysis is focused on drawing a stark distinction between the centrality of sexuality to Pueblo culture and the sexual repression he identifies as guiding Spanish Catholicism. The sections of the book that focus on his central question of how marriage structured social inequality focuses largely on Spanish and Spanish colonials marriages.</p>
-
-<p>In all, these books offer pictures of the complicated processes by which gender is described and prescribed.</p>
-
-  <h2><a href="/blog/2012/10/04/lessons-learned.html">Lessons Learned</a> <span>Oct  4</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>Today I learned the difference between “update” and “insert” and what happens when you update your join table instead of inserting a new entry.</p>
-
-<p>I almost have CRUD – keep finding new things to add/tweak. Also my files are growing increasingly complex to keep track of all of the different ways data is being passed.</p>
-
-<p>Questions:</p>
+<div>
+  <span style="font-size: medium;"><br /> </span>
+</div>
 
 <ul>
-  <li>difference between “object orientated” and “procedural” in the mysqli manual</li>
-  <li>when to use “if” for calling a command and when it isn’t necessary – is this just to test that it’s working (so you can have an ‘else’)?</li>
-  <li>Can we talk about refactoring?</li>
+  <li>While I enjoyed Cummings analysis (though I wish the structure was different), the last paragraph of her introduction left me concerned. She is arguing here that religion plays a central role in religious people’s construction of identity. And yet she alludes that religion was less influential in the response to second wave feminism. With not knowing very well the history that she is alluding to, this seems to be a large, and unnecessary, step back from her framing claims about the necessity of taking religion seriously as a key influence, along with race, class, and gender, in identity formation.</li>
 </ul>
 
-<p> </p>
-
-<p>UPDATE: I have CRUD. (Delete is hidden). available at <a href="http://clio3.jeriwieringa.com/view.php">clio3.jeriwieringa.com/view.php</a></p>
-
-
-  <h2><a href="/blog/2012/09/27/victor-turner-betwixt-and-between-the-liminal-period.html">Victor Turner, “Betwixt and Between: The Liminal Period&#8221;</a> <span>Sep 27</span></h2>
+  <h2><a href="/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html">Healings and Holiness, Pentacostals, the Black Baptist Church, Itinerant Women, and Spiritual Narratives</a> <span>Nov  8</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>In the manner of sociologists and anthropologists, Victor Turner is investigating structures of human behavior by analyzing the practices and rituals of “simpler” societies.  In “Betwixt and Between,” he is investigating rites of passage, the cultural practices surrounding the movement from one state (any type of stable or recurrent condition that is culturally recognized (94)) to another. This transition includes separation, margin, and aggregation. Most of his attention is focused on the marginal, or liminal, period where, he notes, many standard social markers, including sex distinctions, do not apply (97). In addition, during the liminal period for the culture he studies, the neophyte is taught what Turner refers to as the <em>sacra</em>, the cosmology and mythical history of the people (103). This teaching of the <em>sacra </em>involves 1) the reduction of culture into recognized components, often through exaggeration of the integral aspects of culture or the body, 2) the recombination of those components in monstrous patterns or shapes, which further draws attention to the various components now removed from their usual context, and 3) the recombination of components in ways that fit the new state and status of the neophyte (106).</p>
+  <p>We are a bit eclectic this week.</p>
 
-<p>In Turner’s description, the liminal person is in transition from one culturally recognized state to another, and this transitional period helps to prepare them for assuming the responsibilities of the upcoming state. It is striking that this very particular account of transition rituals has been expanded so broadly in cultural theory and has been extended to include persons are perpetually “liminal” — always in transition between two states but never able to enter the next or return to the previous.</p>
+<p>Michael Stephens, <em>Who Healeth All Thy Diseases: Health, Healing, and Holiness in the Church of God Reformation Movement</em>.</p>
+
+<p>Stephens examines the history of healing within the Church of God (Anderson) movement, arguing that despite the lack of scholarly attention, healing practices were central to the development of the denomination and of American Protestantism in general. The focus is largely on major figures within the denomination, particularly Daniel Sidney Warner, Enoch E. Byrum, Charles Wesley Naylor, and the Gospel Trumpet Company publications. Stephens traces the changing attitudes toward healing, from viewing healing as the particular sign of sanctification to a repudiation of all medical intervention to a moderate stance, while highlighting the adoption of popular health reform prescriptions as part of the healthy Christian life.</p>
+
+<p>Evelyn Brooks Higginbotham, <em>Righteous Discontent: The Women’s Movement in the Black Baptist Church, 1880-1920.</em></p>
+
+<p>Higginbotham takes up the challenge of writing a history that focuses on women and gender while also arguing for the centrality of women and the construction of gender to the creation of society. She argues that the black church is the “product and process of male and female interaction” and that a focus on “the ministry” misses half of the conversation (2). She deploys the analytical frameworks of Benedict Anderson and Habermas, describing the creation of the church as a “public sphere” and central to “imagined community” of black society. As Higginbotham deftly shows, both the imagined community and the public sphere were contested and shifting and she focuses on the interactions of race, class, and gender to reveal the different discourses in play in shaping the community.</p>
+
+<p>Joycelyn Moody, <em>Sentimental Confessions: Spiritual Narratives of Nineteenth-Century African American Women.</em></p>
+
+<p>*Sentimental Confessions *is a recovery project focused on reclaiming the black women’s spiritual autobiographies as works of theological importance and as rhetorically powerful and significant texts. Moody is interacting with scholarship on sentimentalism and women’s writing during the 19th-century, arguing against the tradition of Ann Douglas and for the idea that sentimental writing falls within the long tradition of religious writing that is embodied, sensual, and emotionally potent. The individual chapters focus more on close readings of the texts themselves and provide little additional historical context. The framing of this text is most interesting for historical projects that work with these and other such primary sources.</p>
+
+<p>Edith Blumhofer, <em>Restoring the Faith: The Assemblies of God, Pentecostalism, and American Culture</em>.</p>
+
+<p><em>Restoring the Faith</em> is an institutional history of the Assemblies of God denomination. Blumhofer traces a historical arch that begins with the restorationist impulse to return the church to the example of the New Testament, that moves through a period of growth and acculturation, and ends at a present day that has become something other than its primitivist beginnings, that has “succumbed to aspects of modernity” that it began in opposition to (12). Her history focuses more on Parham than Seymour, more on the white Pentecostal experience than African-American or Hispanic experiences, and while she does address some questions of women in leadership positions in the Assemblies of God denomination, how gender is constructed and negotiated is not the focus of her study. The book provides a useful overview and reference for some of the major moments and figures in the institutional history of the Assemblies of God.</p>
+
+<p>Elizabeth Elkin Grammer, <em>Some Wild Visions: Autobiographies of Female Itinerant Evangelists in Nineteenth-Century America.</em></p>
+
+<p>Grammer’s text is a literary study of the autobiographies of 7 female itinerant preachers: Nancy Towle, Jarena Lee, Zilpha Elaw, Lydia Sexton, Laura Haviland, Julia Foote, and Amanda Smith. In analyzing their self-presentation, Grammer focuses on 4 shared characteristics these autobiographies share and seeks to interpret the role and experience of these female itinerants on the basis of those shared characteristics. She notes a shared conscious leaving of the domestic space and the ideal of domesticity, and even an intentional “mis-reading” of that ideal so as to allow them to claim the world as their domestic space (56). She notes that they take part in the more “masculine” culture of “competitive individualism and accounting,” listing for readers the preaching engagements held and the number of converts attained (70). She notes that they were largely alone and also saw themselves as separate in some way from the general culture. And finally she comments upon a shared style in autobiographical writing and the lack of clear ordering or narrative that marks all of these texts. Her work studies how these women combined competing paradigms of “domesticity … individual assertion and competitiveness… and reluctant prophet and suffering savior” to “inhabit and subvert many assumptions about gender, race, and class” (23).</p>
+
+<hr />
+
+<p>More questions and thoughts than synthesis this week.</p>
+
+<p>One of the interesting methodological questions I have coming out of these readings is the question of dealing with women and women’s organizations as a group and focusing on individual women within religious movements. Moody and Higginbotham take two different approaches to this – Moody, because of her focus on the autobiography, looks at the rhetoric of 6 individual women writers while Higginbotham looks at women’s organizations within the Black Baptist church and how those organizations influenced the overall institution. While I see Higginbotham’s point that only studying individual women often leaves them still outside of the larger narrative about society and culture, how does one deal responsibly (avoid generalizations, etc) when telling the history of a group.</p>
+
+<p>Grammer notes that “revival” is a dominant theme throughout the 19th century. However, in reading her and other texts, it seems that the millennium is perhaps the stronger theme, driving even revival itself. Revival for the sake of revival does not seem strong enough to move so many people in so many extraordinary directions. However, and this is pulling from Abzug as well, the firm belief in the coming millennium seems like it could be enough to provoke the slew of revivals and reform efforts that we see.</p>
+
+<p>Both Moody and Grammer are interested in using these text, which on the surface seem to restate rather than challenge cultural ideologies, to uncover how individual women negotiated and challenged those ideologies. Grammer’s text in general offers some very interesting and instructive ways of readings these texts – I need to return to this text for a closer reading. And Moody quotes Sharon Harris to argue that even texts that do perpetuate dominant ideology are worthy of study, as they are sites where ideologies are interacted with, help us understand the conditions under which the text was produced and also often contain subversions of those ideologies (181). Both of these are useful resources for thinking about how to deal with these texts going further.</p>
+
+<p>While neither Stephens nor Blumhofer ignore women in their histories, it is clear that the focus of investigation is the institution and the (generally) male leaders who lead and influenced those institutions. On the one hand, this doesn’t seem unreasonable – the institution and its records is largely controlled by the male leadership. However, Higginbotham seems to offer a solid critique of this approach by arguing that it is the interactions between male and female individuals and groups that create the larger culture and institution. Can Higginbotham’s approach be applied further? Can it be argued that one cannot understand any religious group apart from the ongoing conversations and negotiations between female auxiliary organizations and the traditionally male controlled hierarchy (in whatever form that takes)?</p>
+
+  <h2><a href="/blog/2012/11/04/slides-from-text-mining-presentation.html">Slides from Text-Mining Presentation</a> <span>Nov  4</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>Bit short since I was trying to read off of the screen less. Down-side: slides are less helpful on their own.</p>
+
+<p>The code examples are available at <a href="https://github.com/jerielizabeth/mining-example">github.com/jerielizabeth/mining-example</a></p>
+
 
 
   
@@ -612,62 +222,54 @@ for tr in trs:
   
 
       </div>
-        <aside>
-          <h3>Recent Posts</h3>
+      <aside>
+        <div id="sidebar">
+  <h2>Scholarship Areas</h2>
   <ul>
-    
-      <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
-    
-      <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
-    
-      <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
-    
+      <li class="important"><a href="/research.html">Religious History</a></li>
+      <li class="important"><a href="/digital.html">Digital History</a></li>
+      <li class="important"><a href="/teaching.html">Teaching</a></li>
   </ul>
-<div class="block">
-    <h3>Categories</h3>
-      <ul>
-        
-          <li><a href="/blog/category/research.html">research (26)</a></li>
-        
-          <li><a href="/blog/category/digital.html">digital (45)</a></li>
-        
-          <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
-        
-          <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
-        
-      </ul>
-</div>
-<div class="hidden">
-  <h3>By Year</h3>
+  <h2>Recent Posts</h2>
+  <ul>
+  
+    <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
+  
+    <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
+  
+    <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
+  
+  </ul>
+
+  <h2>Posts by Category</h2>
   <ul>
     
-      <li><a href="/blog/2014.html">2014</a> (1)</a></li>
+      <li><a href="/blog/category/research.html">research (26)</a></li>
     
-      <li><a href="/blog/2013.html">2013</a> (4)</a></li>
+      <li><a href="/blog/category/digital.html">digital (45)</a></li>
     
-      <li><a href="/blog/2012.html">2012</a> (47)</a></li>
+      <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
     
-      <li><a href="/blog/2011.html">2011</a> (16)</a></li>
-    
-      <li><a href="/blog/2010.html">2010</a> (2)</a></li>
+      <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
     
   </ul>
 </div>
-        </aside>
+
+      </aside>
       <footer>
         <div id="copyright">
   <p>CC-BY Jeri Wieringa, 2014
-  <br/>Image circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
+  <br/>Image of the Battle Creek Sanitarium circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
 </div>
 <div id="social" class="nav">
   <ul>
     <li><a href="http://twitter.com/jeriwieringa"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://github.com/jerielizabeth"><i class="fa fa-github"></i></a></li>
-    <li><a href="http://jeriwieringa.com/blog/feed.xml"><i class="fa fa-rss"></i></a></li>
+    <li><a href="/blog/feed.xml"><i class="fa fa-rss"></i></a></li>
   </ul>
 </div>
 
-<script>
+<!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -676,7 +278,7 @@ for tr in trs:
   ga('create', 'UA-35130770-1', 'jeriwieringa.com');
   ga('send', 'pageview');
 
-</script>
+</script> -->
       </footer>
     </div>
   </body>

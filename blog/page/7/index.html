@@ -5,16 +5,25 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>Jeri Wieringa</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
     <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-button").click(function () {
+            $(".nav-button,.primary-nav").toggleClass("open");
+            });    
+        });
+    </script>
 
-  <body>
-    <div id="wrap">
+  </head>  <body>
+   <div id="wrap">
       <header id="image">
-        <nav id="primary-nav" class="nav">
+        <button class="nav-button">Toggle Navigation</button>
+<nav class="primary-nav">
   <ul>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
@@ -25,257 +34,154 @@
 <div id="title">
   <h1><a href="/">Jeri E. Wieringa</a></h1>
 </div>
-<nav id="upper-nav" class="nav">
-    <ul>
-        <li class="important"><a href="/research.html">Research</a></li>
-        <li class="important"><a href="/digital.html">Digital</a></li>
-        <li class="important"><a href="/teaching.html">Teaching</a></li>
-    </ul>
-</nav>
+
       </header>
       <div id="main" role="main">
-          <p>Page 7 of 7</p>
+          <!--<p>Page 7 of 14</p>-->
 
   
     <p><a href="/blog/page/6/">Previous page</a></p>
   
 
-  <h2><a href="/blog/2011/10/17/reflections-and-final-draft.html">Hist 696: Reflections and Final Draft</a> <span>Oct 17</span></h2>
+  <h2><a href="/blog/2012/09/19/goodness.html">goodness..</a> <span>Sep 19</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <ul>
-  <li>What is your inquiry question? What do you want your users to learn?</li>
-</ul>
+  <p>so. programming.</p>
 
-<p>My inquiry questions are “How does space shape religious history and how has religious history shaped space?” and “Can a spatial study of religion point to questions that we have yet thought to ask?” I want my user to come away with a sense of the complexity of the religious landscape, new questions about why certain patterns seem to emerge, and an interest in questions of space as something to be questioned not assumed.</p>
+<p>right.</p>
+
+<p>who thought this was a good idea?</p>
+
+<p>Oh yeah, me.</p>
+
+<p>This week I have been super focused on catching up.</p>
+
+<p>I thought I was being all brilliant by using data that already existed. Ha! Wrong!</p>
+
+<p>Instead, I spent way too much time getting my head around what data I had, what I wanted to do with it, and what I needed to do to it in order to be able to do said things.</p>
+
+<p>Why was this a problem you ask? Well, there are nearly 200,000 lines in the “text” csv file for one. For two, the names aren’t standardized. For three, the hymnal information I really wanted to use doesn’t have data regarding the texts included nor vice-versa. And I looked, and these text can appear in hundreds (HUNDREDS!) of hymnals. and so my brain exploded.</p>
+
+<p>Then I remembered that we’re supposed to be learning methods, not necessarily solving this particular data problem. So I’ve given up on the hymnals for now and am just looking at texts and authors. I selected out the authors recorded as born between 1800 – 1809 and then pulled the texts that corresponded with them as best I could – this proved somewhat difficult because of the variety of ways the name appeared in the text file.</p>
+
+<p>But the end of the story is I have a database that I can work with, and a join table that seems to be functioning. I have yet to figure out how best to harness the power of the join table, but I think I’m getting somewhere.</p>
+
+<p>The current state of this work is at <a href="http://clio3.jeriwieringa.com/view-author.php">clio3.jeriwieringa.com</a>. (index is viewable at the root)</p>
+
+<p>First caveat: I am not doing any of the dev work here – I am just uploading for presentation. I can’t create a new user on my account (the downside to cheap virtual private servers) so I’m a bit nervous about the whole thing. I want to put this an EC2 instance, but, well, that’s another puzzle to figure out. I am cheating and getting help from my <a href="https://twitter.com/jwieringa">personal tech team</a>, but he’s been a bit busy. So this is my temporary solution.</p>
+
+<p>Second caveat: this is built on top of a “temp” version of the database (and one before I split up the author column in texts to create an accurate join table.) This means if things get changed, it’s ok. for the most part. i guess…</p>
+
+<p>What’s working:</p>
 
 <ul>
-  <li>What is your methodological stance?</li>
+  <li>I decided to split the view pages into an author view and a text view. These can be viewed as a large list or paginated.</li>
+  <li>Delete does work, but I removed it … didn’t want my database to disappear.</li>
 </ul>
 
-<p>Methodologically, I have chosen to make “place” or location my primary unit of analysis, in order to move away from denominations as the basic unit of religious history, and to point to the importance of location in the development of religious practices and beliefs.</p>
+<p><span style="font-size: medium;">What still needs work:</span></p>
 
 <ul>
-  <li>How does your design work to support these goals?</li>
+  <li>I am trying to figure out how to create a “show” page, where you would see an individual author information and the list of texts associated with that author. Same (but reversed) with the texts.</li>
+  <li>The add and edit page displays for authors, but I’m getting an error during the submit process that I’m still figuring out. This then needs to be done for texts as well. Or I need to figure out how to make my data more simple again.</li>
+  <li>And everything else that breaks but I don’t know about yet.</li>
 </ul>
 
-<p>Omeka allows for me to create “place” as an item type, thereby making “place” the fundamental building block of my collections and exhibits.</p>
-
-<ul>
-  <li>What new things do you need to learn?</li>
-</ul>
-
-<p>There are so many new things to learn. I need to learn much about Native American religious practices. I need to learn how to use the Timeline plugin in Omeka. I need to learn how to create my search page. I need to figure out how to define Dublin Core terms… oh dear.</p>
-
-<ul>
-  <li>How will you go about learning these things?</li>
-</ul>
-
-<p>Collaboration! I will solicit contributions from tribal organizations in Connecticut. I will make friends with people who know more about the technical end of Omeka. And I will do a lot of reading.</p>
-
-<ul>
-  <li>What is the rational for the decisions you’re making about source choices (by type, collection, time period, etc.)?</li>
-</ul>
-
-<p>This is further defended in my application, but I have chosen Connecticut as a geographic area because of size, and because I know where to look for resources. I have chosen the time period to cover the period of the establishment of the Congregational Church, as well as Native American religious practice prior to colonization. I have chosen not to limit by religious type, because doing so would reinforce longstanding cultural biases and would deprive the resource of its desired complexity. I have chosen to organize by place, rather than by denomination, to draw attention to places where denominational boundaries fail to provide answers. And I have chosen to focus on geolocation to draw attention to space as a mode of historical inquiry.</p>
-
-<ul>
-  <li>What questions remain for you to provide a convincing grant application?</li>
-</ul>
-
-<p>For the application to be convincing, the narrative needs to draw the reader in and effectively communicate why such a project is useful and why it is important to the reader. I hope that my application communicates my idea well enough and stresses its significance sufficiently to inspire the committee to invest in the project.<br />
-And with that, here is my final draft. Thank you everyone for the feedback! It has been very helpful in refining the ideas behind this project.</p>
-
-<p><a href="http://sandbox.jeriwieringa.com/wp-content/uploads/2011/10/grant-proposal-final.pdf">grant proposal final</a></p>
+<p>And that’s were it’s at right now.</p>
 
 
-  <h2><a href="/blog/2011/10/17/manovich.html">Hist 696: Manovich</a> <span>Oct 17</span></h2>
+  <h2><a href="/blog/2012/09/06/women-called-to-witness-by-nancy-hardesty.html"><em>Women Called to Witness</em>, by Nancy Hardesty</a> <span>Sep  6</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>Oh, for one more week with this text. Well, if I’m dreaming, a month with just this text would be better <img src="http://jeriwieringa.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" /> </p>
+  <p><em>Women Called to Witness: Evangelical Feminism in the Nineteenth Century</em> is a recovery project of the history of women’s involvement and struggle for equality in the evangelical movement. It is an introductory text to the 19th century that focuses particularly on the religious actions of women.</p>
 
-<p>I really enjoyed this text. I have run out of time to write a well-reasoned post, so I will write more after class.</p>
+<p>The book focuses largely on women connected in some way to Charles Finney and the reform movements that were connected to his revivals. Hardesty moves quickly through the rise of Finney, the development of various forms of perfectionism, and the prevalence of women in social reform movements. While the book seems on one level to be simply moving thematically through the various venues of female reform activity during the century, the ending chapters reveal that the larger project of the book is presenting a case for the longstanding efforts by evangelical women to expand and transform gender roles and to claim their equality with men.</p>
 
-<p>However, one point that Manovich makes repeatedly in the text that I found particularly helpful for our work is the question of interactivity and the question of freedom. Manovich notes, very helpfully, that all cultural products are interactive and that we must remember psychological interactivity as a way that we interact with cultural products. One of the key aspects of engaging with art or cultural products is the associations we draw. I also really appreciated his distinction between open and closed interactivity. Where art allows us to draw whatever associations we may draw (open), there is a real danger in digital work to confuse closed interactivity with open. Merely allowing the user to choose between a number of predetermined options (closed) is not the same as open interactivity. Instead, there is an imposition here of the mind of the creator on the user. The same exists when using the OS or using software to create a 3D object – while the user is free to choose between options, those options are preexisting and imposed. It is important to realize this and to realize that engaging with such objects does limit the ways we can view the world and the things we can create.</p>
+<p>She is drawing heavily upon and reacting to historiography surrounding the feminization of American Christianity, including Barbara Welter, Nancy Cott, and Ann Douglas.</p>
 
-<p><strong>[Update] The promised “more” after class is just not going to happen. Sadness.</strong></p>
-
-  <h2><a href="/blog/2011/10/11/prezi.html">Hist 696: Prezi!</a> <span>Oct 11</span></h2>
+  <h2><a href="/blog/2012/09/06/the-religious-world-of-antislavery-women-by-anna-speicher.html"><em>The Religious World of Antislavery Women</em>, by Anna Speicher</a> <span>Sep  6</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>Hi all,</p>
+  <p><em>The Religious World of Antislavery Women: Spirituality in the Lives of Five Abolitionist Lecturers</em> is a group biography of Sarah and Angelina Gimké, Lucretia Mott, Abby Kelly Foster, and  Sallie Holley. These five women, who actively lectured and agitated for abolition during the mid-1800s, have a complicated religious history that is often presented in overly-simplified fashions by historians interested in questions of the women’s rights and suffrage or abolition. Speicher sets out to retell their history by highlighting how religion played a central role in the careers of each, both in motivating their activities and in shaping their interpretation of the world and their place it in.</p>
 
-<p>Here is a <a href="http://prezi.com/2oxy661om5uo/mapping-spaces-2/?auth_key=b37e39b47740a439274b8b59e5ca3cd14b71d0b8">sneak-peak</a> of my Prezi presentation for tonight!</p>
+<p>Speicher does well handling the spirituality of each of these women on its own terms, describing and honoring the religious struggles they express and the solutions they pursue. Her research and approach reveals that each, though often outside of the bounds of organized religion per se, was deeply shaped by religious seeking and saw her work as an essential part of a religious calling. She interprets their challenges to religious norms as motivated not by a rejection of religion but by a desire for religion to be more.</p>
 
-<p>Also, the <a title="Quieting the Lizard Brain" href="http://the99percent.com/videos/5822/seth-godin-quieting-the-lizard-brain">video</a> at the end of the <a title="Design Criticism" href="http://www.alistapart.com/articles/design-criticism-creative-process/">article for today</a> was really helpful! If you have 20 minutes, it is worth a watch. In it, Seth Godin speaks of the importance of “thrashing” ideas during the beginning stages of a project, so that one can proceed with confidence through the creation and implementation of those projects. In line with that insight, please “thrash” my project tonight!</p>
-
-
-  <h2><a href="/blog/2011/10/03/save-the-data.html">Hist 696: Save the Data!</a> <span>Oct  3</span></h2>
+  <h2><a href="/blog/2012/09/06/reflections-on-quakers-and-antebellum-reform.html">Reflections on Quakers and Antebellum Reform</a> <span>Sep  6</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>With my love of digital archives and my desire to create digital content, digital preservation is an issue near and dear to my heart. On some level, it still seems risky to pour all that time and energy into the creation of digital content that may not be usable in 10 or 20 years. In contrast, information recorded on paper seems much more stable; baring fire, water, and acidic paper, etc., what is written down on paper will remain intact and usable for years to come.</p>
+  <p>This weeks readings focused largely on the religious world of the women who engaged in abolition, temperance, and women’s rights movements during the early part of the nineteenth century.</p>
 
-<p>I found the readings for this week, however, encouraging regarding the future of digital data. While there are many questions to be answered and challenged to be tackled, digital preservation seems to be less of an impossible task. What does seem obvious given our previous attempts at preserving this data is that it cannot be preserved in the same way we preserve paper or material artifacts: it cannot be safely stored in an archival box for years until its information is requested. Such an approach has already resulted in carefully stored but inaccessible data because of outdated technology.</p>
+<p>One point that I am interested in talking about is the overlapping visions of the millennium and of creating a utopian society. The goal of bringing about some perfect end, some culmination of history, is touched upon by all of the authors and in both political and religious terms. Whether that end is the spread of liberty and spread of American Republicanism or the bringing about of a peaceful society where “the lion lays down with the lamb” or the end of sickness through proper diet, there are various ways the desired utopia is imagined and various ways groups attempted to bring that utopia into being. I am interested in the larger context of this utopian impulse – this does not appear to be unique or particularly American but it also feels as though the impulse is particularly strong during this period.</p>
 
-<p>I found the piece by Matthew Kirschenbaum et. al., “Digital Forensics and Born-Digital Content in Cultural Heritage Collections,” to offer the most exciting corrective (of the readings) to this approach. Digital Forensics is not something I had thought of in terms of collecting and archiving information, but it makes a lot of sense. In order to access and preserve digital content, we have to work with the information structure of the machines and learn how to uncover the information embedded in digital systems. There is an interesting parallel to be drawn between taking ink samples of Jonathan Edward’s writings to date them and uncovering field updates to see what days a document was opened and worked on. In many ways, the puzzle of digital archival work is what tools are necessary for pulling information from the digital sources, a puzzle that “Digital Forensics” attempts to address.</p>
+<p>One concern stemming from the work of Abzug is the use of “Manichean” to describe dualistic tendencies in the reformers thought. While it seems fair to say that they saw themselves and the world as part of a cosmic battle between the forces of good and evil, I am concerned that using “Manichean” too widely lessens the strength of critiquing the evangelical reformers particularly on that basis. (also, how many readers know why Manichean patterns are a problem?)</p>
 
-<p>One question that I had not thought through as much is the question of the usefulness of digital archives because of their abundance of material. Dan Cohen’s article, “The Future of Preserving the Past,” discusses some of the variety of opinions about digital archives and the benefits and problems presented by their openness and the variety of contributions they receive. I agree with the thought that, although carefully selected content is necessary when one must manually search through the material, the large amount of digital content, if properly formatted when submitted (granted a large “if”), can be searched through digitally quite quickly. Sheila Brennen and Mills Kelly’s article on the “Hurricane Digital Memory Bank” also points to challenge of encouraging submissions while ensuring that those submissions are given enough meta-data to make the useful.</p>
+<p>In thinking about trends in the scholarship, I found it interesting that, while Abzug present a helpful broad analysis of the metanarratives / social imaginaries / cosmos behind antebellum reform movements, the writers of the other text are much more narrowly focused on the particular experiences of particular women, rather than on broad patterns of thought. Last semester Mike mentioned that one way of writing history was writing “empathetic” history (and I of course forget the other way). The works by women about women fall pretty squarely into that category, presenting these women as empathetic characters to be understood. While this is very useful, it would be interesting to discuss ways of connecting empathetic accounts to trends in thought and ritual, and the broader implications of those trends.</p>
 
-<p>All of this points to the fact that storing and investigating digital material is a place of ongoing conversation and innovation. This is an area that is largely unknown, in large part because it is so new – we are just starting to do historical research from solely digital material and we are still unsure about the longevity of the storage solutions we currently have. This uncertainty does increase the risk in creating digital archives, as future preservation is not guaranteed. While I do think there are promising solutions to questions of preservation, it is still the case that digital-born content can very easily be lost or no longer accessible. It is an important consideration for those of us creating digital archives, resources, and the like.</p>
+<p>I do want to do some more reading on the Gimké sisters after the readings for this week, largely for my own benefit as they are incredibly articulate and insightful in their discussions of the role of women in society.</p>
 
-<p>(On a completely tangential note, does our obsession about saving everything strike anyone else as odd? While the large amount of data may be of interest to future historians and I appreciate the concern that the loss of twitter information would mean the loss of a large amount of cultural and social information, I find there to be something odd about our constant eye to future scholarship. Perhaps I am more comfortable with being forgotten by the historical record than I should be. That being said, the loss of all the digital content would be quite problematic, particularly since future thought and discovery builds upon the work of the past.)</p>
+<p>I do appreciate that all the writers, to varying degrees, problematized the framework of domesticity and separate spheres as a way of discussing the role of women in the 19th century. Hardesty relied on these the most, but she also drew attention to the various ways women used these social ideals to claim additional influence, particularly on issues of morality and religion. I am very skeptical about “separate spheres” as a useful mode of analysis (as are many others) so was good to see the analysis in these texts either problematize or ignore this framework.</p>
 
-  <h2><a href="/blog/2011/10/03/draft-of-grant-proposal.html">Hist 696: Draft of Grant Proposal</a> <span>Oct  3</span></h2>
+  <h2><a href="/blog/2012/09/06/quaker-women-by-sandra-stanley-holton.html">Sandra Stanley Holton, <i>Quaker Women</i></a> <span>Sep  6</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>Attached is my draft of the Grant Proposal. The appendices will be added to over the week.</p>
+  <p><em>Quaker Women: Personal Life, Memory and Radicalism in the Lives of Women Friends, 1780 – 1930</em> is a study of the Priestman and Bright extended families, made possible by the study of the correspondence and religious journals of the women of these interconnected families. The family network of those studied stretched from England to the United States and the record of the family shows how the relationship between religious practice, social norms, and political goals changed over time.</p>
 
-<p><a href="http://sandbox.jeriwieringa.com/wp-content/uploads/2011/10/grant-proposal-draft.pdf">grant proposal draft</a></p>
-
-
-  <h2><a href="/blog/2011/09/18/the-details.html">Hist 696: The Details</a> <span>Sep 18</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>The readings for this week focused largely on questions of design and the process of web development. The nuts and bolts of what we are attempting to do, with guidelines to help us avoid some of the more egregiousness website design errors. I found that most of the information reinforced what I have heard before or what I have found most helpful when dealing with websites. However, it was very helpful to be exposed to a vocabulary for describing those elements to others.</p>
-
-<p>I really enjoyed <a href="http://www.alistapart.com/">http://www.alistapart.com/</a>. In addition to having very useful and informative essays, the layers of humor and snarky-ness were quite delightful. I found these much more helpful, even when they were beyond my skill, than the resources in <em>Digital History. *This may be because *Digital History</em> assumes very little awareness of or engagement with technical resources, while alistapart.com is writing to an audience of practitioners. Also, alistapart.com has the benefit of having continually updated content, while *Digital History, *because it is a published monograph presented on the web, is beginning to show its age.</p>
-
-<p>The information regarding metedata was, to be honest, overwhelming. The graphic from <a title="Seeing Standards" href="http://www.dlib.indiana.edu/~jenlrile/metadatamap/">Seeing Standards</a>, while adding to the feeling of drowning in possibilities for categorization, makes me wonder if there is something broken here. While metadata is important and useful, it seems that there are a lot of different opinions about how it is important and useful. Given the number of public history professionals in the room, I am excited to hear what those who use metadata more regularly have to say.</p>
-
-<p>I am afraid that much of my thinking this week was from a tangent inspired by the site. In the essay on <a title="web typology" href="http://www.alistapart.com/articles/on-web-typography/">web typology</a>,  Jason Santa Maria supports his claim that Trajan is the movie font by pointing to a vimeo clip that argues the same. Kirby Ferguson, who made the film, has also made a series about the subject of “remix”, beginning with the argument that all that Hollywood produces is a remix to a larger claim that all human discovery is based on “remixing”. (You can find the first of these videos <a title="here" href="http://www.vimeo.com/14912890">here</a>.) This seems to dovetail nicely with the emphasis within the opensource community on sharing and recreating, with the “hacker” impulse to pull together from everywhere and recreate,  and, as further proof that historians are really a small step away in practice from the digital world,  with the recombining of sources and interpretations that is played out in footnotes in historical writing. If one accepts that his or her historical practice is less about the creation of original interpretations and more about the productive (and maybe new) combination of previous ideas and creations, then it is much easier to engage in collaboration and, I would suggest, more creative works. The idea of the solitary genius is already belied, particularly in history, by the mountain of footnotes and cross-references. One of my motivating concerns is that of closed information and the notion of “owning ideas.” The culture surrounding the internet is one that often challenges the premise that ideas can be owned, and I am very interested in seeing what sparks fly as this culture interacts with the academic culture, currently predicated on rewarding individuals for their ideas. I do hope the free exchange of ideas is left standing when the dust settles.</p>
-
-<p>How to connect that tangent back to the idea of web-design and metadata… good web design enables that exchange of ideas. Conforming to web standards, design principles, and metadata structures allows for the digital medium to aid, rather than detract from, the information and enables engagement with the user. As argued by the authors, good web design fades into the background, and is “the creation of digital environments that facilitate and encourage human activity; reflect or adapt to individual voices and content; and change gracefully over time while always retaining their identity.”(1) The goal is not the creation of flashy sites (no, really, please, no flash), but the creation of sites that promote interaction with information and user agency.</p>
-
-<p>(1) Zeldman, Jeffrey. “Understanding Web Design.” <em>AListApart.com</em>. November 20, 2007. <a href="http://www.alistapart.com/articles/understandingwebdesign/">http://www.alistapart.com/articles/understandingwebdesign/</a></p>
-
-
-  <h2><a href="/blog/2011/09/09/hello-world-2.html">Hist 696: Thoughts on the history of Digital History</a> <span>Sep  9</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>(How meta)</p>
-
-<p>For those of you following along at home, this weeks readings consisted of:</p>
-
-<p>Dan Cohen and Roy Rosenzweig’s <a href="http://chnm.gmu.edu/digitalhistory/"><em>Digital History: A Guide to Gathering, Preserving, and Presenting the Past on the Web</em></a>,</p>
-
-<p>Susan Hockey’s entry “History” from Blackwell’s <a href="http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&amp;amp;doc.view=print&amp;amp;chunk.id=ss1-2-1&amp;amp;toc.depth=1&amp;amp;toc.id=0"><em>A Companion to Digital Humanities</em></a>,</p>
-
-<p>Robert B. Townsend’s article, <a href="http://www.historians.org/perspectives/issues/2010/1011/1011pro2.cfm">“How is New Media Reshaping the Work of Historians”</a>,</p>
-
-<p>and from the Journal of American History, an exchange between Dan Cohen, Michael Frisch, Patrick Gallagher, Steve Mintz, Kirsten Sword, Amy Murrell Taylor, William Thomas, and William Turkel entitled <a href="http://www.journalofamericanhistory.org/issues/952/interchange/index.html">“The Promise of Digital History”</a>.</p>
-
-<p> </p>
-
-<p>While there are many points and themes that can be highlighted from these pieces, those which I was most struck by revolved around the disagreements in goal of digital humanities in general and digital history in particular. These are conflicts that I have already seen in action in my short time in the digital humanities world and are conflicts that I think can be very productive.</p>
-
-<p>Susan Hockey makes the observation in her “History” that a “Hypertext in particular attracted a good many theorists. This helped to broaden the range of interest in, and discussion about, humanities computing but it also perhaps contributed to misapprehensions about what is actually involved in building and using such a resource. Problems with the two cultures emerged again, with one that was actually doing it and another that preferred talking about doing it.” While I chuckled at the criticism of the theorists in this description, this is a definite divide within the digital humanities field. My own intuitions coincide with those of the “builders,” which was one of my motivating reasons for locating myself in a history department, rather than American Studies. However, it is important to note that there is a choice to be made here, and work being done on both sides of that divide. Do we as humanists engage in exploring and explicating the assumptions and structures that underlie our digital experiences? Do we explore the layers of mediation (and there are many) between the user and the digital artifact or tool? Do we use the digital tools and see what can be created with them to expand knowledge and access to knowledge? These questions are interesting and productive, but do represent different schools of thought regarding how humanists approach the digital, and I am sure there are additional schools of which I am unaware. It is interesting that, despite the label “Digital Humanities”, there is a lot of differing opinions about what this sort of work entails.</p>
-
-<p>(Side note: this split also exists in Public Humanities. I took a class during my MA in Public Humanities and I quickly realized that there are a variety of understandings of “public”, public engagement, and the like.)</p>
-
-<p>A second point of conflict, more appropriate to digital history, is the question of what digital technology means for scholarship and how we craft and present historical arguments. Robert Townsend’s assessment of the survey given to historians on their use of digital technology offers an interesting view into two of the different approaches. Figure 6, which displays why historians consider publishing online, points to a pattern which I found interesting. While both avoiders and power-users saw reaching wider audiences, both popular and academic, and publishing more quickly as reasons to consider online publishing, avoiders rarely saw “telling the narrative in a new or different way” as a possible benefit, and  apparently none thought it would “improve presentation.” While these were lower also for the power users, I would suggest that this drop-off suggests a difference in perception of the requirements for history scholarship. If one assumes the traditional narrative and linear argument to be the best way to communicate scholarly research in history, then the benefits of digital technologies are limited. The monograph or scholarly article is well suited to the linear argument and narrative. There are minor gains to be had by producing a monograph in a digital form, but it is unclear if it is worth the effort. I think the lack of interest in “improved presentation” and new ways of telling the narrative is due to these historians being very committed to the argument structure of the monograph.</p>
-
-<p>However, it is the possibilities for scholarship beyond the linear monograph that, I think, make up the “promise of digital history.” And, fortunately for me, those authors largely seem to agree. Taylor notes that digital history requires a shift in understanding the role of the historian. He notes, “…I think the difficulties students have also stem in part from the fact that we are asking them to make a huge conceptual shift in how they think about history. The traditional chronological or thematic narratives of history are so deeply entrenched in their minds—and, frankly, in most of our minds—that it is very difficult to start thinking of creating history that is not so linear and is “participatory” or “interactive” (or akin to “gaming”—an analogy I like). A student who is friendly to digital technology can be quite uncomfortable with thinking about history in new ways. This discomfort may also have to do with being asked to rethink the position of the historian—in ceding some control to the user to define the experience, what control does the historian/creator retain?” Digital history offers the possibility of thinking about and inviting others to engage with history in new ways. This opens up questions of what constitutes a historical argument? and how can we convey information differently? Megan also takes up this theme in her <a href="http://mebrett.wordpress.com/2011/09/11/cliof11-week3/">post</a>, discussing the benefits of engaging through exploration and discovery, in contrast to more linear presentations.</p>
-
-<p>These articles reveal different aspects of digital history, but one common theme is that digital history cannot simply be traditional history made digital. Archives and papers and maps are all helpful and are all part of digital history, but they are only the beginning. The questions I am excited about are what digital history means for how we think about history, how we engage with history and how we draw connections about the past.</p>
-
-
-  <h2><a href="/blog/2011/02/17/the-perils-of-digitization.html">The perils of digitization</a> <span>Feb 17</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>This semester I decided to put my career plan of digital history into action, taking on a semester project to digitize a decade of the Banner. The project was to both give me experience in the process of digitization, the different tools, methodologies and practices that exist, and to do some research into my own denomination.</p>
-
-<p>This really was a terrible idea.</p>
-
-<p>I mean, it isn’t really terrible. I am learning a lot and slowly am making progress.</p>
-
-<p>The good news is I am learning about a lot of open-source, creative solutions to digitization. Because Yale, for all its money and prestige, is probably the least friendly place to be taking on this project. Just a reminder that prestige does not equate to best resources, particularly if one is trying to do something “new.”</p>
-
-<p>Sorry, venting. Anyway, I will digitize these Banners, if it kills me.</p>
-
-<p>Current attempt: build your own scanner with a digital camera and process the images with Linux-based software. It may not be “professional,” but it will be functional.</p>
-
-<p>Images to follow. If this works, I will post on how you too can digitize on a minimal budget!</p>
-
-  <h2><a href="/blog/2010/02/28/what-i-do-on-sundays-tuesdays-and-wednesday.html">What I do on Sundays, Tuesdays, and Wednesdays</a> <span>Feb 28</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>[youtube=http://www.youtube.com/watch?v=JY6LPgY_Zw0]</p>
-
-<p>And now for something a little different. I decided there were too many words in this blog, so we’ll try a video. This is a clip from <em>Cold Mountain</em> that showcases Sacred Harp hymn singing.</p>
-
-<p>Sacred Harp is something I knew nothing about until January, when I signed up for a class taught by the Yale music department. It is a unique form of hymn singing that still thrives in the South and has developed a “diaspora” following across the United States. It is the oddest thing in the world to listen to at first, but it grows on you. The history of this style of singing is something I am still trying to piece together, but it began in New England as an effort to improve the psalm singing in the churches and quickly moved south, and has become identified as a distinctly southern style of singing. All I can say is it’s a lot of fun to sing, especially as there is no real emphasis on performance, just on gathering to sing together.</p>
-
-<p>Oh, and I sing the part that Jude Law sings. Mostly because the melody is in the tenor, many of the melodies are familiar, and I can’t figure out how to read the shapes in order to sing the other parts. But women tenors are in high demand. And so it works <img src="http://jeriwieringa.com/wp-includes/images/smilies/icon_biggrin.gif" alt=":-D" class="wp-smiley" /> </p>
-
-<p>For more information on Sacred Harp singing, go to <a href="http://fasola.org/">http://fasola.org/</a></p>
-
-  <h2><a href="/blog/2010/02/03/the-lenten-season-approaches.html">The lenten season approaches</a> <span>Feb  3</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>My class on Medieval theology is going through a section on the “theology” of the monks (in quotations because “theology” as a term is the result of the Scholastic or school-based tradition; the monks would not have described their reflections as theology). As Denis Turner waxed wisely on how the writings and the thoughts of the monks must be understood within the context of the monastic life, I was struck with the idea that lent is a chance of us, average human beings not in a monastic community, to inhabit the monastic life. It is a time to set aside distractions, to live by a rule of prayer, to engage in a period of intensely seeking God. In the Orthodox tradition, it is a time to abstain from animal products, to reduce ones diet to the very simple elements of grains, vegetables, and fruits. One also is encouraged to abstain sexually for the 40 day period and to devote ones time to a pattern of prayer, scripture and the writings of the saints. This is a tradition that I am still exploring, and so have likely forgotten aspects of their Lenten practice. However, it strikes me that this is a mimicking of the monastic life, the life of poverty, celibacy and prayer. It is a chance for us to enter the monastic life as the community of the church and together to seek God through the humbling of the demands of our body and the demands of our busy life-style.</p>
-
-<p>If it is true that one cannot understand monastic thought apart from the context of daily prayer, liturgy, fasting, and work, perhaps the best time to read these writings is during the season of lent. And perhaps lent is more than a time of self-denial but a chance to seek God as the monastics seek: through a pattern of life that is focused on silencing distractions and intensely focused on seeking God through his Word.</p>
+<p>The text focuses primarily on the English portion of the family. It covers the shifting pressures caused by marriage, children, death, and financial concerns and highlights the ways in which religion shaped those responses and was shaped by them.</p>
 
 
   
+    <p><a href="/blog/page/8/">Next page</a></p>
+  
 
       </div>
-        <aside>
-          <h3>Recent Posts</h3>
+      <aside>
+        <div id="sidebar">
+  <h2>Scholarship Areas</h2>
   <ul>
-    
-      <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
-    
-      <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
-    
-      <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
-    
+      <li class="important"><a href="/research.html">Religious History</a></li>
+      <li class="important"><a href="/digital.html">Digital History</a></li>
+      <li class="important"><a href="/teaching.html">Teaching</a></li>
   </ul>
-<div class="block">
-    <h3>Categories</h3>
-      <ul>
-        
-          <li><a href="/blog/category/research.html">research (26)</a></li>
-        
-          <li><a href="/blog/category/digital.html">digital (45)</a></li>
-        
-          <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
-        
-          <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
-        
-      </ul>
-</div>
-<div class="hidden">
-  <h3>By Year</h3>
+  <h2>Recent Posts</h2>
+  <ul>
+  
+    <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
+  
+    <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
+  
+    <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
+  
+  </ul>
+
+  <h2>Posts by Category</h2>
   <ul>
     
-      <li><a href="/blog/2014.html">2014</a> (1)</a></li>
+      <li><a href="/blog/category/research.html">research (26)</a></li>
     
-      <li><a href="/blog/2013.html">2013</a> (4)</a></li>
+      <li><a href="/blog/category/digital.html">digital (45)</a></li>
     
-      <li><a href="/blog/2012.html">2012</a> (47)</a></li>
+      <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
     
-      <li><a href="/blog/2011.html">2011</a> (16)</a></li>
-    
-      <li><a href="/blog/2010.html">2010</a> (2)</a></li>
+      <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
     
   </ul>
 </div>
-        </aside>
+
+      </aside>
       <footer>
         <div id="copyright">
   <p>CC-BY Jeri Wieringa, 2014
-  <br/>Image circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
+  <br/>Image of the Battle Creek Sanitarium circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
 </div>
 <div id="social" class="nav">
   <ul>
     <li><a href="http://twitter.com/jeriwieringa"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://github.com/jerielizabeth"><i class="fa fa-github"></i></a></li>
-    <li><a href="http://jeriwieringa.com/blog/feed.xml"><i class="fa fa-rss"></i></a></li>
+    <li><a href="/blog/feed.xml"><i class="fa fa-rss"></i></a></li>
   </ul>
 </div>
 
-<script>
+<!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -284,7 +190,7 @@ And with that, here is my final draft. Thank you everyone for the feedback! It h
   ga('create', 'UA-35130770-1', 'jeriwieringa.com');
   ga('send', 'pageview');
 
-</script>
+</script> -->
       </footer>
     </div>
   </body>

@@ -5,16 +5,25 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>Jeri Wieringa</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
     <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".nav-button").click(function () {
+            $(".nav-button,.primary-nav").toggleClass("open");
+            });    
+        });
+    </script>
 
-  <body>
-    <div id="wrap">
+  </head>  <body>
+   <div id="wrap">
       <header id="image">
-        <nav id="primary-nav" class="nav">
+        <button class="nav-button">Toggle Navigation</button>
+<nav class="primary-nav">
   <ul>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
@@ -25,171 +34,79 @@
 <div id="title">
   <h1><a href="/">Jeri E. Wieringa</a></h1>
 </div>
-<nav id="upper-nav" class="nav">
-    <ul>
-        <li class="important"><a href="/research.html">Research</a></li>
-        <li class="important"><a href="/digital.html">Digital</a></li>
-        <li class="important"><a href="/teaching.html">Teaching</a></li>
-    </ul>
-</nav>
+
       </header>
       <div id="main" role="main">
-          <p>Page 4 of 7</p>
+          <!--<p>Page 4 of 14</p>-->
 
   
     <p><a href="/blog/page/3/">Previous page</a></p>
   
 
-  <h2><a href="/blog/2012/09/19/goodness.html">goodness..</a> <span>Sep 19</span></h2>
+  <h2><a href="/blog/2012/10/12/slides-with-links.html">Slides with Links</a> <span>Oct 12</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>so. programming.</p>
+  <p>Here are the slides I had up last night for reference purposes:</p>
 
-<p>right.</p>
+  <h2><a href="/blog/2012/10/11/learning-how-to-scrape-or-how-to-fill-up-your-harddrive-really-quickly.html">Learning how to scrape (or how to fill up your harddrive really quickly)</a> <span>Oct 11</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>This week I have focused on learning some of the tricks and tips for scraping websites, in preparation for presenting tonight. For the most part, this has gone really well. The existing tutorials on the programming historian for using <a href="http://programminghistorian.org/lessons/automated-downloading-with-wget">wget</a> and <a href="http://programminghistorian.org/lessons/working-with-files-and-web-pages">python</a> are very intuitive and easy to follow and most of my presentation will be on these.</p>
 
-<p>who thought this was a good idea?</p>
+<p>Wget is a very useful tool when dealing with a well organized website and I think will be most useful right of the bat for most of us. It’s quick and easy and run through the command line.</p>
 
-<p>Oh yeah, me.</p>
+<p>Using Python is a bit more complicated but does allow for more detailed scraping. While I won’t be focusing on this, you can use Python to not only pull down whole copies of sites but also to filter those sites for particular information before you save it to your own machine (or wherever you’re saving it).</p>
 
-<p>This week I have been super focused on catching up.</p>
+<p>One problem I am still struggling with is how to cycle through a list of URL using Python. While writing the script to save one file is straightforward enough, I spent much of yesterday looking for any indication of how to save multiple files. I kinda have a loop going on, but can’t figure out if it is parsing my csv file of links correctly. And I can’t figure out how to change the file name each time, so even when I get something out, it is rewriting itself in a single file. If I can’t figure this out today (and I’m coming for help with this, Fred), I think I can present a work-around using cURL.</p>
 
-<p>I thought I was being all brilliant by using data that already existed. Ha! Wrong!</p>
+<p>Also, it is unclear to me how to build in a wait time when using Python or cURL. Seems that this would be useful in order to be a good internet citizen.</p>
 
-<p>Instead, I spent way too much time getting my head around what data I had, what I wanted to do with it, and what I needed to do to it in order to be able to do said things.</p>
+<p>Two discoveries as a result of this. 1. Hymnary.org puts a cap on the calls to the api from a given ip address. <img src="http://jeriwieringa.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> oops. and 2. There is a ton more information in the json document that I am looking to call down than I had realized. I think I will be able to do more this semester than I originally thought my data allowed. yippie!!</p>
 
-<p>Why was this a problem you ask? Well, there are nearly 200,000 lines in the “text” csv file for one. For two, the names aren’t standardized. For three, the hymnal information I really wanted to use doesn’t have data regarding the texts included nor vice-versa. And I looked, and these text can appear in hundreds (HUNDREDS!) of hymnals. and so my brain exploded.</p>
 
-<p>Then I remembered that we’re supposed to be learning methods, not necessarily solving this particular data problem. So I’ve given up on the hymnals for now and am just looking at texts and authors. I selected out the authors recorded as born between 1800 – 1809 and then pulled the texts that corresponded with them as best I could – this proved somewhat difficult because of the variety of ways the name appeared in the text file.</p>
+  <h2><a href="/blog/2012/10/04/looking-west.html">Looking west</a> <span>Oct  4</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>The readings this week are a somewhat eclectic collection of readings relating to religion and women in the west. Since I am keeping the more detailed notes in handwritten form this week, the texts were: Sarah Deutsch, <em>No Separate Refuge</em>; Devon Mihesuah, <em>Cultivating the Rosebuds</em>; Ramón Gutiérrez, <em>When Jesus Came, the Corn Mothers Went Away</em>; and Peggy Pascoe, <em>Relations of Rescue</em>.</p>
 
-<p>But the end of the story is I have a database that I can work with, and a join table that seems to be functioning. I have yet to figure out how best to harness the power of the join table, but I think I’m getting somewhere.</p>
+<p>One of the recurring features of these works is the tendency to use yet again the rhetoric of “separate spheres” and the “cult” of “womanhood.” In these text, references were usually deployed to complicate the ideas of separate spheres but of often relied on ideas of domesticity and the cult of womanhood. It is not hard to see why: from the rhetoric of Pascoe’s late 19th century female reformers to the ideas about race and gender taught and emulated by Cherokee students, it does seem that ideals about gender and domesticity formed a large part of the framework that shaped many women’s experience during the 19th century. Given the readings from last week, however, it is interesting to me how resilient the language of separate spheres is. Even when mentioned to show how it fails, the theme of spheres seems embedded in the historians subconscious in ways that are perhaps veering toward being more revealing of the present than of the past. Perhaps …</p>
 
-<p>The current state of this work is at <a href="http://clio3.jeriwieringa.com/view-author.php">clio3.jeriwieringa.com</a>. (index is viewable at the root)</p>
+<p>The two pieces that were most obviously dissertations, <em>Cultivating the Rosebuds</em> and <em>No Separate Refuge </em>were interesting to read as examples of types of studies that can be done as dissertation projects. Mihesuah’s piece was encouraging in its narrow focus, although many of the theoretical questions regarding the construction of race and gender were left underdeveloped. Deutsch’s piece, on the other hand, presented an intimidating picture of the dissertation project, as her area of study and her questions were much wider in scope and broader in implication. On the other hand, her study, which focuses on Chicano, and particularly Chicana, strategies for maintaining cultural integrity in the face of Anglo-American culture, offers a more nuanced and positive depiction of the role of women in Hispanic American culture than had previously existed. Her’s is instructive of how preconceived ideas about cultural structures can obstruct the view of different strategies for exercising authority, something that I will also need to keep in mind while studying women in religious movements.</p>
 
-<p>First caveat: I am not doing any of the dev work here – I am just uploading for presentation. I can’t create a new user on my account (the downside to cheap virtual private servers) so I’m a bit nervous about the whole thing. I want to put this an EC2 instance, but, well, that’s another puzzle to figure out. I am cheating and getting help from my <a href="https://twitter.com/jwieringa">personal tech team</a>, but he’s been a bit busy. So this is my temporary solution.</p>
+<p>Also, as a side note, Deutsch’s piece offers some interesting possibilities for geo-spatial analysis, as she is describing community networks that span great distances and are changing over time.</p>
 
-<p>Second caveat: this is built on top of a “temp” version of the database (and one before I split up the author column in texts to create an accurate join table.) This means if things get changed, it’s ok. for the most part. i guess…</p>
+<p>Pascoe’s piece also touches on the dangers inherent in assuming a singular vision of “female culture.” While her work is motivated by current concerns about the programs of cultural feminists, she grounds her concerns by examining the similar reform efforts of Protestant women during the late 19th century. The women she studies open houses of refuge with the goal of female uplift and challenging patriarchy, however, they do so by assuming the centrality of “purity and piety” to all women. The result is a complicated story that throws the relationship between gender, race, and class into sharp relief.</p>
 
-<p>What’s working:</p>
+<p>Gutiérrez’s piece was one that I was excited to read but a bit disappointed with for my current purposes. The central part of his investigation focuses on the 17th and 18th centuries, with minimal gesturing toward the 19th. His centering of Pueblo and Acoma origin myths provides an interesting contrast to approaches such as Daniel Richter’s <em>Facing East from Indian Country</em> and offers a useful picture of native cosmology prior to Spanish conquest. However, much of his analysis is focused on drawing a stark distinction between the centrality of sexuality to Pueblo culture and the sexual repression he identifies as guiding Spanish Catholicism. The sections of the book that focus on his central question of how marriage structured social inequality focuses largely on Spanish and Spanish colonials marriages.</p>
+
+<p>In all, these books offer pictures of the complicated processes by which gender is described and prescribed.</p>
+
+  <h2><a href="/blog/2012/10/04/lessons-learned.html">Lessons Learned</a> <span>Oct  4</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>Today I learned the difference between “update” and “insert” and what happens when you update your join table instead of inserting a new entry.</p>
+
+<p>I almost have CRUD – keep finding new things to add/tweak. Also my files are growing increasingly complex to keep track of all of the different ways data is being passed.</p>
+
+<p>Questions:</p>
 
 <ul>
-  <li>I decided to split the view pages into an author view and a text view. These can be viewed as a large list or paginated.</li>
-  <li>Delete does work, but I removed it … didn’t want my database to disappear.</li>
+  <li>difference between “object orientated” and “procedural” in the mysqli manual</li>
+  <li>when to use “if” for calling a command and when it isn’t necessary – is this just to test that it’s working (so you can have an ‘else’)?</li>
+  <li>Can we talk about refactoring?</li>
 </ul>
-
-<p><span style="font-size: medium;">What still needs work:</span></p>
-
-<ul>
-  <li>I am trying to figure out how to create a “show” page, where you would see an individual author information and the list of texts associated with that author. Same (but reversed) with the texts.</li>
-  <li>The add and edit page displays for authors, but I’m getting an error during the submit process that I’m still figuring out. This then needs to be done for texts as well. Or I need to figure out how to make my data more simple again.</li>
-  <li>And everything else that breaks but I don’t know about yet.</li>
-</ul>
-
-<p>And that’s were it’s at right now.</p>
-
-
-  <h2><a href="/blog/2012/09/06/women-called-to-witness-by-nancy-hardesty.html"><em>Women Called to Witness</em>, by Nancy Hardesty</a> <span>Sep  6</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p><em>Women Called to Witness: Evangelical Feminism in the Nineteenth Century</em> is a recovery project of the history of women’s involvement and struggle for equality in the evangelical movement. It is an introductory text to the 19th century that focuses particularly on the religious actions of women.</p>
-
-<p>The book focuses largely on women connected in some way to Charles Finney and the reform movements that were connected to his revivals. Hardesty moves quickly through the rise of Finney, the development of various forms of perfectionism, and the prevalence of women in social reform movements. While the book seems on one level to be simply moving thematically through the various venues of female reform activity during the century, the ending chapters reveal that the larger project of the book is presenting a case for the longstanding efforts by evangelical women to expand and transform gender roles and to claim their equality with men.</p>
-
-<p>She is drawing heavily upon and reacting to historiography surrounding the feminization of American Christianity, including Barbara Welter, Nancy Cott, and Ann Douglas.</p>
-
-  <h2><a href="/blog/2012/09/06/the-religious-world-of-antislavery-women-by-anna-speicher.html"><em>The Religious World of Antislavery Women</em>, by Anna Speicher</a> <span>Sep  6</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p><em>The Religious World of Antislavery Women: Spirituality in the Lives of Five Abolitionist Lecturers</em> is a group biography of Sarah and Angelina Gimké, Lucretia Mott, Abby Kelly Foster, and  Sallie Holley. These five women, who actively lectured and agitated for abolition during the mid-1800s, have a complicated religious history that is often presented in overly-simplified fashions by historians interested in questions of the women’s rights and suffrage or abolition. Speicher sets out to retell their history by highlighting how religion played a central role in the careers of each, both in motivating their activities and in shaping their interpretation of the world and their place it in.</p>
-
-<p>Speicher does well handling the spirituality of each of these women on its own terms, describing and honoring the religious struggles they express and the solutions they pursue. Her research and approach reveals that each, though often outside of the bounds of organized religion per se, was deeply shaped by religious seeking and saw her work as an essential part of a religious calling. She interprets their challenges to religious norms as motivated not by a rejection of religion but by a desire for religion to be more.</p>
-
-  <h2><a href="/blog/2012/09/06/reflections-on-quakers-and-antebellum-reform.html">Reflections on Quakers and Antebellum Reform</a> <span>Sep  6</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>This weeks readings focused largely on the religious world of the women who engaged in abolition, temperance, and women’s rights movements during the early part of the nineteenth century.</p>
-
-<p>One point that I am interested in talking about is the overlapping visions of the millennium and of creating a utopian society. The goal of bringing about some perfect end, some culmination of history, is touched upon by all of the authors and in both political and religious terms. Whether that end is the spread of liberty and spread of American Republicanism or the bringing about of a peaceful society where “the lion lays down with the lamb” or the end of sickness through proper diet, there are various ways the desired utopia is imagined and various ways groups attempted to bring that utopia into being. I am interested in the larger context of this utopian impulse – this does not appear to be unique or particularly American but it also feels as though the impulse is particularly strong during this period.</p>
-
-<p>One concern stemming from the work of Abzug is the use of “Manichean” to describe dualistic tendencies in the reformers thought. While it seems fair to say that they saw themselves and the world as part of a cosmic battle between the forces of good and evil, I am concerned that using “Manichean” too widely lessens the strength of critiquing the evangelical reformers particularly on that basis. (also, how many readers know why Manichean patterns are a problem?)</p>
-
-<p>In thinking about trends in the scholarship, I found it interesting that, while Abzug present a helpful broad analysis of the metanarratives / social imaginaries / cosmos behind antebellum reform movements, the writers of the other text are much more narrowly focused on the particular experiences of particular women, rather than on broad patterns of thought. Last semester Mike mentioned that one way of writing history was writing “empathetic” history (and I of course forget the other way). The works by women about women fall pretty squarely into that category, presenting these women as empathetic characters to be understood. While this is very useful, it would be interesting to discuss ways of connecting empathetic accounts to trends in thought and ritual, and the broader implications of those trends.</p>
-
-<p>I do want to do some more reading on the Gimké sisters after the readings for this week, largely for my own benefit as they are incredibly articulate and insightful in their discussions of the role of women in society.</p>
-
-<p>I do appreciate that all the writers, to varying degrees, problematized the framework of domesticity and separate spheres as a way of discussing the role of women in the 19th century. Hardesty relied on these the most, but she also drew attention to the various ways women used these social ideals to claim additional influence, particularly on issues of morality and religion. I am very skeptical about “separate spheres” as a useful mode of analysis (as are many others) so was good to see the analysis in these texts either problematize or ignore this framework.</p>
-
-  <h2><a href="/blog/2012/09/06/quaker-women-by-sandra-stanley-holton.html">Sandra Stanley Holton, <i>Quaker Women</i></a> <span>Sep  6</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p><em>Quaker Women: Personal Life, Memory and Radicalism in the Lives of Women Friends, 1780 – 1930</em> is a study of the Priestman and Bright extended families, made possible by the study of the correspondence and religious journals of the women of these interconnected families. The family network of those studied stretched from England to the United States and the record of the family shows how the relationship between religious practice, social norms, and political goals changed over time.</p>
-
-<p>The text focuses primarily on the English portion of the family. It covers the shifting pressures caused by marriage, children, death, and financial concerns and highlights the ways in which religion shaped those responses and was shaped by them.</p>
-
-  <h2><a href="/blog/2012/09/06/cosmos-crumbling-by-robert-h-abzug.html"><em>Cosmos Crumbling</em>, by Robert H. Abzug</a> <span>Sep  6</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>In <em>Cosmos Crumbling: American Reform and the Religious Imagination</em>, Robert Abzug looks at evangelical reform efforts, particularly Temperance, Sabbatarianism, and the incorporation of manual labor into seminary education, as well as “radical” reform causes of abolition, “body reforms” or various health and healing movements, and women’s rights and suffrage. In all of these he focuses on how reform fit into the cosmological beliefs of the reformers, with much of the effort focusing on bringing about the necessary purity to usher in the coming millennium.</p>
-
-<p>Some of the key aspects Abzug identifies of the “cosmos” that shaped much of the reform impulse was the anticipation of the millennium strengthened by the “Great Awakening” of the 18th century, the vision of American liberty/Republicanism as integral to ushering in the millennium, the rise or strengthening of “Manichean” interpretations of world events, and the extension of the Puritan sense of being a chosen people to the new nation as a whole.</p>
-
-<p>Argument: the reformers were motivated and guided by a vision of the young United States as part of the cosmic story of God’s work of redemption, and the eradication of social ills as an integral part of bringing about the end of that grand narrative. Bringing about the millennium involved both the conversion of individuals and the creation of a “godly” society. The vision of the ideal society, however, differed between evangelical reformers and radical reformers, with the former focused primarily on issues of temperance (and its associated ills of abuse and poverty) and Sunday observance while radical reformers challenged some of the basic ideas about race, gender, and religious practice.</p>
-
-<p>One general concern is that the religious cosmos of religious reformers is less developed in Abzug’s analysis than the evangelical reformers, though likely because of the variety of religious beliefs among radical reformers. His main focus here switches to the more political surrounding slavery and women’s rights.</p>
-
-<p>This text reinforced my interest in “ultra-ist” groups, groups that attempted to live according to an all-encompassing understanding of the religious life, groups that removed themselves from the general flow of life and tried to create insular and self-contained societies.</p>
 
 <p> </p>
 
-  <h2><a href="/blog/2012/09/06/beginning-the-minor-field-readings.html">Beginning the Minor Field Readings</a> <span>Sep  6</span></h2>
+<p>UPDATE: I have CRUD. (Delete is hidden). available at <a href="http://clio3.jeriwieringa.com/view.php">clio3.jeriwieringa.com/view.php</a></p>
+
+
+  <h2><a href="/blog/2012/09/27/victor-turner-betwixt-and-between-the-liminal-period.html">Victor Turner, “Betwixt and Between: The Liminal Period&#8221;</a> <span>Sep 27</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <p>This semester I am doing an minor field on religion in 19th century America. I am super excited to be focusing on my content area of choice! In addition to the general greatness of religion in the 19th century, the readings I am doing with the amazing <a href="https://twitter.com/sleonchnm">Sharon Leon</a> are focused on religious women. While we will be addressing the major themes of the period, the goal is to intentionally shift the focus to the religious worlds experienced, promoted, and constructed by women.</p>
+  <p>In the manner of sociologists and anthropologists, Victor Turner is investigating structures of human behavior by analyzing the practices and rituals of “simpler” societies.  In “Betwixt and Between,” he is investigating rites of passage, the cultural practices surrounding the movement from one state (any type of stable or recurrent condition that is culturally recognized (94)) to another. This transition includes separation, margin, and aggregation. Most of his attention is focused on the marginal, or liminal, period where, he notes, many standard social markers, including sex distinctions, do not apply (97). In addition, during the liminal period for the culture he studies, the neophyte is taught what Turner refers to as the <em>sacra</em>, the cosmology and mythical history of the people (103). This teaching of the <em>sacra </em>involves 1) the reduction of culture into recognized components, often through exaggeration of the integral aspects of culture or the body, 2) the recombination of those components in monstrous patterns or shapes, which further draws attention to the various components now removed from their usual context, and 3) the recombination of components in ways that fit the new state and status of the neophyte (106).</p>
 
-<p>Our “syllabus” is available at <a href="http://www.6floors.org/teaching/womens-religious-history-19th-century-america-fall-2012/">www.6floors.org/teaching/womens-religious-history-19th-century-america-fall-2012/</a></p>
-
-<p>I will be posting responses to the books on the reading list. If for whatever reason you are interested in following along, my short reactions will be found at <a href="http://jeriwieringa.com/blog/category/relminorfield">jeriwieringa.com/blog/category/relminorfield</a>.</p>
-
-
-  <h2><a href="/blog/2012/09/02/new-semester-new-course-new-adventures.html">New Semester, New Course, New Adventures</a> <span>Sep  2</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>As part of <a href="http://fredgibbs.net/courses/digital-history-techne/">History 698</a>, currently named “Programming for Historians,” we are creating tutorials for <a href="http://programminghistorian.org/">programminghistorian.org</a>. I will be posting my tutorials here, along with reflections on the process of applying data manipulation to historical investigation.</p>
-
-<p>Expect tutorials on web scrapping and on text mining in the coming months.</p>
-
-<p>To follow my coding efforts, go to <a href="http://jeriwieringa.com/dev/">jeriwieringa.com/dev</a>.</p>
-
-
-  <h2><a href="/blog/2012/05/17/rediscovering-the-humanities-in-digital-humanities.html">remembering the humanities in digital humanities</a> <span>May 17</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>I was asked a question recently that I wasn’t expecting. I was asked by a ruby developer what could be learned from the past. It was a sincere question. But I realized when he asked it that I generally assume the value of historical inquiry. I assume that you can learn a lot from the past, it just depends on what questions you ask.</p>
-
-<p>But to go further, the question he was asking wasn’t simply, “is there any value in studying history?” It was, what can we, the community of developers and entrapreneurs, learn from the practice of history and from studying our history.</p>
-
-<p>That’s when it struck me – we spend a lot of time in the digital humanities talking about using digital tools and methodologies for studying the past. Which is good. But we don’t spend nearly as much time talking about what the humanities brings to this partnership. Perhaps that is because we assume we know what it is. Or perhaps we are unsure ourselves.</p>
-
-<p>Humanities scholars do bring something, and it’s more than the cultural “raw material” for study. We bring questions, questions about persons and community, questions that help focus attention on structures of power, on the formation of identity, on links between peoples and patterns across events. Questions that highlight contingency and thereby open up opportunities for change.</p>
-
-<p>I find that many people who work in digital production find the concept of the digital humanities intriguing. I also find the question of “so what can you tell us” to be prevalent, a question that, as someone who prefers to study 19th-century religion, I am not sure how to answer.</p>
-
-<p>It would be an interesting experiment to apply the questions and methodologies I want to use for studying the past to study the recent past. It would also be terrifying, because, well, dead people don’t talk back, and that’s comforting. But it would be instructive to see if the story constructed using humanities and digital analysis tracks with and can shed new light on the story this particular community tells itself.</p>
-
-<p>(I just remembered that this is what people who do ethnographic research do all the time. Yay! People who can help!)</p>
-
-<p>I am intrigued by the idea of claiming questions, or a particular mode of inquiry, as the contribution that the humanities brings to this discussion. While the technology is important and digital humanities scholars should not be content with black boxes or giving conceptual direction without getting their hands “dirty” (more on this later), we should not loose site of the humanities in the digital.</p>
-
-<p>So what can a humanities scholar offer a community of developers? Perhaps a story. A story that helps reveal metanarratives – the assumptions about their community and the stories they tell themselves about their place in the world. A story that helps start conversations about where to go next as a community of practice.</p>
-
-  <h2><a href="/blog/2012/05/06/hist-697-backing-away.html">Hist 697: Backing away&#8230;</a> <span>May  6</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>I have hit the point when perfectionism becomes counter-productive and so am declaring my final project done.</p>
-
-<p>The design has been modified from the earlier draft. I replaced the border with a drop shadow and gave the header image a thorough re-thinking. The structure of the site is largely the same, but I added an Omeka install to preview the document viewing, the search functions, and the browsing options. After researching CMS options, it seems that the best option for both the management of the documents and the blogging/forum functions of the site is to do a combination of WordPress and Omeka. This, however, would result in a complicated site to maintain and some of the desired functions may need to be rethought. The project for the summer is working with Richard to import all of the documents into the database and to move the site onto his servers.</p>
-
-<p>My final project is available at <a href="http://jeriwieringa.com/projectcanterbury">www.jeriwieringa.com/projectcanterbury</a>.</p>
-
+<p>In Turner’s description, the liminal person is in transition from one culturally recognized state to another, and this transitional period helps to prepare them for assuming the responsibilities of the upcoming state. It is striking that this very particular account of transition rituals has been expanded so broadly in cultural theory and has been extended to include persons are perpetually “liminal” — always in transition between two states but never able to enter the next or return to the previous.</p>
 
 
   
@@ -197,62 +114,54 @@
   
 
       </div>
-        <aside>
-          <h3>Recent Posts</h3>
+      <aside>
+        <div id="sidebar">
+  <h2>Scholarship Areas</h2>
   <ul>
-    
-      <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
-    
-      <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
-    
-      <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
-    
+      <li class="important"><a href="/research.html">Religious History</a></li>
+      <li class="important"><a href="/digital.html">Digital History</a></li>
+      <li class="important"><a href="/teaching.html">Teaching</a></li>
   </ul>
-<div class="block">
-    <h3>Categories</h3>
-      <ul>
-        
-          <li><a href="/blog/category/research.html">research (26)</a></li>
-        
-          <li><a href="/blog/category/digital.html">digital (45)</a></li>
-        
-          <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
-        
-          <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
-        
-      </ul>
-</div>
-<div class="hidden">
-  <h3>By Year</h3>
+  <h2>Recent Posts</h2>
+  <ul>
+  
+    <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
+  
+    <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
+  
+    <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
+  
+  </ul>
+
+  <h2>Posts by Category</h2>
   <ul>
     
-      <li><a href="/blog/2014.html">2014</a> (1)</a></li>
+      <li><a href="/blog/category/research.html">research (26)</a></li>
     
-      <li><a href="/blog/2013.html">2013</a> (4)</a></li>
+      <li><a href="/blog/category/digital.html">digital (45)</a></li>
     
-      <li><a href="/blog/2012.html">2012</a> (47)</a></li>
+      <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
     
-      <li><a href="/blog/2011.html">2011</a> (16)</a></li>
-    
-      <li><a href="/blog/2010.html">2010</a> (2)</a></li>
+      <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
     
   </ul>
 </div>
-        </aside>
+
+      </aside>
       <footer>
         <div id="copyright">
   <p>CC-BY Jeri Wieringa, 2014
-  <br/>Image circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
+  <br/>Image of the Battle Creek Sanitarium circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
 </div>
 <div id="social" class="nav">
   <ul>
     <li><a href="http://twitter.com/jeriwieringa"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://github.com/jerielizabeth"><i class="fa fa-github"></i></a></li>
-    <li><a href="http://jeriwieringa.com/blog/feed.xml"><i class="fa fa-rss"></i></a></li>
+    <li><a href="/blog/feed.xml"><i class="fa fa-rss"></i></a></li>
   </ul>
 </div>
 
-<script>
+<!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -261,7 +170,7 @@
   ga('create', 'UA-35130770-1', 'jeriwieringa.com');
   ga('send', 'pageview');
 
-</script>
+</script> -->
       </footer>
     </div>
   </body>
