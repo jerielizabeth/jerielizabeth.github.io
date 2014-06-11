@@ -28,7 +28,7 @@
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
     <li><a href="/about.html">About</a></li>
-    <li><a href="https://www.dropbox.com/s/53q3875xnpqynax/Wieringa_CV.pdf">Vita</a></li>
+    <li><a href="/cv.html">Vita</a></li>
   </ul>
 </nav>
 <div id="title">
@@ -37,11 +37,19 @@
 
       </header>
       <div id="main" role="main">
-          <!--<p>Page 3 of 14</p>-->
+          <!--<p>Page 3 of 15</p>-->
 
   
     <p><a href="/blog/page/2/">Previous page</a></p>
   
+
+  <h2><a href="/blog/2012/11/04/slides-from-text-mining-presentation.html">Slides from Text-Mining Presentation</a> <span>Nov  4</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>Bit short since I was trying to read off of the screen less. Down-side: slides are less helpful on their own.</p>
+
+<p>The code examples are available at <a href="https://github.com/jerielizabeth/mining-example">github.com/jerielizabeth/mining-example</a></p>
+
 
   <h2><a href="/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html">Short Tutorial: Cleaning up downloaded files (draft)</a> <span>Nov  4</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
@@ -522,28 +530,6 @@ for tr in trs:
 
 <p>Coming out of these readings, there are a couple of themes that I am seeing repeated across the works that might provide interesting starting points for my own analysis. First, is the anxiety over interpretation and salvation that seems to be growing with the emphasis on individual authority over interpretation and the necessity of sure knowledge/experience of salvation. Second, and related, is the collapse of sacred distance. This one is a bit more complicated than Givens’ goes into – while he uses this to denote the breakdown between the categories of sacred and secular in Mormonism, with men becoming gods and God becoming like men, I am more interested in the reaching for connection with the divine, the efforts to bridge the distance between sacred and secular and to increase the experience of the sacred. Third, and again related, is the search for a sure experience, for something known and undoubtable. This type of search has parallels in the philosophical works of the day and while searching for assurance is well documented in studies of Puritan New England, there appears to be a particular crisis of knowledge being reacted against. And fourth is the primitivist impulse, the desire to go back to some unpolluted point and to recreate the world based upon that pure model.</p>
 
-  <h2><a href="/blog/2012/10/18/its-october-and-ive-run-out-of-catchy-titles.html">It&#8217;s October and I&#8217;ve run out of catchy titles &#8230;</a> <span>Oct 18</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>So, this week was both productive and not. I find that I learn in circles – I have to go over things about 3 times for connections between things to get to the point that I feel like I have learned something. (They told us this in philosophy too –  read it 3 times to understand what is going on. Now, if they assigned the same thing 3 times …)</p>
-
-<p>Anyway, in light of this pattern, I went back to some tutorials. I spent too much time on the first 17 tutorials of “<a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a>” and then, because I got a bit distractable at that point, did the first 13 of “<a href="http://sql.learncodethehardway.org/">Learn SQL the Hard Way</a>.” (I have a feeling <a href="http://regex.learncodethehardway.org/book/">“Learn Regex…”</a> is in my future …)</p>
-
-<p>At any rate, the SQL tutorials were really helpful in a, “well, duh. I should’ve picked up on that” sort of way. So I tweaked my pages to have one query for showing both text and author information, which is super useful and makes everything much cleaner and less confusing. I’ll push that up to my server so to update <a href="http://clio3.jeriwieringa.com">clio3.jeriwieringa.com</a>.</p>
-
-<p>There is still more to do with that, but I got distracted again by all of the files I pulled down last week. (seriously, grad school is turning me into a goldfish… ) At any rate, there was a small problem that most of the 2000 files that I pulled down were 2 bytes large. (they contained an empty array).</p>
-
-<p>So, with much googling, I worked out a bash script to delete all of the really small files. yup.</p>
-
-<pre>find *.json -size -28c | xargs rm</pre>
-
-<p>I was in folder already so no file path necessary. Anyway, this deleted all of the files that ended with .json and were smaller than 28 bytes. I tried with 2 bytes, but it was hiccup-ing.</p>
-
-<p>Then I realized I needed to parse out the hymnal IDs so I know which hymnal information to add to my database. (Good news – there is place info in the hymnal CSV file. It’s not going to tell me all that much, but it’s enough to get a sense of where the publishing centers are. And it gives me something to map.) And that’s where I’ve slowed to a halt.</p>
-
-<p>I am having trouble getting my head around working with these json files. I know it’s been explained to me many times, and I know it’s an array of arrays, but I just can’t seem to find a basic intro to the syntax for working with it. So that is where I could use the most help this week.</p>
-
-
 
   
     <p><a href="/blog/page/4/">Next page</a></p>
@@ -561,18 +547,18 @@ for tr in trs:
   <h2>Recent Posts</h2>
   <ul>
   
+    <li><a href="/blog/2014/04/16/Why-A-Digital-Dissertation.html">Why a Digital Dissertation?</a>, <span>Apr 16</span></li>
+  
     <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
   
     <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
-  
-    <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
   
   </ul>
 
   <h2>Posts by Category</h2>
   <ul>
     
-      <li><a href="/blog/category/research.html">research (26)</a></li>
+      <li><a href="/blog/category/research.html">research (27)</a></li>
     
       <li><a href="/blog/category/digital.html">digital (45)</a></li>
     
