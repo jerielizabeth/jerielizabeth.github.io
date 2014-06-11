@@ -5,25 +5,10 @@
   <id>http://jeriwieringa.com/blog</id>
   <link href="http://jeriwieringa.com/blog"/>
   <link href="http://jeriwieringa.com/blog/blog/feed.xml" rel="self"/>
-  <updated>2014-04-16T00:00:00Z</updated>
+  <updated>2014-03-12T00:00:00Z</updated>
   <author>
     <name>Jeri Wieringa</name>
   </author>
-  <entry>
-    <title>Why a Digital Dissertation?</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/04/16/Why-A-Digital-Dissertation.html"/>
-    <id>http://jeriwieringa.com/blog/2014/04/16/Why-A-Digital-Dissertation.html</id>
-    <published>2014-04-16T00:00:00Z</published>
-    <updated>2014-04-16T12:36:24-07:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Outline: 
-- Ability to intertwine media and analysis.
-- Using computational technology to analyze and engage with questions of system, rather than cause.
-- Ability to engage multiple narratives within the same space, thereby bringing those narratives into the realm of analysis.&lt;/p&gt;
-</content>
-  </entry>
   <entry>
     <title>Moving to Middleman</title>
     <link rel="alternate" href="http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html"/>
@@ -371,6 +356,64 @@
 
 &lt;p&gt;The code examples are available at &lt;a href="https://github.com/jerielizabeth/mining-example"&gt;github.com/jerielizabeth/mining-example&lt;/a&gt;&lt;/p&gt;
 
+</content>
+  </entry>
+  <entry>
+    <title>Short Tutorial: Cleaning up downloaded files (draft)</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html"/>
+    <id>http://jeriwieringa.com/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html</id>
+    <published>2012-11-04T00:00:00Z</published>
+    <updated>2014-03-12T11:40:53-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;So you used wget or Python to pull down a collection of files from the web. Excellent! But in looking through your loot, you notice that a number of the files are oddly small and, on further examination, find that they are functionally empty. How do you clean up your collection of files quickly?&lt;/p&gt;
+
+&lt;p&gt;There are a number of very powerful command line tools built into UNIX systems (Mac and Linux) that allow you to manipulate your files quickly and easily. This is a brief tutorial on how to use those tools to locate all of the files that are too small and then remove those files from your collection.&lt;/p&gt;
+
+&lt;p&gt;Begin by navigating in Terminal to your collection of folders. For example, my files were located a couple of folders downs within my Documents folder.&lt;/p&gt;
+
+&lt;pre&gt;cd Documents/Github/Clio3/Webscraping/hymn-files&lt;/pre&gt;
+
+&lt;p&gt;Once in the folder with your downloaded files, you need to find a way to isolate out the files that are too small to be interesting. To do this, use the “find” command. First, to see the various options associated with “find”, enter&lt;/p&gt;
+
+&lt;pre&gt;man help&lt;/pre&gt;
+
+&lt;p&gt;Use the up and down arrows to move around the window that appears. Look around at the various options – there are many! However, because we are looking only in a particular folder, which in my case has no subfolders, all that we need to look at for now is size.&lt;/p&gt;
+
+&lt;p&gt;To exit this window, type “q”.&lt;/p&gt;
+
+&lt;p&gt;If the files we are interested in sorting through are all one file type (in my case they’re .json files), we can tell the computer to find all of the files of a particular type and particular size as follows:&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size 28c&lt;/pre&gt;
+
+&lt;p&gt;This would find all of the json files that are 28 bytes in size.&lt;/p&gt;
+
+&lt;p&gt;However, we want all the files that are 28 bytes or less.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c&lt;/pre&gt;
+
+&lt;p&gt;Finding the files is great, but now we need to do something with that collection of files.&lt;/p&gt;
+
+&lt;p&gt;First we are going to “pipe” the results of our search over to our second, removal, function.&lt;/p&gt;
+
+&lt;p&gt;(From here on the examples are showing how the command is built – Do not run the command until the very end when all the pieces are in place)&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c |&lt;/pre&gt;
+
+&lt;p&gt;Next we are going to use xargs, which helps the computer handle a long list of file names.&lt;/p&gt;
+
+&lt;p&gt;Note: The wikipedia entry on xargs suggests using “-0″ (zero) when dealing with file names with spaces in them as xargs defaults to separating at white space (another reason to avoid spaces in filenames). If you run this command without -0 and it doesn’t work, try adding the -0.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c | xargs&lt;/pre&gt;
+
+&lt;p&gt;And the function we want to run on each filename is “rm” or remove. rm has a number of options that you can research, some of which really make data un-recoverable and should be used with care. However, a basic “rm” command will be sufficient for this example.&lt;/p&gt;
+
+&lt;pre&gt;find *.json -size -28c | xargs rm&lt;/pre&gt;
+
+&lt;p&gt;Run this command to remove all of the files less than 28 bytes from your current directory.&lt;/p&gt;
+
+&lt;p&gt;(I used 28 bytes because the computer was having trouble with 0 and all of the files I wanted to keep were larger than 28 bytes. Not exactly sure why 0 was a problem but this is why experimenting with the find options before moving on to removing the files is a good idea!)&lt;/p&gt;
 </content>
   </entry>
 </feed>
