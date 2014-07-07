@@ -1,727 +1,351 @@
 /* -------------------------------------------------------------------------*/
-/* Screen */
-/*--- Layout Grid --*/
-/* line 6, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#wrap {
-  *zoom: 1;
-  max-width: 19em;
-  _width: 19em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  /*@include susy-grid-background;*/ }
-  /* line 38, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  #wrap:after {
-    content: "";
-    display: table;
-    clear: both; }
-  /* line 9, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #image {
-    margin: 3em 0 0 0; }
-  /* line 10, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #title {
-    width: 100%;
-    float: left;
-    margin-right: 5.26316%;
-    display: inline;
-    padding: 1em 0 1em 0; }
-  /* line 11, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap .primary-nav {
-    width: 100%;
-    float: left;
-    margin-right: 5.26316%;
-    display: inline; }
-  /* line 12, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #upper-nav {
-    width: 100%;
-    float: left;
-    margin-right: 5.26316%;
-    display: inline; }
-  /* line 13, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #main {
-    width: 100%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-    clear: both;
-    padding-bottom: 1em; }
-  /* line 14, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap aside {
-    width: 100%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-    background-color: #154563; }
-  /* line 15, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #sidebar {
-    padding: 0 .5em; }
-  /* line 16, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap .callout {
-    width: 100%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-    text-align: center; }
-  /* line 17, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #copyright {
-    width: 100%;
-    float: left;
-    margin-right: 5.26316%;
-    display: inline; }
-  /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap #social {
-    width: 47.36842%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-    padding: .5em 0; }
-  /* line 19, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #wrap footer {
-    padding: 1em 0; }
-  @media (min-width: 35em) {
-    /* line 6, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    #wrap {
-      max-width: 29em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      margin-left: auto;
-      margin-right: auto;
-      /*@include susy-grid-background;*/ }
-      /* line 38, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-      #wrap:after {
-        content: "";
-        display: table;
-        clear: both; }
-      /* line 23, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #image {
-        margin: 1em 0 0 0; }
-      /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #title {
-        width: 100%;
-        float: left;
-        margin-right: 3.44828%;
-        padding: 0 .5em;
-        margin-left: 0; }
-      /* line 25, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .primary-nav {
-        width: 82.75862%;
-        float: right;
-        margin-right: 0;
-        padding: 1em 0 0; }
-        /* line 25, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-        #wrap .primary-nav ul {
-          margin: 0 .5em 0 3em; }
-          /* line 25, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-          #wrap .primary-nav ul li {
-            padding: .5em 0 0 1em; }
-      /* line 26, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .nav-button {
-        display: none; }
-      /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #upper-nav {
-        width: 48.27586%;
-        float: left;
-        margin-right: 3.44828%; }
-      /* line 28, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #full {
-        width: 100%;
-        float: left;
-        margin-right: 3.44828%; }
-      /* line 29, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #secondary-nav {
-        width: 100%;
-        float: right;
-        margin-right: 0; }
-      /* line 30, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #main {
-        width: 100%;
-        float: left;
-        margin-right: 3.44828%; }
-      /* line 31, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .callout {
-        width: 100%;
-        float: right;
-        margin-right: 0;
-        text-align: center; }
-      /* line 32, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #copyright {
-        width: 65.51724%;
-        float: left;
-        margin-right: 3.44828%; }
-      /* line 33, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #social {
-        width: 31.03448%;
-        float: right;
-        margin-right: 0;
-        padding: 1em 0; }
-      /* line 34, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap footer {
-        padding: 1em 0; } }
-  @media (min-width: 50em) {
-    /* line 6, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    #wrap {
-      max-width: 49em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      margin-left: auto;
-      margin-right: auto;
-      /*@include susy-grid-background;*/ }
-      /* line 38, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-      #wrap:after {
-        content: "";
-        display: table;
-        clear: both; }
-      /* line 39, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #title {
-        width: 79.59184%;
-        float: left;
-        margin-right: 2.04082%;
-        clear: both;
-        padding: 0 .5em;
-        margin-left: 1em; }
-      /* line 40, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .primary-nav {
-        width: 48.97959%;
-        float: right;
-        margin-right: 0;
-        padding: 1em 0 0; }
-      /* line 41, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .nav-button {
-        display: none; }
-      /* line 42, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #upper-nav {
-        width: 100%;
-        float: right;
-        margin-right: 0; }
-      /* line 43, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #full {
-        width: 100%;
-        float: right;
-        margin-right: 0; }
-      /* line 44, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #blurb {
-        margin: 0 5em; }
-      /* line 45, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #secondary-nav {
-        width: 100%;
-        float: right;
-        margin-right: 0;
-        margin: 1em 0; }
-      /* line 46, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #main {
-        width: 59.18367%;
-        float: left;
-        margin-right: 2.04082%;
-        clear: both; }
-      /* line 47, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap aside {
-        width: 28.57143%;
-        float: right;
-        margin-right: 0;
-        background-color: white;
-        color: #444444; }
-        /* line 47, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-        #wrap aside a {
-          color: #277fb7; }
-          /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-          #wrap aside a:visited {
-            color: #3c9ad5; }
-          /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-          #wrap aside a:hover {
-            color: #dd8b24; }
-          /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-          #wrap aside a:active {
-            color: #e4a250; }
-      /* line 48, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .callout {
-        text-align: center; }
-        /* line 48, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-        #wrap .callout p {
-          margin: 0 5em; }
-      /* line 49, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #copyright {
-        width: 59.18367%;
-        float: left;
-        margin-right: 2.04082%; }
-      /* line 50, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #social {
-        width: 18.36735%;
-        float: right;
-        margin-right: 0;
-        padding: 1em 0; }
-      /* line 51, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap footer {
-        padding: 1em 0; } }
-  @media (min-width: 60em) {
-    /* line 6, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    #wrap {
-      max-width: 59em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      margin-left: auto;
-      margin-right: auto;
-      /*@include susy-grid-background;*/ }
-      /* line 38, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-      #wrap:after {
-        content: "";
-        display: table;
-        clear: both; }
-      /* line 56, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #title {
-        width: 66.10169%;
-        float: left;
-        margin-right: 1.69492%;
-        clear: both;
-        padding: 0 .5em;
-        margin-left: 1em; }
-      /* line 57, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .primary-nav {
-        width: 40.67797%;
-        float: right;
-        margin-right: 0;
-        padding: 1em 0 0; }
-      /* line 58, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .nav-button {
-        display: none; }
-      /* line 59, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #upper-nav {
-        width: 83.05085%;
-        float: right;
-        margin-right: 0; }
-      /* line 60, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #full {
-        width: 100%;
-        float: right;
-        margin-right: 0;
-        font-size: 1.25em; }
-      /* line 61, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #blurb {
-        margin: 0 5em; }
-      /* line 62, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #main {
-        width: 66.10169%;
-        float: left;
-        margin-right: 1.69492%;
-        clear: both; }
-      /* line 63, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap aside {
-        width: 23.72881%;
-        float: right;
-        margin-right: 0;
-        background-color: white;
-        color: #444444; }
-        /* line 63, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-        #wrap aside a {
-          color: #277fb7; }
-          /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-          #wrap aside a:visited {
-            color: #3c9ad5; }
-          /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-          #wrap aside a:hover {
-            color: #dd8b24; }
-          /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-          #wrap aside a:active {
-            color: #e4a250; }
-      /* line 64, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #secondary-nav {
-        width: 100%;
-        float: right;
-        margin-right: 0; }
-      /* line 65, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap .callout {
-        width: 32.20339%;
-        float: left;
-        margin-right: 1.69492%;
-        margin-right: 0;
-        text-align: center; }
-        /* line 65, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-        #wrap .callout p {
-          margin: 0 1em; }
-      /* line 66, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #copyright {
-        width: 49.15254%;
-        float: left;
-        margin-right: 1.69492%; }
-      /* line 67, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap #social {
-        width: 15.25424%;
-        float: right;
-        margin-right: 0;
-        padding: 1em 0; }
-      /* line 68, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      #wrap footer {
-        padding: 1em 0; } }
+/* Screen - Mobile */
+@media screen and (max-width: 40em) {
+  /* line 5, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_40em.scss */
+  #secondary-nav .callout {
+    width: 100% !important; }
 
-/*--- Base Styles --*/
-/* line 73, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-body {
-  font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
-  font-size: 16px;
-  color: #444444;
-  margin: 0;
-  padding-top: 0; }
+  /* line 9, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_40em.scss */
+  article {
+    width: 100% !important; }
 
-/* line 80, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#index {
-  background: url(../images/BC_1868_blue.png) no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  color: #c2c2ba; }
-  /* line 87, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #index a {
-    color: #e4a250; }
-    /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    #index a:visited {
-      color: #e4a250; }
-    /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    #index a:hover {
-      color: #277fb7; }
-    /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    #index a:active {
-      color: #3c9ad5; }
-
-/*--- Header Styles --*/
-/* line 92, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#image {
-  width: 100%;
-  overflow: auto;
-  padding-top: 2.5em;
-  background: url(../images/BC_1868_blue_narrow.png) no-repeat;
-  background-size: cover;
-  padding: 0;
-  top: 0px;
-  left: 0px;
-  z-index: 998; }
-  /* line 102, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #image a {
-    color: #e4a250; }
-    /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    #image a:visited {
-      color: #e4a250; }
-    /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    #image a:hover {
-      color: #277fb7; }
-    /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    #image a:active {
-      color: #3c9ad5; }
-
-/* line 106, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#title h1 {
-  font-family: "Great Vibes", cursive;
-  font-size: 4em;
-  font-weight: 300;
-  margin: .5em 0 .5em .5em; }
-  /* line 111, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #title h1 a {
-    text-decoration: none;
-    display: block; }
-
-/* line 116, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Forum", Georgia, serif; }
-
-/* line 119, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-h1 {
-  font-size: 40px; }
-
-/* line 122, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-h2 {
-  clear: both;
-  padding: .5em 0;
-  font-size: 32px; }
-
-/* line 127, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-h3 {
-  font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
-  font-size: 24px; }
-
-/* line 131, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-aside h3 {
-  padding: .5em 0;
-  font-family: "Forum", Georgia, serif; }
-
-/*--- Link Styles --*/
-/* line 137, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-a {
-  color: #277fb7;
-  text-decoration: none; }
-  /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-  a:visited {
-    color: #3c9ad5; }
-  /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-  a:hover {
-    color: #dd8b24; }
-  /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-  a:active {
-    color: #e4a250; }
-  /* line 140, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  a:hover {
-    text-decoration: underline; }
-
-/*--- Navigation Styles --*/
-/* Mobile Navigation */
-@media only screen and (min-width: 0px) and (max-width: 35em) {
-  /* line 3, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .nav-button {
-    display: block;
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 25px;
-    height: 25px;
-    background: url("../images/menu-icon-large.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background: url("../images/menu-icon-large.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background: url("../images/menu-icon-large.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background: url("../images/menu-icon-large.png"), -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 21px, 100%;
-    cursor: pointer;
-    border: 0 none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) inset;
-    border-radius: 5px;
-    z-index: 999;
-    text-indent: -9999px; }
-
-  /* line 25, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .nav-button:hover {
-    background-color: rgba(0, 0, 0, 0.1); }
-
-  /* line 28, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .nav-button.open {
-    background: url("../images/close-icon-large.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background: url("../images/close-icon-large.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background: url("../images/close-icon-large.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background: url("../images/close-icon-large.png"), -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 21px, 100%; }
-
-  /* Navigation Bar
-  -------------------------------------------------------- */
-  /* line 40, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav {
-    background-color: #0c2839;
-    /*change the menu color */
-    /*background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-    background-image:    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-    background-image:     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-    background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));*/
-    display: block;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 998;
-    clear: both; }
-    /* line 58, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-    .primary-nav ul {
-      margin: 0;
-      padding-left: 50px; }
-
-  /* line 63, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav li {
-    display: none;
-    width: 100%; }
-
-  /* line 67, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav li a {
-    display: block;
-    width: 90%;
-    padding: 10px 5%;
-    font-size: 16px;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
-    color: white;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    border-top: 1px solid rgba(255, 255, 255, 0.1); }
-
-  /* line 78, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-top-color: transparent; }
-
-  /* line 82, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav > li:first-child {
-    border-top: 1px solid rgba(0, 0, 0, 0.2); }
-
-  /* Toggle the navigation bar open  */
-  /* line 88, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav.open {
-    height: auto; }
-
-  /* line 91, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-nav.scss */
-  .primary-nav.open li {
-    display: block; } }
-/* line 148, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-.nav {
-  font-family: "Forum", Georgia, serif;
-  overflow: auto; }
-  /* line 151, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  .nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-    /* line 155, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    .nav ul li {
-      width: auto;
-      float: left; }
-    /* line 159, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    .nav ul a {
-      text-decoration: none; }
-      /* line 161, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-      .nav ul a:hover {
-        text-decoration: underline; }
-
-/* line 167, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-.primary-nav {
-  font-family: "Forum", Georgia, serif;
-  font-size: 1.25em; }
-  /* line 170, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  .primary-nav ul {
-    list-style-type: none; }
-    /* line 172, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    .primary-nav ul li {
-      float: left; }
-
-/* line 177, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#secondary-nav {
-  font-size: 1.5em; }
-  /* line 180, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #secondary-nav .callout h2 {
-    padding: 0; }
-  /* line 181, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #secondary-nav .callout p {
-    font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
-    font-size: 16px; }
-
-/* line 187, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#upper-nav {
-  clear: both;
-  float: left;
-  padding: .5em 0; }
-  /* line 191, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #upper-nav .important {
-    font-family: "Forum", Georgia, serif;
-    font-size: 1.25em; }
-
-/* line 197, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#social {
-  font-size: 1.5em; }
-  /* line 199, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #social ul li {
-    padding-left: .75em; }
-
-/*--- Main Styles --*/
-/* line 204, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#full {
-  clear: both; }
-
-/* line 207, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#blurb {
-  font-weight: 300; }
-
-/* line 210, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-.entry {
-  clear: both;
-  padding: .5em 0;
-  overflow: auto; }
-
-/* line 215, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-.portfolio {
-  border: 1px solid #666;
-  float: left;
-  width: 90%; }
-
-/* line 220, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-.title {
-  float: left;
-  width: 100%;
-  font-size: 1.25em; }
-  /* line 224, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  .title h4 {
-    margin-bottom: 0; }
-  /* line 225, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  .title p {
-    margin-top: 0;
-    font-size: 16px; }
-
-/* line 230, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-.tagline {
-  font-size: .9em; }
-
-/*--- Blog Styles --*/
-/* line 235, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#main h1 {
-  margin-bottom: .5em;
-  font-variant: small-caps; }
-/* line 239, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#main h2 {
-  padding-bottom: 0; }
-/* line 242, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#main ul {
-  list-style-type: none;
-  padding-left: 0; }
-  /* line 245, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #main ul li {
-    padding: .5em 0; }
-/* line 249, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#main .text {
-  padding-top: .5em; }
-/* line 252, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-#main .display-list {
-  list-style-type: square;
-  margin-left: 2em; }
-  /* line 255, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  #main .display-list li {
-    padding: .25em; }
-
-/* line 260, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-aside {
-  color: #c2c2ba; }
-  /* line 262, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  aside a {
-    color: #e4a250; }
-    /* line 18, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    aside a:visited {
-      color: #e4a250; }
-    /* line 24, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    aside a:hover {
-      color: #3c9ad5; }
-    /* line 27, /Users/jeriwieringa/Documents/Github/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-    aside a:active {
-      color: #3c9ad5; }
-  /* line 263, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  aside h2 {
-    padding: 0; }
-  /* line 266, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  aside h3 {
-    padding: 0; }
-  /* line 269, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-  aside ul {
-    list-style-type: none;
-    padding: 0; }
-    /* line 272, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-    aside ul li {
-      padding-bottom: .5em; }
-
-/*--- Footer Styles --*/
-/* line 279, /Users/jeriwieringa/Documents/Github/website-middleman/source/assets/stylesheets/_mobile-first.scss */
-footer {
-  clear: both; }
-
+  /* line 12, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_40em.scss */
+  aside {
+    width: 100% !important;
+    background-color: #1e628d;
+    color: #bbbbbb !important; }
+    /* line 16, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_40em.scss */
+    aside section {
+      padding: .5em 1em; } }
 /* -------------------------------------------------------------------------*/
-/* Screen - Mobile 
-@import "screen_680px";*/
+/* Screen */
+@media screen {
+  /*--- Layout Grid --*/
+  /* line 6, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  #wrap {
+    *zoom: 1;
+    max-width: 59em;
+    _width: 59em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    /*    @include susy-grid-background;
+    */
+    background-color: white; }
+    /* line 38, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+    #wrap:after {
+      content: "";
+      display: table;
+      clear: both; }
+
+  /*--- Base Styles --*/
+  /* line 13, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  body {
+    font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    margin: 0;
+    background: url(../images/wood_02.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
+    /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    body a {
+      color: #dd8b24; }
+      /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+      body a:visited {
+        color: #e4a250; }
+      /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+      body a:hover {
+        color: #1e628d; }
+      /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+      body a:active {
+        color: #3c9ad5; }
+
+  /* line 28, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  header,
+  main,
+  footer {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    padding: 1em 3.5% .5em 3.5%; }
+
+  /* line 33, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Forum", Georgia, serif;
+    line-height: 1.2em; }
+
+  /* line 37, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  h1 {
+    font-size: 40px;
+    margin: .5em 0; }
+
+  /* line 41, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  h2 {
+    clear: both;
+    margin: .5em 0;
+    font-size: 32px; }
+
+  /* line 46, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  h3 {
+    font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
+    font-size: 24px; }
+
+  /* line 50, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  aside h3 {
+    padding: .5em 0;
+    font-family: "Forum", Georgia, serif; }
+
+  /*--- Link Styles --*/
+  /* line 56, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  a {
+    color: #277fb7;
+    text-decoration: none; }
+    /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    a:visited {
+      color: #3c9ad5; }
+    /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    a:hover {
+      color: #dd8b24; }
+    /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+    a:active {
+      color: #e4a250; }
+    /* line 59, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    a:hover {
+      text-decoration: underline; }
+
+  /*--- Header Styles --*/
+  /* line 63, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  #title {
+    line-height: 2.5em; }
+    /* line 65, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    #title h1 {
+      font-family: "Coda", cursive;
+      font-size: 3em;
+      margin: .5em 0 0 0; }
+      /* line 69, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      #title h1 a {
+        text-decoration: none;
+        display: block; }
+    /* line 74, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    #title h2 {
+      text-align: right;
+      padding: 0;
+      margin: .5em 0; }
+
+  /*--- Navigation Styles --*/
+  /* Mobile Navigation */
+  /*@import "mobile-nav";*/
+  /* line 86, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .nav, .primary-nav {
+    font-family: "Forum", Georgia, serif; }
+    /* line 88, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    .nav ul, .primary-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      /* line 92, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      .nav ul li, .primary-nav ul li {
+        width: auto;
+        float: left; }
+      /* line 96, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      .nav ul a, .primary-nav ul a {
+        text-decoration: none; }
+        /* line 98, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        .nav ul a:hover, .primary-nav ul a:hover {
+          text-decoration: underline; }
+
+  /* line 104, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .primary-nav {
+    font-family: "Forum", Georgia, serif;
+    font-size: 1.25em;
+    width: 100%;
+    overflow: auto;
+    border-top: 1px solid #888888;
+    border-bottom: 5px double #888888; }
+    /* line 112, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    .primary-nav ul {
+      list-style-type: none;
+      float: left; }
+      /* line 115, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      .primary-nav ul li {
+        float: left;
+        display: block;
+        padding: .5em 1em .5em .5em; }
+        /* line 120, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        .primary-nav ul li a:before {
+          content: "\2756"; }
+
+  /* line 127, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  #secondary-nav .callout {
+    width: 30%;
+    float: left;
+    padding: 2% 1.5%; }
+    /* line 131, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    #secondary-nav .callout h2 {
+      padding: 0;
+      margin-bottom: 0;
+      text-align: center; }
+    /* line 136, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    #secondary-nav .callout p {
+      font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
+      font-size: 16px;
+      text-align: center; }
+
+  /* line 144, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  #social {
+    font-size: 1.5em; }
+    /* line 146, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    #social ul li {
+      padding-left: .75em; }
+
+  /*--- Index Styles --*/
+  /* line 152, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  #blurb {
+    text-align: center;
+    /*    font-size:$font-size-main*1.25;
+        line-height: $font-size-main*2;
+    */ }
+
+  /* line 157, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .entry {
+    clear: both;
+    padding: .5em 0;
+    overflow: auto; }
+
+  /* line 162, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .portfolio {
+    border: 1px solid #888888;
+    float: left;
+    width: 90%; }
+
+  /* line 167, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .title {
+    float: left;
+    width: 100%;
+    font-size: 1.25em; }
+    /* line 171, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    .title h4 {
+      margin-bottom: 0; }
+    /* line 172, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    .title p {
+      margin-top: 0;
+      font-size: 16px; }
+
+  /* line 177, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .tagline {
+    font-size: .9em; }
+
+  /*--- Blog Styles --*/
+  /* line 182, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  article {
+    width: 70%;
+    float: left;
+    margin-right: 5%; }
+    /* line 186, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article h1 {
+      margin-bottom: .5em;
+      font-variant: small-caps; }
+    /* line 190, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article h2 {
+      padding-bottom: 0; }
+    /* line 193, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article ul {
+      list-style-type: none;
+      padding-left: 0; }
+      /* line 196, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      article ul li {
+        padding: .5em 0; }
+    /* line 200, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article .text {
+      padding-top: .5em; }
+    /* line 203, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article .display-list {
+      list-style-type: square;
+      margin-left: 2em; }
+      /* line 206, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      article .display-list li {
+        padding: .25em; }
+    /* line 211, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article section {
+      width: 100%;
+      padding: .5em 0 1em; }
+    /* line 215, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article #next {
+      clear: both;
+      padding-top: 1em; }
+    /* line 219, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article #recent_posts {
+      padding-top: 1em; }
+      /* line 221, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      article #recent_posts h2 {
+        padding-bottom: .5em;
+        border-bottom: 1px solid #888888; }
+      /* line 225, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      article #recent_posts ul {
+        padding-left: 1em; }
+        /* line 228, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        article #recent_posts ul li a:before {
+          content: "\2756"; }
+    /* line 234, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    article .cse .gsc-control-cse, article .gsc-control-cse {
+      padding: 0; }
+
+  /* line 238, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  aside {
+    width: 23%;
+    float: right;
+    color: #888888; }
+    /* line 242, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    aside a {
+      color: #e4a250; }
+      /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+      aside a:visited {
+        color: #e4a250; }
+      /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+      aside a:hover {
+        color: #3c9ad5; }
+      /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+      aside a:active {
+        color: #3c9ad5; }
+    /* line 243, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    aside h2 {
+      padding: 0; }
+    /* line 246, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    aside h3 {
+      padding: 0; }
+    /* line 249, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    aside ul {
+      list-style-type: none;
+      padding: 0; }
+      /* line 252, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      aside ul li {
+        padding-bottom: .5em; }
+        /* line 255, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        aside ul li a:before {
+          content: "\2756"; }
+
+  /*--- Footer Styles --*/
+  /* line 263, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  footer {
+    clear: both;
+    border-top: 5px double #888888; }
+    /* line 266, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    footer #copyright {
+      width: 50%;
+      float: left; }
+      /* line 269, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      footer #copyright p {
+        margin: 0; }
+    /* line 273, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    footer #social {
+      width: 50%;
+      float: left; }
+      /* line 276, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      footer #social ul {
+        float: right; } }

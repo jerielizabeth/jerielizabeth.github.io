@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>Jeri Wieringa</title>
+    <title>From Data to Scholarship</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
+    <link href='http://fonts.googleapis.com/css?family=Coda|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
     <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -21,27 +21,52 @@
 
   </head>  <body>
    <div id="wrap">
-      <header id="image">
-        <button class="nav-button">Toggle Navigation</button>
+      <header id="head">
+        <div id="title">
+  <h1><a href="/">From Data to Scholarship</a></h1>
+  <h2>Digital Experiments in Religious History</h2>
+</div>
 <nav class="primary-nav">
   <ul>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
     <li><a href="/about.html">About</a></li>
     <li><a href="/cv.html">Vita</a></li>
+    <li><a href="/search.html"><i class="fa fa-search"></i></a></li>
   </ul>
 </nav>
-<div id="title">
-  <h1><a href="/">Jeri E. Wieringa</a></h1>
-</div>
+
 
       </header>
-      <div id="main" role="main">
-          <!--<p>Page 1 of 14</p>-->
+      <main>
+        <article>
+          <!--<p>Page 1 of 15</p>-->
 
   
 
-  <h2><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a> <span>Mar 12</span></h2>
+<section>
+  <h2><a href="/blog/2014/06/12/lessons-from-dhsi.html">All Models are Wrong</a>, <span>12 Jun 2014</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p><em>This piece is cross-posted on the <a href="http://ach.org/2014/06/26/all-models-are-wrong-lessons-from-dhsi/">ACH Blog</a></em></p>
+
+<p>"Essentially, all models are wrong but some are useful." This phrase, attributed to George Box, was the mantra for the Data Mining for Digital Humanists course at the Digital Humanities Summer Institute last week. Throughout the course, we worked to understand the mathematical concepts behind some of the most common algorithms used to solve classification and clustering problems. In data mining, the goal is to create a heuristic that allows one to predict with a high degree of accuracy how to classify new data based on the data one has seen in the past. From Amazon and Netflix recommendations to Pandora and even self-driving cars, the results of data mining work are present all across our digital lives.</p>
+
+<p>And yet all models are wrong. In thinking about how to use data mining in my own work, it was helpful to learn that the goal of data mining is not to perfectly fit the model to the data at hand. Data mining is predictive: based on the results of the past, you create a model that predicts the label or classification to be assigned to future data. If you match your model too closely to the original data, if you overfit, the predictive power of the model decreases. Models are created to generalize. There are always outliers and items that are misclassified, but the payoff is the ability to abstract and to get a reliable prediction when faced with new data.</p>
+
+<p>All models are wrong but some are useful. This should not be surprising to scholars in the humanities. In history, we frequently work with models to help us elucidate processes and explain events. We use economic models, political models, and models of race, class, and gender to explain actions and causes. While useful for drawing attention to the ways particular factors shaped events in the past, these models are necessarily incomplete. We know that there is more than economics at play, more than politics, more than religion, more than individual genius.</p>
+
+<p>One area of concern surrounding computational approaches to humanities scholarship is the question of truth claims. Will algorithmic approaches fool us into claiming that we have uncovered the "truth" of the text, the "true" cause of a historical event, the "truth" of the human experience? Are computational approaches at odds with humanistic thinking that stresses contingency, subjectivity, and irreducibility? These are open questions that we need to continue to explore.</p>
+
+<p>But all models are wrong. Data mining that seeks the "truth" is data mining done poorly. I think computational approaches can be very useful in the context of the humanities when we are looking for useful patterns to shed light on particular questions. Different models of the same data can answer different questions or suggest different conclusions. This makes data mining not an answer generating machine but a way of modeling data that is itself the result of theoretical and interpretive choices.</p>
+
+<p>Remembering that all models are wrong is very useful for my own work. I am working to model and discuss the ways health reform ideology, social constructions that delineate power relationships, and religious and theological commitments were in conversation in the development of Seventh-day Adventism. There are many ways to model language similarity and use, some of which will be more useful than others for exploring the interrelationship between multiple cultural systems. My goal, however, is not to create the perfect model - that is impossible. Instead, my goal is to create useful models that help elucidate particular aspects or patterns, models that will necessarily fall short and make no claims to expressing the "truth" of the historical processes I study.</p>
+
+<p>What I am taking away from the data mining course is a better understanding of how those in computer science, statistics, and applied mathematics view the intellectual space where they work. Rather than black-boxes that give "truth," the algorithms developed and used for data mining problems constitute a variety of models that work with different ranges of accuracy on different problems. There is no one right model, but there are a variety of algorithms that one can use to isolate aspects of a given dataset. This allows one to create useful models of the data in order to describe, make predictions, and better understand the material at hand. And this is an understanding that I think has many possibilities for productive overlap with research in the humanities.</p>
+
+</section>
+<section>
+  <h2><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>12 Mar 2014</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>Things are a-changing here at jeriwieringa.com. While I have been a WordPress user for many years, it is time for a change. As I learn more about the web and about creating sites for long-term management, I have become convinced that simple is a virtue on the web. And database-driven sites are complex.</p>
@@ -52,7 +77,9 @@
 
 <p>The downside of this transition is that all my URLs have changed. But, think of it as an excuse to explore! </p>
 
-  <h2><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a> <span>Jul 30</span></h2>
+</section>
+<section>
+  <h2><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>30 Jul 2013</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>Last fall I attended <a href="http://railsgirls.com/">Rails Girls </a>DC, a one day workshop that introduces women to programming using Ruby on Rails. It was a wonderful event and I learned a lot. But I also left inspired to bring this sort of event to the Digital Humanities! We too have a gender gap and need to support women interested in the coding side the field.</p>
@@ -62,7 +89,9 @@
 <p>The event is open to women scholars of all ranks and career paths interested in learning to use Ruby on Rails in their work.  <a href="http://railsgirls.com/digitalhumanities_fairfax">Please join us!</a></p>
 
 
-  <h2><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a> <span>Mar 15</span></h2>
+</section>
+<section>
+  <h2><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>15 Mar 2013</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p><em>This is a draft of a lightening talk I will be giving a HASTAC 2013 on Rails Girls, a seminar popular around the world for introducing women to programming in Ruby on Rails.</em></p>
@@ -95,7 +124,9 @@
 
 <p>And so, some of the larger goals promoted at events like Rails Girls need to be rethought for the digital humanities environment. The goal of many of us interested in learning computational skills centers on how to gather digital material in such a way to make text analysis, geolocation, visualizations, etc. possible. Learning skills of data manipulation and database construction opens up a whole range of “coding” based analysis. And both of these can be introduced using the model of Rails Girls and Girl Develop it.</p>
 
-  <h2><a href="/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html">Review of HERB: Social History for Every Classroom</a> <span>Mar  5</span></h2>
+</section>
+<section>
+  <h2><a href="/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html">Review of HERB: Social History for Every Classroom</a>, <span> 5 Mar 2013</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p><em>Review of <a href="http://herb.ashp.cuny.edu/">HERB: Social History for Every Classroom</a>, a product of the American Social History Project and the Center for Learning and Media at CUNY.</em></p>
@@ -117,80 +148,55 @@
 <p><em>HERB</em> is a valuable resource of teachers of American history, providing both primary materials and well developed lesson plans to help students engage in the work of history. Overall, the lessons complicate the presentation of the past, introducing multiple points of view and helping students and teachers think about these differences. In doing so, they present a history that is not a collection of facts and figures but instead stories and interpretations, with unresolved questions of meaning that students are encouraged to engage in.</p>
 
 
-  <h2><a href="/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html">Review of &#8220;Women in World History&#8221; and &#8220;Children and Youth in History&#8221;</a> <span>Feb 27</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p><em>This is a review of <a title="http://chnm.gmu.edu/wwh/index.php" href="http://chnm.gmu.edu/wwh/index.php">Women in World History</a> and <a title="http://chnm.gmu.edu/cyh/" href="http://chnm.gmu.edu/cyh/">Children and Youth in History</a> for History 689: Teaching History in the Digital Age.</em></p>
-
-<hr />
-
-<p><em>Women in World History</em> and <em>Children and Youth in History</em> are two projects that reflect the changing standards of both web design and scholarship on teaching in education projects produced by the Roy Rosenzweig Center for History and New Media. <em>Women in World History</em> is the older of the two projects, having been produced between 2004 – 2006. A short two years later, <em>Children and Youth in History</em> reflects some of the design shifts encouraged by the release of <em>Omeka</em> as well as the increased emphasis on open-ended questions within the scholarship of teaching and learning. Together these two projects reveal the ongoing emphasis on primary material in the teaching of history as well as some of the changing ideas about how those primary sources are best used in lesson plans and displayed online.</p>
-
-<p><em>Women in World History</em> was a project to create an “online curriculum resource center” for the purposes of bringing <a title="http://chnm.gmu.edu/wwh/about.php" href="http://chnm.gmu.edu/wwh/about.php">“primary sources dealing with women and gender in world history”</a> into the classroom. The project is divided into six main sections: <a title="http://chnm.gmu.edu/wwh/reviews.php" href="http://chnm.gmu.edu/wwh/reviews.php">Reviews</a>, <a title="http://chnm.gmu.edu/wwh/sources.php" href="http://chnm.gmu.edu/wwh/sources.php">Primary Sources</a>, <a title="http://chnm.gmu.edu/wwh/evidence.php" href="http://chnm.gmu.edu/wwh/evidence.php">Analyzing</a>, <a title="http://chnm.gmu.edu/wwh/modules.php" href="http://chnm.gmu.edu/wwh/modules.php">Modules</a>, <a title="http://chnm.gmu.edu/wwh/casestudies.php" href="http://chnm.gmu.edu/wwh/casestudies.php">Case Studies</a>, and <a title="http://chnm.gmu.edu/wwh/forum.php" href="http://chnm.gmu.edu/wwh/forum.php">Forum</a>. These sections are designed to guide the teacher through the primary evidence that is available, offer instructions, primarily for teachers, on how historians use the various sources available for researching the lives of women, and offer examples of how to incorporate these sources into lesson plans for students.</p>
-
-<p><em>Women in World History</em> does an excellent job in creating a curated list of primary source material and offering suggestions about how such material is used by historians to tease out the often overlooked history of women. The review of sources provide an overview of the contents available with attention to the usefulness of those sources for teachers. This is a very useful as the abundance of information on the web is often overwhelming for those seeking to use digital materials. The <a title="http://chnm.gmu.edu/wwh/essay/essay.php" href="http://chnm.gmu.edu/wwh/essay/essay.php">essay on working with primary sources</a>, while unfortunately buried within the site, is very useful for introducing the variety of sources available and the ways historians use these sources. These resources are useful for both teachers and students looking to learn more about where and how to study the history of women.</p>
-
-<p>At the same time, the pedagogical goals of the modules and the structure of the site call for further attention. While the historiographical goals of the project are tied to current trend in world history and gender history and <a title="http://chnm.gmu.edu/wwh/about.php" href="http://chnm.gmu.edu/wwh/about.php">does well to articulate these</a>, the teaching goals are less clear. The goals of the project locate historical learning as taking place through “<a href="http://chnm.gmu.edu/wwh/about.php">complex interaction with sources, recursive reading, and skills used by historians</a>.” These goals, while connected to the scholarship of teaching and learning, are unfortunately not expanded beyond these phrases, leaving the precise meaning and the possibilities for implementation unclear.</p>
-
-<p>This ambiguity carries into the teaching modules. While useful, these modules focus more heavily on providing the context for interpreting the primary documents than on exploration of those documents. In contrast to the student-driven inquiry of <a title="http://net.educause.edu/ir/library/pdf/eli3009.pdf" href="http://net.educause.edu/ir/library/pdf/eli3009.pdf">“authentic learning,”</a> (pdf), the proposed lesson plans tend to remain procedurally focused, guiding students to a “correct” interpretation of the documents which is articulated in a written essay. The “Analysis Worksheets,” while provided as a scaffolding to teach students how to identify the important aspects of the material, have the unfortunate affect of limiting the questions the students ask about the texts and create the impression that there is a “correct answer” that the students must find.</p>
-
-<p>Apart from the apparent age of the website design, my major structural concern with the site is that the display of the primary material minimizes the differences between the primary and secondary material. This has a couple of unfortunate consequences. First, although it may seem to be a superficial concern, the fact that all the text looks the same to the students removes much of the experience of working with primary material. The primary writings become yet another piece of information that the students are required to read and gather information from, rather than a source that they are invited to investigate. Second, the stripping of the context from the text, the images, and the like is counterproductive to the goal of teaching students how to think historically. The context of primary material is as important as the material itself, but this context is being hidden from the students. The context is also important for determining the reliability of the source, another important “skill of the historian.” Because these pieces are presented in isolation and stripped of the original mode of presentation, these important skills cannot be taught with the primary materials presented here.</p>
-
-<p><em><a title="http://chnm.gmu.edu/cyh/" href="http://chnm.gmu.edu/cyh/">Children and Youth in History</a></em>, while following a similar structure in providing Reviews, Primary Sources, Case Studies, and Teaching Modules, offers a more question driven approach to both the historiographical and pedagogical framing. In her <a title="http://chnm.gmu.edu/cyh/introduction" href="http://chnm.gmu.edu/cyh/introduction">introductory essay</a>, Miriam Forman-Brunell focuses on the process of forming questions that both “elicit information” and “inspire more complex questions” as “central to the enterprise of historical research.” With that framework in place, the questions she proposes are much broader than the question suggested in the <em>Women in World History</em> project, and are questions that encourage multiple interpretations, such as “In what ways do different social arrangements, beliefs, practices, ideologies, and historical forces shape notions of childhood as well as children’s experiences?” and “What evidence is there for multiple notions of childhood, girlhood, and boyhood?” By focuses on these broad questions rather than the gather of particular pieces of information, she is able to emphasize the problem being investigated over the information being gathered.</p>
-
-<p>While the framework Forman-Brunell articulates carries forward throughout the website, the teaching modules reflect the tension between these goals of open-ended inquiry and the emphasis on information retention that is found in standard forms of assessment. The proposed lesson plans focus more on interactive activities where the students are asked to use the documents to <a title="http://chnm.gmu.edu/cyh/teaching-modules/187?section=lessonplan" href="http://chnm.gmu.edu/cyh/teaching-modules/187?section=lessonplan">create posters</a> or <a title="http://chnm.gmu.edu/cyh/teaching-modules/60?section=lessonplan" href="http://chnm.gmu.edu/cyh/teaching-modules/60?section=lessonplan">craft a position for a debate</a>. These activities focus on the use of primary materials to construct arguments about the present based on evidence from the past and about different interpretations of what those materials are communicating.</p>
-
-<p>The assessment of the skills learned in these activities, however, relies on “Document Based Questions” that ask students to write essays in answer to arbitrary questions and using a selected set of primary materials. These questions, while useful in training students for A.P. and other standardized tests, are removed from the activities of the lesson plan. An alternative would be to shift the focus of such activities as a debate from a current topic to a historical topic, asking the students to make the arguments of the time and then write a paper that argues for a particular side or addresses questions of what the positions where and what influenced the decisions that were made. In that context, the written assessment would be tied to the activities of the lesson plan and asks a questions that the students have invested time and interest into.</p>
-
-<p>Structurally, <em>Children and Youth in History</em> corrects some but not all the problems I identified above with the <em>Women in World History</em> site. Visually, the primary materials are set apart from the surrounding text through the use of a background color. This helps cue the student that the material presented is different and is to be engaged with differently. However, the larger problem of the isolation of the materials from their context, both their relationship to other materials and the physical object of the source, remains. While some isolation is necessary when creating digital archives and the transcription allows for easier reading of the text, the inclusion of images of the primary material, at the very least, would be a very useful addition. This would help students understand and form impressions of what primary materials “look like” and how to pull useful content from a larger document.</p>
-
-<p>These projects highlight both the progress that has been made in the presentation and teaching of historical material online as well as reveal some of the places where additional attention is necessary. The goals of providing sufficient scaffolding for student learning while concurrently encouraging novel questions and authentic learning can be both reinforcing and in tension, and the best ways to achieve balance between the two requires further study. How to present primary material in ways that both filter out some of the noise generated by the abundance of material online while also teaching students how to find and evaluate material outside of a structured framework is also an ongoing area of discussion and study. Along with providing a useful resource for identifying digital primary sources for the study of women and children in history, these websites are themselves useful historical documents, providing a window on the iterative process by which digital pedagogy has and continues to develop in light of developments in web technology and in the scholarship of teaching and learning.</p>
-
-
+</section>
 
   
+  <div id="next">
     <p><a href="/blog/page/2/">Next page</a></p>
+  </div>
   
 
-      </div>
-      <aside>
-        <div id="sidebar">
-  <h2>Scholarship Areas</h2>
+        </article>
+        <aside>
+          <section>
+  <h2>Topics</h2>
   <ul>
       <li class="important"><a href="/research.html">Religious History</a></li>
       <li class="important"><a href="/digital.html">Digital History</a></li>
       <li class="important"><a href="/teaching.html">Teaching</a></li>
   </ul>
+</section>
+<section>
   <h2>Recent Posts</h2>
   <ul>
+  
+    <li><a href="/blog/2014/06/12/lessons-from-dhsi.html">All Models are Wrong</a>, <span>Jun 12</span></li>
   
     <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
   
     <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
   
-    <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
-  
   </ul>
-
-  <h2>Posts by Category</h2>
+</section>
+<section>
+  <h2>Categories</h2>
   <ul>
     
       <li><a href="/blog/category/research.html">research (26)</a></li>
     
-      <li><a href="/blog/category/digital.html">digital (45)</a></li>
+      <li><a href="/blog/category/digital.html">digital (46)</a></li>
     
       <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
     
       <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
     
   </ul>
-</div>
-
-      </aside>
+</section>
+        </aside>
+      </main>
       <footer>
         <div id="copyright">
   <p>CC-BY Jeri Wieringa, 2014
-  <br/>Image of the Battle Creek Sanitarium circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
 </div>
 <div id="social" class="nav">
   <ul>

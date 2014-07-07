@@ -5,16 +5,42 @@
   <id>http://jeriwieringa.com/blog</id>
   <link href="http://jeriwieringa.com/blog"/>
   <link href="http://jeriwieringa.com/blog/blog/feed.xml" rel="self"/>
-  <updated>2014-03-12T00:00:00Z</updated>
+  <updated>2014-06-12T00:00:00Z</updated>
   <author>
     <name>Jeri Wieringa</name>
   </author>
+  <entry>
+    <title>All Models are Wrong</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/06/12/lessons-from-dhsi.html"/>
+    <id>http://jeriwieringa.com/blog/2014/06/12/lessons-from-dhsi.html</id>
+    <published>2014-06-12T00:00:00Z</published>
+    <updated>2014-07-07T09:52:29-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;This piece is cross-posted on the &lt;a href="http://ach.org/2014/06/26/all-models-are-wrong-lessons-from-dhsi/"&gt;ACH Blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;"Essentially, all models are wrong but some are useful." This phrase, attributed to George Box, was the mantra for the Data Mining for Digital Humanists course at the Digital Humanities Summer Institute last week. Throughout the course, we worked to understand the mathematical concepts behind some of the most common algorithms used to solve classification and clustering problems. In data mining, the goal is to create a heuristic that allows one to predict with a high degree of accuracy how to classify new data based on the data one has seen in the past. From Amazon and Netflix recommendations to Pandora and even self-driving cars, the results of data mining work are present all across our digital lives.&lt;/p&gt;
+
+&lt;p&gt;And yet all models are wrong. In thinking about how to use data mining in my own work, it was helpful to learn that the goal of data mining is not to perfectly fit the model to the data at hand. Data mining is predictive: based on the results of the past, you create a model that predicts the label or classification to be assigned to future data. If you match your model too closely to the original data, if you overfit, the predictive power of the model decreases. Models are created to generalize. There are always outliers and items that are misclassified, but the payoff is the ability to abstract and to get a reliable prediction when faced with new data.&lt;/p&gt;
+
+&lt;p&gt;All models are wrong but some are useful. This should not be surprising to scholars in the humanities. In history, we frequently work with models to help us elucidate processes and explain events. We use economic models, political models, and models of race, class, and gender to explain actions and causes. While useful for drawing attention to the ways particular factors shaped events in the past, these models are necessarily incomplete. We know that there is more than economics at play, more than politics, more than religion, more than individual genius.&lt;/p&gt;
+
+&lt;p&gt;One area of concern surrounding computational approaches to humanities scholarship is the question of truth claims. Will algorithmic approaches fool us into claiming that we have uncovered the "truth" of the text, the "true" cause of a historical event, the "truth" of the human experience? Are computational approaches at odds with humanistic thinking that stresses contingency, subjectivity, and irreducibility? These are open questions that we need to continue to explore.&lt;/p&gt;
+
+&lt;p&gt;But all models are wrong. Data mining that seeks the "truth" is data mining done poorly. I think computational approaches can be very useful in the context of the humanities when we are looking for useful patterns to shed light on particular questions. Different models of the same data can answer different questions or suggest different conclusions. This makes data mining not an answer generating machine but a way of modeling data that is itself the result of theoretical and interpretive choices.&lt;/p&gt;
+
+&lt;p&gt;Remembering that all models are wrong is very useful for my own work. I am working to model and discuss the ways health reform ideology, social constructions that delineate power relationships, and religious and theological commitments were in conversation in the development of Seventh-day Adventism. There are many ways to model language similarity and use, some of which will be more useful than others for exploring the interrelationship between multiple cultural systems. My goal, however, is not to create the perfect model - that is impossible. Instead, my goal is to create useful models that help elucidate particular aspects or patterns, models that will necessarily fall short and make no claims to expressing the "truth" of the historical processes I study.&lt;/p&gt;
+
+&lt;p&gt;What I am taking away from the data mining course is a better understanding of how those in computer science, statistics, and applied mathematics view the intellectual space where they work. Rather than black-boxes that give "truth," the algorithms developed and used for data mining problems constitute a variety of models that work with different ranges of accuracy on different problems. There is no one right model, but there are a variety of algorithms that one can use to isolate aspects of a given dataset. This allows one to create useful models of the data in order to describe, make predictions, and better understand the material at hand. And this is an understanding that I think has many possibilities for productive overlap with research in the humanities.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Moving to Middleman</title>
     <link rel="alternate" href="http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html"/>
     <id>http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html</id>
     <published>2014-03-12T00:00:00Z</published>
-    <updated>2014-03-12T18:52:48-07:00</updated>
+    <updated>2014-03-12T21:52:48-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -32,7 +58,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html"/>
     <id>http://jeriwieringa.com/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html</id>
     <published>2013-07-30T00:00:00Z</published>
-    <updated>2014-03-11T07:39:04-07:00</updated>
+    <updated>2014-03-11T10:39:04-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -49,7 +75,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html"/>
     <id>http://jeriwieringa.com/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html</id>
     <published>2013-03-15T00:00:00Z</published>
-    <updated>2014-03-12T16:57:47-07:00</updated>
+    <updated>2014-03-12T19:57:47-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -89,7 +115,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html"/>
     <id>http://jeriwieringa.com/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html</id>
     <published>2013-03-05T00:00:00Z</published>
-    <updated>2014-03-12T11:46:23-07:00</updated>
+    <updated>2014-03-12T14:46:23-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -118,7 +144,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html"/>
     <id>http://jeriwieringa.com/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html</id>
     <published>2013-02-27T00:00:00Z</published>
-    <updated>2014-03-12T11:45:57-07:00</updated>
+    <updated>2014-03-12T14:45:57-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -155,7 +181,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2012/12/06/social-gospel-and-missions.html"/>
     <id>http://jeriwieringa.com/blog/2012/12/06/social-gospel-and-missions.html</id>
     <published>2012-12-06T00:00:00Z</published>
-    <updated>2014-03-12T11:45:16-07:00</updated>
+    <updated>2014-03-12T14:45:16-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -183,7 +209,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html"/>
     <id>http://jeriwieringa.com/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html</id>
     <published>2012-11-28T00:00:00Z</published>
-    <updated>2014-03-12T11:44:31-07:00</updated>
+    <updated>2014-03-12T14:44:31-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -250,7 +276,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/20/looking-outside-the-protestant-bubble.html"/>
     <id>http://jeriwieringa.com/blog/2012/11/20/looking-outside-the-protestant-bubble.html</id>
     <published>2012-11-20T00:00:00Z</published>
-    <updated>2014-03-12T11:43:22-07:00</updated>
+    <updated>2014-03-12T14:43:22-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -304,7 +330,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html"/>
     <id>http://jeriwieringa.com/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html</id>
     <published>2012-11-08T00:00:00Z</published>
-    <updated>2014-03-12T11:42:46-07:00</updated>
+    <updated>2014-03-12T14:42:46-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -348,7 +374,7 @@
     <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/04/slides-from-text-mining-presentation.html"/>
     <id>http://jeriwieringa.com/blog/2012/11/04/slides-from-text-mining-presentation.html</id>
     <published>2012-11-04T00:00:00Z</published>
-    <updated>2014-03-12T11:41:38-07:00</updated>
+    <updated>2014-03-12T14:41:38-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -356,64 +382,6 @@
 
 &lt;p&gt;The code examples are available at &lt;a href="https://github.com/jerielizabeth/mining-example"&gt;github.com/jerielizabeth/mining-example&lt;/a&gt;&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Short Tutorial: Cleaning up downloaded files (draft)</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html"/>
-    <id>http://jeriwieringa.com/blog/2012/11/04/short-tutorial-cleaning-up-downloaded-files-draft.html</id>
-    <published>2012-11-04T00:00:00Z</published>
-    <updated>2014-03-12T11:40:53-07:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;So you used wget or Python to pull down a collection of files from the web. Excellent! But in looking through your loot, you notice that a number of the files are oddly small and, on further examination, find that they are functionally empty. How do you clean up your collection of files quickly?&lt;/p&gt;
-
-&lt;p&gt;There are a number of very powerful command line tools built into UNIX systems (Mac and Linux) that allow you to manipulate your files quickly and easily. This is a brief tutorial on how to use those tools to locate all of the files that are too small and then remove those files from your collection.&lt;/p&gt;
-
-&lt;p&gt;Begin by navigating in Terminal to your collection of folders. For example, my files were located a couple of folders downs within my Documents folder.&lt;/p&gt;
-
-&lt;pre&gt;cd Documents/Github/Clio3/Webscraping/hymn-files&lt;/pre&gt;
-
-&lt;p&gt;Once in the folder with your downloaded files, you need to find a way to isolate out the files that are too small to be interesting. To do this, use the “find” command. First, to see the various options associated with “find”, enter&lt;/p&gt;
-
-&lt;pre&gt;man help&lt;/pre&gt;
-
-&lt;p&gt;Use the up and down arrows to move around the window that appears. Look around at the various options – there are many! However, because we are looking only in a particular folder, which in my case has no subfolders, all that we need to look at for now is size.&lt;/p&gt;
-
-&lt;p&gt;To exit this window, type “q”.&lt;/p&gt;
-
-&lt;p&gt;If the files we are interested in sorting through are all one file type (in my case they’re .json files), we can tell the computer to find all of the files of a particular type and particular size as follows:&lt;/p&gt;
-
-&lt;pre&gt;find *.json -size 28c&lt;/pre&gt;
-
-&lt;p&gt;This would find all of the json files that are 28 bytes in size.&lt;/p&gt;
-
-&lt;p&gt;However, we want all the files that are 28 bytes or less.&lt;/p&gt;
-
-&lt;pre&gt;find *.json -size -28c&lt;/pre&gt;
-
-&lt;p&gt;Finding the files is great, but now we need to do something with that collection of files.&lt;/p&gt;
-
-&lt;p&gt;First we are going to “pipe” the results of our search over to our second, removal, function.&lt;/p&gt;
-
-&lt;p&gt;(From here on the examples are showing how the command is built – Do not run the command until the very end when all the pieces are in place)&lt;/p&gt;
-
-&lt;pre&gt;find *.json -size -28c |&lt;/pre&gt;
-
-&lt;p&gt;Next we are going to use xargs, which helps the computer handle a long list of file names.&lt;/p&gt;
-
-&lt;p&gt;Note: The wikipedia entry on xargs suggests using “-0″ (zero) when dealing with file names with spaces in them as xargs defaults to separating at white space (another reason to avoid spaces in filenames). If you run this command without -0 and it doesn’t work, try adding the -0.&lt;/p&gt;
-
-&lt;pre&gt;find *.json -size -28c | xargs&lt;/pre&gt;
-
-&lt;p&gt;And the function we want to run on each filename is “rm” or remove. rm has a number of options that you can research, some of which really make data un-recoverable and should be used with care. However, a basic “rm” command will be sufficient for this example.&lt;/p&gt;
-
-&lt;pre&gt;find *.json -size -28c | xargs rm&lt;/pre&gt;
-
-&lt;p&gt;Run this command to remove all of the files less than 28 bytes from your current directory.&lt;/p&gt;
-
-&lt;p&gt;(I used 28 bytes because the computer was having trouble with 0 and all of the files I wanted to keep were larger than 28 bytes. Not exactly sure why 0 was a problem but this is why experimenting with the find options before moving on to removing the files is a good idea!)&lt;/p&gt;
 </content>
   </entry>
 </feed>

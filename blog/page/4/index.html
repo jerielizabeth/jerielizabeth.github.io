@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>Jeri Wieringa</title>
+    <title>From Data to Scholarship</title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
+    <link href='http://fonts.googleapis.com/css?family=Coda|Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>  
     <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -21,34 +21,64 @@
 
   </head>  <body>
    <div id="wrap">
-      <header id="image">
-        <button class="nav-button">Toggle Navigation</button>
+      <header id="head">
+        <div id="title">
+  <h1><a href="/">From Data to Scholarship</a></h1>
+  <h2>Digital Experiments in Religious History</h2>
+</div>
 <nav class="primary-nav">
   <ul>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
     <li><a href="/about.html">About</a></li>
     <li><a href="/cv.html">Vita</a></li>
+    <li><a href="/search.html"><i class="fa fa-search"></i></a></li>
   </ul>
 </nav>
-<div id="title">
-  <h1><a href="/">Jeri E. Wieringa</a></h1>
-</div>
+
 
       </header>
-      <div id="main" role="main">
-          <!--<p>Page 4 of 14</p>-->
+      <main>
+        <article>
+          <!--<p>Page 4 of 15</p>-->
 
   
     <p><a href="/blog/page/3/">Previous page</a></p>
   
 
-  <h2><a href="/blog/2012/10/12/slides-with-links.html">Slides with Links</a> <span>Oct 12</span></h2>
+<section>
+  <h2><a href="/blog/2012/10/18/its-october-and-ive-run-out-of-catchy-titles.html">It&#8217;s October and I&#8217;ve run out of catchy titles &#8230;</a>, <span>18 Oct 2012</span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <p>So, this week was both productive and not. I find that I learn in circles – I have to go over things about 3 times for connections between things to get to the point that I feel like I have learned something. (They told us this in philosophy too –  read it 3 times to understand what is going on. Now, if they assigned the same thing 3 times …)</p>
+
+<p>Anyway, in light of this pattern, I went back to some tutorials. I spent too much time on the first 17 tutorials of “<a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a>” and then, because I got a bit distractable at that point, did the first 13 of “<a href="http://sql.learncodethehardway.org/">Learn SQL the Hard Way</a>.” (I have a feeling <a href="http://regex.learncodethehardway.org/book/">“Learn Regex…”</a> is in my future …)</p>
+
+<p>At any rate, the SQL tutorials were really helpful in a, “well, duh. I should’ve picked up on that” sort of way. So I tweaked my pages to have one query for showing both text and author information, which is super useful and makes everything much cleaner and less confusing. I’ll push that up to my server so to update <a href="http://clio3.jeriwieringa.com">clio3.jeriwieringa.com</a>.</p>
+
+<p>There is still more to do with that, but I got distracted again by all of the files I pulled down last week. (seriously, grad school is turning me into a goldfish… ) At any rate, there was a small problem that most of the 2000 files that I pulled down were 2 bytes large. (they contained an empty array).</p>
+
+<p>So, with much googling, I worked out a bash script to delete all of the really small files. yup.</p>
+
+<pre>find *.json -size -28c | xargs rm</pre>
+
+<p>I was in folder already so no file path necessary. Anyway, this deleted all of the files that ended with .json and were smaller than 28 bytes. I tried with 2 bytes, but it was hiccup-ing.</p>
+
+<p>Then I realized I needed to parse out the hymnal IDs so I know which hymnal information to add to my database. (Good news – there is place info in the hymnal CSV file. It’s not going to tell me all that much, but it’s enough to get a sense of where the publishing centers are. And it gives me something to map.) And that’s where I’ve slowed to a halt.</p>
+
+<p>I am having trouble getting my head around working with these json files. I know it’s been explained to me many times, and I know it’s an array of arrays, but I just can’t seem to find a basic intro to the syntax for working with it. So that is where I could use the most help this week.</p>
+
+
+</section>
+<section>
+  <h2><a href="/blog/2012/10/12/slides-with-links.html">Slides with Links</a>, <span>12 Oct 2012</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>Here are the slides I had up last night for reference purposes:</p>
 
-  <h2><a href="/blog/2012/10/11/learning-how-to-scrape-or-how-to-fill-up-your-harddrive-really-quickly.html">Learning how to scrape (or how to fill up your harddrive really quickly)</a> <span>Oct 11</span></h2>
+</section>
+<section>
+  <h2><a href="/blog/2012/10/11/learning-how-to-scrape-or-how-to-fill-up-your-harddrive-really-quickly.html">Learning how to scrape (or how to fill up your harddrive really quickly)</a>, <span>11 Oct 2012</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>This week I have focused on learning some of the tricks and tips for scraping websites, in preparation for presenting tonight. For the most part, this has gone really well. The existing tutorials on the programming historian for using <a href="http://programminghistorian.org/lessons/automated-downloading-with-wget">wget</a> and <a href="http://programminghistorian.org/lessons/working-with-files-and-web-pages">python</a> are very intuitive and easy to follow and most of my presentation will be on these.</p>
@@ -64,7 +94,9 @@
 <p>Two discoveries as a result of this. 1. Hymnary.org puts a cap on the calls to the api from a given ip address. <img src="http://jeriwieringa.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> oops. and 2. There is a ton more information in the json document that I am looking to call down than I had realized. I think I will be able to do more this semester than I originally thought my data allowed. yippie!!</p>
 
 
-  <h2><a href="/blog/2012/10/04/looking-west.html">Looking west</a> <span>Oct  4</span></h2>
+</section>
+<section>
+  <h2><a href="/blog/2012/10/04/looking-west.html">Looking west</a>, <span> 4 Oct 2012</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>The readings this week are a somewhat eclectic collection of readings relating to religion and women in the west. Since I am keeping the more detailed notes in handwritten form this week, the texts were: Sarah Deutsch, <em>No Separate Refuge</em>; Devon Mihesuah, <em>Cultivating the Rosebuds</em>; Ramón Gutiérrez, <em>When Jesus Came, the Corn Mothers Went Away</em>; and Peggy Pascoe, <em>Relations of Rescue</em>.</p>
@@ -81,7 +113,9 @@
 
 <p>In all, these books offer pictures of the complicated processes by which gender is described and prescribed.</p>
 
-  <h2><a href="/blog/2012/10/04/lessons-learned.html">Lessons Learned</a> <span>Oct  4</span></h2>
+</section>
+<section>
+  <h2><a href="/blog/2012/10/04/lessons-learned.html">Lessons Learned</a>, <span> 4 Oct 2012</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
   <p>Today I learned the difference between “update” and “insert” and what happens when you update your join table instead of inserting a new entry.</p>
@@ -101,57 +135,55 @@
 <p>UPDATE: I have CRUD. (Delete is hidden). available at <a href="http://clio3.jeriwieringa.com/view.php">clio3.jeriwieringa.com/view.php</a></p>
 
 
-  <h2><a href="/blog/2012/09/27/victor-turner-betwixt-and-between-the-liminal-period.html">Victor Turner, “Betwixt and Between: The Liminal Period&#8221;</a> <span>Sep 27</span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <p>In the manner of sociologists and anthropologists, Victor Turner is investigating structures of human behavior by analyzing the practices and rituals of “simpler” societies.  In “Betwixt and Between,” he is investigating rites of passage, the cultural practices surrounding the movement from one state (any type of stable or recurrent condition that is culturally recognized (94)) to another. This transition includes separation, margin, and aggregation. Most of his attention is focused on the marginal, or liminal, period where, he notes, many standard social markers, including sex distinctions, do not apply (97). In addition, during the liminal period for the culture he studies, the neophyte is taught what Turner refers to as the <em>sacra</em>, the cosmology and mythical history of the people (103). This teaching of the <em>sacra </em>involves 1) the reduction of culture into recognized components, often through exaggeration of the integral aspects of culture or the body, 2) the recombination of those components in monstrous patterns or shapes, which further draws attention to the various components now removed from their usual context, and 3) the recombination of components in ways that fit the new state and status of the neophyte (106).</p>
-
-<p>In Turner’s description, the liminal person is in transition from one culturally recognized state to another, and this transitional period helps to prepare them for assuming the responsibilities of the upcoming state. It is striking that this very particular account of transition rituals has been expanded so broadly in cultural theory and has been extended to include persons are perpetually “liminal” — always in transition between two states but never able to enter the next or return to the previous.</p>
-
+</section>
 
   
+  <div id="next">
     <p><a href="/blog/page/5/">Next page</a></p>
+  </div>
   
 
-      </div>
-      <aside>
-        <div id="sidebar">
-  <h2>Scholarship Areas</h2>
+        </article>
+        <aside>
+          <section>
+  <h2>Topics</h2>
   <ul>
       <li class="important"><a href="/research.html">Religious History</a></li>
       <li class="important"><a href="/digital.html">Digital History</a></li>
       <li class="important"><a href="/teaching.html">Teaching</a></li>
   </ul>
+</section>
+<section>
   <h2>Recent Posts</h2>
   <ul>
+  
+    <li><a href="/blog/2014/06/12/lessons-from-dhsi.html">All Models are Wrong</a>, <span>Jun 12</span></li>
   
     <li><a href="/blog/2014/03/12/Moving-to-Middleman.html">Moving to Middleman</a>, <span>Mar 12</span></li>
   
     <li><a href="/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html">Bringing Rails Girls to the Digital Humanities</a>, <span>Jul 30</span></li>
   
-    <li><a href="/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html">Intro to Rails Girls for HASTAC 2013</a>, <span>Mar 15</span></li>
-  
   </ul>
-
-  <h2>Posts by Category</h2>
+</section>
+<section>
+  <h2>Categories</h2>
   <ul>
     
       <li><a href="/blog/category/research.html">research (26)</a></li>
     
-      <li><a href="/blog/category/digital.html">digital (45)</a></li>
+      <li><a href="/blog/category/digital.html">digital (46)</a></li>
     
       <li><a href="/blog/category/coursework.html">coursework (61)</a></li>
     
       <li><a href="/blog/category/teaching.html">teaching (3)</a></li>
     
   </ul>
-</div>
-
-      </aside>
+</section>
+        </aside>
+      </main>
       <footer>
         <div id="copyright">
   <p>CC-BY Jeri Wieringa, 2014
-  <br/>Image of the Battle Creek Sanitarium circa 1868, from the <a href="http://photo.egwwritings.org/index.php?q=aHR0cDovL25hcy5lZ3d3cml0aW5ncy5vcmcvZ2FsbGVyaWVzL0luc3RpdHV0aW9ucy8xMTkuanBnLnBocA%3D%3D">Ellen White Estate Archives</a>.</p>
 </div>
 <div id="social" class="nav">
   <ul>
