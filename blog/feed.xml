@@ -5,10 +5,35 @@
   <id>http://jeriwieringa.com/blog</id>
   <link href="http://jeriwieringa.com/blog"/>
   <link href="http://jeriwieringa.com/blog/blog/feed.xml" rel="self"/>
-  <updated>2014-06-12T00:00:00Z</updated>
+  <updated>2014-07-08T00:00:00Z</updated>
   <author>
     <name>Jeri Wieringa</name>
   </author>
+  <entry>
+    <title>Summer of Research, Part I</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/07/08/Summer-of-Research-Part-1.html"/>
+    <id>http://jeriwieringa.com/blog/2014/07/08/Summer-of-Research-Part-1.html</id>
+    <published>2014-07-08T00:00:00Z</published>
+    <updated>2014-07-08T10:15:38-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;The Lean Dissertation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This summer I am beginning to work in earnest on my dissertation. The years of course work and exams are done, completed, passed and past. The experience is an odd combination of freeing and overwhelming, as many who have hit this stage before me have commented.&lt;/p&gt;
+
+&lt;p&gt;In an effort to get started on this dissertation thing, I am working first on a "chapter" analyzing Kellogg and the ways he and those associated with him applied the Seventh-day Adventist vision of health and salvation at the Battle Creek Sanitarium. While "chapter" is the standard way to refer to sections of dissertations, and so is useful, it is a bit misleading. For many dissertations, each chapter is a smaller argument that contributes to the argument of the whole, an essential building block in the construction of the historical narrative. &lt;/p&gt;
+
+&lt;p&gt;But this dissertation is a little bit different. In my &lt;a href="https://dl.dropboxusercontent.com/u/11042846/Wieringa_Prospectus.pdf"&gt;dissertation prospectus&lt;/a&gt;, I proposed a digital project, one that uses computational methods and that investigates alternative, digital, modes of presenting historical interpretations. While all academic work is iterative, in that as one researches and writes, the ideas become clearer and the argument is refined, this sort of project requires an even more intentionally iterative approach. Rather than waiting to release a finished – and most likely large and complex – system, I am adopting the pattern of &lt;a href="http://theleanstartup.com/principles"&gt;Lean development&lt;/a&gt; – building, measuring, and learning – and plan to move through smaller iterations of the project, testing my hypotheses against the data and against reader feedback as I go. &lt;/p&gt;
+
+&lt;p&gt;This means organizing my work in terms of questions and hypotheses that get to the core of my project. Rather than developing a segment of the argument or processing a set of sources, each "chapter" is instead a microcosm of the dissertation as a whole: a chance to test my hypotheses and to prove myself wrong. By setting up multiple experiments or "chapters", I can refine the thesis while also building and testing aspects of the argument. And for all this testing to be useful, it also means that I have to be willing to pivot, to change approaches and let go of ideas that are less successful.&lt;/p&gt;
+
+&lt;p&gt;If this sounds like generally good academic practice, wonderful! However, too often the perceived expectations of the university make it difficult to take the risk of releasing as one goes, of investing in strains of thought that might not pan out. The impulse instead is to keep ones ideas and work close until they are "perfect," out of fear of being "scooped" or being wrong. If, however, one begins with the assumptions that "&lt;a href="http://jerielizabeth.github.io/blog/2014/06/12/lessons-from-dhsi.html"&gt;ALL models are wrong&lt;/a&gt;" and that ideas are best developed when exposed to multiple inputs and lines of criticism, then it becomes valuable to test ones assumptions and approaches frequently. &lt;/p&gt;
+
+&lt;p&gt;And so, as part of this processes, I will be using the blog for a couple of aspects of the testing. First, I will be blogging about the technical work I am doing as a way of opening up and sharing my digital methodologies, both as a check on my work and as a resource for others. Second, I will be using the blog to share some of the interface components as I develop on them, as a way to test their usefulness before integrating them into a larger argument. And, hopefully, by the beginning of the fall semester, there will be another tab in the top nav to a first iteration of my dissertation project. I invite you to follow along and to offer comments, criticism, and suggestions as the project develops!&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>All Models are Wrong</title>
     <link rel="alternate" href="http://jeriwieringa.com/blog/2014/06/12/lessons-from-dhsi.html"/>
@@ -367,21 +392,6 @@
 &lt;p&gt;Both Moody and Grammer are interested in using these text, which on the surface seem to restate rather than challenge cultural ideologies, to uncover how individual women negotiated and challenged those ideologies. Grammer’s text in general offers some very interesting and instructive ways of readings these texts – I need to return to this text for a closer reading. And Moody quotes Sharon Harris to argue that even texts that do perpetuate dominant ideology are worthy of study, as they are sites where ideologies are interacted with, help us understand the conditions under which the text was produced and also often contain subversions of those ideologies (181). Both of these are useful resources for thinking about how to deal with these texts going further.&lt;/p&gt;
 
 &lt;p&gt;While neither Stephens nor Blumhofer ignore women in their histories, it is clear that the focus of investigation is the institution and the (generally) male leaders who lead and influenced those institutions. On the one hand, this doesn’t seem unreasonable – the institution and its records is largely controlled by the male leadership. However, Higginbotham seems to offer a solid critique of this approach by arguing that it is the interactions between male and female individuals and groups that create the larger culture and institution. Can Higginbotham’s approach be applied further? Can it be argued that one cannot understand any religious group apart from the ongoing conversations and negotiations between female auxiliary organizations and the traditionally male controlled hierarchy (in whatever form that takes)?&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Slides from Text-Mining Presentation</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/04/slides-from-text-mining-presentation.html"/>
-    <id>http://jeriwieringa.com/blog/2012/11/04/slides-from-text-mining-presentation.html</id>
-    <published>2012-11-04T00:00:00Z</published>
-    <updated>2014-03-12T14:41:38-04:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Bit short since I was trying to read off of the screen less. Down-side: slides are less helpful on their own.&lt;/p&gt;
-
-&lt;p&gt;The code examples are available at &lt;a href="https://github.com/jerielizabeth/mining-example"&gt;github.com/jerielizabeth/mining-example&lt;/a&gt;&lt;/p&gt;
-
 </content>
   </entry>
 </feed>
