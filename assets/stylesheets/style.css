@@ -44,7 +44,7 @@
   body {
     font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     color: #444444;
     margin: 0;
     background: url(../images/wood_02.jpg) no-repeat center center fixed;
@@ -54,10 +54,10 @@
     -o-background-size: cover; }
     /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     body a {
-      color: #dd8b24; }
+      color: #e86f1a; }
       /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
       body a:visited {
-        color: #e4a250; }
+        color: #ed8c48; }
       /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
       body a:hover {
         color: #1e628d; }
@@ -111,10 +111,10 @@
       color: #3c9ad5; }
     /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     a:hover {
-      color: #dd8b24; }
+      color: #e86f1a; }
     /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     a:active {
-      color: #e4a250; }
+      color: #ed8c48; }
     /* line 59, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     a:hover {
       text-decoration: underline; }
@@ -303,10 +303,10 @@
     color: #888888; }
     /* line 242, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     aside a {
-      color: #e4a250; }
+      color: #ed8c48; }
       /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
       aside a:visited {
-        color: #e4a250; }
+        color: #ed8c48; }
       /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
       aside a:hover {
         color: #3c9ad5; }
