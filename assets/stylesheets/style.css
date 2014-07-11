@@ -41,6 +41,10 @@
 
   /*--- Base Styles --*/
   /* line 13, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  .skip {
+    display: none; }
+
+  /* line 16, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   body {
     font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 16px;
@@ -52,7 +56,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; }
-    /* line 24, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     body a {
       color: #e86f1a; }
       /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
@@ -65,7 +69,7 @@
       body a:active {
         color: #3c9ad5; }
 
-  /* line 28, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 31, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   header,
   main,
   footer {
@@ -75,34 +79,34 @@
     display: inline;
     padding: 1em 3.5% .5em 3.5%; }
 
-  /* line 33, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 36, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   h1, h2, h3, h4, h5, h6 {
     font-family: "Forum", Georgia, serif;
     line-height: 1.2em; }
 
-  /* line 37, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 40, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   h1 {
     font-size: 40px;
     margin: .5em 0; }
 
-  /* line 41, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 44, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   h2 {
     clear: both;
     margin: .5em 0;
     font-size: 32px; }
 
-  /* line 46, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 49, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   h3 {
     font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
     font-size: 24px; }
 
-  /* line 50, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 53, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   aside h3 {
     padding: .5em 0;
     font-family: "Forum", Georgia, serif; }
 
   /*--- Link Styles --*/
-  /* line 56, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 59, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   a {
     color: #277fb7;
     text-decoration: none; }
@@ -115,24 +119,24 @@
     /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
     a:active {
       color: #ed8c48; }
-    /* line 59, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 62, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     a:hover {
       text-decoration: underline; }
 
   /*--- Header Styles --*/
-  /* line 63, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 66, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   #title {
     line-height: 2.5em; }
-    /* line 65, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 68, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     #title h1 {
-      font-family: "Coda", cursive;
+      font-family: "Coda", monospace;
       font-size: 3em;
       margin: .5em 0 0 0; }
-      /* line 69, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 72, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       #title h1 a {
         text-decoration: none;
         display: block; }
-    /* line 74, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 77, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     #title h2 {
       text-align: right;
       padding: 0;
@@ -141,26 +145,26 @@
   /*--- Navigation Styles --*/
   /* Mobile Navigation */
   /*@import "mobile-nav";*/
-  /* line 86, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 89, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   .nav, .primary-nav {
     font-family: "Forum", Georgia, serif; }
-    /* line 88, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 91, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     .nav ul, .primary-nav ul {
       margin: 0;
       padding: 0;
       list-style-type: none; }
-      /* line 92, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 95, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       .nav ul li, .primary-nav ul li {
         width: auto;
         float: left; }
-      /* line 96, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 99, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       .nav ul a, .primary-nav ul a {
         text-decoration: none; }
-        /* line 98, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        /* line 101, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
         .nav ul a:hover, .primary-nav ul a:hover {
           text-decoration: underline; }
 
-  /* line 104, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 107, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   .primary-nav {
     font-family: "Forum", Georgia, serif;
     font-size: 1.25em;
@@ -168,140 +172,140 @@
     overflow: auto;
     border-top: 1px solid #888888;
     border-bottom: 5px double #888888; }
-    /* line 112, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 115, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     .primary-nav ul {
       list-style-type: none;
       float: left; }
-      /* line 115, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 118, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       .primary-nav ul li {
         float: left;
         display: block;
         padding: .5em 1em .5em .5em; }
-        /* line 120, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        /* line 123, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
         .primary-nav ul li a:before {
           content: "\2756"; }
 
-  /* line 127, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 130, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   #secondary-nav .callout {
     width: 30%;
     float: left;
     padding: 2% 1.5%; }
-    /* line 131, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 134, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     #secondary-nav .callout h2 {
       padding: 0;
       margin-bottom: 0;
       text-align: center; }
-    /* line 136, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 139, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     #secondary-nav .callout p {
       font-family: "Open Sans", "Helvetica-Neue", Helvetica, sans-serif;
       font-size: 16px;
       text-align: center; }
 
-  /* line 144, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 147, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   #social {
     font-size: 1.5em; }
-    /* line 146, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 149, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     #social ul li {
       padding-left: .75em; }
 
   /*--- Index Styles --*/
-  /* line 152, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 155, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   #blurb {
     text-align: center;
     /*    font-size:$font-size-main*1.25;
         line-height: $font-size-main*2;
     */ }
 
-  /* line 157, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 160, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   .entry {
     clear: both;
     padding: .5em 0;
     overflow: auto; }
 
-  /* line 162, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 165, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   .portfolio {
     border: 1px solid #888888;
     float: left;
     width: 90%; }
 
-  /* line 167, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 170, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   .title {
     float: left;
     width: 100%;
     font-size: 1.25em; }
-    /* line 171, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 174, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     .title h4 {
       margin-bottom: 0; }
-    /* line 172, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 175, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     .title p {
       margin-top: 0;
       font-size: 16px; }
 
-  /* line 177, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 180, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   .tagline {
     font-size: .9em; }
 
   /*--- Blog Styles --*/
-  /* line 182, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 185, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   article {
     width: 70%;
     float: left;
     margin-right: 5%; }
-    /* line 186, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 189, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article h1 {
       margin-bottom: .5em;
       font-variant: small-caps; }
-    /* line 190, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 193, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article h2 {
       padding-bottom: 0; }
-    /* line 193, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 196, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article ul {
       list-style-type: none;
       padding-left: 0; }
-      /* line 196, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 199, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       article ul li {
         padding: .5em 0; }
-    /* line 200, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 203, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article .text {
       padding-top: .5em; }
-    /* line 203, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 206, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article .display-list {
       list-style-type: square;
       margin-left: 2em; }
-      /* line 206, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 209, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       article .display-list li {
         padding: .25em; }
-    /* line 211, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 214, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article section {
       width: 100%;
       padding: .5em 0 1em; }
-    /* line 215, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 218, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article #next {
       clear: both;
       padding-top: 1em; }
-    /* line 219, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 222, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article #recent_posts {
       padding-top: 1em; }
-      /* line 221, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 224, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       article #recent_posts h2 {
         padding-bottom: .5em;
         border-bottom: 1px solid #888888; }
-      /* line 225, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 228, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       article #recent_posts ul {
         padding-left: 1em; }
-        /* line 228, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        /* line 231, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
         article #recent_posts ul li a:before {
           content: "\2756"; }
-    /* line 234, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 237, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     article .cse .gsc-control-cse, article .gsc-control-cse {
       padding: 0; }
 
-  /* line 238, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 241, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   aside {
     width: 23%;
     float: right;
     color: #888888; }
-    /* line 242, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 245, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     aside a {
       color: #ed8c48; }
       /* line 18, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
@@ -313,39 +317,39 @@
       /* line 27, /Users/jeriwieringa/Documents/Web Projects/website-middleman/vender/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
       aside a:active {
         color: #3c9ad5; }
-    /* line 243, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 246, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     aside h2 {
       padding: 0; }
-    /* line 246, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 249, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     aside h3 {
       padding: 0; }
-    /* line 249, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 252, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     aside ul {
       list-style-type: none;
       padding: 0; }
-      /* line 252, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 255, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       aside ul li {
         padding-bottom: .5em; }
-        /* line 255, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+        /* line 258, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
         aside ul li a:before {
           content: "\2756"; }
 
   /*--- Footer Styles --*/
-  /* line 263, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+  /* line 266, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
   footer {
     clear: both;
     border-top: 5px double #888888; }
-    /* line 266, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 269, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     footer #copyright {
       width: 50%;
       float: left; }
-      /* line 269, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 272, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       footer #copyright p {
         margin: 0; }
-    /* line 273, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+    /* line 276, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
     footer #social {
       width: 50%;
       float: left; }
-      /* line 276, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
+      /* line 279, /Users/jeriwieringa/Documents/Web Projects/website-middleman/source/assets/stylesheets/_screen_new.scss */
       footer #social ul {
         float: right; } }

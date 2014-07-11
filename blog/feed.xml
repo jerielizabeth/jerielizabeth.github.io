@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jeri Wieringa</title>
-  <subtitle>American Religious Digital Historian</subtitle>
+  <title>From Data to Scholarship</title>
+  <subtitle>Digital Experiments in Religious History</subtitle>
   <id>http://jeriwieringa.com/blog</id>
   <link href="http://jeriwieringa.com/blog"/>
   <link href="http://jeriwieringa.com/blog/blog/feed.xml" rel="self"/>
-  <updated>2014-07-08T00:00:00Z</updated>
+  <updated>2014-07-11T00:00:00Z</updated>
   <author>
     <name>Jeri Wieringa</name>
   </author>
+  <entry>
+    <title>Bridging the Gap</title>
+    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/07/11/bridging-the-gap.html"/>
+    <id>http://jeriwieringa.com/blog/2014/07/11/bridging-the-gap.html</id>
+    <published>2014-07-11T00:00:00Z</published>
+    <updated>2014-07-11T13:53:01-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I am so excited that &lt;a href="http://celestesharpe.com/"&gt;Celeste Sharpe&lt;/a&gt; and I have been awarded an &lt;a href="http://ach.org/2014/07/09/ach_microgrants_winners_2014/"&gt;ACH microgrant&lt;/a&gt; for "Bridging the Gap: Women, Code, and the Digital Humanities". This grant will help us create a curriculum for workshops aimed at bridging the gender gap between those who code and those who do not in the Digital Humanities &lt;/p&gt;
+
+&lt;p&gt;While our &lt;a href="http://railsgirls.com/digitalhumanities_fairfax"&gt;first "Rails Girls" event&lt;/a&gt; was quite successful, one of the most repeated pieces of feedback we received was that participants were unsure how to connect what they had learned about building a Rails application to their own scholarly work. This is not surprising - the Rails Girls curriculum is aimed at helping women develop the skills necessary to land technical jobs and so focuses on instrumental understandings of code. As our participants reported, this is not the most obviously applicable type of knowledge in the context of humanities research.&lt;/p&gt;
+
+&lt;p&gt;What is necessary instead, and what we have been given the grant to develop, is a curriculum that focuses both on technical skills and on computational thinking, the intellectual skill of breaking complex problems into discrete, algorithmically solvable parts.&lt;a href="#comp"&gt;*&lt;/a&gt;&lt;a name="back"&gt;&lt;/a&gt; It is computational thinking that is necessary to answer the "but what can I do with it?" question. And it is computational thinking, even more than technical know-how, that is necessary for developing interesting research questions that can be solved with computers. &lt;/p&gt;
+
+&lt;p&gt;This emphasis on computational thinking, as opposed to instrumental knowledge, is also a response to a growing concern regarding the emphasis on tools within DH. This concern has already been articulated very well by Matthew Lincoln in his post &lt;a href="http://matthewlincoln.net/2014/04/25/tool-trouble.html"&gt;"Tool Trouble"&lt;/a&gt; and by Ted Underwood in his talk &lt;a href="https://www.youtube.com/watch?v=JjnXciUAdV0"&gt;"Beyond Tools"&lt;/a&gt;. To echo some of Matthew's points, the focus on tool-use in DH runs the risk of hindering rather than developing computational thinking, hiding the computational work behind a (hopefully) pretty interface and deceptively clear and visually interesting results. The emphasis on "tool-use" reinforces a sense of digital humanities methods as ways to get answers to particular questions along the way to constructing traditional humanities arguments. As a result, digital work undertaken in this manner often fails to grapple with the complex, and often problematic, theoretically-inflected models that digital tools produce. &lt;/p&gt;
+
+&lt;p&gt;(As a grand sweeping side note, I think it is this tool-centric approach to digital humanities that is most likely to be adopted by the various disciplines. When computational methods are merely tools, they pose little challenge to established modes of thinking, making it reasonable to say that we will all be digital humanists eventually.)&lt;/p&gt;
+
+&lt;p&gt;Tools are useful - they provide a means of addressing particular problems efficiently and consistently. But tools are packaged ways to solve particular problems in particular, computational ways, and are designed according to particular theoretical and philosophical assumptions. And they must be interacted with as such, not as "black boxes" or answer generators that tell us something about our stuff. &lt;/p&gt;
+
+&lt;p&gt;Moving beyond tool-use requires computational thinking, and is the intentional combining of computational and humanities modes of thinking that, I think, produces the most innovative work in the field. In learning to think computationally, one learns to conceptualize problems differently, to view the object of study in multiple ways and develop research questions driven both by humanities concerns and computational modes of problem solving. One also becomes able to reflect back on those computational modes and evaluate the ways the epistemological assumptions at work shape the models being created.   &lt;/p&gt;
+
+&lt;p&gt;Rather than teaching coding as one tool among many for answering humanistic questions, it is increasingly clear to us that it is necessary to teach computational thinking through learning to code - to learn to think through problems in computational ways and to ask new questions as the result. It is this pattern of thinking computationally that we are interested in fostering in our workshops. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name="comp"&gt;&lt;/a&gt;
+*This is my reformulation of Cuny, Snyder, and Wing's definition of computational thinking as "… the thought processes involved in formulating problems and their solutions so that the solutions are represented in a form that can be effectively carried out by an information-processing agent." &lt;a href="http://www.cs.cmu.edu/~CompThink/"&gt;http://www.cs.cmu.edu/~CompThink/&lt;/a&gt; &lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Summer of Research, Part I</title>
     <link rel="alternate" href="http://jeriwieringa.com/blog/2014/07/08/Summer-of-Research-Part-1.html"/>
@@ -348,50 +379,6 @@
 &lt;ul&gt;
   &lt;li&gt;While I enjoyed Cummings analysis (though I wish the structure was different), the last paragraph of her introduction left me concerned. She is arguing here that religion plays a central role in religious people’s construction of identity. And yet she alludes that religion was less influential in the response to second wave feminism. With not knowing very well the history that she is alluding to, this seems to be a large, and unnecessary, step back from her framing claims about the necessity of taking religion seriously as a key influence, along with race, class, and gender, in identity formation.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Healings and Holiness, Pentacostals, the Black Baptist Church, Itinerant Women, and Spiritual Narratives</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html"/>
-    <id>http://jeriwieringa.com/blog/2012/11/08/healings-and-holiness-pentacostals-the-black-baptist-church-itinerant-women-and-spiritual-narratives.html</id>
-    <published>2012-11-08T00:00:00Z</published>
-    <updated>2014-03-12T14:42:46-04:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;We are a bit eclectic this week.&lt;/p&gt;
-
-&lt;p&gt;Michael Stephens, &lt;em&gt;Who Healeth All Thy Diseases: Health, Healing, and Holiness in the Church of God Reformation Movement&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Stephens examines the history of healing within the Church of God (Anderson) movement, arguing that despite the lack of scholarly attention, healing practices were central to the development of the denomination and of American Protestantism in general. The focus is largely on major figures within the denomination, particularly Daniel Sidney Warner, Enoch E. Byrum, Charles Wesley Naylor, and the Gospel Trumpet Company publications. Stephens traces the changing attitudes toward healing, from viewing healing as the particular sign of sanctification to a repudiation of all medical intervention to a moderate stance, while highlighting the adoption of popular health reform prescriptions as part of the healthy Christian life.&lt;/p&gt;
-
-&lt;p&gt;Evelyn Brooks Higginbotham, &lt;em&gt;Righteous Discontent: The Women’s Movement in the Black Baptist Church, 1880-1920.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Higginbotham takes up the challenge of writing a history that focuses on women and gender while also arguing for the centrality of women and the construction of gender to the creation of society. She argues that the black church is the “product and process of male and female interaction” and that a focus on “the ministry” misses half of the conversation (2). She deploys the analytical frameworks of Benedict Anderson and Habermas, describing the creation of the church as a “public sphere” and central to “imagined community” of black society. As Higginbotham deftly shows, both the imagined community and the public sphere were contested and shifting and she focuses on the interactions of race, class, and gender to reveal the different discourses in play in shaping the community.&lt;/p&gt;
-
-&lt;p&gt;Joycelyn Moody, &lt;em&gt;Sentimental Confessions: Spiritual Narratives of Nineteenth-Century African American Women.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;*Sentimental Confessions *is a recovery project focused on reclaiming the black women’s spiritual autobiographies as works of theological importance and as rhetorically powerful and significant texts. Moody is interacting with scholarship on sentimentalism and women’s writing during the 19th-century, arguing against the tradition of Ann Douglas and for the idea that sentimental writing falls within the long tradition of religious writing that is embodied, sensual, and emotionally potent. The individual chapters focus more on close readings of the texts themselves and provide little additional historical context. The framing of this text is most interesting for historical projects that work with these and other such primary sources.&lt;/p&gt;
-
-&lt;p&gt;Edith Blumhofer, &lt;em&gt;Restoring the Faith: The Assemblies of God, Pentecostalism, and American Culture&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Restoring the Faith&lt;/em&gt; is an institutional history of the Assemblies of God denomination. Blumhofer traces a historical arch that begins with the restorationist impulse to return the church to the example of the New Testament, that moves through a period of growth and acculturation, and ends at a present day that has become something other than its primitivist beginnings, that has “succumbed to aspects of modernity” that it began in opposition to (12). Her history focuses more on Parham than Seymour, more on the white Pentecostal experience than African-American or Hispanic experiences, and while she does address some questions of women in leadership positions in the Assemblies of God denomination, how gender is constructed and negotiated is not the focus of her study. The book provides a useful overview and reference for some of the major moments and figures in the institutional history of the Assemblies of God.&lt;/p&gt;
-
-&lt;p&gt;Elizabeth Elkin Grammer, &lt;em&gt;Some Wild Visions: Autobiographies of Female Itinerant Evangelists in Nineteenth-Century America.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Grammer’s text is a literary study of the autobiographies of 7 female itinerant preachers: Nancy Towle, Jarena Lee, Zilpha Elaw, Lydia Sexton, Laura Haviland, Julia Foote, and Amanda Smith. In analyzing their self-presentation, Grammer focuses on 4 shared characteristics these autobiographies share and seeks to interpret the role and experience of these female itinerants on the basis of those shared characteristics. She notes a shared conscious leaving of the domestic space and the ideal of domesticity, and even an intentional “mis-reading” of that ideal so as to allow them to claim the world as their domestic space (56). She notes that they take part in the more “masculine” culture of “competitive individualism and accounting,” listing for readers the preaching engagements held and the number of converts attained (70). She notes that they were largely alone and also saw themselves as separate in some way from the general culture. And finally she comments upon a shared style in autobiographical writing and the lack of clear ordering or narrative that marks all of these texts. Her work studies how these women combined competing paradigms of “domesticity … individual assertion and competitiveness… and reluctant prophet and suffering savior” to “inhabit and subvert many assumptions about gender, race, and class” (23).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;More questions and thoughts than synthesis this week.&lt;/p&gt;
-
-&lt;p&gt;One of the interesting methodological questions I have coming out of these readings is the question of dealing with women and women’s organizations as a group and focusing on individual women within religious movements. Moody and Higginbotham take two different approaches to this – Moody, because of her focus on the autobiography, looks at the rhetoric of 6 individual women writers while Higginbotham looks at women’s organizations within the Black Baptist church and how those organizations influenced the overall institution. While I see Higginbotham’s point that only studying individual women often leaves them still outside of the larger narrative about society and culture, how does one deal responsibly (avoid generalizations, etc) when telling the history of a group.&lt;/p&gt;
-
-&lt;p&gt;Grammer notes that “revival” is a dominant theme throughout the 19th century. However, in reading her and other texts, it seems that the millennium is perhaps the stronger theme, driving even revival itself. Revival for the sake of revival does not seem strong enough to move so many people in so many extraordinary directions. However, and this is pulling from Abzug as well, the firm belief in the coming millennium seems like it could be enough to provoke the slew of revivals and reform efforts that we see.&lt;/p&gt;
-
-&lt;p&gt;Both Moody and Grammer are interested in using these text, which on the surface seem to restate rather than challenge cultural ideologies, to uncover how individual women negotiated and challenged those ideologies. Grammer’s text in general offers some very interesting and instructive ways of readings these texts – I need to return to this text for a closer reading. And Moody quotes Sharon Harris to argue that even texts that do perpetuate dominant ideology are worthy of study, as they are sites where ideologies are interacted with, help us understand the conditions under which the text was produced and also often contain subversions of those ideologies (181). Both of these are useful resources for thinking about how to deal with these texts going further.&lt;/p&gt;
-
-&lt;p&gt;While neither Stephens nor Blumhofer ignore women in their histories, it is clear that the focus of investigation is the institution and the (generally) male leaders who lead and influenced those institutions. On the one hand, this doesn’t seem unreasonable – the institution and its records is largely controlled by the male leadership. However, Higginbotham seems to offer a solid critique of this approach by arguing that it is the interactions between male and female individuals and groups that create the larger culture and institution. Can Higginbotham’s approach be applied further? Can it be argued that one cannot understand any religious group apart from the ongoing conversations and negotiations between female auxiliary organizations and the traditionally male controlled hierarchy (in whatever form that takes)?&lt;/p&gt;
 </content>
   </entry>
 </feed>
