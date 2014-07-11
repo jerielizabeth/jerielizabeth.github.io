@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>From Data to Scholarship</title>
   <subtitle>Digital Experiments in Religious History</subtitle>
-  <id>http://jeriwieringa.com/blog</id>
-  <link href="http://jeriwieringa.com/blog"/>
-  <link href="http://jeriwieringa.com/blog/blog/feed.xml" rel="self"/>
+  <id>http://jerielizabeth.github.io/blog</id>
+  <link href="http://jerielizabeth.github.io/blog"/>
+  <link href="http://jerielizabeth.github.io/blog/blog/feed.xml" rel="self"/>
   <updated>2014-07-11T00:00:00Z</updated>
   <author>
     <name>Jeri Wieringa</name>
   </author>
   <entry>
     <title>Bridging the Gap</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/07/11/bridging-the-gap.html"/>
-    <id>http://jeriwieringa.com/blog/2014/07/11/bridging-the-gap.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2014/07/11/bridging-the-gap.html"/>
+    <id>http://jerielizabeth.github.io/blog/2014/07/11/bridging-the-gap.html</id>
     <published>2014-07-11T00:00:00Z</published>
     <updated>2014-07-11T13:53:01-04:00</updated>
     <author>
@@ -42,8 +42,8 @@
   </entry>
   <entry>
     <title>Summer of Research, Part I</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/07/08/Summer-of-Research-Part-1.html"/>
-    <id>http://jeriwieringa.com/blog/2014/07/08/Summer-of-Research-Part-1.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2014/07/08/Summer-of-Research-Part-1.html"/>
+    <id>http://jerielizabeth.github.io/blog/2014/07/08/Summer-of-Research-Part-1.html</id>
     <published>2014-07-08T00:00:00Z</published>
     <updated>2014-07-08T10:15:38-04:00</updated>
     <author>
@@ -67,8 +67,8 @@
   </entry>
   <entry>
     <title>All Models are Wrong</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/06/12/lessons-from-dhsi.html"/>
-    <id>http://jeriwieringa.com/blog/2014/06/12/lessons-from-dhsi.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2014/06/12/lessons-from-dhsi.html"/>
+    <id>http://jerielizabeth.github.io/blog/2014/06/12/lessons-from-dhsi.html</id>
     <published>2014-06-12T00:00:00Z</published>
     <updated>2014-07-07T09:52:29-04:00</updated>
     <author>
@@ -93,8 +93,8 @@
   </entry>
   <entry>
     <title>Moving to Middleman</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html"/>
-    <id>http://jeriwieringa.com/blog/2014/03/12/Moving-to-Middleman.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2014/03/12/Moving-to-Middleman.html"/>
+    <id>http://jerielizabeth.github.io/blog/2014/03/12/Moving-to-Middleman.html</id>
     <published>2014-03-12T00:00:00Z</published>
     <updated>2014-03-12T21:52:48-04:00</updated>
     <author>
@@ -111,8 +111,8 @@
   </entry>
   <entry>
     <title>Bringing Rails Girls to the Digital Humanities</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html"/>
-    <id>http://jeriwieringa.com/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html"/>
+    <id>http://jerielizabeth.github.io/blog/2013/07/30/bringing-rails-girls-to-the-digital-humanities.html</id>
     <published>2013-07-30T00:00:00Z</published>
     <updated>2014-03-11T10:39:04-04:00</updated>
     <author>
@@ -128,8 +128,8 @@
   </entry>
   <entry>
     <title>Intro to Rails Girls for HASTAC 2013</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html"/>
-    <id>http://jeriwieringa.com/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html"/>
+    <id>http://jerielizabeth.github.io/blog/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft.html</id>
     <published>2013-03-15T00:00:00Z</published>
     <updated>2014-03-12T19:57:47-04:00</updated>
     <author>
@@ -168,8 +168,8 @@
   </entry>
   <entry>
     <title>Review of HERB: Social History for Every Classroom</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html"/>
-    <id>http://jeriwieringa.com/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html"/>
+    <id>http://jerielizabeth.github.io/blog/2013/03/05/review-of-herb-social-history-for-every-classroom.html</id>
     <published>2013-03-05T00:00:00Z</published>
     <updated>2014-03-12T14:46:23-04:00</updated>
     <author>
@@ -197,8 +197,8 @@
   </entry>
   <entry>
     <title>Review of &amp;#8220;Women in World History&amp;#8221; and &amp;#8220;Children and Youth in History&amp;#8221;</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html"/>
-    <id>http://jeriwieringa.com/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html"/>
+    <id>http://jerielizabeth.github.io/blog/2013/02/27/review-of-women-in-world-history-and-children-and-youth-in-history.html</id>
     <published>2013-02-27T00:00:00Z</published>
     <updated>2014-03-12T14:45:57-04:00</updated>
     <author>
@@ -234,8 +234,8 @@
   </entry>
   <entry>
     <title>Social Gospel and Missions</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/12/06/social-gospel-and-missions.html"/>
-    <id>http://jeriwieringa.com/blog/2012/12/06/social-gospel-and-missions.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2012/12/06/social-gospel-and-missions.html"/>
+    <id>http://jerielizabeth.github.io/blog/2012/12/06/social-gospel-and-missions.html</id>
     <published>2012-12-06T00:00:00Z</published>
     <updated>2014-03-12T14:45:16-04:00</updated>
     <author>
@@ -262,8 +262,8 @@
   </entry>
   <entry>
     <title>Short Tutorial: Cleaning up downloaded files</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html"/>
-    <id>http://jeriwieringa.com/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html"/>
+    <id>http://jerielizabeth.github.io/blog/2012/11/28/short-tutorial-cleaning-up-downloaded-files.html</id>
     <published>2012-11-28T00:00:00Z</published>
     <updated>2014-03-12T14:44:31-04:00</updated>
     <author>
@@ -329,8 +329,8 @@
   </entry>
   <entry>
     <title>Looking outside the Protestant bubble</title>
-    <link rel="alternate" href="http://jeriwieringa.com/blog/2012/11/20/looking-outside-the-protestant-bubble.html"/>
-    <id>http://jeriwieringa.com/blog/2012/11/20/looking-outside-the-protestant-bubble.html</id>
+    <link rel="alternate" href="http://jerielizabeth.github.io/blog/2012/11/20/looking-outside-the-protestant-bubble.html"/>
+    <id>http://jerielizabeth.github.io/blog/2012/11/20/looking-outside-the-protestant-bubble.html</id>
     <published>2012-11-20T00:00:00Z</published>
     <updated>2014-03-12T14:43:22-04:00</updated>
     <author>
