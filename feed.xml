@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>From Data to Scholarship</title>
+  <id>http://jeriwieringa.com</id>
+  <link href="http://jeriwieringa.com"/>
+  <link href="http://jeriwieringa.com/feed.xml" rel="self"/>
+  <updated>2014-07-10T20:00:00-04:00</updated>
+  <author>
+    <name>Jeri Wieringa</name>
+  </author>
+  <entry>
+    <title>Bridging the Gap</title>
+    <link rel="alternate" href="http://jeriwieringa.com/2014/07/11/bridging-the-gap/"/>
+    <id>http://jeriwieringa.com/2014/07/11/bridging-the-gap/</id>
+    <published>2014-07-10T20:00:00-04:00</published>
+    <updated>2015-03-24T19:40:15-04:00</updated>
+    <summary type="html">&lt;p&gt;I am so excited that &lt;a href="http://celestesharpe.com/"&gt;Celeste Sharpe&lt;/a&gt; and I have been awarded an &lt;a href="http://ach.org/2014/07/09/ach_microgrants_winners_2014/"&gt;ACH microgrant&lt;/a&gt; for "Bridging the Gap: Women, Code, and the Digital Humanities". This grant will help us create a curriculum for workshops aimed at bridging the gender gap between those...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I am so excited that &lt;a href="http://celestesharpe.com/"&gt;Celeste Sharpe&lt;/a&gt; and I have been awarded an &lt;a href="http://ach.org/2014/07/09/ach_microgrants_winners_2014/"&gt;ACH microgrant&lt;/a&gt; for &amp;quot;Bridging the Gap: Women, Code, and the Digital Humanities&amp;quot;. This grant will help us create a curriculum for workshops aimed at bridging the gender gap between those who code and those who do not in the Digital Humanities&lt;/p&gt;
+
+&lt;p&gt;While our &lt;a href="http://railsgirls.com/digitalhumanities_fairfax"&gt;first &amp;quot;Rails Girls&amp;quot; event&lt;/a&gt; was quite successful, one of the most repeated pieces of feedback we received was that participants were unsure how to connect what they had learned about building a Rails application to their own scholarly work. This is not surprising - the Rails Girls curriculum is aimed at helping women develop the skills necessary to land technical jobs and so focuses on instrumental understandings of code. As our participants reported, this is not the most obviously applicable type of knowledge in the context of humanities research.&lt;/p&gt;
+
+&lt;p&gt;What is necessary instead, and what we have been given the grant to develop, is a curriculum that focuses both on technical skills and on computational thinking, the intellectual skill of breaking complex problems into discrete, algorithmically solvable parts.&lt;a href="#comp"&gt;*&lt;/a&gt;&lt;a name="back"&gt;&lt;/a&gt; It is computational thinking that is necessary to answer the &amp;quot;but what can I do with it?&amp;quot; question. And it is computational thinking, even more than technical know-how, that is necessary for developing interesting research questions that can be solved with computers.&lt;/p&gt;
+
+&lt;p&gt;This emphasis on computational thinking, as opposed to instrumental knowledge, is also a response to a growing concern regarding the emphasis on tools within DH. This concern has already been articulated very well by Matthew Lincoln in his post &lt;a href="http://matthewlincoln.net/2014/04/25/tool-trouble.html"&gt;&amp;quot;Tool Trouble&amp;quot;&lt;/a&gt; and by Ted Underwood in his talk &lt;a href="https://www.youtube.com/watch?v=JjnXciUAdV0"&gt;&amp;quot;Beyond Tools&amp;quot;&lt;/a&gt;. To echo some of Matthew&amp;#39;s points, the focus on tool-use in DH runs the risk of hindering rather than developing computational thinking, hiding the computational work behind a (hopefully) pretty interface and deceptively clear and visually interesting results. The emphasis on &amp;quot;tool-use&amp;quot; reinforces a sense of digital humanities methods as ways to get answers to particular questions along the way to constructing traditional humanities arguments. As a result, digital work undertaken in this manner often fails to grapple with the complex, and often problematic, theoretically-inflected models that digital tools produce.&lt;/p&gt;
+
+&lt;p&gt;(As a grand sweeping side note, I think it is this tool-centric approach to digital humanities that is most likely to be adopted by the various disciplines. When computational methods are merely tools, they pose little challenge to established modes of thinking, making it reasonable to say that we will all be digital humanists eventually.)&lt;/p&gt;
+
+&lt;p&gt;Tools are useful - they provide a means of addressing particular problems efficiently and consistently. But tools are packaged ways to solve particular problems in particular, computational ways, and are designed according to particular theoretical and philosophical assumptions. And they must be interacted with as such, not as &amp;quot;black boxes&amp;quot; or answer generators that tell us something about our stuff.&lt;/p&gt;
+
+&lt;p&gt;Moving beyond tool-use requires computational thinking, and is the intentional combining of computational and humanities modes of thinking that, I think, produces the most innovative work in the field. In learning to think computationally, one learns to conceptualize problems differently, to view the object of study in multiple ways and develop research questions driven both by humanities concerns and computational modes of problem solving. One also becomes able to reflect back on those computational modes and evaluate the ways the epistemological assumptions at work shape the models being created.&lt;/p&gt;
+
+&lt;p&gt;Rather than teaching coding as one tool among many for answering humanistic questions, it is increasingly clear to us that it is necessary to teach computational thinking through learning to code - to learn to think through problems in computational ways and to ask new questions as the result. It is this pattern of thinking computationally that we are interested in fostering in our workshops.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a name="comp"&gt;&lt;/a&gt;&lt;br&gt;
+*This is my reformulation of Cuny, Snyder, and Wing&amp;#39;s definition of computational thinking as &amp;quot;... the thought processes involved in formulating problems and their solutions so that the solutions are represented in a form that can be effectively carried out by an information-processing agent.&amp;quot; &lt;a href="http://www.cs.cmu.edu/~CompThink/"&gt;http://www.cs.cmu.edu/~CompThink/&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Summer of Research, Part I</title>
+    <link rel="alternate" href="http://jeriwieringa.com/2014/07/08/Summer-of-Research-Part-1/"/>
+    <id>http://jeriwieringa.com/2014/07/08/Summer-of-Research-Part-1/</id>
+    <published>2014-07-07T20:00:00-04:00</published>
+    <updated>2015-03-24T19:40:15-04:00</updated>
+    <summary type="html">&lt;p&gt;&lt;em&gt;The Lean Dissertation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This summer I am beginning to work in earnest on my dissertation. The years of course work and exams are done, completed, passed and past. The experience is an odd combination of freeing and overwhelming, as many who have hit...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;The Lean Dissertation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This summer I am beginning to work in earnest on my dissertation. The years of course work and exams are done, completed, passed and past. The experience is an odd combination of freeing and overwhelming, as many who have hit this stage before me have commented.&lt;/p&gt;
+
+&lt;p&gt;In an effort to get started on this dissertation thing, I am working first on a &amp;quot;chapter&amp;quot; analyzing Kellogg and the ways he and those associated with him applied the Seventh-day Adventist vision of health and salvation at the Battle Creek Sanitarium. While &amp;quot;chapter&amp;quot; is the standard way to refer to sections of dissertations, and so is useful, it is a bit misleading. For many dissertations, each chapter is a smaller argument that contributes to the argument of the whole, an essential building block in the construction of the historical narrative.&lt;/p&gt;
+
+&lt;p&gt;But this dissertation is a little bit different. In my &lt;a href="https://dl.dropboxusercontent.com/u/11042846/Wieringa_Prospectus.pdf"&gt;dissertation prospectus&lt;/a&gt;, I proposed a digital project, one that uses computational methods and that investigates alternative, digital, modes of presenting historical interpretations. While all academic work is iterative, in that as one researches and writes, the ideas become clearer and the argument is refined, this sort of project requires an even more intentionally iterative approach. Rather than waiting to release a finished -- and most likely large and complex -- system, I am adopting the pattern of &lt;a href="http://theleanstartup.com/principles"&gt;Lean development&lt;/a&gt; -- building, measuring, and learning -- and plan to move through smaller iterations of the project, testing my hypotheses against the data and against reader feedback as I go.&lt;/p&gt;
+
+&lt;p&gt;This means organizing my work in terms of questions and hypotheses that get to the core of my project. Rather than developing a segment of the argument or processing a set of sources, each &amp;quot;chapter&amp;quot; is instead a microcosm of the dissertation as a whole: a chance to test my hypotheses and to prove myself wrong. By setting up multiple experiments or &amp;quot;chapters&amp;quot;, I can refine the thesis while also building and testing aspects of the argument. And for all this testing to be useful, it also means that I have to be willing to pivot, to change approaches and let go of ideas that are less successful.&lt;/p&gt;
+
+&lt;p&gt;If this sounds like generally good academic practice, wonderful! However, too often the perceived expectations of the university make it difficult to take the risk of releasing as one goes, of investing in strains of thought that might not pan out. The impulse instead is to keep ones ideas and work close until they are &amp;quot;perfect,&amp;quot; out of fear of being &amp;quot;scooped&amp;quot; or being wrong. If, however, one begins with the assumptions that &amp;quot;&lt;a href="http://jerielizabeth.github.io/blog/2014/06/12/lessons-from-dhsi.html"&gt;ALL models are wrong&lt;/a&gt;&amp;quot; and that ideas are best developed when exposed to multiple inputs and lines of criticism, then it becomes valuable to test ones assumptions and approaches frequently.&lt;/p&gt;
+
+&lt;p&gt;And so, as part of this processes, I will be using the blog for a couple of aspects of the testing. First, I will be blogging about the technical work I am doing as a way of opening up and sharing my digital methodologies, both as a check on my work and as a resource for others. Second, I will be using the blog to share some of the interface components as I develop on them, as a way to test their usefulness before integrating them into a larger argument. And, hopefully, by the beginning of the fall semester, there will be another tab in the top nav to a first iteration of my dissertation project. I invite you to follow along and to offer comments, criticism, and suggestions as the project develops!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>All Models are Wrong</title>
+    <link rel="alternate" href="http://jeriwieringa.com/2014/06/12/lessons-from-dhsi/"/>
+    <id>http://jeriwieringa.com/2014/06/12/lessons-from-dhsi/</id>
+    <published>2014-06-11T20:00:00-04:00</published>
+    <updated>2015-03-24T19:40:15-04:00</updated>
+    <summary type="html">&lt;p&gt;&lt;em&gt;This piece is cross-posted on the &lt;a href="http://ach.org/2014/06/26/all-models-are-wrong-lessons-from-dhsi/"&gt;ACH Blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;"Essentially, all models are wrong but some are useful." This phrase, attributed to George Box, was the mantra for the Data Mining for Digital Humanists course at the Digital Humanities Summer Institute last...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;This piece is cross-posted on the &lt;a href="http://ach.org/2014/06/26/all-models-are-wrong-lessons-from-dhsi/"&gt;ACH Blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Essentially, all models are wrong but some are useful.&amp;quot; This phrase, attributed to George Box, was the mantra for the Data Mining for Digital Humanists course at the Digital Humanities Summer Institute last week. Throughout the course, we worked to understand the mathematical concepts behind some of the most common algorithms used to solve classification and clustering problems. In data mining, the goal is to create a heuristic that allows one to predict with a high degree of accuracy how to classify new data based on the data one has seen in the past. From Amazon and Netflix recommendations to Pandora and even self-driving cars, the results of data mining work are present all across our digital lives.&lt;/p&gt;
+
+&lt;p&gt;And yet all models are wrong. In thinking about how to use data mining in my own work, it was helpful to learn that the goal of data mining is not to perfectly fit the model to the data at hand. Data mining is predictive: based on the results of the past, you create a model that predicts the label or classification to be assigned to future data. If you match your model too closely to the original data, if you overfit, the predictive power of the model decreases. Models are created to generalize. There are always outliers and items that are misclassified, but the payoff is the ability to abstract and to get a reliable prediction when faced with new data.&lt;/p&gt;
+
+&lt;p&gt;All models are wrong but some are useful. This should not be surprising to scholars in the humanities. In history, we frequently work with models to help us elucidate processes and explain events. We use economic models, political models, and models of race, class, and gender to explain actions and causes. While useful for drawing attention to the ways particular factors shaped events in the past, these models are necessarily incomplete. We know that there is more than economics at play, more than politics, more than religion, more than individual genius.&lt;/p&gt;
+
+&lt;p&gt;One area of concern surrounding computational approaches to humanities scholarship is the question of truth claims. Will algorithmic approaches fool us into claiming that we have uncovered the &amp;quot;truth&amp;quot; of the text, the &amp;quot;true&amp;quot; cause of a historical event, the &amp;quot;truth&amp;quot; of the human experience? Are computational approaches at odds with humanistic thinking that stresses contingency, subjectivity, and irreducibility? These are open questions that we need to continue to explore.&lt;/p&gt;
+
+&lt;p&gt;But all models are wrong. Data mining that seeks the &amp;quot;truth&amp;quot; is data mining done poorly. I think computational approaches can be very useful in the context of the humanities when we are looking for useful patterns to shed light on particular questions. Different models of the same data can answer different questions or suggest different conclusions. This makes data mining not an answer generating machine but a way of modeling data that is itself the result of theoretical and interpretive choices.&lt;/p&gt;
+
+&lt;p&gt;Remembering that all models are wrong is very useful for my own work. I am working to model and discuss the ways health reform ideology, social constructions that delineate power relationships, and religious and theological commitments were in conversation in the development of Seventh-day Adventism. There are many ways to model language similarity and use, some of which will be more useful than others for exploring the interrelationship between multiple cultural systems. My goal, however, is not to create the perfect model - that is impossible. Instead, my goal is to create useful models that help elucidate particular aspects or patterns, models that will necessarily fall short and make no claims to expressing the &amp;quot;truth&amp;quot; of the historical processes I study.&lt;/p&gt;
+
+&lt;p&gt;What I am taking away from the data mining course is a better understanding of how those in computer science, statistics, and applied mathematics view the intellectual space where they work. Rather than black-boxes that give &amp;quot;truth,&amp;quot; the algorithms developed and used for data mining problems constitute a variety of models that work with different ranges of accuracy on different problems. There is no one right model, but there are a variety of algorithms that one can use to isolate aspects of a given dataset. This allows one to create useful models of the data in order to describe, make predictions, and better understand the material at hand. And this is an understanding that I think has many possibilities for productive overlap with research in the humanities.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Moving to Middleman</title>
+    <link rel="alternate" href="http://jeriwieringa.com/2014/03/12/Moving-to-Middleman/"/>
+    <id>http://jeriwieringa.com/2014/03/12/Moving-to-Middleman/</id>
+    <published>2014-03-11T20:00:00-04:00</published>
+    <updated>2015-03-24T19:40:15-04:00</updated>
+    <summary type="html">&lt;p&gt;Things are a-changing here at jeriwieringa.com. While I have been a WordPress user for many years, it is time for a change. As I learn more about the web and about creating sites for long-term management, I have become convinced that simple is a virtue...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Things are a-changing here at jeriwieringa.com. While I have been a WordPress user for many years, it is time for a change. As I learn more about the web and about creating sites for long-term management, I have become convinced that simple is a virtue on the web. And database-driven sites are complex.&lt;/p&gt;
+
+&lt;p&gt;Instead, the site you see here is a collection of markdown files, created into a blog-type format using the magic of Ruby. With no database to be hacked and all of the text information localized to the individual post files, written in markdown, there are fewer opportunities for data-loss and greater possibilities for migrating in the future. And with version control provided by Git, the whole enterprise is much more secure.&lt;/p&gt;
+
+&lt;p&gt;While there are many website generating engines out there, I&amp;#39;ve chosen to work with &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt;. One of the newer players out there, it provides the structure for creating websites and blogs with built integration for tools such as &lt;a href="http://compass-style.org/"&gt;Compass&lt;/a&gt; and &lt;a href="http://susy.oddbird.net/"&gt;Susy&lt;/a&gt;, among many others. I&amp;#39;ll write a post about setting up a site with Middleman once I figure out what to keep from my trial and error process of learning.&lt;/p&gt;
+
+&lt;p&gt;The downside of this transition is that all my URLs have changed. But, think of it as an excuse to explore!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Bringing Rails Girls to the Digital Humanities</title>
+    <link rel="alternate" href="http://jeriwieringa.com/2013/07/30/bringing-rails-girls-to-the-digital-humanities/"/>
+    <id>http://jeriwieringa.com/2013/07/30/bringing-rails-girls-to-the-digital-humanities/</id>
+    <published>2013-07-29T20:00:00-04:00</published>
+    <updated>2015-02-07T19:44:58-05:00</updated>
+    <summary type="html">&lt;p&gt;Last fall I attended &lt;a href="http://railsgirls.com/"&gt;Rails Girls &lt;/a&gt;DC, a one day workshop that introduces women to programming using Ruby on Rails. It was a wonderful event and I learned a lot. But I also left inspired to bring this sort of event to the Digital Humanities! We too have...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Last fall I attended &lt;a href="http://railsgirls.com/"&gt;Rails Girls &lt;/a&gt;DC, a one day workshop that introduces women to programming using Ruby on Rails. It was a wonderful event and I learned a lot. But I also left inspired to bring this sort of event to the Digital Humanities! We too have a gender gap and need to support women interested in the coding side the field.&lt;/p&gt;
+
+&lt;p&gt;And so, on September 6 &amp;amp; 7 we are hosting a &lt;a href="http://railsgirls.com/digitalhumanities_fairfax"&gt;Digital Humanities focused Rails Girls Workshop&lt;/a&gt; with the Center for History and New Media at George Mason University. We will be focusing on questions of code in humanities research while learning to create a simple Ruby on Rails application. And we have an amazing team of coaches who will help guide participants through the code.&lt;/p&gt;
+
+&lt;p&gt;The event is open to women scholars of all ranks and career paths interested in learning to use Ruby on Rails in their work.  &lt;a href="http://railsgirls.com/digitalhumanities_fairfax"&gt;Please join us!&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Intro to Rails Girls for HASTAC 2013</title>
+    <link rel="alternate" href="http://jeriwieringa.com/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft/"/>
+    <id>http://jeriwieringa.com/2013/03/15/intro-to-rails-girls-for-hastac-2013-draft/</id>
+    <published>2013-03-14T20:00:00-04:00</published>
+    <updated>2015-02-07T19:45:04-05:00</updated>
+    <summary type="html">&lt;p&gt;&lt;em&gt;This is a draft of a lightening talk I will be giving a HASTAC 2013 on Rails Girls, a seminar popular around the world for introducing women to programming in Ruby on Rails.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One ongoing source of tension in the digital humanities community has been...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;This is a draft of a lightening talk I will be giving a HASTAC 2013 on Rails Girls, a seminar popular around the world for introducing women to programming in Ruby on Rails.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One ongoing source of tension in the digital humanities community has been coding. How important is the ability to code to participation in the digital humanities? Does &amp;#8220;playing around&amp;#8221; require playing in the code base or can it be done using existing tools?&lt;/p&gt;
+
+&lt;p&gt;Regardless of ones position in this debate, it is hard to deny that coding is increasingly valued in digital scholarship. From the &amp;#8220;Digging into Data&amp;#8221; grants to the publications in the &lt;em&gt;Journal of Digital Humanities&lt;/em&gt; and &lt;em&gt;Digital Humanities Quarterly&lt;/em&gt;, work that leverages code for data manipulation, for analysis, or for presentation is often the work being noticed.&lt;/p&gt;
+
+&lt;p&gt;This preference for code and data is not in itself a problem. The problem is that the vast majority of those doing coding work are male. This is by no means just an academic problem &amp;#8211; the New York Times reported in 2011 that only 19% of software developers are women, with that number falling in many high profile companies.&lt;a title="http://www.nytimes.com/2012/04/03/science/womens-pipeline-to-programming-jobs-has-many-leaks.html?_r=0" href="http://www.nytimes.com/2012/04/03/science/womens-pipeline-to-programming-jobs-has-many-leaks.html?_r=0"&gt;1&lt;/a&gt; With the world becoming increasingly computer driven, both inside and outside of academia, the absence of women in positions to shape the tools we rely on is a major problem.&lt;/p&gt;
+
+&lt;p&gt;The gender gap in programming is a known problem and there have been a number of gestures toward possible solution. One of the higher profile solutions was the declaration of the 2012 as a year of code. &lt;a title="http://hastac.org/blogs/michael-widner/2012/02/16/learn-code-learn-code-culture" href="http://hastac.org/blogs/michael-widner/2012/02/16/learn-code-learn-code-culture"&gt;3&lt;/a&gt;, &lt;a title="http://www.codeyear.com/" href="http://www.codeyear.com/"&gt;4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This approach, however, was not without its well deserved critics. As Miriam Posner and others pointed out, the issue is much more complicated than is acknowledged in general &amp;#8220;calls to code.&amp;#8221; In fact, there is a larger, cultural barriers that makes it difficult for women and minorities to break into a programming world dominated by white, middle class, males. &lt;a title="http://miriamposner.com/blog/?p=1135" href="http://miriamposner.com/blog/?p=1135"&gt;5&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fortunately, there are a number of people within the technology world who have also identified the problem of culture and have created some interesting initiatives in response. The solutions I am focused on today are programs committed to creating communities of women programmers at all levels of programming skill.&lt;/p&gt;
+
+&lt;p&gt;Two models which I think offer valuable lessons for those of us in the digital humanities who are interested in seeing more women doing computational analysis are &lt;a title="http://railsgirls.com/" href="http://railsgirls.com/"&gt;Rails Girls&lt;/a&gt; and &lt;a title="http://girldevelopit.com/" href="http://girldevelopit.com/"&gt;Girl Develop It&lt;/a&gt;. These programs acknowledge that asking women to learn &amp;#8220;on their own&amp;#8221; and break into the existing tech culture does nothing to address the cultural barriers that women interested in code face. Instead, they show how the barrier to entry can by lowered by intentionally creating environments for learning that are predominately female.&lt;/p&gt;
+
+&lt;p&gt;So what is Rails Girls?&lt;/p&gt;
+
+&lt;p&gt;Rails Girls was started in November, 2010 in Helsinki by Linda Liukas and Karri Saarinen. It is a day long seminar teaching a basic introduction to web development using Ruby on Rails, a web framework for creating web applications. Just to show that this is no marginal language, Ruby on Rails is the framework behind such web applications as &lt;a title="http://twitter.com" href="http://twitter.com/"&gt;Twitter&lt;/a&gt;, &lt;a title="http://basecamp.com/" href="http://basecamp.com/"&gt;Basecamp&lt;/a&gt;, and for the knitters in the room, &lt;a title="https://www.ravelry.com/" href="https://www.ravelry.com/"&gt;Ravelry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Rails Girls is structured as an introduction to the many layers of web development. The day includes a series of short introductions to the technology used to run web applications and the process of moving a design from idea to web application. The majority of the time is spent setting up and walking through a ruby on rails app, with introductions to ruby syntax and the structure of the application. The assumption is that the majority of participants have no or very little experience with programming. At the same time, a variety of skill levels are accommodated by grouping participants according to their technical skill, with each group of 4-5 being guided by a mentor who can provide additional information and context. By the end of the day, participants aim have a working basic application. Participants do not learn enough in one day to base a career on, but the seminar helps women interested in code to overcome some of the initial hurdles of language and of community.&lt;/p&gt;
+
+&lt;p&gt;That Rails Girls is meeting a need in the field is evidenced by its growing popularity. Since the first Rails Girls event, there have been over 60 seminars with many more scheduled to occur. The majority of these have taken place outside of the US. The list of held and planned seminars is available at the &lt;a title="http://railsgirls.com/events" href="http://railsgirls.com/events"&gt;Rails Girls website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For those less interested in learning Ruby on Rails and more interested in general programming skills, another solution offered in the tech world is &lt;a title="http://girldevelopit.com/" href="http://girldevelopit.com/"&gt;Girl Develop It&lt;/a&gt;. Rather than a set course of study, Girl Develop It focuses on supporting a local community of women coders. The community in San Francisco, for example, holds &amp;#8220;Code and Coffee&amp;#8221; events where women gather to socialize, work on code, and ask each other questions. These communities also offer courses for members on basics of web development, including HTML, CSS, Javascript and jQuery. These meetups and classes support a community of women coders and encourage those looking to learn technical skills by mitigating some of the cultural barriers faced by women trying to enter the predominately male world of programming through the creation of networks and communities of women who code.&lt;/p&gt;
+
+&lt;p&gt;Women in tech are creating opportunities for women to come together to learn to code. While we in academia should join them and make connections outside of the academic sphere, we should also be more proactive about the need to create similar opportunities within academia. For one, the goals of programming for humanities research are different than the goals of commercial web development. Most of us are not looking to launch a career as a professional developer. Most of us are jealous of, but not aiming for, the salary of a junior developer.&lt;/p&gt;
+
+&lt;p&gt;And so, some of the larger goals promoted at events like Rails Girls need to be rethought for the digital humanities environment. The goal of many of us interested in learning computational skills centers on how to gather digital material in such a way to make text analysis, geolocation, visualizations, etc. possible. Learning skills of data manipulation and database construction opens up a whole range of &amp;#8220;coding&amp;#8221; based analysis. And both of these can be introduced using the model of Rails Girls and Girl Develop it.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
