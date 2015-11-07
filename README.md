@@ -1,8 +1,10 @@
-Personal Website, built using Hyde.
+Personal website, built using [Hyde theme](https://github.com/poole/hyde) for Jekyll.
+
+Portfolio page adapted from [folio theme](https://github.com/bogoli/-folio) for Jekyll.
 
 # Hyde
 
-[Hyde](https://github.com/poole/hyde) is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 
 ## Author
