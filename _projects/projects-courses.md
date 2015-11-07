@@ -28,7 +28,7 @@ description: Work completed as final projects for classes.
         <img class="thumb" src="/img/mappingMethodism.png" />
         <div class="caption">
             <h3>Mapping Methodism</h3>
-            <p>Course work for Clio Wired wtih Sharon Leon at George Mason University</p>
+            <p>Course work for Clio Wired with Sharon Leon at George Mason University</p>
         </div>
     </a>
 </div>
