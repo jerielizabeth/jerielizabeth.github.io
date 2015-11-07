@@ -2,7 +2,6 @@
 layout: post
 title: Selecting a Digital Workflow
 tags: digital, research
-published: false
 ---
 *Disclaimer: workflows are rather infinitely customizable to fit project goals, intellectual patterns, and individual quirks. I am writing mine up because it has been useful for me to see how others are solving such problems. I invite you to take what is useful, discard what is not, and share what you have found.*
 
