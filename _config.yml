@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            'jeri e. wieringa'
+tagline:          'musings on history, religion, and computers'
+description:      'digital historian of american religion and culture'
+url:              
+baseurl:          /
+
+author:
+  name:           'Jeri E. Wieringa'
+  url:            https://twitter.com/jerielizabeth
+
+paginate:         3
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/jerielizabeth
+
+collections:
+  projects:
+    output: true
+    permalink: /portfolio/:path/
