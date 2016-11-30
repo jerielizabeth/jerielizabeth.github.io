@@ -3,7 +3,7 @@ title: portfolio
 layout: page
 ---
 
-{% for project in site.projects %}
+{% for project in site.portfolio %}
 
 {% if project.redirect %}
 <div class="project">

@@ -2,14 +2,16 @@
 markdown:         kramdown
 highlighter:      pygments
 
+# Gems
+gems:            [jekyll-paginate]
+
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            'jeri elizabeth'
+title:            'from data to scholarship'
 tagline:          'musings on history, religion, and computers'
-description:      'digital historian of american religion and culture'
+description:      'academic blog of Jeri E. Wieringa'
 url:              
 baseurl:          /
 
@@ -26,6 +28,6 @@ github:
   repo:           https://github.com/jerielizabeth
 
 collections:
-  projects:
+  portfolio:
     output: true
     permalink: /portfolio/:path/
