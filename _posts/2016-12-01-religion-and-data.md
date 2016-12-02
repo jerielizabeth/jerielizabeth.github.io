@@ -1,5 +1,5 @@
 ---
-title: "Religion & Data: A Presentation for the American Academy of Religion 2016"
+title: "Religion and Data: A Presentation for the American Academy of Religion 2016"
 layout: post
 tags: digital, research
 ---
