@@ -97,7 +97,7 @@ And I will report back on what I find in the original scans and text files!
 
 I have uploaded the code I wrote to generate the corpus statistics as a gist at [https://gist.github.com/jerielizabeth/97eeac0bf83365af7fd00bc6a0151554](https://gist.github.com/jerielizabeth/97eeac0bf83365af7fd00bc6a0151554).
 
-The code I wrote to create the visualization is available as a gist at [https://gist.github.com/jerielizabeth/c1ccd516681bf311630533be2bdb23d8](https://gist.github.com/jerielizabeth/c1ccd516681bf311630533be2bdb23d8). 
+The code I wrote to create the visualizations is available as a gist at [https://gist.github.com/jerielizabeth/c1ccd516681bf311630533be2bdb23d8](https://gist.github.com/jerielizabeth/c1ccd516681bf311630533be2bdb23d8). 
 
 Comments and suggestions are always welcome! 
 
