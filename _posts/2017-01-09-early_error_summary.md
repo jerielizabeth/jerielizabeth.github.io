@@ -5,6 +5,8 @@ tags: digital, research
 
 ---
 
+[*Update: Thanks to an excellent suggestion from Chris Sexton, the visualizations are initially image files, and you can click through to the interactive html versions. Browser overload no more!*]
+
 [*Disclaimer: this page will probably take a while to load because there is a lot of JavaScript further down the page.*]
 
 I have so much explaining to do about how I got to this point, but ... 
@@ -50,13 +52,15 @@ Notes on the visualizations:
 
 Our first victim: The [*Columbia Union Visitor*](http://documents.adventistarchives.org/Periodicals/Forms/AllItems.aspx?RootFolder=%2fPeriodicals%2fCUV&FolderCTID=0x012000DDAC5B94CFBD234AB142FC5C311C732700042C85EA7C1C1A4DB8D75C62A7517A6E), known hereafter as CUV.
 
-{% include iframe.html src="2017-01-09-CUV-error-rate-distribution.html" %}
+*Click through to the interactive visualization.*
+{% include image-link.html link="2017-01-09-CUV-error-rate-distribution.html" name="CUV-distribution-bokeh_plot.png" description="" %}
 
 Overall, the distribution of error rates is beautiful. It is centered on .1, showing that the majority of the documents have an error (or "bad token") rate of around 10%. But this graph does not give many clues about where the problem areas might lie.
 
 When we look at the rates over time, we get a more nuanced picture. (Scroll down in the iframe to see the full graph.) 
 
-{% include iframe.html src="2017-01-09-CUV-error-rate-per-document.html" %}
+*Click through to the interactive visualization.*
+{% include image-link.html link="2017-01-09-CUV-error-rate-per-document.html" name="CUV-time-bokeh_plot.png" description="" %}
 
 While most of the results are clustered down between 0 and .2, as expected, there is a curious spike in error rates around 1906. 
 
@@ -66,19 +70,23 @@ To explain this spike I can look at the types of errors reported for those years
 
 Next: The [*Health Reformer*](http://documents.adventistarchives.org/Periodicals/Forms/AllItems.aspx?RootFolder=%2fPeriodicals%2fHR&FolderCTID=0x012000DDAC5B94CFBD234AB142FC5C311C732700042C85EA7C1C1A4DB8D75C62A7517A6E), known hereafter as HR.
 
-{% include iframe.html src="2017-01-09-HR-error-rate-distribution.html" %}
+*Click through to the interactive visualization.*
+{% include image-link.html link="2017-01-09-HR-error-rate-distribution.html" name="HR-distribution-bokeh_plot.png" description="" %}
 
 Here we have an interesting situation where the bundle of documents with an error rate of "0" is abnormally high. Either the OCR for this publication is off-the-charts good, or there is something else going on. Since there is also a spike at "1", I'm guessing the latter.
 
-{% include iframe.html src="2017-01-09-HR-error-rate-per-document.html" %}
+*Click through to the interactive visualization.*
+{% include image-link.html link="2017-01-09-HR-error-rate-per-document.html" name="HR-time-bokeh_plot.png" description="" %}
 
 Looking at the data over time corroborates that guess and reveals another interesting pattern. The visualization shows a visible shift at around 1886 in the occurrence and density of high-error documents, which, interestingly, coincides with the rise of documents with "0" errors. Something is happening here!
 
 One last one (because otherwise your browser will never load). This pattern repeats, though at a smaller scale, in the [*Pacific Health Journal*](http://documents.adventistarchives.org/Periodicals/Forms/AllItems.aspx?RootFolder=%2fPeriodicals%2fPHJ&FolderCTID=0x012000DDAC5B94CFBD234AB142FC5C311C732700042C85EA7C1C1A4DB8D75C62A7517A6E), or PHJ.
 
-{% include iframe.html src="2017-01-09-PHJ-error-rate-distribution.html" %}
+*Click through to the interactive visualization.*
+{% include image-link.html link="2017-01-09-PHJ-error-rate-distribution.html" name="PHJ-distribution-bokeh_plot.png" description="" %}
 
-{% include iframe.html src="2017-01-09-PHJ-error-rate-per-document.html" %}
+*Click through to the interactive visualization.*
+{% include image-link.html link="2017-01-09-PHJ-error-rate-per-document.html" name="PHJ-time-bokeh_plot.png" description=""%}
 
 Notice the uptick in high-error documents at the 1901 mark, with intermittent spikes prior to that.
 
