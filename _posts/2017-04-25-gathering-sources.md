@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gathering Digital Sources"
+title: "Downloading Corpus Files"
 tags: digital, research
 
 ---
@@ -173,7 +173,7 @@ for doc_name in docs_to_download:
     wget.download(url, download_directory)
 ```
 
-You can run this code locally using [the Jupyter notebook](). Setup instructions are available in the project README.
+You can run this code locally using [the Jupyter notebook](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/6e997d2b97be5d01438867d55562b7708f9975e6/module-2/corpus-creation/Downloading%20Corpus%20Files.ipynb). Setup instructions are available in the project README.
 
 ---
 
