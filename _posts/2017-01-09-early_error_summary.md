@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I can haz charts!"
-tags: digital, research
+tags: digital, research, dissertation
 
 ---
 
@@ -118,3 +118,5 @@ And thanks to Fred Gibbs for all the feedback as I have been working through how
 [^1]: Funny story. As I was writing this, the SDA released a story about how they're filling in some of the missing years of the digitized periodicals. So, what you see online is probably a bit different from the collection I am currently work from. 
 [^2]: As a point of reference, the [*Mapping Texts*](http://mappingtexts.org/index.html) project worked with a corpus of approximately 230,000 pages. My approach to identifying errors is similar to the one pursued by the *Mapping Texts* team.
 [^3]: The process by which is also to be documented at a future point. So much documentation.
+
+

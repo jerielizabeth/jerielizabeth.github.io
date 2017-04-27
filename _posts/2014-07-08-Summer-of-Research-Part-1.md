@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer of Research, Part I
-tags: digital, research
+tags: digital, research, dissertation
 
 ---
 *The Lean Dissertation*
@@ -17,3 +17,5 @@ This means organizing my work in terms of questions and hypotheses that get to t
 If this sounds like generally good academic practice, wonderful! However, too often the perceived expectations of the university make it difficult to take the risk of releasing as one goes, of investing in strains of thought that might not pan out. The impulse instead is to keep ones ideas and work close until they are "perfect," out of fear of being "scooped" or being wrong. If, however, one begins with the assumptions that "[ALL models are wrong](http://jerielizabeth.github.io/blog/2014/06/12/lessons-from-dhsi.html)" and that ideas are best developed when exposed to multiple inputs and lines of criticism, then it becomes valuable to test ones assumptions and approaches frequently.
 
 And so, as part of this processes, I will be using the blog for a couple of aspects of the testing. First, I will be blogging about the technical work I am doing as a way of opening up and sharing my digital methodologies, both as a check on my work and as a resource for others. Second, I will be using the blog to share some of the interface components as I develop on them, as a way to test their usefulness before integrating them into a larger argument. And, hopefully, by the beginning of the fall semester, there will be another tab in the top nav to a first iteration of my dissertation project. I invite you to follow along and to offer comments, criticism, and suggestions as the project develops!
+
+

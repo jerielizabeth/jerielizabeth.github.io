@@ -1,7 +1,7 @@
 ---
 title: "Religion and Data: A Presentation for the American Academy of Religion 2016"
 layout: post
-tags: digital, research
+tags: digital, research, dissertation
 ---
 
 On November 19th I had the opportunity to be part of the [Digital Futures of Religious Studies](https://drkristianpetersen.com/2016/10/24/the-digital-futures-of-religious-studies-american-academy-of-religion-november-19/) panel at the American Academy of Religion in lovely San Antonio, Texas. It was wonderful to see the range of digital work being done in the study of religion represented and to participate in making the case for that work to be supported by the academy. 
@@ -70,3 +70,4 @@ Fortunately, we are not the first to discover that data are messy and complicate
 Working with data is a challenging, interpretive, and scholarly activity. While we may at times tell lies with our data and our visualizations, all scholarly interpretation is an abstraction, a selective focusing on elements to reveal something about the whole. What is important when working with data is to be transparent about the interpretive choices we are making along the way.  
 
 My hope is that as the use of data increases in the study of religion, we also create structures to recognize and evaluate the difficult intellectual work involved in the creation, management, and interpretation of that data.
+

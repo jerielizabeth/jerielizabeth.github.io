@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Selecting a Digital Workflow
-tags: digital, research
+tags: digital, research, dissertation
 ---
 *Disclaimer: workflows are rather infinitely customizable to fit project goals, intellectual patterns, and individual quirks. I am writing mine up because it has been useful for me to see how others are solving such problems. I invite you to take what is useful, discard what is not, and share what you have found.*
 
@@ -26,3 +26,5 @@ And that is my current tooling for organizing and writing both my digital experi
 ---
 
 [^2]:	I somehow missed the “research wiki” bus a while back, but thanks to a recent comment made by Abby Mullen, I am a happy convert to the whole concept.
+
+
