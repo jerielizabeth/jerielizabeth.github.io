@@ -5,7 +5,7 @@ tags: digital, research, dissertation
 
 ---
 
-*This is part of a series of first drafts of the technical essays documenting the technical work that undergirds my dissertation,* A Gospel of Health and Salvation. *For an overview of the dissertation project, you can read the [current project description](http://jeriwieringa.com/2017/04/21/updated-dissertation-description) at [jeriwieringa.com](http://jeriwieringa.com). You can access the Jupyter notebooks on [Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks).* 
+*This is [part of a series](http://jeriwieringa.com/portfolio/dissertation/) of first drafts of the technical essays documenting the technical work that undergirds my dissertation,* A Gospel of Health and Salvation. *For an overview of the dissertation project, you can read the [current project description](http://jeriwieringa.com/2017/04/21/updated-dissertation-description) at [jeriwieringa.com](http://jeriwieringa.com). You can access the Jupyter notebooks on [Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks).* 
 
 *My goals in sharing the notebooks and technical essays are two-fold. First, I hope that they might prove useful to others interested in taking on similar projects. Second, I am sharing them in hopes that "[given enough eyeballs, all bugs are shallow](https://en.wikipedia.org/wiki/Linus%27s_Law )."*
 
