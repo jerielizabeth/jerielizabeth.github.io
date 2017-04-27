@@ -97,5 +97,9 @@ for filename in corpus:
             o.write(text)
 ```
 
+You can run this code locally using [the Jupyter Notebook](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/d6522da8a9ce7e31cb4f08bade7f6762b13463df/module-2/corpus-creation/Extracting%20Text%20from%20PDFs.ipynb). Setup instructions are available in the project README.
+
+---
+
 [^1]: Marshall McLuhan, *Understanding Media: The Extensions of Man.* MIT Press Edition. Cambridge, MA: The MIT Press, 1994. p. 204.
 
