@@ -536,17 +536,23 @@ We can also compute the average weight manually.
 
 
 ```python
-# Group by year and topic id
-df_avg = df.groupby(['year', 'topic_id']).agg({'norm_topic_weight': 'sum'})
+# Get number of docs per year
+total_docs = df.groupby('year')['doc_id'].apply(lambda x: len(x.unique())).reset_index()
+total_docs.columns = ['year', 'total_docs']
 
-# Compute the mean per year
-df_avg = df_avg.groupby(level=0).apply(lambda x: x/x.sum()).reset_index()
-df_avg.columns = ['year', 'topic_id', 'average_weight']
+# Group by year and topic id
+df_avg = df.groupby(['year', 'topic_id']).agg({'norm_topic_weight': 'sum'}).reset_index()
+
+# Merge dataframes
+df_avg = df_avg.merge(total_docs, on="year", how="left")
+
+# Compute the mean per topic
+df_avg['average_weight'] = df_avg['norm_topic_weight'] / df_avg['total_docs']
 
 # Merge the dataframes
 df_avg = df_avg.merge(labels, on='topic_id')
 
-# Retrieve sample
+# # Limit to sample
 dfs_avg = df_avg[(df_avg['topic_id'] >=15 ) & (df_avg['topic_id']<= 20)]
 ```
 
