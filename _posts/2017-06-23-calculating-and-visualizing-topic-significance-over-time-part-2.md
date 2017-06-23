@@ -22,7 +22,7 @@ In this series of notebooks, I am looking at 4 different strategies for computin
 + Proportion of total weights per year
 
 
-To explore a range of strategies for computing and visualizing topics over time from a standard LDA model, I am using a model I created from my dissertation materials. You can download the files needed to follow along from https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0.
+To explore a range of strategies for computing and visualizing topics over time from a standard LDA model, I am using a model I created from my dissertation materials. You can download the files needed to follow along from [https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0](https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0).
 
 
 ```python
@@ -299,8 +299,10 @@ order = ['conference, committee, report, president, secretary, resolved',
 
 ```python
 def create_plotpoint(df, y_value, hue=None, order=order, col=None, wrap=None, size=6, aspect=2, title=""):
-    p = sns.factorplot(x="year", y=y_value, kind='point', hue_order=order, hue=hue, 
-                       col=col, col_wrap=wrap, col_order=order, size=size, aspect=aspect, data=df)
+    p = sns.factorplot(x="year", y=y_value, kind='point', 
+                        hue_order=order, hue=hue, 
+                       col=col, col_wrap=wrap, col_order=order, 
+                       size=size, aspect=aspect, data=df)
     p.fig.subplots_adjust(top=0.9)
     p.fig.suptitle(title, fontsize=16)
     return p
