@@ -59,8 +59,8 @@ pd.options.display.max_rows = 10
 
 
 ```python
-base_dir = "/Users/jeriwieringa/Dissertation/drafts/data/module-3/"
-period = '1859-to-1875'
+base_dir = "data"
+period = "1859-to-1875"
 directory = "historical_periods"
 ```
 
