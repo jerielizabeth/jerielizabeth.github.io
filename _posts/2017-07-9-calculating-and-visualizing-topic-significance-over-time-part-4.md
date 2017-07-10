@@ -13,8 +13,8 @@ This is the last in a series of posts which constitute a "lit review" of sorts, 
 
 + [Average of topic weights per year (First Post)](http://jeriwieringa.com/2017/06/21/Calculating-and-Visualizing-Topic-Significance-over-Time-Part-1/)
 + [Smoothing or regression analysis (Second Post)](http://jeriwieringa.com/2017/06/23/calculating-and-visualizing-topic-significance-over-time-part-2/)
-+ [Proportion of total weights per year (Third Post)](http://jeriwieringa.com/2017/06/23/calculating-and-visualizing-topic-significance-over-time-part-3/)
-+ [Prevalence of the top topic per year (Final Post)](http://jeriwieringa.com/2017/06/23/calculating-and-visualizing-topic-significance-over-time-part-4/)
++ [Prevalence of the top topic per year (Third Post)](http://jeriwieringa.com/2017/06/23/calculating-and-visualizing-topic-significance-over-time-part-3/)
++ [Proportion of total weights per year (Final Post)](http://jeriwieringa.com/2017/06/23/calculating-and-visualizing-topic-significance-over-time-part-4/)
 
 To explore a range of strategies for computing and visualizing topics over time from a standard LDA model, I am using a model I created from my dissertation materials. You can download the files needed to follow along from [https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0](https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0).
 
