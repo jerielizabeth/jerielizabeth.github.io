@@ -13,7 +13,7 @@ title:            'from data to scholarship'
 tagline:          ''
 description:      'musings on history, religion, and computers'
 url:              
-baseurl:          '/'
+baseurl:          'http://jeriwieringa.com'
 
 author:
   name:           'Jeri E. Wieringa'
