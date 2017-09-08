@@ -13,11 +13,12 @@ title:            'from data to scholarship'
 tagline:          ''
 description:      'musings on history, religion, and computers'
 url:              
-baseurl:          'http://jeriwieringa.com'
+baseurl:          ''
 
 author:
   name:           'Jeri E. Wieringa'
   url:            https://twitter.com/jerielizabeth
+  email:          'mailto:jeri.elizabeth@gmail.com'
 
 paginate:         3
 timezone:         'America/Los_Angeles'
