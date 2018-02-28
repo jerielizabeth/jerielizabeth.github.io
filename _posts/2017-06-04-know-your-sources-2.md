@@ -1598,7 +1598,7 @@ The final wordlists are included in the data folder for this module. They are:
 + [US Place Names](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/module-2/corpus-processing/data/2017-01-03-US-place-names.txt)
 + [Roman Numerals](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/module-2/corpus-processing/data/2017-02-14-roman-numerals.txt)
 
-*You can run this code locally using the [Jupyter notebook available via Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/module-2/corpus-processing/Know%20Your%20Sources%20(Part%202).ipynb).*
+*You can run this code locally using the [Jupyter notebook available via Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/blogPosts/Know%20Your%20Sources%20(Part%202).ipynb).*
 ---
 
 

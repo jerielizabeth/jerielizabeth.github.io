@@ -948,5 +948,5 @@ Grouping by category allows us to see that our corpus is dominated by the denomi
 
 Now that we have a sense of the temporal and topical coverage of our corpus, we will next turn our attention to evaluating the quality of the data that we have gathered from the scanned PDF files.
 
-*You can run this code locally using the [Jupyter notebook available via Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/module-2/corpus-processing/Know%20Your%20Sources%20(Part%201).ipynb)*.
+*You can run this code locally using the [Jupyter notebook available via Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/blogPosts/Know%20Your%20Sources%20(Part%201).ipynb)*.
 
