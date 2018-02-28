@@ -536,7 +536,7 @@ While not apparent from the data discussed here, the spikes in "mother, wife, to
 
 ---
 
-*You can download and run the code locally using the [Jupyter Notebook version of this post](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/module-3/Calculating%20and%20Visualizing%20Topic%20Significance%20over%20Time%2C%20Part%203.ipynb)*
+*You can download and run the code locally using the [Jupyter Notebook version of this post](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/master/blogPosts/Calculating%20and%20Visualizing%20Topic%20Significance%20over%20Time%2C%20Part%203.ipynb)*
 
 
 
