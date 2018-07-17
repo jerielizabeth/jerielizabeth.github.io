@@ -2,7 +2,7 @@
 layout: post
 title: "Ways to Compute Topics over Time, Part 4"
 tags: digital, research, dissertation
-
+excerpt_separator: <!--more-->
 ---
 
 *This is [part of a series](http://jeriwieringa.com/portfolio/dissertation/) of technical essays documenting the computational analysis that undergirds my dissertation,* A Gospel of Health and Salvation. *For an overview of the dissertation project, you can read the [current project description](http://jeriwieringa.com/2017/04/21/updated-dissertation-description) at [jeriwieringa.com](http://jeriwieringa.com). You can access the Jupyter notebooks on [Github](https://github.com/jerielizabeth/Gospel-of-Health-Notebooks).* 
@@ -18,7 +18,7 @@ This is the last in a series of posts which constitute a "lit review" of sorts, 
 
 To explore a range of strategies for computing and visualizing topics over time from a standard LDA model, I am using a model I created from my dissertation materials. You can download the files needed to follow along from [https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0](https://www.dropbox.com/s/9uf6kzkm1t12v6x/2017-06-21.zip?dl=0).
 
-
+<!--more-->
 
 ```python
 # Load the necessary libraries
