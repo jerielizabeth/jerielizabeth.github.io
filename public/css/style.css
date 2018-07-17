@@ -108,6 +108,9 @@
 	font-size: .8em;
 }
 
+pre {
+	font-size: 0.6rem;
+}
 /** Web Design Page **/
 .entry {
 	margin: 20px 0;
