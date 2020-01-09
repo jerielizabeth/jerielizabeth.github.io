@@ -1,15 +1,15 @@
 ---
 layout: page
-title: archive
+title: Blog Posts
 description: Collection of posts related to history, religion, and computers
 ---
 <section id="archive">
-  <h3>This year's posts</h3>
-  <hr>
+  <!-- <h3>This year's posts</h3> -->
+  <!-- <hr> -->
     {%for post in site.posts %}
-    {% unless post.next %}
+    <!-- {% unless post.next %} -->
       <ul class="post-list">
-      {% else %}
+      <!-- {% else %} -->
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}

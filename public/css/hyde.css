@@ -259,13 +259,13 @@ a.sidebar-nav-item:focus {
   color: #81958A;
 }
 
-/* Slate */
+/* Midnight Blue */
 .theme-base-0h .sidebar {
-  background-color: #45738B;
+  background-color: #003366;
 }
 .theme-base-0h .content a,
 .theme-base-0h .related-posts li a:hover {
-  color: #45738B;
+  color: #003366;
   
 
 }

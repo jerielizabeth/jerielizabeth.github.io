@@ -1,5 +1,5 @@
 ---
-title: portfolio
+title: Digital Portfolio
 layout: page
 ---
 

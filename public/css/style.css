@@ -131,6 +131,7 @@ pre {
 .caption h3 {
 	margin-top: 0;
 }
+
 @media (max-width: 72em){
 	.project {
 		width:45%;
@@ -140,4 +141,18 @@ pre {
 	.project {
 		width: 100%;
 	}
+}
+
+/* Sidebar */
+.sidebar {
+	text-align: center;
+}
+.sidebar h1 {
+	font-family: "PT Serif", serif;
+}
+
+.sidebar-nav-item.active {
+	font-weight: normal;
+	letter-spacing: normal;
+	text-decoration: underline;
 }

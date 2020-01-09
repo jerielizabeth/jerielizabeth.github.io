@@ -6,11 +6,11 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">{{ site.tagline }}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -34,7 +34,7 @@
       </div>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">creative commons by-nc</a>.</p>
+    <p>&copy;{{ site.time | date: '%Y' }}<br />Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">creative commons by-nc</a>.</p>
     <p>Last updated {{ site.time | date: '%d %b %Y' }}.
   </div>
 </div>

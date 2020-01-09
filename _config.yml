@@ -9,8 +9,8 @@ gems:            [jekyll-paginate]
 permalink:        pretty
 
 # Setup
-title:            'from data to scholarship'
-tagline:          ''
+title:            'From Data to Scholarship'
+tagline:          'Jeri E. Wieringa, PhD'
 description:      'musings on history, religion, and computers'
 url:              
 baseurl:          '/'
