@@ -2,6 +2,12 @@
 layout: default
 title: home
 ---
+<div class="about">
+Blurb about self here
+    {{ site.description}}
+</div>
+
+<hr />
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">

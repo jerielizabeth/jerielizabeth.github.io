@@ -146,6 +146,7 @@ pre {
 /* Sidebar */
 .sidebar {
 	text-align: center;
+	width: 17rem;
 }
 .sidebar h1 {
 	font-family: "PT Serif", serif;
