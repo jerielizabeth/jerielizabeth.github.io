@@ -5,7 +5,7 @@ tags: digital, dissertation
 excerpt_separator: <!--more-->
 ---
 
-This past week was the one year anniversary of my PhD defense. I am not entirely sure what has happened to the past 12 months. Job market, pandemic, cross-country moves, toddlers ... such things ate up much of the days (and nights), as they do. 
+This summer marked the one year anniversary of my PhD defense. I am not entirely sure what has happened to the past 12 months. Job market, pandemic, cross-country moves, toddlers ... such things ate up much of the days (and nights), as they do. 
 
 As I prepare to start my new role as an Assistant Professor in the Department of Religious Studies at the University of Alabama, I thought it would be helpful to (at long last) publish a couple of posts on my experience submitting, creating, and  defending a digital dissertation project. 
 

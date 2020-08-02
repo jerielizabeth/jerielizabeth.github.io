@@ -3,17 +3,18 @@ title: Courses
 layout: page
 ---
 
-University of Alabama
+### University of Alabama
 
-- Fall 2020 | REL 315 - Introduction to Digital Humanities
+Fall 2020 | REL 315 - Introduction to Digital Humanities
 
-University of California Berkeley
+### University of California Berkeley
 
-- Summer 2018 | DigHum100 - Theory and Methods
+Summer 2018 | DigHum100 - Theory and Methods
 
-DH Bridge
+### DH Bridge
 
 
-HILT
+### HILT
 
-- Web Design
+Summer 20xx | Web Design
+Summer 2021 | Jupyter

@@ -9,13 +9,14 @@ Blurb about self here
 
 <hr />
 <div class="posts">
-  {% for post in paginator.posts %}
+  <h2>Recent Posts</h2>
+  {% for post in site.posts limit:2 %}
   <div class="post">
-    <h1 class="post-title">
+    <h3 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h3>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
@@ -24,9 +25,11 @@ Blurb about self here
     <span class=""><a href="{{ post.url}}">... Read More</a></span>
   </div>
   {% endfor %}
+
+  <p class="right">More content in the <a href="{{ site.archive }}">full blog archive</a></p>
 </div>
 
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
   {% else %}
@@ -41,4 +44,4 @@ Blurb about self here
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->

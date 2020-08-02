@@ -5,9 +5,9 @@ title: About
 
 ## Jeri E. Wieringa, PhD
 
-I am digital historian and an affiliate faculty member with George Mason University. 
+I am digital historian and an Assistant Professor with the Department of Religious Studies at the University of Alabama. 
 
-I received my PhD in History from George Mason University in 2019 for my digital dissertation, [*A Gospel of Health and Salvation: Modeling the Religious Culture of Seventh-day Adventism, 1843 - 1920*](http://dissertation.jeriwieringa.com/). My scholarship takes place at the intersection of computational and data science methods and American religious history.
+I received my PhD in History from George Mason University in 2019 for my digital dissertation, [*A Gospel of Health and Salvation: Modeling the Religious Culture of Seventh-day Adventism, 1843 - 1920*](http://dissertation.jeriwieringa.com/). My scholarship takes place at the intersection of computational methods and American religious history.
 
 You can see my work on [Github](http://github.com/jerielizabeth) and on the [Portfolio page](/portfolio). I tweet [@jerielizabeth](http://twitter.com/jerielizabeth). 
 
