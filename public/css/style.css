@@ -13,6 +13,23 @@
 .clearfix:after {
 	clear: both;
 }
+
+.post p {
+	padding-left: 
+}
+
+.post>p:first-child:first-letter {
+    font-weight: 400;
+    font-size: 72px;
+    font-family: "Crimson Text",serif;
+    float: left;
+    line-height: .8;
+    margin-right: 15px;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
 .project {
 	width: 30%;
 	height: 250px;
