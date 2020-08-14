@@ -7,7 +7,7 @@ importance: 4
 ---
 <div class="entry">
     <a href="http://publishing.gmu.edu">
-        <img class="thumb" src="/img/publishing.png"/>
+        <img class="thumb" src="/assets/img/publishing.png"/>
         <div class="caption">
             <h3 class="title">Mason Publishing Group website</h3>
             <p>WordPress customization for the Mason Publishing Group website as Digital Publishing Production Lead with the Mason Publishing Group</p>
@@ -16,7 +16,7 @@ importance: 4
 </div>
 <div class="entry">
     <a href="http://booknotes.gmu.edu">
-        <img class="thumb" src="/img/booknotes.png"/>
+        <img class="thumb" src="/assets/img/booknotes.png"/>
         <div class="caption">
             <h3 class="title">Booknotes Project</h3>
             <p>Omeka customization for the Booknotes project as Digital Publishing Production Lead with the Mason Publishing Group</p>
@@ -25,7 +25,7 @@ importance: 4
 </div>
 <div class="entry">
     <a href="https://github.com/masonpublishing/OJS-Theme">
-        <img class="thumb" src="/img/ojs.png"/>
+        <img class="thumb" src="/assets/img/ojs.png"/>
         <div class="caption">
             <h3 class="title">E-Journals at George Mason University</h3>
             <p>OJS theme customization as Digital Publishing Production Lead with the Mason Publishing Group</p>

@@ -7,7 +7,7 @@ importance: 7
 ---
 <div class="entry">
     <a href="http://clio3.jerielizabeth.me/index.php">
-        <img class="thumb" src="/img/MiningHymns.jpg" />
+        <img class="thumb" src="/assets/img/MiningHymns.jpg" />
         <div class="caption">
         <h3>Mining Hymns</h3>
         <p>Course work for Clio 3 with Fred Gibbs at George Mason Univeristy</p>
@@ -17,7 +17,7 @@ importance: 7
 </div>
 <div class="entry">
     <a href="http://clio2.jerielizabeth.me">
-        <img class="thumb" src="/img/WebDesign.jpg" />
+        <img class="thumb" src="/assets/img/WebDesign.jpg" />
         <div class="caption">
             <h3>Design Portfolio</h3>
             <p>Course work for History and New Media (Clio 2) with Paula Petrik at George Mason University</p>
@@ -26,7 +26,7 @@ importance: 7
 </div>
 <div class="entry">
     <a href="http://clio1.jerielizabeth.me">
-        <img class="thumb" src="/img/mappingMethodism.png" />
+        <img class="thumb" src="/assets/img/mappingMethodism.png" />
         <div class="caption">
             <h3>Mapping Methodism</h3>
             <p>Course work for Clio Wired with Sharon Leon at George Mason University</p>
