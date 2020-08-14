@@ -15,7 +15,7 @@ news: true
 social: true
 ---
 
-I am digital historian and Assistant Professor in the Department of Religious Studies at The University of Alabama. 
+I am a Digital Historian and Assistant Professor in the [Department of Religious Studies](https://religion.ua.edu/) at The University of Alabama. 
 
 You can see my work on [Github](http://github.com/jerielizabeth) and on the [Portfolio page](/portfolio). I tweet [@jerielizabeth](http://twitter.com/jerielizabeth).
 
