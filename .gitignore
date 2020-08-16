@@ -3,7 +3,7 @@ _site/
 .sass-cache/
 # _drafts/
 .ruby-version
-vendor/
+# vendor/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
