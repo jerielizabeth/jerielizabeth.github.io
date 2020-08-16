@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Jeri E. Wieringa | Downloading Corpus Files</title>
+<meta name="description" content="Work at the intersection of religious studies, history, and data science.
+">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/2017/04/25/Gathering-Sources/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      
+      
+      
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://jeriwieringa.com/">
+       <span class="font-weight-bold">Jeri</span> E.  Wieringa
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Downloading Corpus Files</h1>
+    <p class="post-meta">April 25, 2017</p>
+  </header>
+
+  <article class="post-content">
+    <p><em>This is <a href="http://jeriwieringa.com/portfolio/dissertation/">part of a series</a> of first drafts of the technical essays documenting the technical work that undergirds my dissertation,</em> A Gospel of Health and Salvation. <em>For an overview of the dissertation project, you can read the <a href="http://jeriwieringa.com/2017/04/21/updated-dissertation-description">current project description</a> at <a href="http://jeriwieringa.com">jeriwieringa.com</a>. You can access the Jupyter notebooks on <a href="https://github.com/jerielizabeth/Gospel-of-Health-Notebooks">Github</a>.</em></p>
+
+<p><em>My goals in sharing the notebooks and technical essays are two-fold. First, I hope that they might prove useful to others interested in taking on similar projects. Second, I am sharing them in hopes that “<a href="https://en.wikipedia.org/wiki/Linus%27s_Law">given enough eyeballs, all bugs are shallow</a>.”</em></p>
+
+<hr />
+
+<p>The source base for <em>A Gospel of Health and Salvation</em> is the collection of scanned periodicals produced by the <a href="http://documents.adventistarchives.org/">Office of Archives, Statistics, and Research</a> of the Seventh-day Adventist Church (SDA). That this collection of documents is openly available on the web has been fundamental to the success of this project. One of the greatest challenges for historical scholarship that seeks to leverage large digital collections is access to the relevant materials. While projects such as <a href="http://chroniclingamerica.loc.gov/">Chronicling America</a> and resources such as the <a href="http://dp.la">Digital Public Library of America</a> are indispensable, many specialized resources are available only through proprietary databases and library subscriptions that impose limits on the ways scholars can interact with their resources.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p>The publishing of the digital periodicals on the open web by the SDA made it unnecessary for me to navigate through the firewalls (and legal land-mines) of using text from major library databases, a major boon for the digital project.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">2</a></sup> And, although the site does not provide an API for accessing the documents, the structure of the pages is regular, making the site a good candidate for web scraping. However, relying on an organization to provide its own historical documents raises its own challenges. Due to the interests of the hosting organization, in this case the Seventh-day Adventist Church, the collection is shaped by and shapes a particular narrative of the denomination’s history and development. For example, issues of <em>Good Health</em>, which was published by John Harvey Kellogg, are (almost entirely) dropped from the SDA’s collection after 1907, which corresponds to the point when Kellogg was disfellowshipped from the denomination, even though Kellogg continued its publication into the 1940s.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">3</a></sup> Such interests do not invalidate the usefulness of the collection, as all archives have limitations and goals, but those interests need to be acknowledged and taken into account in the analysis.</p>
+
+<p>To determine the list of titles that applied to my time and regions of study, I browsed through all of the titles in the <a href="http://documents.adventistarchives.org/Periodicals/Forms/AllFolders.aspx">periodicals section of the site</a> and compiled a list of titles that fit my geographic and temporal constraints. These are:</p>
+
+<ul>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/ADV">Training School Advocate (ADV)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/AmSn">American Sentinel (AmSn)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/ARAI">Advent Review and Sabbath Herald (ARAI)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/CE">Christian Education (CE)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/CUV">Welcome Visitor (Columbia Union Visitor) (CUV)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/EDU">Christian Educator (EDU)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/GCSessionBulletins">General Conference Bulletin (GCB)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/GH">Gospel Herald (GH)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/GOH">Gospel of Health (GOH)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/GS">Gospel Sickle (GS)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/HM">Home Missionary (HM)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/HR">Health Reformer (HR)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/IR">Indiana Reporter (IR)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/LB">Life Boat (LB)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/LH">Life and Health (LH)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/LibM">Liberty (LibM)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/LUH">Lake Union Herald (LUH)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/NMN">North Michigan News Sheet (NMN)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/PHJ">Pacific Health Journal and Temperance Advocate (PHJ)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/PT-AR">Present Truth (Advent Review) (PT-AR)</a> (renamed locally to PTAR)</li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/PUR">Pacific Union Recorder (PUR)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/RH">Review and Herald (RH)</a></li>
+  <li><a href="http://documents.adventistarchives.org/SSQ">Sabbath School Quarterly (SSQ)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/Sligo">Sligonian (Sligo)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/SOL">Sentinel of Liberty (SOL)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/ST">Signs of the Times (ST)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/SUW">Report of Progress, Southern Union Conference (SUW)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/TCOG">The Church Officer’s Gazette (TCOG)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/TMM">The Missionary Magazine (TMM)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/WMH">West Michigan Herald (WMH)</a></li>
+  <li><a href="http://documents.adventistarchives.org/Periodicals/YI">Youth’s Instructor (YI)</a></li>
+</ul>
+
+<p>As this was my first technical task for the dissertation, my initial methods for identifying the URLs for the documents I wanted to download was rather manual. I saved an .html file for each index page that contained documents I wanted to download. I then passed those .html files to a script (similar to that recorded here) that used <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> to extract the PDF ids, reconstruct the URLs, and write the URLs to a new text file, <code class="language-plaintext highlighter-rouge">scrapeList.txt</code>. After manually deleting the URLs to any documents that were out of range, I then passed the <code class="language-plaintext highlighter-rouge">scrapeList.txt</code> file to <code class="language-plaintext highlighter-rouge">wget</code> using the following syntax:<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote">4</a></sup></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-i</span> scrapeList.txt <span class="nt">-w</span> 2 <span class="nt">--limit-rate</span><span class="o">=</span>200k
+</code></pre></div></div>
+
+<p>I ran this process for each of the periodical titles included in this study. It took approximately a week to download all 13,000 files to my local machine. The resulting corpus takes up 27.19 GB of space.</p>
+
+<p>This notebook reflects a more automated version of that process, created in 2017 to download missing documents. The example recorded here is for downloading the <a href="http://documents.adventistarchives.org/SSQ/">Sabbath School Quarterly</a> collection, which I missed during my initial collection phase.</p>
+
+<p>In these scripts I use the <a href="http://docs.python-requests.org/en/master/"><code class="language-plaintext highlighter-rouge">requests</code></a> library to retrieve the HTML from the document directory pages and <a href="https://www.crummy.com/software/BeautifulSoup/"><code class="language-plaintext highlighter-rouge">BeautifulSoup4</code></a> to locate the filenames. I use <a href="https://pypi.python.org/pypi/wget"><code class="language-plaintext highlighter-rouge">wget</code></a> to download the files.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">join</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">wget</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">check_year</span><span class="p">(</span><span class="n">pdfID</span><span class="p">):</span>
+    <span class="s">"""Use regex to check the year from the PDF filename.
+
+    Args:
+        pdfID (str): The filename of the PDF object, formatted as 
+            PREFIXYYYYMMDD-V00-00
+    """</span>
+    <span class="n">split_title</span> <span class="o">=</span> <span class="n">pdfID</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">'-'</span><span class="p">)</span>
+    <span class="n">title_date</span> <span class="o">=</span> <span class="n">split_title</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">date</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">findall</span><span class="p">(</span><span class="s">r'[0-9]+'</span><span class="p">,</span> <span class="n">title_date</span><span class="p">)</span>
+    <span class="n">year</span> <span class="o">=</span> <span class="n">date</span><span class="p">[</span><span class="mi">0</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1921</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+
+
+<span class="k">def</span> <span class="nf">filename_from_html</span><span class="p">(</span><span class="n">content</span><span class="p">):</span>
+    <span class="s">"""Use Beautiful Soup to extract the PDF ids from the HTML page. 
+
+    This script is customized to the structure of the archive pages at
+    http://documents.adventistarchives.org/Periodicals/Forms/AllFolders.aspx.
+
+    Args:
+        content (str): Content is retrieved from a URL using the `get_html_page` 
+            function.
+    """</span>
+    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="s">"lxml"</span><span class="p">)</span>
+    <span class="n">buttons</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'td'</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s">"ms-vb-title"</span><span class="p">)</span>
+
+    <span class="n">pdfIDArray</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">buttons</span><span class="p">:</span>
+        <span class="n">links</span> <span class="o">=</span> <span class="n">each</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span>
+        <span class="n">pdfID</span> <span class="o">=</span> <span class="n">links</span><span class="p">.</span><span class="n">get_text</span><span class="p">()</span>
+        <span class="n">pdfIDArray</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">pdfID</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">pdfIDArray</span>
+
+
+<span class="k">def</span> <span class="nf">get_html_page</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="s">"""Use the requests library to get HTML content from URL
+    
+    Args:
+        url (str): URL of webpage with content to download.
+    """</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">r</span><span class="p">.</span><span class="n">text</span>
+</code></pre></div></div>
+
+<p>The first step is to set the directory where I want to save the downloaded documents, as well as the root URL for the location of the PDF documents.</p>
+
+<p>This example is set up for the Sabbath School Quarterly.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""If running locally, you will need to create the `corpus` folder or 
+update the path to the location of your choice.
+"""</span>
+<span class="n">download_directory</span> <span class="o">=</span> <span class="s">"../../corpus/"</span>
+<span class="n">baseurl</span> <span class="o">=</span> <span class="s">"http://documents.adventistarchives.org/SSQ/"</span>
+</code></pre></div></div>
+
+<p>My next step is to generate a list of the IDs for the documents I want to download.</p>
+
+<p>Here I download the HTML from the index page URLs and extract the document IDs. To avoid downloading any files outside of my study, I check the year in the ID before adding the document ID to my list of documents to download.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">index_page_urls</span> <span class="o">=</span> <span class="p">[</span><span class="s">"http://documents.adventistarchives.org/SSQ/Forms/AllItems.aspx?View={44c9b385-7638-47af-ba03-cddf16ec3a94}&amp;SortField=DateTag&amp;SortDir=Asc"</span><span class="p">,</span>
+              <span class="s">"http://documents.adventistarchives.org/SSQ/Forms/AllItems.aspx?Paged=TRUE&amp;p_SortBehavior=0&amp;p_DateTag=1912-10-01&amp;p_FileLeafRef=SS19121001-04%2epdf&amp;p_ID=457&amp;PageFirstRow=101&amp;SortField=DateTag&amp;SortDir=Asc&amp;&amp;View={44C9B385-7638-47AF-BA03-CDDF16EC3A94}"</span>
+             <span class="p">]</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">docs_to_download</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">url</span> <span class="ow">in</span> <span class="n">index_page_urls</span><span class="p">:</span> 
+    <span class="n">content</span> <span class="o">=</span> <span class="n">get_html_page</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">pdfs</span> <span class="o">=</span> <span class="n">filename_from_html</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+    
+    <span class="k">for</span> <span class="n">pdf</span> <span class="ow">in</span> <span class="n">pdfs</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">check_year</span><span class="p">(</span><span class="n">pdf</span><span class="p">):</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"Adding {} to download list"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">pdf</span><span class="p">))</span>
+            <span class="n">docs_to_download</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">pdf</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">pass</span>
+</code></pre></div></div>
+
+<p>Finally, I loop through all of the filenames, create the URL to the PDF, and use <code class="language-plaintext highlighter-rouge">wget</code> to download a copy of the document into my directory for processing.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">doc_name</span> <span class="ow">in</span> <span class="n">docs_to_download</span><span class="p">:</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">join</span><span class="p">(</span><span class="n">baseurl</span><span class="p">,</span> <span class="s">"{}.pdf"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">doc_name</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">wget</span><span class="p">.</span><span class="n">download</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">download_directory</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>You can run this code locally using <a href="https://github.com/jerielizabeth/Gospel-of-Health-Notebooks/blob/6e997d2b97be5d01438867d55562b7708f9975e6/module-2/corpus-creation/Downloading%20Corpus%20Files.ipynb">the Jupyter notebook</a>. Setup instructions are available in the project README.</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The library at Northeastern University provides a useful <a href="http://subjectguides.lib.neu.edu/textdatamining">overview</a> of the different elements one must consider when seeking to mine content in subscription databases. Increasingly, library vendors are seeking to build “research environments” that provide “<a href="http://www.gale.com/primary-sources/platform">workflow and analytical technology that breathes new life into the study of the social sciences and humanities</a>.” It is my opinion that granting vendors control over both the documentary materials and the methods of analysis, however, would be a concerning development for the long-term health of scholarship in the humanities. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>In recognition of the labor involved in creating the digital assets and to drive traffic back to their site, I am not redistributing any of the PDF files in my dissertation. Copies can be retrieved directly from the denomination’s websites. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>The University of Michigan is <a href="https://mirlyn.lib.umich.edu/Record/003935956#0">the archival home of the <em>Good Health</em> magazine</a> and <a href="https://books.google.com/books?id=Hds1AQAAMAAJ&amp;dq=%22Good+Health%22&amp;source=gbs_navlinks_s">many have been digitized by Google</a>. The Office of Archives and Research does include a few issues from 1937 and <a href="http://documents.adventistarchives.org/Periodicals/HR/HR19420601-V77-06.pdf">one from 1942</a>, which offers evidence of Kellogg’s ongoing editorial work on the title. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>In this syntax I was guided by Ian Milligan’s wget lesson. Ian Milligan, “Automated Downloading with Wget,” <em>Programming Historian</em>, (2012-06-27), http://programminghistorian.org/lessons/automated-downloading-with-wget <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2020 Jeri E. Wieringa.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+</html>

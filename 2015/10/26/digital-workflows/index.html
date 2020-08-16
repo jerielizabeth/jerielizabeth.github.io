@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Jeri E. Wieringa | Selecting a Digital Workflow</title>
+<meta name="description" content="Work at the intersection of religious studies, history, and data science.
+">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/2015/10/26/digital-workflows/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      
+      
+      
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://jeriwieringa.com/">
+       <span class="font-weight-bold">Jeri</span> E.  Wieringa
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Selecting a Digital Workflow</h1>
+    <p class="post-meta">October 26, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <p><em>Disclaimer: workflows are rather infinitely customizable to fit project goals, intellectual patterns, and individual quirks. I am writing mine up because it has been useful for me to see how others are solving such problems. I invite you to take what is useful, discard what is not, and share what you have found.</em></p>
+
+<p>Writing a dissertation is, among many things, a exercise in data management. Primary materials and their accompanying notes must be organized. Secondary materials and their notes must be organized. Ones own writing must be organized. And, when doing computational analysis, the code, processes, and results must be organized. This, I can attest, can be a daunting mountain of things to organize (and I like to organize).</p>
+
+<p>There are many available solutions for wrangling this data, some of which cost money, some of which are free, and all of which cater to different workflows. For myself, I have found that my reliance on computational methods and my goal of HTML as the final output make many of the solutions my colleagues use with great success (such as Scrivener and Evernote) just not work well for me. In addition, my own restlessness with interfaces has made interoperability a high priority - I need to be able to use many tools on the same document without having to worry about exporting to different formats in-between. This has lead to my first constraint: my work needs to be done in a plain text format that, eventually, will easily convert to HTML.</p>
+
+<p>The second problem is version control. On a number of projects in the past, written in Word or Pages, I have created many different named versions along the way. When getting feedback, new versions were created and results had to be reincorporated back into the authoritative version. This is all, well, very inefficient. And, while many of these sins can be overcome when writing text for humans, the universe is less forgiving when working with code. And so, constraint number two: my work needs to be under version control and duplication should be limited.</p>
+
+<p>The third problem is one of reproducibility and computational methods. The experiments that I run on my data need to be clearly documented and reproducible. While this is generally good practice, it is especially important for computational research. Reproducible and clearly documented work is important for the consistency of my own work over time, and to enable my scholarship to be interrogated and used by others. And so, the third constraint: my work needs to be done in such a way that my methods are transparent, consistent, and reproducible.</p>
+
+<p>My solution to the first constraint is Markdown. All of my writing is being done in markdown — including this blogpost! Markdown enables me to designate the information hierarchies and easily convert to HTML, but also to work on files in multiple interfaces. Currently, I am writing in <a href="http://www.ulyssesapp.com/">Ulysses</a>, but I also have used <a href="http://www.notebooksapp.com/">Notebooks</a>, <a href="https://ia.net/writer/mac/">IA Writer</a>, and Sublime text editor. What I love about Ulysses is that I can have one writing interface, but draw from multiple folders, most of which are tied to git repositories and/or dropbox. Ulysses has a handy file browser window, so it is easy to move between files and see them all as part of the larger project. But regardless of the application being used, it is the same file that I am working with across multiple platforms, applications, and devices.</p>
+
+<p>My solution to the second constraint is Github and the <a href="https://education.github.com/pack">Github Student Developer Pack</a>. Git and Github enable version control, and multiple branches, and all sorts of powerful ways to keep my computational work organized. In addition, Github’s student pack comes with 5 private repos (private while you are a student), along with a number of other cool perks. While I am a fan of working in the open and plan to open up my work over time, I have also come to value being able to make mistakes in the quiet of my own digital world.  Dissertations are hard, and intimidating, and there is something nice about not having to get it right from the very beginning while still being able to share with advisors and select colleagues.</p>
+
+<p>But, Github hasn’t proved the best for the writing side of things. The default wiki is limited in its functionality, especially in terms of enabling commenting, and repos are not really made for reading. My current version control solution for the writing side of the project is <a href="https://www.penflip.com/">Penflip</a>, billed as  “Github for Writing”. Writing with Penflip can be done through the web interface, or by cloning down the files (which are in markdown) and working locally. As such, the platform conforms to the markdown and the “one version” requirements. The platform is free if your writing is public, and $10/month for private repos, which is what I am trying out. I am using PenFlip a bit like a wiki, with general pages for notes on different primary documents and overarching pages that describe lines of inquiry and link the associated note and code files together.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">1</a></sup> This is the central core of my workflow - the place that ties together notes, code, and analysis and lays the ground work for the final product. So far it is working well for the writing, though using it for distribution commenting has been a little bumpy as the interface needs a little more refining.</p>
+
+<p>And the code. The code was actually the first of these problems I solved. Of the programming languages to learn, I have found Python to be the most comfortable to work in. It has great libraries for text analysis, and comes with the benefit of <a href="http://jupyter.org/">Jupyter Notebooks</a> (previously IPython Notebooks). Working in IPython Notebooks allows me to integrate descriptive text in markdown with code and the resulting visualizations. The resulting document is plain text, can be versioned, and displays in HTML for sharing. The platform conforms to my first two requirements — markdown and version controlled — while also making my methods transparent and reproducible. I run the Jupyter server locally, and am sharing pieces that have been successfully executed via nbviewer - for example, I recently released <a href="http://nbviewer.ipython.org/gist/jerielizabeth/62816081c79ae0495755">the code I used to create my pilot sample of one of my primary corpuses</a>. I am also abstracting code that is run more than once into a local library of functions. Having these functions enables me to reliably follow the same processes over time, thus creating results that are reproducible and comparable.</p>
+
+<p>And that is my current tooling for organizing and writing both my digital experiments and my surrounding explanations and narrative.</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:2" role="doc-endnote">
+      <p>I somehow missed the “research wiki” bus a while back, but thanks to a recent comment made by Abby Mullen, I am a happy convert to the whole concept. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2020 Jeri E. Wieringa.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+</html>
