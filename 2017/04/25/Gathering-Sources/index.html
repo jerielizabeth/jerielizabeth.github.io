@@ -219,7 +219,7 @@
     """</span>
     <span class="n">split_title</span> <span class="o">=</span> <span class="n">pdfID</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">'-'</span><span class="p">)</span>
     <span class="n">title_date</span> <span class="o">=</span> <span class="n">split_title</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="n">date</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">findall</span><span class="p">(</span><span class="s">r'[0-9]+'</span><span class="p">,</span> <span class="n">title_date</span><span class="p">)</span>
+    <span class="n">date</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s">'[0-9]+'</span><span class="p">,</span> <span class="n">title_date</span><span class="p">)</span>
     <span class="n">year</span> <span class="o">=</span> <span class="n">date</span><span class="p">[</span><span class="mi">0</span><span class="p">][:</span><span class="mi">4</span><span class="p">]</span>
     <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">year</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1921</span><span class="p">:</span>
         <span class="k">return</span> <span class="bp">True</span>

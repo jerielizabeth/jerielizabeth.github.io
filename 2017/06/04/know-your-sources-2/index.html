@@ -325,7 +325,7 @@ See https://docs.python.org/3.5/library/stdtypes.html#set-types-set-frozenset fo
     Returns:
         str: Returns the content string without the following characters: 0-9,.!?$:;&amp;".
     """</span>
-    <span class="n">text_cleaned</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="s">r"[0-9,.!?$:;&amp;\"]"</span><span class="p">,</span> <span class="s">" "</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+    <span class="n">text_cleaned</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s">"[0-9,.!?$:;&amp;\"]"</span><span class="p">,</span> <span class="s">" "</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
     
     <span class="k">return</span> <span class="n">text_cleaned</span>
 
@@ -1264,7 +1264,7 @@ See https://docs.python.org/3.5/library/stdtypes.html#set-types-set-frozenset fo
 <p>To improve my ability to capture these errors, I filtered out the acronyms and all words less than 3 characters in length from the SCOWL list. I added back common words, such as “I”, “in”, and “be,” through the subject-specific lists, which I cover below.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Using regex to remove all abbreviations and their possessive forms
-</span><span class="n">s_filtered</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">scowl</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">re</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="s">r"\b[A-Z]{1,}'s\b|\b[A-Z]{1,}\b"</span><span class="p">,</span> <span class="n">x</span><span class="p">)]</span>
+</span><span class="n">s_filtered</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">scowl</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">re</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s">"\b[A-Z]{1,}'s\b|\b[A-Z]{1,}\b"</span><span class="p">,</span> <span class="n">x</span><span class="p">)]</span>
 </code></pre></div></div>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s_filtered</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span>

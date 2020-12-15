@@ -213,7 +213,7 @@ of filenames to an index file for use in this notebook.
 </span>        <span class="n">title</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">match</span><span class="p">(</span><span class="s">"[A-Za-z]+"</span><span class="p">,</span> <span class="n">split_doc_id</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
         <span class="c1"># Get the dates by grabbing all of the number elements 
 </span>        <span class="c1"># in the first part of the filename.
-</span>        <span class="n">dates</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="s">r'[0-9]+'</span><span class="p">,</span> <span class="n">split_doc_id</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span>        <span class="n">dates</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s">'[0-9]+'</span><span class="p">,</span> <span class="n">split_doc_id</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
         <span class="c1"># The first four numbers is the publication year.
 </span>        <span class="n">year</span> <span class="o">=</span> <span class="n">dates</span><span class="p">.</span><span class="n">group</span><span class="p">()[:</span><span class="mi">4</span><span class="p">]</span>
         
