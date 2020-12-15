@@ -8,4 +8,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     # gem 'bibtex-ruby', '~> 5.0'
+    gem 'sassc', '~> 2.1.0' 
 end
