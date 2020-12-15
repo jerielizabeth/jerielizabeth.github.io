@@ -33,10 +33,11 @@ pagination:
           <ul class="post-list">
       {% endif %}
   {% endunless %}
+    <ul class="post-list">
       <li>
         <h4><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-        <p>{{ post.description }}</p>
+        <p>{{ post.excerpt }}</p>
       </li>
   {% endfor %}
   </ul>

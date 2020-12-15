@@ -12,15 +12,15 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 ## University of Alabama
 
-### Fall 2020
+REL 120 - Religion and Science - Spring 2021
 
-[REL 315 - Digital Humanities in Religious Studies](https://blogs.religion.ua.edu/rel315/)
+REL 370 - Religion and Communication: Digital Texts in the Humanities - Spring 2021
+
+[REL 315 - Digital Humanities in Religious Studies](https://blogs.religion.ua.edu/rel315/) - Fall 2020
 
 ## University of California, Berkeley
 
-### Summer 2019
-
-DigHum100 - Theory and Methods in the Digital Humanities
+DigHum100 - Theory and Methods in the Digital Humanities - Summer 2019
 
 ## Workshops and Curriculum
 
