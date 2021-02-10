@@ -98,6 +98,8 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .pagination .page-item.active .page-link:hover { background-color: #548D96; }
 
+.post img { width: 100%; }
+
 .distill a:hover { border-bottom-color: #548D96; text-decoration: none; }
 
 .projects .grid-item { width: 250px; margin-bottom: 10px; }
@@ -146,6 +148,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .publications ol.bibliography li span.abstract.hidden.open { border-color: #828282; }
 
+/******************************************************************************* Custom modifications to the theme */
 img { width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
