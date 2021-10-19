@@ -10,6 +10,7 @@ With software such as WordPress, Wix, and Weebly, it is relatively easy to creat
 {% include image.html name="2021-02-09-OmekaScreenshot.png" description="Omeka homepage featuring the web authoring capabilities of the software." %}
 
 Omeka is another software program for creating web content, but built by historians for historical content. It is used to build sites such as [the Humboldt Redwoods Project](https://hsuredwoodsproject.omeka.net/) and the [Colored Conventions Project](https://omeka.coloredconventions.org/). These sites feature rich collections of images and documents, information about those items, and place those items within their historical contexts.
+<!--more-->
 
 ## What is Omeka
 
