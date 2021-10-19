@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     # gem 'bibtex-ruby', '~> 5.0'
     gem 'sassc', '~> 2.1.0' 
+    gem "jekyll-remote-theme"
 end
