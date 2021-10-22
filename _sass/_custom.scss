@@ -1,8 +1,15 @@
 /*******************************************************************************
  * Custom modifications to the theme
  ******************************************************************************/
+// Front page
 
-.post img, .gif {
+table.table-sm th {
+    width: 15%;
+}
+
+
+// Blog Posts
+.post-content img, .gif {
     width:35%;
     float: right;
     margin-left: 1rem;
