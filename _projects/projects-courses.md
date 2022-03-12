@@ -3,7 +3,7 @@ title: Course Projects
 layout: page
 img: /assets/img/WebDesign.jpg
 description: Work completed as final projects for classes.
-importance: 7
+importance: 9
 ---
 <div class="entry">
     <a href="http://clio3.jerielizabeth.me/index.php">

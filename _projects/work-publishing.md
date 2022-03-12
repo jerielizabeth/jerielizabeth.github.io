@@ -3,7 +3,7 @@ title: Mason Publishing Group
 layout: page
 img: /assets/img/publishing.png
 description: Work completed in role as Digital Publishing Production Lead.
-importance: 4
+importance: 7
 ---
 <div class="entry">
     <a href="http://publishing.gmu.edu">
