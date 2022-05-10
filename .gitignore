@@ -8,4 +8,5 @@ vendor/
 .jekyll-metadata
 Gemfile.lock
 .bundle/
-# 
+#
+.obsidian 
