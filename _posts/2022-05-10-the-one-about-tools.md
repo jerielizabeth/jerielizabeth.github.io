@@ -3,11 +3,13 @@ layout: post
 title: "The One About Tools"
 tags: digital, research
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 Remember when we would get all up in arms about whether or not you needed to code in order to participate in DH? Here's my take: No.\* No because all of our interactions with  computing machine are mediated - you are not closer to the "truth" by being able to work in a programming language. That said, 1. you do need to engage with the computational processes (I'm over the "I've had an **idea** for a website / database / tool; who will build it for me?") and 2. eventually the easy-to-use tools will fail you or won't do what you want, and then you'll be learning code. So participate with the easy-to-use tools because eventually, if you stick with it, the fun questions will require you to learn more.
 
 But I didn't start there. It has always been important to me to learn the code. This has been driven in part by necessity (there were few tools in 2011 were not either prohibitively expensive or overly simplistic) and by a desire to understand as far as I could the underlying process. Code has been my route into computational thinking, into learning how to split large programs into discrete, tractable, iterable chunks. Has it taken a long time to gain momentum this way? Yes. Do I regret it? Not for a minute. And I want others to have the opportunity for the experience of learning how to think through their ideas and their research practices computationally. 
+
 <!--more-->
 
 But, two years into the role of being the DH person in a department is shifting my perspective on the issue of tools or low-barrier-to-entry solutions for people who are interested in working with digital sources and in computational processing but are not yet ready to dive into the world of R or NumPy/Pandas/SciKit-Learn/Jupyter ecosystem in Python. This is especially true for students who expect there to be an app for that, but for whom the inner workings of their computers (let alone the web) is largely obscure. 
