@@ -25,13 +25,14 @@ $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 $sea-blue:            #3D6075; //https://www.design-seeds.com/tag/blue-sea/
 $sea-green:           #548D96;
+$rose:                #c24b5e;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
 
 /* Set theme colors *************************/
-$theme-color:         $sea-green;
+$theme-color:         $rose;
 
 $link-color:          $theme-color;
 $text-color:          #111 !default;
