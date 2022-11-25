@@ -14,13 +14,13 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 REL 120 - Religion and Science - Spring 2022; Spring 2021
 
-REL 503 - Digital Methods for the Study of Religion - Spring 2022; Fall 2021
+REL 503 - Digital Methods for the Study of Religion - Fall, 2022; Spring 2022; Fall 2021
 
 REL 372 - Gendered Authority in American Religion - Fall 2021
 
 REL 370 - Religion and Communication: Digital Texts in the Humanities - Spring 2021
 
-REL 315 - Digital Humanities in Religious Studies - [Fall 2020](https://blogs.religion.ua.edu/rel315/)
+REL 315 - Digital Humanities in Religious Studies - Fall 2022; [Fall 2020](https://blogs.religion.ua.edu/rel315/)
 
 ## University of California, Berkeley
 

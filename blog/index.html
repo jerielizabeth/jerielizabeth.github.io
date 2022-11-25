@@ -38,6 +38,7 @@ pagination:
         <h4><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         <p>{{ post.excerpt }}</p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">Continue reading ...</a></p>
       </li>
   {% endfor %}
   </ul>
