@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Jeri E. Wieringa
-email: jewieringa@ua.edu
+email: jeri@wieringa.io
 description: > # this means to ignore newlines until "url:"
   Work at the intersection of religious studies, history, and data science.
 footer_text: >
@@ -48,7 +48,7 @@ blogger_url: # your blogger URL
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-35130770-1 # out your google-analytics code
+# google_analytics: UA-35130770-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
