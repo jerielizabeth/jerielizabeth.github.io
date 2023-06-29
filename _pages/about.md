@@ -12,7 +12,9 @@ news: true
 social: true
 ---
 
-I am a Digital Historian and Assistant Professor in the [Department of Religious Studies](https://religion.ua.edu/) at The University of Alabama. I am also the Director of the [REL Digital Lab](https://digitallab.religion.ua.edu/), a digital humanities lab supporting research and teaching in the Department of Religious Studies.
+I am a Digital Historian and Assistant Director of the [Center for Digital Humanities at Princeton University](https://cdh.princeton.edu/). 
+
+Previously I was assistant professor in the [Department of Religious Studies](https://religion.ua.edu/) at The University of Alabama. There I was the founding director of the Director of the [REL Digital Lab](https://digitallab.religion.ua.edu/), a digital humanities lab supporting research and teaching within the Religious Studies department.
 
 I focus on data curation, machine learning, and natural language processing with historical sources. I consider issues of AI ethics and the intersection of historical methods, focused on context and complexity, and the building of large-scale models.
 
