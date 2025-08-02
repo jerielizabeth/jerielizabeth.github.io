@@ -4,6 +4,8 @@ layout: page
 img: /assets/img/LibM-Metadata.png
 description: Curated collection of digitized periodicals, with descriptive metadata, historical context, and text for computational analysis.
 importance: 2
+category: current
+related_publications: true
 ---
 
 Description coming soon

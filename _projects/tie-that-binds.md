@@ -4,4 +4,6 @@ layout: page
 img: /assets/img/Testimonies-Cover.png
 description: A history of the role of print in the development of the SDA, looking at social formation through media and technology.
 importance: 1
+category: current
+related_publications: true
 ---

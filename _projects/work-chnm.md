@@ -4,6 +4,8 @@ layout: page
 img: /assets/img/Minimalist-2.0.jpg
 description: Work completed as a Graduate Research Assistant at RRCHNM.
 importance: 8
+category: past
+related_publications: true
 ---
 <div class="entry">
     <a href="http://toynbeeprize.org/">

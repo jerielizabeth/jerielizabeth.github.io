@@ -4,6 +4,8 @@ layout: page
 img: /assets/img/WebDesign.jpg
 description: Work completed as final projects for classes.
 importance: 9
+category: past
+related_publications: false
 ---
 <div class="entry">
     <a href="http://clio3.jerielizabeth.me/index.php">

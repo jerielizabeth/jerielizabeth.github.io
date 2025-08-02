@@ -4,6 +4,8 @@ layout: page
 img: /assets/img/dissertation.jpg
 description: Digital Dissertation on Seventh-day Adventism, religion, and gender in American culture.
 importance: 5
+category: past
+related_publications: true
 ---
 *A Gospel of Health and Salvation* is a work of digital history — defined as the critical application of computational technologies to the study of the past — focused on the relationship between time and gender in Seventh-day Adventism. In it I explore the puzzle of the denomination’s prophet and religious leader, Ellen White, and her varied and seemingly contradictory writings on the role of women in the denomination. One of a few women religious leaders in nineteenth-century America, White is difficult to place within the history of American religion. Rising to prominence at the end of the Second Great Awakening, White promoted a vision of gender and women’s participation in the work of salvation that fails to fit neatly into either histories of American feminism or histories of domesticity. Discussing White and her place in American religious history requires a different approach.
 

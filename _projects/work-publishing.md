@@ -4,6 +4,8 @@ layout: page
 img: /assets/img/publishing.png
 description: Work completed in role as Digital Publishing Production Lead.
 importance: 7
+category: past
+related_publications: true
 ---
 <div class="entry">
     <a href="http://publishing.gmu.edu">
