@@ -8,7 +8,7 @@ category: current
 related_publications: true
 ---
 
-Description coming soon.
+*Description coming soon.*
 
 ## Sponsors
-Scarcity in Abudance is supported through the REL Digital Lab, part of the Department of Religious Studies at UA.
+Early work for Scarcity in Abudance was supported through the REL Digital Lab, part of the Department of Religious Studies at UA.

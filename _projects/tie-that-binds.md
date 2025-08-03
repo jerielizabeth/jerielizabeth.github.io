@@ -1,8 +1,8 @@
 ---
-title: The Tie that Binds - Print in the History of the SDA
+title: Of Time and Topics
 layout: page
 img: /assets/img/Testimonies-Cover.png
-description: A history of the role of print in the development of the SDA, looking at social formation through media and technology.
+description: A reimagining of the digital dissertation for print. A study in digital history methods and American Religious History.
 importance: 1
 category: current
 related_publications: true
