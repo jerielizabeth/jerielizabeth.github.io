@@ -14,7 +14,7 @@ profile:
   #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -29,7 +29,7 @@ latest_posts:
 
 I am a Digital Historian and Assistant Director of the Center for Digital Humanities at Princeton University. 
 
-Previously I was assistant professor in the [Department of Religious Studies](https://religion.ua.edu/) at The University of Alabama. There I was the founding director of the Director of the [REL Digital Lab](https://digitallab.religion.ua.edu/), a digital humanities lab supporting research and teaching within the Department of Religious Studies.
+Previously I was an Assistant Professor in the [Department of Religious Studies](https://religion.ua.edu/) at The University of Alabama. There I was the founding director of the Director of the [REL Digital Lab](https://digitallab.religion.ua.edu/), a digital humanities lab supporting research and teaching within the Department of Religious Studies.
 
 I focus on data curation, machine learning, and natural language processing with historical sources. I consider issues of AI ethics and the intersection of historical methods, focused on context and complexity, and the building of large-scale models.
 
