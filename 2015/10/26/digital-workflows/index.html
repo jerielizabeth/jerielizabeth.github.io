@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Selecting a Digital Workflow | Jeri E. Wieringa
+    
+  
+</title>
+<meta name="author" content="Jeri E. Wieringa">
+<meta name="description" content="Scholarship at the intersection of history and data science.
+">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://localhost:4000/2015/10/26/digital-workflows/">
+
+
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Jeri</span>
+            
+            E.
+            Wieringa
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/blog/">blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/repositories/">repositories
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/teaching/">teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+
+
+
+
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Selecting a Digital Workflow</h1>
+    <p class="post-meta">
+      Created on October 26, 2015
+      
+      
+      
+    </p>
+    <p class="post-tags">
+      
+        <i class="fa-solid fa-calendar fa-sm"></i> 2015
+      
+      
+          ·  
+        
+          
+            <i class="fa-solid fa-hashtag fa-sm"></i> digital,
+          
+          
+             
+          
+        
+          
+            <i class="fa-solid fa-hashtag fa-sm"></i> research,
+          
+          
+             
+          
+        
+          
+            <i class="fa-solid fa-hashtag fa-sm"></i> dissertation
+          
+          
+        
+      
+
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p><em>Disclaimer: workflows are rather infinitely customizable to fit project goals, intellectual patterns, and individual quirks. I am writing mine up because it has been useful for me to see how others are solving such problems. I invite you to take what is useful, discard what is not, and share what you have found.</em></p>
+
+<p>Writing a dissertation is, among many things, a exercise in data management. Primary materials and their accompanying notes must be organized. Secondary materials and their notes must be organized. Ones own writing must be organized. And, when doing computational analysis, the code, processes, and results must be organized. This, I can attest, can be a daunting mountain of things to organize (and I like to organize).</p>
+
+<p>There are many available solutions for wrangling this data, some of which cost money, some of which are free, and all of which cater to different workflows. For myself, I have found that my reliance on computational methods and my goal of HTML as the final output make many of the solutions my colleagues use with great success (such as Scrivener and Evernote) just not work well for me. In addition, my own restlessness with interfaces has made interoperability a high priority - I need to be able to use many tools on the same document without having to worry about exporting to different formats in-between. This has lead to my first constraint: my work needs to be done in a plain text format that, eventually, will easily convert to HTML.</p>
+
+<p>The second problem is version control. On a number of projects in the past, written in Word or Pages, I have created many different named versions along the way. When getting feedback, new versions were created and results had to be reincorporated back into the authoritative version. This is all, well, very inefficient. And, while many of these sins can be overcome when writing text for humans, the universe is less forgiving when working with code. And so, constraint number two: my work needs to be under version control and duplication should be limited.</p>
+
+<p>The third problem is one of reproducibility and computational methods. The experiments that I run on my data need to be clearly documented and reproducible. While this is generally good practice, it is especially important for computational research. Reproducible and clearly documented work is important for the consistency of my own work over time, and to enable my scholarship to be interrogated and used by others. And so, the third constraint: my work needs to be done in such a way that my methods are transparent, consistent, and reproducible.</p>
+
+<p>My solution to the first constraint is Markdown. All of my writing is being done in markdown — including this blogpost! Markdown enables me to designate the information hierarchies and easily convert to HTML, but also to work on files in multiple interfaces. Currently, I am writing in <a href="http://www.ulyssesapp.com/" rel="external nofollow noopener" target="_blank">Ulysses</a>, but I also have used <a href="http://www.notebooksapp.com/" rel="external nofollow noopener" target="_blank">Notebooks</a>, <a href="https://ia.net/writer/mac/" rel="external nofollow noopener" target="_blank">IA Writer</a>, and Sublime text editor. What I love about Ulysses is that I can have one writing interface, but draw from multiple folders, most of which are tied to git repositories and/or dropbox. Ulysses has a handy file browser window, so it is easy to move between files and see them all as part of the larger project. But regardless of the application being used, it is the same file that I am working with across multiple platforms, applications, and devices.</p>
+
+<p>My solution to the second constraint is Github and the <a href="https://education.github.com/pack" rel="external nofollow noopener" target="_blank">Github Student Developer Pack</a>. Git and Github enable version control, and multiple branches, and all sorts of powerful ways to keep my computational work organized. In addition, Github’s student pack comes with 5 private repos (private while you are a student), along with a number of other cool perks. While I am a fan of working in the open and plan to open up my work over time, I have also come to value being able to make mistakes in the quiet of my own digital world.  Dissertations are hard, and intimidating, and there is something nice about not having to get it right from the very beginning while still being able to share with advisors and select colleagues.</p>
+
+<p>But, Github hasn’t proved the best for the writing side of things. The default wiki is limited in its functionality, especially in terms of enabling commenting, and repos are not really made for reading. My current version control solution for the writing side of the project is <a href="https://www.penflip.com/" rel="external nofollow noopener" target="_blank">Penflip</a>, billed as  “Github for Writing”. Writing with Penflip can be done through the web interface, or by cloning down the files (which are in markdown) and working locally. As such, the platform conforms to the markdown and the “one version” requirements. The platform is free if your writing is public, and $10/month for private repos, which is what I am trying out. I am using PenFlip a bit like a wiki, with general pages for notes on different primary documents and overarching pages that describe lines of inquiry and link the associated note and code files together.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> This is the central core of my workflow - the place that ties together notes, code, and analysis and lays the ground work for the final product. So far it is working well for the writing, though using it for distribution commenting has been a little bumpy as the interface needs a little more refining.</p>
+
+<p>And the code. The code was actually the first of these problems I solved. Of the programming languages to learn, I have found Python to be the most comfortable to work in. It has great libraries for text analysis, and comes with the benefit of <a href="http://jupyter.org/" rel="external nofollow noopener" target="_blank">Jupyter Notebooks</a> (previously IPython Notebooks). Working in IPython Notebooks allows me to integrate descriptive text in markdown with code and the resulting visualizations. The resulting document is plain text, can be versioned, and displays in HTML for sharing. The platform conforms to my first two requirements — markdown and version controlled — while also making my methods transparent and reproducible. I run the Jupyter server locally, and am sharing pieces that have been successfully executed via nbviewer - for example, I recently released <a href="http://nbviewer.ipython.org/gist/jerielizabeth/62816081c79ae0495755" rel="external nofollow noopener" target="_blank">the code I used to create my pilot sample of one of my primary corpuses</a>. I am also abstracting code that is run more than once into a local library of functions. Having these functions enables me to reliably follow the same processes over time, thus creating results that are reproducible and comparable.</p>
+
+<p>And that is my current tooling for organizing and writing both my digital experiments and my surrounding explanations and narrative.</p>
+
+<hr>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:2">
+      <p>I somehow missed the “research wiki” bus a while back, but thanks to a recent comment made by Abby Mullen, I am a happy convert to the whole concept. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+
+  
+    
+    
+      <br>
+      <hr>
+      <br>
+      <ul class="list-disc pl-8"></ul>
+
+      <!-- Adds related posts to the end of an article -->
+      <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    
+
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2022/05/10/the-one-about-tools/">The One About Tools</a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2021/10/20/HistoInformatics/">The Tie that Binds for HistoInformatics2021 </a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2021/02/09/omeka-for-the-student-scholar/">Omeka for the Student Scholar</a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2020/12/07/reviving-the-blog/">Reviving the Blog</a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2018/07/17/pyLDAviz-and-Mallet/">Using pyLDAvis with Mallet</a>
+    
+  </li>
+
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2025
+  Jeri
+  E.
+  Wieringa. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+  
+  
+    Last updated: August 06, 2025.
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+  <!-- Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBNV2M2RLZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QBNV2M2RLZ');
+  </script>
+  <script defer src="/assets/js/google-analytics-setup.js"></script>
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
+
+
+  </body>
+</html>

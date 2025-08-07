@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Hist 696: Digging into Data | Jeri E. Wieringa
+    
+  
+</title>
+<meta name="author" content="Jeri E. Wieringa">
+<meta name="description" content="Scholarship at the intersection of history and data science.
+">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://localhost:4000/2011/10/30/digging-into-data/">
+
+
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Jeri</span>
+            
+            E.
+            Wieringa
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/blog/">blog
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/repositories/">repositories
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/teaching/">teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+
+
+
+
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Hist 696: Digging into Data</h1>
+    <p class="post-meta">
+      Created on October 30, 2011
+      by jeri.elizabeth
+      
+      
+    </p>
+    <p class="post-tags">
+      
+        <i class="fa-solid fa-calendar fa-sm"></i> 2011
+      
+      
+          ·  
+        
+          
+            <i class="fa-solid fa-hashtag fa-sm"></i> coursework
+          
+          
+        
+      
+
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p><a href="http://meganrbrett.net/blog/2011/10/cliof11_week10/" rel="external nofollow noopener" target="_blank">Megan</a> and I are leading discussion this week, so we thought we would blog early to help start conversation about this week’s readings. I have decided to take a survey approach for this week, offering a brief description of what I saw as the major points of the articles and offering some questions for discussion. The topic for this week’s adventures in digital humanities is Data Mining and Distant Reading, two ways of engaging with primary source material that represent both a continuation and a change from the methods of “traditional” scholarship.</p>
+
+<p>First to data mining. All three of our articles focus on the question of data mining, its usefulness, applications and the like. One thing to note is the date of these articles. The first by Dan Cohen and the article by Gregory Crane were written in 2006. The second article by Dan Cohen was written in 2010. The technology for data mining and the sources available for mining have expanded somewhat drastically between 2006 and 2010.</p>
+
+<p>In his first article “<a href="http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=40" rel="external nofollow noopener" target="_blank">From Babel to Knowledge: Data Mining Large Digital Collections</a>,” Dan Cohen outlines some early attempt to automate the gathering of historical information. He argues that “… computational methods, which allow us to find patterns, determine relationships, categorize documents, and extract information from massive corpi, will form the basis for new tools for research in the humanities and other disciplines in the coming decade.” The first tool is “Syllabus Finder,” the now discontinued resource for finding syllabi on the web.(1) The logic of the search algorithm is quite interesting. Given that the majority of syllabi contain certain phrases and elements, and that these can be identified through textual analysis, the search algorithm ranks documents it finds by their likeliness of being syllabi, based on the number of standard syllabi features they exhibit. The second is the H-Bot, an experiment in question answering that attempts to answer factual questions about the past. The algorithms run appear to use probability calculus and inductive logic to determine the answer that is most likely to be true, based on the information returned from a wide variety of sources. These sort of searches rely on data mining, on tabulating word use frequencies, and on determining which sorts of word pattern are most likely in which context.</p>
+
+<p>What are your reactions to relying on computer searches, like these, to answer historical questions? Is this computational way of determining answers similar to or different from our own?</p>
+
+<p>Gregory Crane’s article, “<a href="http://www.dlib.org/dlib/march06/crane/03crane.html" rel="external nofollow noopener" target="_blank">What do you do with a million books?</a>” pushes further, asking the reader (and librarians) to move beyond “book” and to start asking what can be accomplished by creating a digital, machine readable, library of written material. He notes that “the ability to decompose information into smaller, reusable chunks, to learn autonomously from a changing environment, and to accept explicit structured feedback from many human users in real time” distinguish digital from print and argues that the information contained in digital libraries can be made more useful and more accessible than its print counterparts. Despite the promises of digital collections, Crane notes some of the challenges in creating such large resources. The set-up costs are high, copyright is a persistent issue, and OCR both creates substantial “noise” and is not always able to handle the variety of page layouts or the distinction between footnotes and text.(2) He concludes with three things necessary for the creation of a successful digital library and its ability to transform humanities scholarship: Enhanced OCR, machine translation, and information extraction.”</p>
+
+<p>This sort of study breaks apart the individual books, making the primary unit of study something different, and something dependent upon the user. What might be the benefits and costs of this way of approaching texts? How comfortable are you with the mode of approaching texts? What happens to authorial authority in this context?</p>
+
+<p>The second article by Dan Cohen, “<a href="http://www.dancohen.org/2010/12/19/initial-thoughts-on-the-google-books-ngram-viewer-and-datasets/" rel="external nofollow noopener" target="_blank">Initial Thoughts on the GoogleBooks Ngram viewer and datasets</a>” provides more current reflexions on where the potential of data mining currently stands. Google Ngrams provides a simple visualization of the frequency of word occurances based upon analysis of the GoogleBooks corpus. As Cohen jokes, it is a digital humanities “gateway drug.” While he acknowledges some of the challenges others have noted about the Google dataset, such as the selection of the corpus, the quality of Google’s OCR and meta-data, and the like, he and others propose that, these downsides being taken into consideration, interesting information can still be gleaned by mining the corpus of Google Books. One important thing that arises from Cohen’s own qualifications of the GoogleBooks data is the need for contextual information, both in terms of how words are studied and mined – not just frequency but word pairings and associations – as well as the need to move from instance to context in order to uncover the significance of the data.</p>
+
+<p>What are your thoughts about what can be learned through Google’s data from digitizing books? Are<a href="http://thebinderblog.com/2010/12/17/googles-word-engine-isnt-ready-for-prime-time/" rel="external nofollow noopener" target="_blank"> the objections raised by Natalie Binder</a> regarding the quality of Google’s OCR and the metadata sufficiently addressed in Dan’s response?</p>
+
+<p>Data-mining can be a form of close reading: a study of a particular word or the study of a particular authors use of language. It can also be a form of distance reading – a way of looking at the larger patterns across texts and across time. Distance reading is covered in detail this week through the work of Franco Moretti.</p>
+
+<p>Graphs, Maps, and Trees: Abstract Models for Literary History is a short and dense book about the these three modes of studying literature, and by extension, other work in the Humanities. The work is an apology for three forms of what he calls “distant reading”, where “distance is … not an obstacle, but a specific form of knowledge: fewer elements, hence a sharper sense of their overall interconnection.”(3) These are graphs (quantitative analysis), maps (spatial analysis), and trees (morphological analysis – form and structure).</p>
+
+<p>In “Graphs,” Moretti takes as his example the history of the novel, building off from the work of others (because working with data is collaborative) to give a quantitative analysis of the history of the novel in Britain, Japan, Italy, Spain, and Nigeria.(4) These studies not only reveal the novel rising in different global regions at different times, but also reveal multiple “rises” of the novel. He then moves to genres in an argument for studying the temporary structures that make up the larger historical patterns. “Epistolary”, “Gothic” and “Historical” novels are dissected further into forty-four sub-genres that appear and disappear in clusters. The question then arises: what brings about this shifts in genre at relatively predictable intervals? Generational differences and political interventions are his answers. One observation he makes that was particularly interesting to me was the recurrence of gender shifts. No one of these was “the rise” of female authors, but instead seems to reflect which genre of literature was preferred at a given time.</p>
+
+<p>“Maps” introduces a second method of examining texts: spatial analysis through the creation of maps and diagrams of how elements relate to one another. He uses as his example “village stories,” arguing that their “circular” arrangement “reverses the direction of history, making … urban readers… look at the world according to the older, ‘centred’ viewpoint of an enclosed village.”(5) As Moretti describes, literary maps “prepare a text for analysis. You chose a unit – walks, lawsuits, luxury goods, whatever – find its occurrences, place them in space… you reduce the text to a few elements, and abstract them from the narrative flow, and construct a new, artificial object… And with a little luck, these maps will be more than the sum of their parts: they will possess ‘emerging’ qualities, which were not visible at the lower level.”(6) The creation of maps or diagrams does not guarantee the emergence of an interesting pattern, but when those patterns do emerge, they can change our understanding of the piece being examined.</p>
+
+<p>Finally, “Trees” turns to the question form, to the tracking of changes or differences in forms brought about by divergence and convergence. In Moretti’s example, he studies those elements of detective novels that made Sir Arthur Conan Doyle successful and his contemporary competition less so – by tracing where other deviate, or where Doyle’s own less successful works deviated, one can arrive at the characteristics of a successful detective story. Moretti describes literary trees as exploring the “microlevel of stylistic mutations,” tracing the divergences and convergences of literary elements.(7)</p>
+
+<p>What are your thoughts as to the connections between these form of analysis (quantitative, spatial, morphological) and the larger questions historians and Moretti himself want to address? Do the detailed and distance views help or enable us to make the claims about patterns or causes that historians wish to make? Of these approaches, “trees” seems to me one of the more challenging for application in history. What sort of questions or areas of inquiry might the creation of trees help historians study?</p>
+
+<p>I am excited to hear your thoughts and opinions on this method of engaging in historical scholarship and textual study.</p>
+
+<p> </p>
+
+<p>Notes</p>
+
+<p>(1) Discontinued because google retired their search api.</p>
+
+<p>(2) This is beginning to improve, though still an issue.</p>
+
+<p>(3) Moretti, 1.</p>
+
+<p>(4) Moretti, 5.</p>
+
+<p>(5) Moretti, 39.</p>
+
+<p>(6) Moretti, 53.</p>
+
+<p>(7) Moretti, 91.</p>
+
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+      
+
+  
+    
+    
+      <br>
+      <hr>
+      <br>
+      <ul class="list-disc pl-8"></ul>
+
+      <!-- Adds related posts to the end of an article -->
+      <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    
+
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2022/05/10/the-one-about-tools/">The One About Tools</a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2021/10/20/HistoInformatics/">The Tie that Binds for HistoInformatics2021 </a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2021/02/09/omeka-for-the-student-scholar/">Omeka for the Student Scholar</a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2020/12/07/reviving-the-blog/">Reviving the Blog</a>
+    
+  </li>
+
+  
+
+  <li class="my-2">
+    
+      <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/2018/07/17/pyLDAviz-and-Mallet/">Using pyLDAvis with Mallet</a>
+    
+  </li>
+
+
+
+    
+  
+
+  
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2025
+  Jeri
+  E.
+  Wieringa. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+  
+  
+    Last updated: August 06, 2025.
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+  <!-- Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBNV2M2RLZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QBNV2M2RLZ');
+  </script>
+  <script defer src="/assets/js/google-analytics-setup.js"></script>
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
+
+
+  </body>
+</html>

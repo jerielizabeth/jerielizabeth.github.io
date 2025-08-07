@@ -16,14 +16,12 @@
 <title>
   
   
-    You R. Name
+    Jeri E. Wieringa
   
 </title>
-<meta name="author" content="You R. Name">
-<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<meta name="author" content="Jeri E. Wieringa">
+<meta name="description" content="Scholarship at the intersection of history and data science.
 ">
-
-  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
 
@@ -35,18 +33,18 @@
 
 
 <!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="/al-folio/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
 
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="/al-folio/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
-<link defer rel="stylesheet" href="/al-folio/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
 <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
 
 <!-- Code Syntax Highlighting -->
-<link defer rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
 
 
 
@@ -57,13 +55,13 @@
 
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
 
-<link rel="stylesheet" href="/al-folio/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://alshedivat.github.io/al-folio/">
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://localhost:4000/">
 
 
   <!-- Dark Mode -->
-  <script src="/al-folio/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
-  <link defer rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
   <script>
     initTheme();
   </script>
@@ -87,6 +85,30 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
     <div class="container">
       
+        <!-- Social Icons -->
+        <div class="navbar-brand social">
+  
+      <a href="https://github.com/jerielizabeth" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+    
+
+  
+      <a href="https://www.linkedin.com/in/jeriwieringa" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    
+
+  
+      <a href="https://orcid.org/0000-0002-9364-2808" title="ORCID" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a>
+    
+
+  
+      <a href="/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+    
+
+  
+      <a href="https://cdh.princeton.edu/people/jeri-wieringa/" title="Work" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
+    
+
+</div>
+      
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -101,7 +123,7 @@
 
           <!-- About -->
           <li class="nav-item active">
-            <a class="nav-link" href="/al-folio/">about
+            <a class="nav-link" href="/">about
               
                 <span class="sr-only">(current)</span>
               
@@ -204,9 +226,14 @@
             
           
             
-          
-            
-          
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/blog/">blog
+                    
+                  </a>
+                </li>
+              
             
           
             
@@ -221,24 +248,7 @@
               
                 
                 <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/blog/">blog
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-                
-                <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/publications/">publications
+                  <a class="nav-link" href="/publications/">publications
                     
                   </a>
                 </li>
@@ -249,7 +259,7 @@
               
                 
                 <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/projects/">projects
+                  <a class="nav-link" href="/projects/">projects
                     
                   </a>
                 </li>
@@ -260,7 +270,7 @@
               
                 
                 <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/repositories/">repositories
+                  <a class="nav-link" href="/repositories/">repositories
                     
                   </a>
                 </li>
@@ -271,58 +281,9 @@
               
                 
                 <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/cv/">cv
+                  <a class="nav-link" href="/teaching/">teaching
                     
                   </a>
-                </li>
-              
-            
-          
-            
-              
-                
-                <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/teaching/">teaching
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                
-                <li class="nav-item ">
-                  <a class="nav-link" href="/al-folio/people/">people
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                
-                
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus
-                    
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    
-                      
-                        <a class="dropdown-item " href="/al-folio/books/">bookshelf</a>
-                      
-                    
-                      
-                        <div class="dropdown-divider"></div>
-                      
-                    
-                      
-                        <a class="dropdown-item " href="/al-folio/blog/">blog</a>
-                      
-                    
-                  </div>
                 </li>
               
             
@@ -367,11 +328,11 @@
   <header class="post-header">
     <h1 class="post-title">
       
-        <span class="font-weight-bold">You</span> R.
-        Name
+        <span class="font-weight-bold">Jeri</span> E.
+        Wieringa
       
     </h1>
-    <p class="desc"><a href="#">Affiliations</a>. Address. Contacts. Motto. Etc.</p>
+    <p class="desc">History and Data Science. <a href="https://cdh.princeton.edu" rel="external nofollow noopener" target="_blank">Center for Digital Humanities @ Princeton</a></p>
   </header>
 
   <article>
@@ -394,12 +355,12 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic-480.webp 480w,/al-folio/assets/img/prof_pic-800.webp 800w,/al-folio/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
+        <source class="responsive-img-srcset" srcset="/assets/img/prof_pic.JPG" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
       30vw, 95vw">
       
     
-    <img src="/al-folio/assets/img/prof_pic.jpg?974957d202f671e4fa6700c04e68deae" class="img-fluid z-depth-1
-      rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/prof_pic.JPG?3d738dbc47d7891847ef2d6aed4dbe4d" class="img-fluid z-depth-1
+      rounded" width="100%" height="auto" alt="prof_pic.JPG" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </source></picture>
 
   
@@ -407,157 +368,65 @@
 
         
         
-          <div class="more-info">
-<p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
-</div>
-        
       </div>
     
 
     <div class="clearfix">
-<p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" rel="external nofollow noopener" target="_blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p>
+<p>I am a Digital Historian and Assistant Director of the Center for Digital Humanities at Princeton University.</p>
 
-<p>Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
+<p>Previously I was an Assistant Professor in the <a href="https://religion.ua.edu/" rel="external nofollow noopener" target="_blank">Department of Religious Studies</a> at The University of Alabama. There I was the founding director of the Director of the <a href="https://digitallab.religion.ua.edu/" rel="external nofollow noopener" target="_blank">REL Digital Lab</a>, a digital humanities lab supporting research and teaching within the Department of Religious Studies.</p>
 
-<p>Link to your social media connections, too. This theme is set up to use <a href="https://fontawesome.com/" rel="external nofollow noopener" target="_blank">Font Awesome icons</a> and <a href="https://jpswalsh.github.io/academicons/" rel="external nofollow noopener" target="_blank">Academicons</a>, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
+<p>I focus on data curation, machine learning, and natural language processing with historical sources. I consider issues of AI ethics and the intersection of historical methods, focused on context and complexity, and the building of large-scale models.</p>
+
+<h2 id="current-projects">current projects</h2>
+<ul>
+  <li>
+<strong>Of Time and Topics</strong>. A book project based on the dissertation that engages methods in digital history and American religious history.</li>
+  <li>
+<strong>A Digital Scholarly Edition of Seventh-day Adventist Periodicals</strong>. A digital project that offers an experiment in curating, describing, and creating in interactive browser for my research corpus.</li>
+  <li>
+<strong>Scarcity in Abundance</strong>. Research papers evaluating the effect of OCR errors of historical documents on natural language processing tasks.</li>
+</ul>
+
+<h2 id="education">education</h2>
+<p>I received my PhD in History from George Mason University in 2019 for my digital dissertation, <a href="http://dissertation.jeriwieringa.com/" rel="external nofollow noopener" target="_blank"><em>A Gospel of Health and Salvation: Modeling the Religious Culture of Seventh-day Adventism, 1843 - 1920</em></a>. Built on a topic model of Seventh-day Adventist periodicals, the project both considers the use of computational methods for historical scholarship and uses it to explore the role of end-times expection in the development of the denomination.</p>
+
+<p>MAR | History of Christianity  | Yale Divinity School, 2011 <em>summa cum laude</em> <br>
+BA  | Philosophy, English  | Calvin University, 2008</p>
 </div>
 
     <!-- News -->
     
-      <h2>
-        <a href="/al-folio/news/" style="color: inherit">news</a>
-      </h2>
-      <div class="news">
-  
-    
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        
-        
-          <tr>
-            <th scope="row" style="width: 20%">Jan 15, 2016</th>
-            <td>
-              
-                A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
-
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row" style="width: 20%">Nov 07, 2015</th>
-            <td>
-              
-                <a class="news-title" href="/al-folio/news/announcement_2/">A long announcement with details</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row" style="width: 20%">Oct 22, 2015</th>
-            <td>
-              
-                A simple inline announcement.
-
-              
-            </td>
-          </tr>
-        
-      </table>
-    </div>
-  
-</div>
-
-    
 
     <!-- Latest posts -->
-    
-      <h2>
-        <a href="/al-folio/blog/" style="color: inherit">latest posts</a>
-      </h2>
-      <div class="news">
-  
-    
-    <div class="table-responsive" style="max-height: 60vw">
-      <table class="table table-sm table-borderless">
-        
-        
-        
-          <tr>
-            <th scope="row" style="width: 20%">Mar 26, 2025</th>
-            <td>
-              
-                <a class="news-title" href="/al-folio/blog/2025/plotly/">a post with plotly.js</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row" style="width: 20%">Dec 03, 2024</th>
-            <td>
-              
-                <a class="news-title" href="/al-folio/blog/2024/photo-gallery/">a post with image galleries</a>
-              
-            </td>
-          </tr>
-        
-          <tr>
-            <th scope="row" style="width: 20%">May 14, 2024</th>
-            <td>
-              
-                <a class="news-title" href="https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/" target="_blank" rel="external nofollow noopener">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a>
-                <svg width="2rem" height="2rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              
-            </td>
-          </tr>
-        
-      </table>
-    </div>
-  
-</div>
-
     
 
     <!-- Selected papers -->
     
       <h2>
-        <a href="/al-folio/publications/" style="color: inherit">selected publications</a>
+        <a href="/publications/" style="color: inherit">selected publications</a>
       </h2>
       <div class="publications">
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
 <div class="row">
   
     <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100">
-            
-              <a href="https://journals.aps.org/" rel="external nofollow noopener" target="_blank">PhysRev</a>
-            
-          </abbr>
-        
-      
       
     </div>
   
 
   <!-- Entry bib key -->
-  <div id="PhysRev.47.777" class="col-sm-8">
+  <div id="wieringa_gospel_2019" class="col-sm-8">
     <!-- Title -->
-    <div class="title">Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?</div>
+    <div class="title">A Gospel of Health and Salvation: Modeling the Religious Culture of Seventh-day Adventism, 1843-1920</div>
     <!-- Author -->
     <div class="author">
       
 
       
-      <em>A.
-            Einstein<sup>*†</sup></em>, <a href="https://en.wikipedia.org/wiki/Boris_Podolsky" rel="external nofollow noopener" target="_blank">B.
-              Podolsky<sup>*</sup></a>, and <a href="https://en.wikipedia.org/wiki/Nathan_Rosen" rel="external nofollow noopener" target="_blank">N.
-              Rosen<sup>*</sup></a>
-      
-        <i class="fa-solid fa-circle-info ml-1" data-toggle="popover" data-placement="top" data-html="true" data-content="* Example use of superscripts&lt;br&gt;† Albert Einstein">
-        </i>
+      <em>Jeri
+            Wieringa</em>
       
     </div>
 
@@ -573,8 +442,7 @@
     
     
     <div class="periodical">
-      <em>Phys. Rev.</em>, New Jersey. <em>More Information</em> can be <a href="https://github.com/alshedivat/al-folio/" rel="external nofollow noopener" target="_blank">found here</a>
-,  May 1935
+      Aug 2019
     </div>
     <div class="periodical">
       
@@ -587,28 +455,18 @@
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       
       
-        <a href="https://doi.org/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
-      
-      
-      
-      
-        
-          <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-        
-      
-      
-        
-          <a href="/al-folio/assets/pdf/example_pdf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-        <a href="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Video</a>
       
       
       
       
       
+      
+      
+      
+      
+      
+      
+        <a href="http://mars.gmu.edu/handle/1920/11564" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
       
     </div>
     
@@ -624,25 +482,6 @@
       
       
       
-        <div class="badges">
-          
-            <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-altmetric-id="248277"></span>
-          
-          
-            <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          
-          
-            <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=qc6CJjYAAAAJ&amp;citation_for_view=qc6CJjYAAAAJ:qyhmnyLat1gC" aria-label="Google Scholar link" role="button" rel="external nofollow noopener" target="_blank">
-              <img src="https://img.shields.io/badge/scholar-26K-4285F4?logo=googlescholar&amp;labelColor=beige" alt="26K Google Scholar citations">
-            </a>
-          
-          
-            <a href="https://inspirehep.net/literature/3255" aria-label="Inspirehep link" role="button" rel="external nofollow noopener" target="_blank">
-              <img src="https://img.shields.io/badge/inspire-4.6K-001628?logo=inspire&amp;logoColor=001628&amp;labelColor=beige" alt="4.6K InspireHEP citations">
-            </a>
-          
-        </div>
-      
     
 
     
@@ -650,7 +489,11 @@
     
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
+        <p>A Gospel of Health and Salvation is a work of digital history — defined as the critical application of computational technologies to the study of the past — focused on the relationship between time and gender in Seventh-day Adventism. In it I explore the puzzle of the denomination’s prophet and religious leader, Ellen White, and her varied and seemingly contradictory writings on the role of women in the denomination. One of a few women religious leaders in nineteenth-century America, White is difficult to place within the history of American religion. Rising to prominence at the end of the Second Great Awakening, White promoted a vision of gender and women’s participation in the work of salvation that fails to fit neatly into either histories of American feminism or histories of domesticity. Discussing White and her place in American religious history requires a different approach. 
+ 
+Using computational text analysis to find broad patterns in the denomination’s periodical record, I highlight three cycles of end-times expectation that shaped the complex vision of gender articulated by White and other denomination leaders during the first seventy years of the denomination. These cycles enable me to bring together two theoretical frameworks often used to analyze the development of religious movements. Rather than a linear trajectory from religious sect to denomination, and concurrently from expansive understandings of gender to restrictive ones, the waves of end-times expectation opened space for alternative and expansive visions of gender at a number of points in the denomination’s early history. 
+ 
+Additionally, I argue for the scholarliness of the computational work that grounds my historical analysis. Rather than neutral, the work of selecting the corpus, preparing the text for analysis, selecting modeling algorithms, visualizing the resulting model, and interpreting the results represents the first phase of interpretation and shapes the possibilities of the overall project. To make this multilayered argument, I created the dissertation as a website, rather than a traditional document. Hosted at http://dissertation.jeriwieringa.com, the web interface interweaves the technical, visual, and narrative aspects of the dissertation arguments. The site brings together a topic model of the denomination’s periodical literature, the code used to create and analyze the model, and four interpretive essays. Together these constitute the body of work that is A Gospel of Health and Salvation.</p>
       </div>
     
 
@@ -659,45 +502,197 @@
     
   </div>
 </div>
-</li></ol>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wieringa_mining_2022" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Mining Eschatology in Seventh-day Adventist Periodicals</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      <em>Jeri
+            Wieringa</em>
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Volume 5 Digital Humanities and Libraries and Archives in Religious Studies: An Introduction</em>,  Aug 2022
+    </div>
+    <div class="periodical">
+      Publication Title: Volume 5 Digital Humanities and Libraries and Archives in Religious Studies
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://www.degruyter.com/document/isbn/9783110536539/html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>How are digital humanists drawing on libraries and archives to advance research and learning in the field of religious studies and theology? How can librarians and archivists make their collections accessible to digital humanists? The goal of this volume is to provide an overview of how religious and theological libraries and archives are supporting the nascent field of digital humanities in religious studies. The volume showcases the perspectives of faculty, librarians, archivists, and allied cultural heritage professionals who are drawing on primary and secondary sources in innovative ways to create digital humanities projects in theology and religious studies. Topics include curating collections as data, conducting stylometric analyses of religious texts, and teaching digital humanities at theological libraries. The shift to digital humanities promises closer collaborations between scholars, archivists, and librarians. The chapters in this volume constitute essential reading for those interested in the future of theological librarianship and of digital scholarship in the fields of religious studies and theology.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="leblanc_precedents_2023" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">From Precedents to Collective Action: Realities and Recommendations for Digital Dissertations in History</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Zoe
+            LeBlanc, Celeste Týờng Vy
+            Sharpe, and Jeri E.
+            Wieringa
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Debates in the Digital Humanities 2023</em>,  Aug 2023
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/ef4e4fb1-5c2e-43de-a52b-b8ff38ec7851#ch22" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Debates in the Digital Humanities 2023 presents a state-of-the-field vision of digital humanities amid rising social, political, economic, and environmental crises; a global pandemic; and the deepening of austerity regimes in U.S. higher education. This fourth volume in the Debates in the Digital Humanities series provides a look not just at where DH stands but also where it is going.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
 </div>
 
     
 
     <!-- Social -->
-    
-      <div class="social">
-        <div class="contact-icons">
-  
-      <a href="mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D" title="email"><i class="fa-solid fa-envelope"></i></a>
-    
-
-  
-      <a href="https://inspirehep.net/authors/1010907" title="Inspire HEP" rel="external nofollow noopener" target="_blank"><i class="ai ai-inspire"></i></a>
-    
-
-  
-      <a href="/al-folio/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
-    
-
-  
-      <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
-    
-
-  
-      <a href="https://www.alberteinstein.com/" title="Custom Social" rel="external nofollow noopener" target="_blank">
-        
-        
-          <img src="https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png" alt="Custom Social">
-        
-      </a>
-  
-
-</div>
-
-        <div class="contact-note">You can even add a little note about which of these is the best way to reach you.
-</div>
-      </div>
     
 
     
@@ -715,11 +710,13 @@
     <div class="container mt-0">
       
   © Copyright 2025
-  You
-  R.
-  Name. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+  Jeri
+  E.
+  Wieringa. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
   
+  
+    Last updated: August 06, 2025.
   
 
     </div>
@@ -732,14 +729,14 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <!-- Bootsrap & MDB scripts -->
-<script src="/al-folio/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
 
   <!-- Masonry & imagesLoaded -->
   <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-  <script defer src="/al-folio/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
 
 
 
@@ -765,7 +762,7 @@
 
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
-  <script defer src="/al-folio/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
 
 
 
@@ -773,12 +770,12 @@
 
 
 <!-- Load Common JS -->
-<script src="/al-folio/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
-<script defer src="/al-folio/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
-<script defer src="/al-folio/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
 
 <!-- Jupyter Open External Links New Tab -->
-<script defer src="/al-folio/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
 
 <!-- Badges -->
 
@@ -792,11 +789,25 @@
   <!-- MathJax -->
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
   
-    <script src="/al-folio/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
     <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
   
 
 
+
+  <!-- Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBNV2M2RLZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QBNV2M2RLZ');
+  </script>
+  <script defer src="/assets/js/google-analytics-setup.js"></script>
 
 
 
@@ -805,7 +816,7 @@
 
 
   <!-- Scrolling Progress Bar -->
-  <script defer src="/al-folio/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
 
 
 
@@ -814,7 +825,7 @@
 
 
   <!-- Back to Top -->
-  <script src="/al-folio/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
   <script>
     addBackToTop();
   </script>
@@ -822,11 +833,11 @@
 
 
   <!-- Search -->
-  <script type="module" src="/al-folio/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
   <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
-  <script src="/al-folio/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
-  <script src="/al-folio/assets/js/search-data.js"></script>
-  <script src="/al-folio/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
 
 
 
