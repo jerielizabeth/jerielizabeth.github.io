@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jerielizabeth.github.io/sitemap.xml
