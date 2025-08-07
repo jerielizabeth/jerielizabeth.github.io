@@ -1,8 +1,14 @@
 github_users:
-  - jerielizabeth
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - jerielizabeth/text2topics
-  - jerielizabeth/Gospel-of-Health-Notebooks
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
